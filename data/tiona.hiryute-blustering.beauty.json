@@ -1,0 +1,31 @@
+{ "id": "tiona.hiryute-blustering.beauty",
+  "title": "Blustering Beauty",
+  "name": "Tiona Hiryute",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2492,
+  "mp": 215,
+  "str": 1038,
+  "end": 352,
+  "dex": 756,
+  "agi": 543,
+  "mag": 981,
+  "combatSkills": [
+    { "specialArts": true, 
+      "name": "Gamine Prune", "description": "[Foes] Ultra Thunder P.Attack w/50% Stun" },
+    { "name": "Gardien Tonnerre", "description": "[Allies] P.Resist & M.Resist+35%/2 turns" },
+    { "name": "Temerite Innocence", "description": "[Allies] Agi. & End.+30%/3 turns" },
+    { "name": "Foudre Neige", "description": "[Foe] Delayed Mid Thunder P.Attack & put targets to Sleep" }
+  ],
+  "passiveSkills": [
+    { "name": "Blessing", "description": "When countering, instead of attacking regularly, it extends Buff for Allies for 1 turn" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Water REsistance", "description": "Water Resist+35%" },
+    { "name": "Concentrate", "description": "Agi. & Dex.+15%" },
+    { "name": "Crush", "description": "Str.+15%" }
+  ],
+  "image": "res/tiona.hiryute-blustering.beauty-full.png",
+  "thumbnail": "res/tiona.hiryute-blustering.beauty-thumb.png"
+}

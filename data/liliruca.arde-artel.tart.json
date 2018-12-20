@@ -1,0 +1,32 @@
+{ "id": "liliruca.arde-artel.tart",
+  "title": "Artel Tart",
+  "name": "Liliruca Arde",
+  "alias": ["lili", "at lili"],
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2410,
+  "mp": 266,
+  "str": 156,
+  "end": 241,
+  "dex": 315,
+  "agi": 437,
+  "mag": 824,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Blizzard Rain", "description": "[Foes] Hi Water M.Attack" },
+    { "name": "Icicle Arrow", "description": "[Foe] Lo Water M.Attack" },
+    { "name": "Mana Stock", "description": "[Self] Mag.+50%/4 turns" },
+    { "name": "Reforce Cancel", "description": "[Self] Null P.Attack x1 exc. Special Arts" }
+  ],
+  "passiveSkills": [
+    { "name": "Enlightenment", "description": "Mag.+4%" },
+    { "name": "Tough", "description": "End.+7.5%" },
+    { "name": "Beast Killer", "description": "Ability Pt.+50% toward Beasts", "nemesis": "Beast" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Mind's Eye", "description": "Mag.+4%" }
+  ],
+  "thumbnail": "res/liliruca.arde-artel.tart-thumb.png",
+  "image": "res/liliruca.arde-artel.tart-full.png"
+}

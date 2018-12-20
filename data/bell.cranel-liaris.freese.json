@@ -1,0 +1,31 @@
+{ "id": "bell.cranel-liaris.freese",
+  "title": "Liaris Freese",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 2,
+  "hp": 2306,
+  "mp": 183,
+  "str": 416,
+  "end": 204,
+  "dex": 200,
+  "agi": 409,
+  "mag": 385,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Argonaut Firebolt", "description": "[Foes] Hi Fire M.Attack" },
+    { "name": "Rapid Slash", "description": "[Foe] Fast Lo P.Attack" },
+    { "name": "Firebolt", "description": "[Foe] Fast Mid Fire M.Attack" },
+    { "name": "Argonaut", "description": "[Self] Str. & Mag.+50%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
+    { "name": "Acceleration", "description": "Agi.+3%" },
+    { "name": "Tough", "description": "End.+3%" },
+    { "name": "Crush", "description": "Str.+3%" },
+    { "name": "Luck", "description": "All Status+2%" }
+  ],
+  "thumbnail": "res/bell.cranel-liaris.freese-thumb.png",
+  "image": "res/bell.cranel-liaris.freese-full.png"
+}

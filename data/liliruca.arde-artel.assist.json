@@ -1,0 +1,32 @@
+{ "id": "liliruca.arde-artel.assist",
+  "title": "Artel Assist",
+  "name": "Liliruca Arde",
+  "alias": ["lili", "aa lili"],
+  "kind": "adventurer",
+  "type": "healer",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2171,
+  "mp": 236,
+  "str": 346,
+  "end": 221,
+  "dex": 578,
+  "agi": 446,
+  "mag": 650,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Raining Arrows", "description": "[Foes] Hi P.Attack" },
+    { "name": "Cure Potion", "description": "[Allies] Lo Heal" },
+    { "name": "Detoxification", "description": "[Allies] Ailment Cure" },
+    { "name": "Hypnotic Arrow", "description": "[Foe] Lo P.Attack w/30% Sleep" }
+  ],
+  "passiveSkills": [
+    { "name": "Supporter's Strength", "description": "Str.+4.5%" },
+    { "name": "Crafter", "description": "Dex.+7.5%" },
+    { "name": "Acceleration", "description": "Agi.+7.5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Crush", "description": "Str.+4.5%" }
+  ],
+  "thumbnail": "res/liliruca.arde-artel.assist-thumb.png",
+  "image": "res/liliruca.arde-artel.assist-full.png"
+}

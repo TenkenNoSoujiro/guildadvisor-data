@@ -1,0 +1,238 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    { "properties": { "$schema": { "type": "string" } } },
+    { "oneOf": [
+      { "$ref": "#/definitions/AdventurerUnit" },
+      { "$ref": "#/definitions/AssistUnit" }]
+    }
+  ],
+  "definitions": {
+    "Rarity": {
+      "type": "integer",
+      "enum": [1, 2, 3, 4],
+      "description": "Indicates the rarity of the unit."
+    },
+
+    "TagStats": {
+      "type": "string",
+      "enum": [
+        "x_str", "str_buff", "str_debuff", "remove_str_buff", "temp_str_boost", "index_to_str",
+        "x_end", "end_buff", "end_debuff", "remove_end_buff", "temp_end_boost", "index_to_end",
+        "x_dex", "dex_buff", "dex_debuff", "remove_dex_buff", "temp_dex_boost", "index_to_dex",
+        "x_agi", "agi_buff", "agi_debuff", "remove_agi_buff", "temp_agi_boost", "index_to_agi",
+        "x_mag", "mag_buff", "mag_debuff", "remove_mag_buff", "temp_mag_boost", "index_to_mag",
+        "all_status", "all_status_buff"
+      ]
+    },
+    "TagTargets": {
+      "type": "string",
+      "enum": [
+        "foe",
+        "foes",
+        "self",
+        "allies",
+        "aoe",
+        "single_target"
+      ]
+    },
+    "TagElements": {
+      "type": "string",
+      "enum": [
+        "fire",     "fire_p.attack",    "fire_m.attack",    "fire_resist",    "fire_resist_buff",    "fire_resist_debuff",    "fire_attack_dmg_buff",
+        "water",    "water_p.attack",   "water_m.attack",   "water_resist",   "water_resist_buff",   "water_resist_debuff",   "water_attack_dmg_buff",
+        "earth",    "earth_p.attack",   "earth_m.attack",   "earth_resist",   "earth_resist_buff",   "earth_resist_debuff",   "earth_attack_dmg_buff",
+        "wind",     "wind_p.attack",    "wind_m.attack",    "wind_resist",    "wind_resist_buff",    "wind_resist_debuff",    "wind_attack_dmg_buff",
+        "thunder",  "thunder_p.attack", "thunder_m.attack", "thunder_resist", "thunder_resist_buff", "thunder_resist_debuff", "thunder_attack_dmg_buff",
+        "light",    "light_p.attack",   "light_m.attack",   "light_resist",   "light_resist_buff",   "light_resist_debuff",   "light_attack_dmg_buff",
+        "dark",     "dark_p.attack",    "dark_m.attack",    "dark_resist",    "dark_resist_buff",    "dark_resist_debuff",    "dark_attack_dmg_buff"
+      ]
+    },
+    "TagAttacks": {
+      "type": "string",
+      "enum": [
+        "p.attack",             "p.resist_buff",        "p.resist_debuff",        "null_p.attack",
+        "m.attack",             "m.resist_buff",        "m.resist_debuff",        "null_m.attack",
+        "all_attack_dmg_buff",  "all_attack_dmg_debuff"
+      ]
+    },
+    "TagHeals": {
+      "type": "string",
+      "enum": [
+        "heal",     "heal_buff",      "heal_debuff",
+        "hp_regen", "hp_regen_buff",  "hp_regen_debuff",
+        "mp_regen", "mp_regen_buff",  "mp_regen_debuff"
+      ]
+    },
+    "TagAilments": {
+      "type": "string",
+      "enum": [
+        "ailment",  "ailment_resist", "ailment_resist_buff",  "ailment_resist_debuff",  "null_ailment", "remove_ailment",
+        "poison",   "poison_resist",  "poison_resist_buff",   "poison_resist_debuff",   "null_poison",
+        "stun",     "stun_resist",    "stun_resist_buff",     "stun_resist_debuff",     "null_stun",
+        "sleep",    "sleep_resist",   "sleep_resist_buff",    "sleep_resist_debuff",    "null_sleep",
+        "seal",     "seal_resist",    "seal_resist_buff",     "seal_resist_debuff",     "null_seal",
+        "taunt",    "taunt_resist",   "taunt_resist_buff",    "taunt_resist_debuff",    "null_taunt",
+        "slow",     "slow_resist",    "slow_resist_buff",     "slow_resist_debuff",     "null_slow",
+        "charm",    "charm_resist",   "charm_resist_buff",    "charm_resist_debuff",    "null_charm"
+      ]
+    },
+    "TagCurses": {
+      "type": "string",
+      "enum": [
+        "null_curse", "remove_curse",
+        "curse_heal",
+        "curse_guard",
+        "curse_counter",
+        "curse_critical",
+        "curse_penetration"
+      ]
+    },
+    "TagBuffs": {
+      "type": "string",
+      "enum": [
+        "guard_rate_buff",        "guard_rate_debuff",         "ultra_guard_rate",
+        "counter_rate_buff",      "counter_rate_debuff",       "ultra_counter_rate",
+        "uncounter_rate_buff",    "uncounter_rate_debuff",     "ultra_uncounter_rate",
+        "critical_rate_buff",     "critical_rate_debuff",      "ultra_critical_rate",
+        "critical_damage_buff",   "critical_damage_debuff",    "ultra_critical_damage",
+        "penetration_rate_buff",  "penetration_rate_debuff",   "ultra_penetration_rate"
+      ]
+    },
+    "TagPowers": { "type": "string", "enum": ["lo", "mid", "hi", "ultra"] },
+    "TagOther": { "type": "string", "enum": ["fast", "nemesis"] },
+    "TagPassive": {
+      "type": "string",
+      "enum": [
+        "passive_str_buff",
+        "passive_end_buff",
+        "passive_dex_buff",
+        "passive_agi_buff",
+        "passive_mag_buff",
+        "passive_all_status_buff",
+        "passive_fire_resist_buff",
+        "passive_water_resist_buff",
+        "passive_earth_resist_buff",
+        "passive_wind_resist_buff",
+        "passive_thunder_resist_buff",
+        "passive_light_resist_buff",
+        "passive_dark_resist_buff",
+        "passive_ailment_resist_buff",
+        "passive_guard_rate_buff",
+        "passive_counter_rate_buff",
+        "passive_uncounter_rate_buff",
+        "passive_critical_rate_buff",
+        "passive_critical_damage_buff",
+        "passive_penetration_rate_buff",
+        "passive_null_charm",
+        "passive_ability_pt_buff",
+        "passive_hp_regen",
+        "passive_mp_regen"
+      ]
+    },
+    "Tag": {
+      "type": "string",
+      "oneOf": [
+        { "$ref": "#/definitions/TagStats" },
+        { "$ref": "#/definitions/TagTargets" },
+        { "$ref": "#/definitions/TagElements" },
+        { "$ref": "#/definitions/TagAttacks" },
+        { "$ref": "#/definitions/TagHeals" },
+        { "$ref": "#/definitions/TagAilments" },
+        { "$ref": "#/definitions/TagCurses" },
+        { "$ref": "#/definitions/TagBuffs" },
+        { "$ref": "#/definitions/TagPowers" },
+        { "$ref": "#/definitions/TagOther" }
+      ]
+    },
+
+    "AdventurerUnit": {
+      "type": "object",
+      "description": "An Adventurer unit.",
+      "properties": {
+        "id": { "type": "string" },
+        "kind": { "const": "adventurer", "description": "The kind of unit." },
+        "title": { "type": "string", "description": "The unit's title (unique between different units with the same name)." },
+        "name": { "type": "string", "description": "The unit's character name." },
+        "type": { "enum": ["p.attack", "m.attack", "balance", "defense", "healer"], "description": "Indicates the fighting style of the adventurer." },
+        "limited": { "type": "boolean", "default": true, "description": "(optional) When 'true', indicates that this unit was Time-Limited." },
+        "rarity": { "$ref": "#/definitions/Rarity" },
+        "hp": { "type": "integer", "description": "The unit's HP. When this reaches 0 during battle, this unit will be knocked out." },
+        "mp": { "type": "integer", "description": "The unit's MP. You will need this when using the unit's Combat Skills." },
+        "str": { "type": "integer", "description": "The unit's Strength. Affects the unit's physical attack and penetration rate." },
+        "end": { "type": "integer", "description": "The unit's Endurance. Affects the unit's guard rate and damage dealt by enemies." },
+        "dex": { "type": "integer", "description": "The unit's Dexterity. Affects the unit's critical rate, penetration rate, and counter rate." },
+        "agi": { "type": "integer", "description": "The unit's Agility. Affects the unit's action order, critical rate, guard rate, and counter rate." },
+        "mag": { "type": "integer", "description": "The unit's Magic ability. Affects the unit's magic damage and heal amount." },
+        "combatSkills": { "type": "array", "items": { "$ref": "#/definitions/CombatSkill" }, "minItems": 4, "maxItems": 4, "description": "The unit's combat skills." },
+        "passiveSkills": { "type": "array", "items": { "$ref": "#/definitions/PassiveSkill" }, "description": "The unit's Skills/Development Abilities" },
+        "image": { "type": "string" },
+        "thumbnail": { "type": "string" },
+        "alias": { "item": { "type": "string" }, "uniqueItems": true, "default": [] }
+      },
+      "required": ["id", "title", "name", "rarity", "hp", "mp", "str", "end", "dex", "agi", "mag", "kind", "type", "combatSkills", "passiveSkills"],
+      "additionalProperties": false
+    },
+
+    "AssistUnit": {
+      "type": "object",
+      "description": "An Assist unit",
+      "properties": {
+        "id": { "type": "string" },
+        "kind": { "const": "assist" },
+        "title": { "type": "string", "description": "The unit's title (unique between different units with the same name)." },
+        "name": { "type": "string", "description": "The unit's character name." },
+        "limited": { "type": "boolean", "default": true, "description": "(optional) When 'true', indicates that this unit was Time-Limited." },
+        "rarity": { "$ref": "#/definitions/Rarity" },
+        "hp": { "type": "integer", "description": "The unit's HP. When this reaches 0 during battle, this unit will be knocked out." },
+        "mp": { "type": "integer", "description": "The unit's MP. You will need this when using the unit's Combat Skills." },
+        "str": { "type": "integer", "description": "The unit's Strength. Affects the unit's physical attack and penetration rate." },
+        "end": { "type": "integer", "description": "The unit's Endurance. Affects the unit's guard rate and damage dealt by enemies." },
+        "dex": { "type": "integer", "description": "The unit's Dexterity. Affects the unit's critical rate, penetration rate, and counter rate." },
+        "agi": { "type": "integer", "description": "The unit's Agility. Affects the unit's action order, critical rate, guard rate, and counter rate." },
+        "mag": { "type": "integer", "description": "The unit's Magic ability. Affects the unit's magic damage and heal amount." },
+        "skill": { "$ref": "#/definitions/AssistSkill" },
+        "image": { "type": "string" },
+        "thumbnail": { "type": "string" },
+        "alias": { "item": { "type": "string" }, "uniqueItems": true }
+      },
+      "required": ["id", "title", "name", "rarity", "hp", "mp", "str", "end", "dex", "agi", "mag", "kind", "skill"],
+      "additionalProperties": false
+    },
+
+    "CombatSkill": {
+      "type": "object",
+      "properties": {
+        "specialArts": { "type": "boolean", "default": true, "description": "A value indicating whether the Combat Skill is a Special Arts." },
+        "name": { "type": "string", "description": "The name of the Combat Skill." },
+        "description": { "type": "string" },
+        "tags": { "items": { "$ref": "#/definitions/Tag" } }
+      },
+      "required": ["name", "description"],
+      "additionalProperties": false
+    },
+
+    "PassiveSkill": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "tags": { "items": { "$ref": "#/definitions/TagPassive" } },
+        "nemesis": { "type": "string" }
+      },
+      "required": ["name", "description"],
+      "additionalProperties": false
+    },
+
+    "AssistSkill": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "descriptions": { "type": "array", "items": { "type": "string" }, "minItems": 2, "maxItems": 2 },
+        "tags": { "items": { "$ref": "#/definitions/Tag" } }
+      },
+      "required": ["name", "descriptions"],
+      "additionalProperties": false
+    }
+  }
+}

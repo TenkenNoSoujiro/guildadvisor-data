@@ -1,0 +1,31 @@
+{ "id": "bell.cranel-adventurer",
+  "title": "Adventurer",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 1,
+  "hp": 2286,
+  "mp": 180,
+  "str": 318,
+  "end": 156,
+  "dex": 179,
+  "agi": 256,
+  "mag": 282,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Argonaut Firebolt", "description": "[Foes] Hi Fire M.Attack" },
+    { "name": "Rapid Slash", "description": "[Foe] Fast Lo P.Attack" },
+    { "name": "Firebolt", "description": "[Foe] Mid Fire M.Attack" },
+    { "name": "Argonaut", "description": "[Self] Str. & Mag.+50%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
+    { "name": "Acceleration", "description": "Agi.+3%" },
+    { "name": "Tough", "description": "End.+3%" },
+    { "name": "Crush", "description": "Str.+3%" },
+    { "name": "Luck", "description": "All Status+2%" }
+  ],
+  "thumbnail": "res/bell.cranel-adventurer-thumb.png",
+  "image": "res/bell.cranel-adventurer-full.png"
+}

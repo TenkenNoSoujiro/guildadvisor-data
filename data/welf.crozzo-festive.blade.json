@@ -1,0 +1,24 @@
+{ "id": "welf.crozzo-festive.blade",
+  "title": "Festive Blade",
+  "name": "Welf Crozzo",
+  "alias": ["fb welf"],
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1252,
+  "mp": 101,
+  "str": 355,
+  "end": 383,
+  "dex": 331,
+  "agi": 215,
+  "mag": 355,
+  "skill": {
+    "name": "Pose of Diligence",
+    "descriptions": [
+      "[Allies] Taunt Resist & Stun Resist+75% w/End.+4%",
+      "[Allies] Taunt Resist & Stun Resist+100% w/End.+5%"
+    ]
+  },
+  "thumbnail": "res/welf.crozzo-festive.blade-thumb.png",
+  "image": "res/welf.crozzo-festive.blade-full.png"
+}

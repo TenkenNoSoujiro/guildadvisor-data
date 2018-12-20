@@ -1,0 +1,32 @@
+{ "id": "liliruca.arde-sweet.devil",
+  "title": "Sweet Devil",
+  "name": "Liliruca Arde",
+  "alias": ["lili", "sd lili", "halloween lili"],
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 1701,
+  "mp": 282,
+  "str": 346,
+  "end": 355,
+  "dex": 574,
+  "agi": 751,
+  "mag": 1314,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Trick or Sweet", "description": "[Allies] Ultra Heal & 20% HP Regen/4 turns" },
+    { "name": "Sweet Prank", "description": "[Foes] 10% MP Drain w/30% Sleep" },
+    { "name": "Magical Wand", "description": "[Foes] Hi Dark M.Attack & Status Debuff +1 turn" },
+    { "name": "Bad Trick", "description": "[Foes] Hi Dark M.Attack & End.-30%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Enlightenment", "description": "Mag.+10%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Instinct", "description": "Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Light Resistance", "description": "Light Resist+20%" }
+  ],
+  "thumbnail": "res/liliruca.arde-sweet.devil-thumb.png",
+  "image": "res/liliruca.arde-sweet.devil-full.png"
+}

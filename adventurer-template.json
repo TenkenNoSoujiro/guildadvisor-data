@@ -1,0 +1,31 @@
+{ "id": "first.last-title",
+  "title": "",
+  "name": "",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 0,
+  "mp": 0,
+  "str": 0,
+  "end": 0,
+  "dex": 0,
+  "agi": 0,
+  "mag": 0,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "", "description": "" },
+    { "name": "", "description": "" },
+    { "name": "", "description": "" },
+    { "name": "", "description": "" }
+  ],
+  "passiveSkills": [
+    { "name": "", "description": "" },
+    { "name": "", "description": "" },
+    { "name": "", "description": "" },
+    { "name": "", "description": "" },
+    { "name": "", "description": "" }
+  ],
+  "thumbnail": "res/first.last-title-thumb.png",
+  "image": "res/first.last-title-full.png"
+}

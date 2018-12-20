@@ -1,0 +1,31 @@
+{ "id": "bell.cranel-argonaut",
+  "title": "Argonaut",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2426,
+  "mp": 189,
+  "str": 1114,
+  "end": 388,
+  "dex": 352,
+  "agi": 871,
+  "mag": 1099,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Heroic Strike", "description": "[Foes] Ultra P.Attack" },
+    { "name": "Rapid Firebolt", "description": "[Foes] Fast Hi Fire M.Attack" },
+    { "name": "Broad Slicer", "description": "[Foes] Fast Hi P.Attack" },
+    { "name": "Argonaut", "description": "[Self] Str. & Mag.+75%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
+    { "name": "Ox Slayer", "description": "Ability Pt.+100% towards Ox", "nemesis": "Ox" },
+    { "name": "Overflow", "description": "Str. & Mag.+42%" },
+    { "name": "Climb", "description": "End. & Agi.+6%" },
+    { "name": "Luck", "description": "All Status+5%" }
+  ],
+  "thumbnail": "res/bell.cranel-argonaut-thumb.png",
+  "image": "res/bell.cranel-argonaut-full.png"
+}

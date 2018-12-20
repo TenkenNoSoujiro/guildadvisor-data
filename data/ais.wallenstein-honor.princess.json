@@ -1,0 +1,32 @@
+{ "id": "ais.wallenstein-honor.princess",
+  "title": "Honor Princess",
+  "name": "Ais Wallenstein",
+  "alias": ["hp ais", "honor ais"],
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2650,
+  "mp": 187,
+  "str": 1481,
+  "end": 438,
+  "dex": 540,
+  "agi": 794,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true, 
+      "name": "Radiant Lil Rafaga", "description": "[Foe] Ultra P.Attack w/temp Str. Boost" },
+    { "name": "Blade Dance", "description": "[Foe] Mid P.Attack w/temp Str. Boost & Str.-30%/4 turns" },
+    { "name": "Phase Slicer", "description": "[Foe] Mid P.Attack w/temp Str. Boost & P.Resist-20%/4 turns" },
+    { "name": "Stiletto", "description": "[Foe] Lo P.Attack & [Self] Str.+75%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Sword Fighter", "description": "Str.+15%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Spirit Healing", "description": "3% MP Regen/turn" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Poison Resist", "description": "Poison Resist+100%" }
+  ],
+  "image": "res/ais.wallenstein-honor.princess-full.png",
+  "thumbnail": "res/ais.wallenstein-honor.princess-thumb.png"
+}

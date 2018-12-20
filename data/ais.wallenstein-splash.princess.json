@@ -1,0 +1,32 @@
+{ "id": "ais.wallenstein-splash.princess",
+  "title": "Splash Princess",
+  "name": "Ais Wallenstein",
+  "alias": ["splash ais"],
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2486,
+  "mp": 198,
+  "str": 695,
+  "end": 463,
+  "dex": 708,
+  "agi": 606,
+  "mag": 1113,
+  "combatSkills": [
+    { "specialArts": true, 
+      "name": "Illumines Lil Rafaga", "description": "[Foes] Ultra Light M.Attack w/30% Seal" },
+    { "name": "Échthra Piercer", "description": "[Foe] Fast Mid Light M.Attack" },
+    { "name": "Comtempt Mech", "description": "[Foes] Hi Light M.Attack w/temp Mag. Boost" },
+    { "name": "Prevent Wind", "description": "[Allies] Guard Rate & End.+30%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Wisdom", "description": "All Status+10%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist.+10%" },
+    { "name": "Enlightenment", "description": "Mag.+85%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Spirit Healing", "description": "1% MP Regen/turn" }
+  ],
+  "image": "res/ais.wallenstein-splash.princess-full.png",
+  "thumbnail": "res/ais.wallenstein-splash.princess-thumb.png"
+}

@@ -1,0 +1,31 @@
+{ "id": "tione.hiryute-blushing.peony",
+  "title": "Blushing Peony",
+  "name": "Tione Hiryute",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2552,
+  "mp": 291,
+  "str": 336,
+  "end": 402,
+  "dex": 581,
+  "agi": 759,
+  "mag": 1357,
+  "combatSkills": [
+    { "specialArts": true, 
+      "name": "Sacred Peony", "description": "[Foe] Ultra Light M.Attack w/temp Mag. Boost" },
+    { "name": "Flash Perfume", "description": "[Foe] Lo Light M.Attack & [Self] Light Attack Dmg.+75%/4 turns" },
+    { "name": "Rampage Beat", "description": "[Self] Increase S.A. Gauge Charge gain by 100%/4 turns & [Foe] Lo Light M.Attack" },
+    { "name": "Heavenly Blow", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & Light Resist-25%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Enlightenment", "description": "Mag.+15%" },
+    { "name": "Piercing Strike", "description": "Damage+10% upon Penetration" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Beast Killer", "description": "Ability Pt.+50% toward Beasts", "nemesis": "Beast" }
+  ],
+  "image": "res/tione.hiryute-blushing.peony-full.png",
+  "thumbnail": "res/tione.hiryute-blushing.peony-thumb.png"
+}

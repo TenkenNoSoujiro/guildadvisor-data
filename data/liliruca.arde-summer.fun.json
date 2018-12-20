@@ -1,0 +1,32 @@
+{ "id": "liliruca.arde-summer.fun",
+  "title": "Summer Fun",
+  "name": "Liliruca Arde",
+  "alias": ["lili", "sf lili", "summer lili"],
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2628,
+  "mp": 272,
+  "str": 336,
+  "end": 396,
+  "dex": 581,
+  "agi": 757,
+  "mag": 1365,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Dolphin Army", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost" },
+    { "name": "Calamity Water", "description": "[Foes] Mid Water M.Attack & removes all Mag. Buffs exc. Assist Skills" },
+    { "name": "Water Magic Sword", "description": "[Foes] Hi Water M.Attack w/temp Mag. Boost & [Foes] Status Debuff +1 turn" },
+    { "name": "Frozen Water", "description": "[Foes] Mid Water M.Attack w/temp Mag. Boost & [Foes] M.Resist-15%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Mind's Eye", "description": "Mag.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "res/liliruca.arde-summer.fun-thumb.png",
+  "image": "res/liliruca.arde-summer.fun-full.png"
+}

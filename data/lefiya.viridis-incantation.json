@@ -1,0 +1,31 @@
+{ "id": "lefiya.viridis-incantation",
+  "title": "Incantation",
+  "name": "Lefiya Viridis",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1676,
+  "mp": 271,
+  "str": 343,
+  "end": 371,
+  "dex": 566,
+  "agi": 680,
+  "mag": 1247,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Elf Ring", "description": "[Foes] Ultra Water M.Attack" },
+    { "name": "Arcs Ray", "description": "[Foe] Mid Light M.Attack" },
+    { "name": "Lux Maleficium", "description": "[Foes] Mid Light M.Attack & Light Resist-10%/4 turns" },
+    { "name": "Anemos Fotia", "description": "[Foes] Mid Fire M.Attack & M.Resist-10%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Material Killer", "description": "Ability Pt.+50% toward Material", "nemesis": "Material" },
+    { "name": "Mage", "description": "Mag.+7%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Chef", "description": "Dex.+10%" },
+    { "name": "Unbreakable", "description": "End.+10%" }
+  ],
+  "thumbnail": "res/lefiya.viridis-incantation-thumb.png",
+  "image": "res/lefiya.viridis-incantation-full.png"
+}

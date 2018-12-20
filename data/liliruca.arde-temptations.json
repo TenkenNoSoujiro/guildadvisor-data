@@ -1,0 +1,32 @@
+{ "id": "liliruca.arde-temptations",
+  "title": "Temptations",
+  "name": "Liliruca Arde",
+  "alias": ["lili", "t lili"],
+  "kind": "adventurer",
+  "type": "healer",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2231,
+  "mp": 238,
+  "str": 431,
+  "end": 323,
+  "dex": 796,
+  "agi": 661,
+  "mag": 1132,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Sunshine Ray", "description": "[Foes] Ultra Light M.Attack" },
+    { "name": "Heal Medicine", "description": "[Allies] Lo Heal & Ailment Cure" },
+    { "name": "Negative Pill", "description": "[Foe] Lo Light M.Attack w/30% Sleep" },
+    { "name": "Ether Assist", "description": "[Allies] M.Resist+20%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Enlightenment", "description": "Mag.+11%" },
+    { "name": "Instinct", "description": "Agi. & Dex.+10%" },
+    { "name": "Defense", "description": "P.Resist+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Magic Resistance", "description": "M.Resist+10%" }
+  ],
+  "thumbnail": "res/liliruca.arde-temptations-thumb.png",
+  "image": "res/liliruca.arde-temptations-full.png"
+}

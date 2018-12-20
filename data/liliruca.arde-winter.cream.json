@@ -1,0 +1,32 @@
+{ "id": "liliruca.arde-winter.cream",
+  "title": "Winter Cream",
+  "name": "Liliruca Arde",
+  "alias": ["lili", "wc lili", "winter lili"],
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2492,
+  "mp": 215,
+  "str": 903,
+  "end": 352,
+  "dex": 607,
+  "agi": 545,
+  "mag": 1185,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Flame Illusion", "description": "[Foes] Ultra Fire M.Attack" },
+    { "name": "Bright Hearth", "description": "[Allies] Mag.+45% & Heal+30%/4 turns" },
+    { "name": "Petit Feu", "description": "[Foes] Hi Fire M.Attack" },
+    { "name": "Eggnog Potion", "description": "[Allies] Lo Heal & 35% HP Regen/2 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Encouragement", "description": "When countering, instead of attacking regularly, it (Lo) Heals an Ally. Prioritizes an Ally with lower percentage HP." },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Wind Resistance", "description": "Wind Resist+35%" },
+    { "name": "Forestall", "description": "Mag. & Agi.+15%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "res/liliruca.arde-winter.cream-thumb.png",
+  "image": "res/liliruca.arde-winter.cream-full.png"
+}

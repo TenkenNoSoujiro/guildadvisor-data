@@ -1,0 +1,32 @@
+{ "id": "liliruca.arde-supporter",
+  "title": "Supporter",
+  "name": "Liliruca Arde",
+  "alias": ["lili"],
+  "kind": "adventurer",
+  "type": "healer",
+  "limited": false,
+  "rarity": 2,
+  "hp": 2151,
+  "mp": 232,
+  "str": 261,
+  "end": 175,
+  "dex": 373,
+  "agi": 331,
+  "mag": 526,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Raining Arrows", "description": "[Foes] Hi P.Attack" },
+    { "name": "Cure Potion", "description": "[Allies] Lo Heal" },
+    { "name": "Detoxification", "description": "[Allies] Ailment Cure" },
+    { "name": "Hypnotic Arrow", "description": "[Foe] Lo P.Attack w/30% Sleep" }
+  ],
+  "passiveSkills": [
+    { "name": "Supporter's Strength", "description": "Str.+3%" },
+    { "name": "Crafter", "description": "Dex.+5%" },
+    { "name": "Acceleration", "description": "Agi.+5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+5%" },
+    { "name": "Crush", "description": "Str.+3%" }
+  ],
+  "thumbnail": "res/liliruca.arde-supporter-thumb.png",
+  "image": "res/liliruca.arde-supporter-full.png"
+}

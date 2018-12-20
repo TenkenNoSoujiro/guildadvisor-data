@@ -1,0 +1,8 @@
+{
+    "json.schemas": [
+        { "fileMatch": ["data/*.json"], "url": "./data/schema/schema.json" }
+    ],
+    "editor.tabSize": 2,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true
+}

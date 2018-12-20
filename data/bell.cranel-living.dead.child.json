@@ -1,0 +1,24 @@
+{ "id": "bell.cranel-living.dead.child",
+  "title": "Living Dead Child",
+  "name": "Bell Cranel",
+  "alias": ["ldc bell", "ld bell", "zombie bell"],
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 1128,
+  "mp": 132,
+  "str": 337,
+  "end": 320,
+  "dex": 291,
+  "agi": 183,
+  "mag": 337,
+  "skill": {
+    "name": "Outbreak",
+    "descriptions": [
+      "[Foes] Dark Resist-8% & [Allies] Critical Rate+8%",
+      "[Foes] Dark Resist-10% & [Allies] Critical Rate+10%"
+    ]
+  },
+  "thumbnail": "res/bell.cranel-living.dead.child-thumb.png",
+  "image": "res/bell.cranel-living.dead.child-full.png"
+}

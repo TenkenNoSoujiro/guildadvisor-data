@@ -1,0 +1,32 @@
+{ "id": "bell.cranel-aspiring.elegance",
+  "title": "Aspiring Elegance",
+  "name": "Bell Cranel",
+  "alias": ["ae bell", "winter bell"],
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2484,
+  "mp": 202,
+  "str": 369,
+  "end": 377,
+  "dex": 581,
+  "agi": 753,
+  "mag": 1389,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Firebolt Igniter", "description": "[Foes] Ultra Fire M.Attack w/temp Mag. boost" },
+    { "name": "Seething", "description": "[Foes] Lo Fire M.Attack & [Self] Fire Attack Damage+75%/4 turns" },
+    { "name": "Fiery Courage", "description": "[Foes] Mid Fire M.Attack & [Self] Mag.+60%/4 turns" },
+    { "name": "Noble Firebolt", "description": "[Foes] Hi Fire M.Attack w/Ultra Uncounter Rate" }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
+    { "name": "Solid", "description": "Guard Rate+30%" },
+    { "name": "Wind Resistance", "description": "Wind Resist+35%" },
+    { "name": "Enlightenment", "description": "Mag.+5%" },
+    { "name": "Luck", "description": "All Status+10%" }
+  ],
+  "thumbnail": "res/bell.cranel-aspiring.elegance-thumb.png",
+  "image": "res/bell.cranel-aspiring.elegance-full.png"
+}

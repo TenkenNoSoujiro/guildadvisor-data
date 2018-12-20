@@ -1,0 +1,32 @@
+{ "id": "liliruca.arde-lovely.travel",
+  "title": "Lovely Travel",
+  "name": "Liliruca Arde",
+  "alias": ["lili", "lt lili", "travel lili"],
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2516,
+  "mp": 300,
+  "str": 337,
+  "end": 385,
+  "dex": 556,
+  "agi": 775,
+  "mag": 1323,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Shining Explosion", "description": "[Foe] Ultra Light M.Attack w/temp Mag. Boost" },
+    { "name": "Sparkle Circle", "description": "[Foes] Lo Light M.Attack" },
+    { "name": "Light Magic-Sword", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & M.Resist-20%/2 turns" },
+    { "name": "Shining Howling", "description": "[Self] Null P.Attack x2 exc. Special Arts" }
+  ],
+  "passiveSkills": [
+    { "name": "Crafter", "description": "Dex.+10%" },
+    { "name": "Acceleration", "description": "Agi.+10%" },
+    { "name": "Unbreakable", "description": "End.+10%" },
+    { "name": "Enlightenment", "description": "Mag.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "res/liliruca.arde-lovely.travel-thumb.png",
+  "image": "res/liliruca.arde-lovely.travel-full.png"
+}

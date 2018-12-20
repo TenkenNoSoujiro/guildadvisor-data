@@ -1,0 +1,31 @@
+{ "id": "ais.wallenstein-sword.princess",
+  "title": "Sword Princess",
+  "name": "Ais Wallenstein",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2480,
+  "mp": 182,
+  "str": 800,
+  "end": 273,
+  "dex": 401,
+  "agi": 529,
+  "mag": 171,
+  "combatSkills": [
+    { "specialArts": true, 
+      "name": "Lil Rafaga", "description": "[Foes] Hi Wind M.Attack indexed to Str." },
+    { "name": "Ariel", "description": "[Self] Str.+50% & P.Resist+5%/4 turns" },
+    { "name": "Tres Piercer", "description": "[Foe] Lo P.Attack" },
+    { "name": "Veter Mech", "description": "[Foes] Lo P.Attack" }
+  ],
+  "passiveSkills": [
+    { "name": "Hunter", "description": "Agi.+7.5%" },
+    { "name": "Tough", "description": "End.+7.5%" },
+    { "name": "Sword Fighter", "description": "Str.+7.5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Spirit Healing", "description": "1% MP Regen/turn" }
+  ],
+  "image": "res/ais.wallenstein-sword.princess-full.png",
+  "thumbnail": "res/ais.wallenstein-sword.princess-thumb.png"
+}

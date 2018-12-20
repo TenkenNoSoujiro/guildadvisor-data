@@ -1,0 +1,32 @@
+{ "id": "bell.cranel-the.white.rabbit",
+  "title": "The White Rabbit",
+  "name": "Bell Cranel",
+  "alias": ["twr bell", "wr bell", "halloween bell"],
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2448,
+  "mp": 203,
+  "str": 371,
+  "end": 382,
+  "dex": 546,
+  "agi": 759,
+  "mag": 1371,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Luna Traviesa", "description": "[Foes] Ultra Light M.Attack w/30% Sleep" },
+    { "name": "Reverie Reps", "description": "[Foes] Lo Light M.Attack w/15% Sleep" },
+    { "name": "Fortis Spes", "description": "[Self] Mag. & Agi.+75%/4 turns" },
+    { "name": "Pierce Firebolt", "description": "[Foe] Fast Hi Fire M.Attack w/Ultra Penetration Rate" }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
+    { "name": "Climb", "description": "End. & Agi.+6%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Enlightenment", "description": "Mag.+5%" },
+    { "name": "Luck", "description": "All Status+5%" }
+  ],
+  "thumbnail": "res/bell.cranel-the.white.rabbit-thumb.png",
+  "image": "res/bell.cranel-the.white.rabbit-full.png"
+}

@@ -1,0 +1,32 @@
+{ "id": "lefiya.viridis-elfs.honor",
+  "title": "Elf's Honor",
+  "name": "Lefiya Viridis",
+  "kind": "adventurer",
+  "alias": ["eh lefiya", "honor lefiya"],
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2644,
+  "mp": 268,
+  "str": 336,
+  "end": 386,
+  "dex": 574,
+  "agi": 760,
+  "mag": 1381,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Har Rae Laevateinn", "description": "[Foes] Ultra Fire M.Attack w/temp Mag. Boost" },
+    { "name": "Kindling", "description": "[Foes] Lo Fire M.Attack & [Self] Mag.+75%/4 turns" },
+    { "name": "Laid Waste", "description": "[Foe] Hi Fire M.Attack w/temp Mag. Boost" },
+    { "name": "Immolation", "description": "[Foes] Fast Mid Fire M.Attack w/temp Mag. Boost & M.resist-10%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Mage", "description": "Mag.+15%" },
+    { "name": "Train", "description": "End. & Dex.+10%" },
+    { "name": "Acceleration", "description": "Agi.+10%" },
+    { "name": "Healing Power", "description": "3% HP Regen/turn" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "res/lefiya.viridis-elfs.honor-thumb.png",
+  "image": "res/lefiya.viridis-elfs.honor-full.png"
+}

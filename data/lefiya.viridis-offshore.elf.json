@@ -1,0 +1,32 @@
+{ "id": "lefiya.viridis-offshore.elf",
+  "title": "Offshore Elf",
+  "name": "Lefiya Viridis",
+  "alias": ["oe lefiya", "summer lefiya"],
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2644,
+  "mp": 268,
+  "str": 336,
+  "end": 388,
+  "dex": 574,
+  "agi": 760,
+  "mag": 1378,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Aquatic Tornado", "description": "[Foe] Ultra Water M.Attack w/Ultra Penetration Rate w/temp Mag. Boost" },
+    { "name": "Aquatic Nova", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost" },
+    { "name": "Aquatic Lure", "description": "[Foes] Mid Water M.Attack" },
+    { "name": "Aquatic Ray", "description": "[Foe] Lo Water M.Attack & [Self] Mag.+75%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Mage", "description": "Mag.+15%" },
+    { "name": "Strike", "description": "Critical Damage+20%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "res/lefiya.viridis-offshore.elf-thumb.png",
+  "image": "res/lefiya.viridis-offshore.elf-full.png"
+}

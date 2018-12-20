@@ -1,0 +1,32 @@
+{ "id": "liliruca.arde-disguised.pallum",
+  "title": "Disguised Pallum",
+  "name": "Liliruca Arde",
+  "alias": ["lili", "dp lili"],
+  "kind": "adventurer",
+  "type": "healer",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2231,
+  "mp": 238,
+  "str": 431,
+  "end": 322,
+  "dex": 794,
+  "agi": 656,
+  "mag": 1040,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Powering Arrow", "description": "[Foes] Ultra Light M.Attack" },
+    { "name": "Heal Medicine", "description": "[Allies] Lo Heal & Ailment Cure" },
+    { "name": "Chaos Pale", "description": "[Foe] Lo Dark M.Attack w/Max HP 10% Dmg. Poison" },
+    { "name": "Flaming Blade", "description": "[Foe] Hi Fire M.Attack" }
+  ],
+  "passiveSkills": [
+    { "name": "Enlightenment", "description": "Mag.+5.5%" },
+    { "name": "Crafter", "description": "Dex.+10%" },
+    { "name": "Acceleration", "description": "Agi.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Tough", "description": "End.+5.5%" }
+  ],
+  "thumbnail": "res/liliruca.arde-disguised.pallum-thumb.png",
+  "image": "res/liliruca.arde-disguised.pallum-full.png"
+}

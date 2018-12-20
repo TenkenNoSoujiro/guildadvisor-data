@@ -1,0 +1,31 @@
+{ "id": "bell.cranel-ox.slayer",
+  "title": "Ox Slayer",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2336,
+  "mp": 186,
+  "str": 597,
+  "end": 258,
+  "dex": 263,
+  "agi": 546,
+  "mag": 529,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Argonaut Firebolt", "description": "[Foes] Hi Fire M.Attack" },
+    { "name": "Firebolt", "description": "[Foe] Fast Mid Fire M.Attack" },
+    { "name": "Tri-Slicer", "description": "[Foe] Fast Mid P.Attack" },
+    { "name": "Argonaut", "description": "[Self] Str. & Mag.+50%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
+    { "name": "Acceleration", "description": "Agi.+5%" },
+    { "name": "Tough", "description": "End.+5%" },
+    { "name": "Crush", "description": "Str.+5%" },
+    { "name": "Luck", "description": "All Status+4%" }
+  ],
+  "thumbnail": "res/bell.cranel-ox.slayer-thumb.png",
+  "image": "res/bell.cranel-ox.slayer-full.png"
+}

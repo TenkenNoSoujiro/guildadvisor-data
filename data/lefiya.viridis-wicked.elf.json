@@ -1,0 +1,32 @@
+{ "id": "lefiya.viridis-wicked.elf",
+  "title": "Wicked Elf",
+  "name": "Lefiya Viridis",
+  "alias": ["we lefiya", "halloween lefiya"],
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2556,
+  "mp": 290,
+  "str": 341,
+  "end": 382,
+  "dex": 564,
+  "agi": 773,
+  "mag": 1375,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Spikey Avalanche", "description": "[Foes] Ultra Dark M.Attack w/temp Mag. Boost" },
+    { "name": "Black Brand", "description": "[Foes] Lo Dark M.Attack & [Self] Dark Attack Dmg.+60%/4 turns" },
+    { "name": "Amplify Agony", "description": "[Foes] Mid Dark M.Attack w/temp Mag. Boost & M.Resist-15%/3 turns" },
+    { "name": "Shadow Feeder", "description": "[Foes] Hi Dark M.Attack w/temp Mag. Boost & Counter Rate-25%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Mage", "description": "Mag.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "res/lefiya.viridis-wicked.elf-thumb.png",
+  "image": "res/lefiya.viridis-wicked.elf-full.png"
+}

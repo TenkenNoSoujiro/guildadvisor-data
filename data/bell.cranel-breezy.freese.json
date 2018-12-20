@@ -1,0 +1,32 @@
+{ "id": "bell.cranel-breezy.freese",
+  "title": "Breezy Freese",
+  "name": "Bell Cranel",
+  "alias": ["bf bell", "yakuta bell"],
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2450,
+  "mp": 200,
+  "str": 848,
+  "end": 390,
+  "dex": 375,
+  "agi": 878,
+  "mag": 1271,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Firebolt Fireworks", "description": "[Foes] Ultra Fire M.Attack w/temp Mag. boost" },
+    { "name": "Firebolt", "description": "[Foe] Fast Hi Fire M.Attack w/temp Mag. boost" },
+    { "name": "Rapid Firebolt", "description": "[Foes] Mid Fire M.Attack" },
+    { "name": "Preperation", "description": "[Foes] Lo Fire M.Attack & [Self] Mag.+50%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
+    { "name": "Wind Resistance", "description": "Wind Resist+20%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Enlightenment", "description": "Mag.+50%" },
+    { "name": "Luck", "description": "All Status+11%" }
+  ],
+  "thumbnail": "res/bell.cranel-breezy.freese-thumb.png",
+  "image": "res/bell.cranel-breezy.freese-full.png"
+}

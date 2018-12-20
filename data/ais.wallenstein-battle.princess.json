@@ -1,0 +1,31 @@
+{ "id": "ais.wallenstein-battle.princess",
+  "title": "Battle Princess",
+  "name": "Ais Wallenstein",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 2,
+  "hp": 2450,
+  "mp": 178,
+  "str": 618,
+  "end": 195,
+  "dex": 270,
+  "agi": 402,
+  "mag": 131,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Lil Rafaga", "description": "[Foes] Hi Wind M.Attack indexed to Str." },
+    { "name": "Ariel", "description": "[Self] Str.+50% & P.Resist+5%/4 turns" },
+    { "name": "Tres Piercer", "description": "[Foe] Lo P.Attack" },
+    { "name": "Veter Mech", "description": "[Foes] Lo P.Attack" }
+  ],
+  "passiveSkills": [
+    { "name": "Hunter", "description": "Agi.+5%" },
+    { "name": "Tough", "description": "End.+5%" },
+    { "name": "Sword Fighter", "description": "Str.+5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+5%" },
+    { "name": "Spirit Healing", "description": "1% MP Regen/turn" }
+  ],
+  "image": "res/ais.wallenstein-battle.princess-full.png",
+  "thumbnail": "res/ais.wallenstein-battle.princess-thumb.png"
+}

@@ -1,0 +1,32 @@
+{ "id": "lefiya.viridis-winter.elf",
+  "title": "Winter Elf",
+  "name": "Lefiya Viridis",
+  "alias": ["we lefiya", "winter lefiya"],
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2406,
+  "mp": 204,
+  "str": 919,
+  "end": 402,
+  "dex": 626,
+  "agi": 436,
+  "mag": 1316,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Crystal Deluge", "description": "[Allies] Guard Rate & P.Resist+40%/4 turns" },
+    { "name": "Blanc Glace", "description": "[Foe] Hi Water M.Attack & Water Resist-35%/4 turns" },
+    { "name": "Avalanche Neige", "description": "[Foes] Mid Water M.Attack" },
+    { "name": "Elle Glace", "description": "[Allies] Mag.+45%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Mage", "description": "Mag.+30%" },
+    { "name": "Defense", "description": "P.Resist.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Unbreakable", "description": "End.+8%" },
+    { "name": "Fire Resistance", "description": "Fire Resist.+20%" }
+  ],
+  "thumbnail": "res/lefiya.viridis-winter.elf-thumb.png",
+  "image": "res/lefiya.viridis-winter.elf-full.png"
+}

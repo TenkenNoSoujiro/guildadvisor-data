@@ -1,0 +1,32 @@
+{ "id": "bell.cranel-odm.fight",
+  "title": "ODM Fight",
+  "name": "Bell Cranel",
+  "alias": ["of bell", "aot bell"],
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2460,
+  "mp": 208,
+  "str": 369,
+  "end": 369,
+  "dex": 600,
+  "agi": 757,
+  "mag": 1373,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Argonaut Sky Chain", "description": "[Foes] Ultra Wind M.Attack w/temp Mag. boost" },
+    { "name": "Blast Edge", "description": "[Foes] Lo Wind M.Attack & [Self] Wind Attack Damage+60%/4 turns" },
+    { "name": "Wind Storm", "description": "[Foes] Hi Wind M.Attack w/temp Mag. boost & Wind Resist-20%/3 turns" },
+    { "name": "Gale Force", "description": "[Foes] Hi Wind M.Attack & [Allies] Critical Rate+20%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Earth Resistance", "description": "Earth Resist+35%" },
+    { "name": "Enlightenment", "description": "Mag.+5%" },
+    { "name": "Luck", "description": "All Status+10%" }
+  ],
+  "thumbnail": "res/bell.cranel-odm.fight-thumb.png",
+  "image": "res/bell.cranel-odm.fight-full.png"
+}

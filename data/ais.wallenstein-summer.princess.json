@@ -1,0 +1,32 @@
+{ "id": "ais.wallenstein-summer.princess",
+  "title": "Summer Princess",
+  "name": "Ais Wallenstein",
+  "alias": ["summer ais"],
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2648,
+  "mp": 187,
+  "str": 1480,
+  "end": 438,
+  "dex": 541,
+  "agi": 794,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true, 
+      "name": "Tidal Lil Rafaga", "description": "[Foes] Ultra Water P.Attack w/temp Str. Boost" },
+    { "name": "Aqua Blade", "description": "[Foes] Mid Water P.Attack & removes all Str. Buffs exc Assist Skills" },
+    { "name": "Cobalt Edge", "description": "[Foes] Hi Water P.Attack w/temp Str. Boost & [Foes] Status Buff -1 turn" },
+    { "name": "Aqua Bite", "description": "[Foes] Mid Water P.Attack w/temp Str. Boost & [Foes] P.Resist-15%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Sword Fighter", "description": "Str.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "image": "res/ais.wallenstein-summer.princess-full.png",
+  "thumbnail": "res/ais.wallenstein-summer.princess-thumb.png"
+}

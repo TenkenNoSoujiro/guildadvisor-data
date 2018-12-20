@@ -1,0 +1,24 @@
+{ "id": "tsubaki.collbrande-camellia.kimono",
+  "title": "Camellia Kimono",
+  "name": "Tsubaki Collbrande",
+  "alias": ["ck tsubaki", "kimono tsubaki"],
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 958,
+  "mp": 139,
+  "str": 303,
+  "end": 234,
+  "dex": 554,
+  "agi": 336,
+  "mag": 303,
+  "skill": {
+    "name": "Head-Turner",
+    "descriptions": [
+      "[Foes] Critical Rate-8% & [Allies] Counter Rate+15%",
+      "[Foes] Critical Rate-10% & [Allies] Counter Rate+20%"
+    ]
+  },
+  "thumbnail": "res/tsubaki.collbrande-camellia.kimono-thumb.png",
+  "image": "res/tsubaki.collbrande-camellia.kimono-full.png"
+}

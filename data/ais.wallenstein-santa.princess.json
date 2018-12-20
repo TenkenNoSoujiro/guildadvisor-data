@@ -1,0 +1,32 @@
+{ "id": "ais.wallenstein-santa.princess",
+  "title": "Santa Princess",
+  "name": "Ais Wallenstein",
+  "alias": ["winter ais"],
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2580,
+  "mp": 266,
+  "str": 357,
+  "end": 387,
+  "dex": 516,
+  "agi": 755,
+  "mag": 1319,
+  "combatSkills": [
+    { "specialArts": true, 
+      "name": "Present Lil Rafaga", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost" },
+    { "name": "Kamita Mech", "description": "[Foes] Hi Water M.Attack & Agi.-20%/4 turns" },
+    { "name": "Varder Mech", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost" },
+    { "name": "Veter Grato", "description": "[Self] Null P.Attack x2 exc. Special Arts" }
+  ],
+  "passiveSkills": [
+    { "name": "Enlightenment", "description": "Mag.+11%" },
+    { "name": "Climb", "description": "End. & Agi.+10%" },
+    { "name": "Beast Killer", "description": "Ability Pt.+50% towards Beasts", "nemesis": "Beasts" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+20%" }
+  ],
+  "image": "res/ais.wallenstein-santa.princess-full.png",
+  "thumbnail": "res/ais.wallenstein-santa.princess-thumb.png"
+}

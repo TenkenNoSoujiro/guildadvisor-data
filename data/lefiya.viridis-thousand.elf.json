@@ -1,0 +1,32 @@
+{ "id": "lefiya.viridis-thousand.elf",
+  "title": "Thousand Elf",
+  "name": "Lefiya Viridis",
+  "alias": ["te lefiya"],
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 3,
+  "hp": 1616,
+  "mp": 266,
+  "str": 177,
+  "end": 274,
+  "dex": 421,
+  "agi": 508,
+  "mag": 927,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Fusillade Fallarica", "description": "[Foes] Hi Fire M.Attack" },
+    { "name": "Arcs Ray", "description": "[Foe] Lo Light M.Attack" },
+    { "name": "Ether Charge", "description": "[Self] Mag.+50%/4 turns" },
+    { "name": "Magias Decremento", "description": "[Foes] M.Resist-7.5%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Mage", "description": "Mag.+1.5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Chef", "description": "Dex.+7.5%" },
+    { "name": "Enlightenment", "description": "Mag.+4%" },
+    { "name": "Unbreakable", "description": "End.+7.5%" }
+  ],
+  "thumbnail": "res/lefiya.viridis-thousand.elf-thumb.png",
+  "image": "res/lefiya.viridis-thousand.elf-full.png"
+}

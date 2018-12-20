@@ -1,0 +1,32 @@
+{ "id": "ais.wallenstein-sparkle.princess",
+  "title": "Sparkle Princess",
+  "name": "Ais Wallenstein",
+  "alias": ["sp ais"],
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2632,
+  "mp": 191,
+  "str": 1431,
+  "end": 440,
+  "dex": 539,
+  "agi": 790,
+  "mag": 349,
+  "combatSkills": [
+    { "specialArts": true, 
+      "name": "Eternal Lil Rafaga", "description": "[Foes] Ultra P.Attack w/temp Str. Boost & 30% Stun" },
+    { "name": "Svyet Mech", "description": "[Foe] Hi P.Attack w/temp Str. Boost" },
+    { "name": "Svyet Shpaga", "description": "[Foes] Hi P.Attack w/temp Str. Boost" },
+    { "name": "Lasvete Nyeba", "description": "[Self] 15% MP Heal & Ailment Cure" }
+  ],
+  "passiveSkills": [
+    { "name": "Wisdom", "description": "All Status.+10%" },
+    { "name": "Magic Resistance", "description": "M.Resist.+10%" },
+    { "name": "Spirit Healing", "description": "3% MP Regen/turn" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Spirit Killer", "description": "Ability Pt.+50% towards Spirits", "nemesis": "Spirits" }
+  ],
+  "image": "res/ais.wallenstein-sparkle.princess-full.png",
+  "thumbnail": "res/ais.wallenstein-sparkle.princess-thumb.png"
+}

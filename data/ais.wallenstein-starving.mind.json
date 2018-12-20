@@ -1,0 +1,32 @@
+{ "id": "ais.wallenstein-starving.mind",
+  "title": "Starving Mind",
+  "name": "Ais Wallenstein",
+  "alias": ["sm ais", "zombie ais", "halloween ais"],
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2684,
+  "mp": 178,
+  "str": 1486,
+  "end": 443,
+  "dex": 535,
+  "agi": 788,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true, 
+      "name": "Mortal Encounter", "description": "[Foe] Ultra Dark P.Attack w/temp Str. Boost" },
+    { "name": "Devour Magic", "description": "[Foe] Mid Dark P.Attack w/temp Str. Boost & Dark Resist-25%/4 turns" },
+    { "name": "Bone Spliter", "description": "[Foe] Mid Dark P.Attack w/temp Str. Boost & Mag.-30%/4 turns" },
+    { "name": "Hunger", "description": "[Foe] Lo Dark P.Attack & [Self] Str.+75%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Crush", "description": "Str.+15%" },
+    { "name": "Strike", "description": "Critical Damage+20%" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "image": "res/ais.wallenstein-starving.mind-full.png",
+  "thumbnail": "res/ais.wallenstein-starving.mind-thumb.png"
+}

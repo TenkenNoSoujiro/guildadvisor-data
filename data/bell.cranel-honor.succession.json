@@ -1,0 +1,32 @@
+{ "id": "bell.cranel-honor.succession",
+  "title": "Honor Succession",
+  "name": "Bell Cranel",
+  "alias": ["hs bell", "honor bell"],
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2520,
+  "mp": 193,
+  "str": 1481,
+  "end": 434,
+  "dex": 540,
+  "agi": 798,
+  "mag": 360,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Argonaut Incarnation", "description": "[Foes] Ultra Fire M.Attack indexed to Str. w/temp Str. boost" },
+    { "name": "Sharpness", "description": "[Foes] Lo P.Attack & [Self] Str.+75%/4 turns" },
+    { "name": "Molten Spike", "description": "[Foe] Hi P.Attack w/temp Str. boost" },
+    { "name": "Sweeping Strike", "description": "[Foes] Hi P.Attack w/temp Str. boost & P.Resist-10%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
+    { "name": "Courageous", "description": "Str.+5%" },
+    { "name": "Healing Power", "description": "3% HP Regen/turn" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Luck", "description": "All Status+10%" }
+  ],
+  "thumbnail": "res/bell.cranel-honor.succession-thumb.png",
+  "image": "res/bell.cranel-honor.succession-full.png"
+}

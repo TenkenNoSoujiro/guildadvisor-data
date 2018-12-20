@@ -1,0 +1,32 @@
+{ "id": "ais.wallenstein-regiment.princess",
+  "title": "Regiment Princess",
+  "name": "Ais Wallenstein",
+  "alias": ["rp ais", "aot ais"],
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2700,
+  "mp": 174,
+  "str": 1493,
+  "end": 422,
+  "dex": 521,
+  "agi": 817,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true, 
+      "name": "Solid Lil Rafaga", "description": "[Foes] Ultra Wind P.Attack w/temp Str. Boost" },
+    { "name": "Air Combination", "description": "[Foes] Lo Wind P.Attack & [Self] Wind Attack Dmg.+60%/4 turns" },
+    { "name": "Tornado Break", "description": "[Foes] Hi Wind P.Attack w/temp Str. Boost" },
+    { "name": "Revelation Cyclone", "description": "[Foes] Hi Wind P.Attack & Dmg. received (Attack: All Targets) increases by 15%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Sword Fighter", "description": "Str.+15%" },
+    { "name": "Strike", "description": "Critical Damage+20%" },
+    { "name": "Earth Resistance", "description": "Earth Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "image": "res/ais.wallenstein-regiment.princess-full.png",
+  "thumbnail": "res/ais.wallenstein-regiment.princess-thumb.png"
+}

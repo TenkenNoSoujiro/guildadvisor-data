@@ -1,0 +1,32 @@
+{ "id": "lefiya.viridis-bashful.elf",
+  "title": "Bashful Elf",
+  "name": "Lefiya Viridis",
+  "alias": ["be lefiya", "amazon lefiya"],
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1676,
+  "mp": 271,
+  "str": 347,
+  "end": 371,
+  "dex": 564,
+  "agi": 748,
+  "mag": 1285,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Elf Ring", "description": "[Foes] Ultra Fire M.Attack w/temp Mag. Boost" },
+    { "name": "Karpos Dallos", "description": "[Foe] Hi Fire M.Attack w/temp Mag. Boost" },
+    { "name": "Karpos Pyr", "description": "[Foes] Hi Fire M.Attack w/15% Seal" },
+    { "name": "Anemos Fotia", "description": "[Foes] Mid Fire M.Attack w/temp Mag. Boost" }
+  ],
+  "passiveSkills": [
+    { "name": "Rouse", "description": "Mag. & End.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Defense", "description": "P.Resist+10%" },
+    { "name": "Magic Resistance", "description": "M.Resist+10%" },
+    { "name": "Instinct", "description": "Agi. & Dex.+10%" }
+  ],
+  "thumbnail": "res/lefiya.viridis-bashful.elf-thumb.png",
+  "image": "res/lefiya.viridis-bashful.elf-full.png"
+}

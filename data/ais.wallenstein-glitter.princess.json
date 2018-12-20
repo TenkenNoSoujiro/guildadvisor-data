@@ -1,0 +1,32 @@
+{ "id": "ais.wallenstein-glitter.princess",
+  "title": "Glitter Princess",
+  "name": "Ais Wallenstein",
+  "alias": ["gp ais", "casino ais"],
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2628,
+  "mp": 192,
+  "str": 1337,
+  "end": 412,
+  "dex": 535,
+  "agi": 759,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true, 
+      "name": "Gorgeous Lil Rafaga", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
+    { "name": "Fortune Strike", "description": "[Foe] Mid P.Attack w/temp Str. Boost" },
+    { "name": "Fortune Chain", "description": "[Foes] Hi P.Attack w/temp Str. Boost" },
+    { "name": "Streak", "description": "[Self] 15% MP Heal & Ailment Resist+60%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Saboteur", "description": "Dex.+5%" },
+    { "name": "Hunter", "description": "Agi.+5%" },
+    { "name": "Tough", "description": "End.+5%" },
+    { "name": "Sword Fighter", "description": "Str.+5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "image": "res/ais.wallenstein-glitter.princess-full.png",
+  "thumbnail": "res/ais.wallenstein-glitter.princess-thumb.png"
+}
