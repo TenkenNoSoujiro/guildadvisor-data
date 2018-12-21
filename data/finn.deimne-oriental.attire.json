@@ -1,0 +1,32 @@
+{ "id": "finn.deimne-oriental.attire",
+  "new": true,
+  "title": "Oriental Attire",
+  "name": "Finn Deimne",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2524,
+  "mp": 207,
+  "str": 934,
+  "end": 342,
+  "dex": 545,
+  "agi": 490,
+  "mag": 789,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Secourer Tenebres", "description": "[Foes] Ultra Light P.Attack w/temp Str. Boost" },
+    { "name": "Void Circle", "description": "[Foes] Mid Light P.Attack w/Str. & Mag.-25%/3 turns" },
+    { "name": "Riptide Roller", "description": "[Foes] Hi Light P.Attack" },
+    { "name": "Crescent Abrasion", "description": "[Foe] Hi Light P.Attack w/temp Str. Boost" }
+  ],
+  "passiveSkills": [
+    { "name": "Crush", "description": "Str.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Dark Resistance", "description": "Dark Resist+25%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "finn.deimne-oriental.attire-thumb.png",
+  "image": "finn.deimne-oriental.attire-full.png"
+}
