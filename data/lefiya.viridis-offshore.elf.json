@@ -27,6 +27,6 @@
     { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
-  "thumbnail": "res/lefiya.viridis-offshore.elf-thumb.png",
-  "image": "res/lefiya.viridis-offshore.elf-full.png"
+  "thumbnail": "lefiya.viridis-offshore.elf-thumb.png",
+  "image": "lefiya.viridis-offshore.elf-full.png"
 }

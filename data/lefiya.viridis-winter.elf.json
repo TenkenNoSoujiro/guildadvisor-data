@@ -27,6 +27,6 @@
     { "name": "Unbreakable", "description": "End.+8%" },
     { "name": "Fire Resistance", "description": "Fire Resist.+20%" }
   ],
-  "thumbnail": "res/lefiya.viridis-winter.elf-thumb.png",
-  "image": "res/lefiya.viridis-winter.elf-full.png"
+  "thumbnail": "lefiya.viridis-winter.elf-thumb.png",
+  "image": "lefiya.viridis-winter.elf-full.png"
 }

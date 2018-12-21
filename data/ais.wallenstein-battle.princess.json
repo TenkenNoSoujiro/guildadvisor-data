@@ -26,6 +26,6 @@
     { "name": "Status Resist", "description": "Ailment Resist+5%" },
     { "name": "Spirit Healing", "description": "1% MP Regen/turn" }
   ],
-  "image": "res/ais.wallenstein-battle.princess-full.png",
-  "thumbnail": "res/ais.wallenstein-battle.princess-thumb.png"
+  "image": "ais.wallenstein-battle.princess-full.png",
+  "thumbnail": "ais.wallenstein-battle.princess-thumb.png"
 }

@@ -27,6 +27,6 @@
     { "name": "Enlightenment", "description": "Mag.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
-  "thumbnail": "res/liliruca.arde-lovely.travel-thumb.png",
-  "image": "res/liliruca.arde-lovely.travel-full.png"
+  "thumbnail": "liliruca.arde-lovely.travel-thumb.png",
+  "image": "liliruca.arde-lovely.travel-full.png"
 }

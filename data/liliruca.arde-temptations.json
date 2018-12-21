@@ -27,6 +27,6 @@
     { "name": "Status Resist", "description": "Ailment Resist+15%" },
     { "name": "Magic Resistance", "description": "M.Resist+10%" }
   ],
-  "thumbnail": "res/liliruca.arde-temptations-thumb.png",
-  "image": "res/liliruca.arde-temptations-full.png"
+  "thumbnail": "liliruca.arde-temptations-thumb.png",
+  "image": "liliruca.arde-temptations-full.png"
 }

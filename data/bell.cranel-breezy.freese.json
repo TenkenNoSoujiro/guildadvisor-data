@@ -27,6 +27,6 @@
     { "name": "Enlightenment", "description": "Mag.+50%" },
     { "name": "Luck", "description": "All Status+11%" }
   ],
-  "thumbnail": "res/bell.cranel-breezy.freese-thumb.png",
-  "image": "res/bell.cranel-breezy.freese-full.png"
+  "thumbnail": "bell.cranel-breezy.freese-thumb.png",
+  "image": "bell.cranel-breezy.freese-full.png"
 }

@@ -14,7 +14,7 @@
   "agi": 788,
   "mag": 328,
   "combatSkills": [
-    { "specialArts": true, 
+    { "specialArts": true,
       "name": "Mortal Encounter", "description": "[Foe] Ultra Dark P.Attack w/temp Str. Boost" },
     { "name": "Devour Magic", "description": "[Foe] Mid Dark P.Attack w/temp Str. Boost & Dark Resist-25%/4 turns" },
     { "name": "Bone Spliter", "description": "[Foe] Mid Dark P.Attack w/temp Str. Boost & Mag.-30%/4 turns" },
@@ -27,6 +27,6 @@
     { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
-  "image": "res/ais.wallenstein-starving.mind-full.png",
-  "thumbnail": "res/ais.wallenstein-starving.mind-thumb.png"
+  "image": "ais.wallenstein-starving.mind-full.png",
+  "thumbnail": "ais.wallenstein-starving.mind-thumb.png"
 }

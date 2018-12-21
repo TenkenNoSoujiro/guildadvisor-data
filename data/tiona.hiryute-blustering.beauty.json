@@ -13,7 +13,7 @@
   "agi": 543,
   "mag": 981,
   "combatSkills": [
-    { "specialArts": true, 
+    { "specialArts": true,
       "name": "Gamine Prune", "description": "[Foes] Ultra Thunder P.Attack w/50% Stun" },
     { "name": "Gardien Tonnerre", "description": "[Allies] P.Resist & M.Resist+35%/2 turns" },
     { "name": "Temerite Innocence", "description": "[Allies] Agi. & End.+30%/3 turns" },
@@ -26,6 +26,6 @@
     { "name": "Concentrate", "description": "Agi. & Dex.+15%" },
     { "name": "Crush", "description": "Str.+15%" }
   ],
-  "image": "res/tiona.hiryute-blustering.beauty-full.png",
-  "thumbnail": "res/tiona.hiryute-blustering.beauty-thumb.png"
+  "image": "tiona.hiryute-blustering.beauty-full.png",
+  "thumbnail": "tiona.hiryute-blustering.beauty-thumb.png"
 }

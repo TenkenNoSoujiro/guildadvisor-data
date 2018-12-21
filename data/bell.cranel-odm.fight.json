@@ -27,6 +27,6 @@
     { "name": "Enlightenment", "description": "Mag.+5%" },
     { "name": "Luck", "description": "All Status+10%" }
   ],
-  "thumbnail": "res/bell.cranel-odm.fight-thumb.png",
-  "image": "res/bell.cranel-odm.fight-full.png"
+  "thumbnail": "bell.cranel-odm.fight-thumb.png",
+  "image": "bell.cranel-odm.fight-full.png"
 }

@@ -26,6 +26,6 @@
     { "name": "Crush", "description": "Str.+3%" },
     { "name": "Luck", "description": "All Status+2%" }
   ],
-  "thumbnail": "res/bell.cranel-adventurer-thumb.png",
-  "image": "res/bell.cranel-adventurer-full.png"
+  "thumbnail": "bell.cranel-adventurer-thumb.png",
+  "image": "bell.cranel-adventurer-full.png"
 }

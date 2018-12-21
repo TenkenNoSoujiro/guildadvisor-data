@@ -27,6 +27,6 @@
     { "name": "Status Resist", "description": "Ailment Resist+15%" },
     { "name": "Mind's Eye", "description": "Mag.+4%" }
   ],
-  "thumbnail": "res/liliruca.arde-artel.tart-thumb.png",
-  "image": "res/liliruca.arde-artel.tart-full.png"
+  "thumbnail": "liliruca.arde-artel.tart-thumb.png",
+  "image": "liliruca.arde-artel.tart-full.png"
 }

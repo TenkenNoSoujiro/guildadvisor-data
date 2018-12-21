@@ -27,6 +27,6 @@
     { "name": "Status Resist", "description": "Ailment Resist+15%" },
     { "name": "Light Resistance", "description": "Light Resist+20%" }
   ],
-  "thumbnail": "res/liliruca.arde-sweet.devil-thumb.png",
-  "image": "res/liliruca.arde-sweet.devil-full.png"
+  "thumbnail": "liliruca.arde-sweet.devil-thumb.png",
+  "image": "liliruca.arde-sweet.devil-full.png"
 }

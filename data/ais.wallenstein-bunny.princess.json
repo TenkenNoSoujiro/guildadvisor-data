@@ -14,7 +14,7 @@
   "agi": 759,
   "mag": 328,
   "combatSkills": [
-    { "specialArts": true, 
+    { "specialArts": true,
       "name": "Jackpot Lil Rafaga", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
     { "name": "Lucky Strike", "description": "[Foe] Mid P.Attack w/temp Str. Boost" },
     { "name": "Lucky Chain", "description": "[Foes] Hi P.Attack w/temp Str. Boost" },
@@ -27,6 +27,6 @@
     { "name": "Sword Fighter", "description": "Str.+5%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
-  "image": "res/ais.wallenstein-bunny.princess-full.png",
-  "thumbnail": "res/ais.wallenstein-bunny.princess-thumb.png"
+  "image": "ais.wallenstein-bunny.princess-full.png",
+  "thumbnail": "ais.wallenstein-bunny.princess-thumb.png"
 }

@@ -14,7 +14,7 @@
   "agi": 755,
   "mag": 1319,
   "combatSkills": [
-    { "specialArts": true, 
+    { "specialArts": true,
       "name": "Present Lil Rafaga", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost" },
     { "name": "Kamita Mech", "description": "[Foes] Hi Water M.Attack & Agi.-20%/4 turns" },
     { "name": "Varder Mech", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost" },
@@ -27,6 +27,6 @@
     { "name": "Strike", "description": "Critical Damage+10%" },
     { "name": "Fire Resistance", "description": "Fire Resist+20%" }
   ],
-  "image": "res/ais.wallenstein-santa.princess-full.png",
-  "thumbnail": "res/ais.wallenstein-santa.princess-thumb.png"
+  "image": "ais.wallenstein-santa.princess-full.png",
+  "thumbnail": "ais.wallenstein-santa.princess-thumb.png"
 }

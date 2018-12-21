@@ -27,6 +27,6 @@
     { "name": "Status Resist", "description": "Ailment Resist+10%" },
     { "name": "Crush", "description": "Str.+4.5%" }
   ],
-  "thumbnail": "res/liliruca.arde-artel.assist-thumb.png",
-  "image": "res/liliruca.arde-artel.assist-full.png"
+  "thumbnail": "liliruca.arde-artel.assist-thumb.png",
+  "image": "liliruca.arde-artel.assist-full.png"
 }

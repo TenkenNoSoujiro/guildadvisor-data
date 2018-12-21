@@ -27,6 +27,6 @@
     { "name": "Status Resist", "description": "Ailment Resist+15%" },
     { "name": "Luck", "description": "All Status+10%" }
   ],
-  "thumbnail": "res/bell.cranel-honor.succession-thumb.png",
-  "image": "res/bell.cranel-honor.succession-full.png"
+  "thumbnail": "bell.cranel-honor.succession-thumb.png",
+  "image": "bell.cranel-honor.succession-full.png"
 }

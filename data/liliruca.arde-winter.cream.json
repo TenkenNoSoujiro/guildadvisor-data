@@ -27,6 +27,6 @@
     { "name": "Forestall", "description": "Mag. & Agi.+15%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
-  "thumbnail": "res/liliruca.arde-winter.cream-thumb.png",
-  "image": "res/liliruca.arde-winter.cream-full.png"
+  "thumbnail": "liliruca.arde-winter.cream-thumb.png",
+  "image": "liliruca.arde-winter.cream-full.png"
 }

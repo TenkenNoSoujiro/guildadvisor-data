@@ -27,6 +27,6 @@
     { "name": "Magic Resistance", "description": "M.Resist+10%" },
     { "name": "Instinct", "description": "Agi. & Dex.+10%" }
   ],
-  "thumbnail": "res/lefiya.viridis-bashful.elf-thumb.png",
-  "image": "res/lefiya.viridis-bashful.elf-full.png"
+  "thumbnail": "lefiya.viridis-bashful.elf-thumb.png",
+  "image": "lefiya.viridis-bashful.elf-full.png"
 }

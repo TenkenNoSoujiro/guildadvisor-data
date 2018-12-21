@@ -14,7 +14,7 @@
   "agi": 759,
   "mag": 328,
   "combatSkills": [
-    { "specialArts": true, 
+    { "specialArts": true,
       "name": "Gorgeous Lil Rafaga", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
     { "name": "Fortune Strike", "description": "[Foe] Mid P.Attack w/temp Str. Boost" },
     { "name": "Fortune Chain", "description": "[Foes] Hi P.Attack w/temp Str. Boost" },
@@ -27,6 +27,6 @@
     { "name": "Sword Fighter", "description": "Str.+5%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
-  "image": "res/ais.wallenstein-glitter.princess-full.png",
-  "thumbnail": "res/ais.wallenstein-glitter.princess-thumb.png"
+  "image": "ais.wallenstein-glitter.princess-full.png",
+  "thumbnail": "ais.wallenstein-glitter.princess-thumb.png"
 }

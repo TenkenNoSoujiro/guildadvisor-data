@@ -27,6 +27,6 @@
     { "name": "Status Resist", "description": "Ailment Resist+15%" },
     { "name": "Spirit Killer", "description": "Ability Pt.+50% toward Spirits", "nemesis": "Spirit" }
   ],
-  "thumbnail": "res/lefiya.viridis-elven.awakening-thumb.png",
-  "image": "res/lefiya.viridis-elven.awakening-full.png"
+  "thumbnail": "lefiya.viridis-elven.awakening-thumb.png",
+  "image": "lefiya.viridis-elven.awakening-full.png"
 }

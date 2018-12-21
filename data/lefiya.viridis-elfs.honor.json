@@ -27,6 +27,6 @@
     { "name": "Healing Power", "description": "3% HP Regen/turn" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
-  "thumbnail": "res/lefiya.viridis-elfs.honor-thumb.png",
-  "image": "res/lefiya.viridis-elfs.honor-full.png"
+  "thumbnail": "lefiya.viridis-elfs.honor-thumb.png",
+  "image": "lefiya.viridis-elfs.honor-full.png"
 }

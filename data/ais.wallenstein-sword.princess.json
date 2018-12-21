@@ -13,7 +13,7 @@
   "agi": 529,
   "mag": 171,
   "combatSkills": [
-    { "specialArts": true, 
+    { "specialArts": true,
       "name": "Lil Rafaga", "description": "[Foes] Hi Wind M.Attack indexed to Str." },
     { "name": "Ariel", "description": "[Self] Str.+50% & P.Resist+5%/4 turns" },
     { "name": "Tres Piercer", "description": "[Foe] Lo P.Attack" },
@@ -26,6 +26,6 @@
     { "name": "Status Resist", "description": "Ailment Resist+10%" },
     { "name": "Spirit Healing", "description": "1% MP Regen/turn" }
   ],
-  "image": "res/ais.wallenstein-sword.princess-full.png",
-  "thumbnail": "res/ais.wallenstein-sword.princess-thumb.png"
+  "image": "ais.wallenstein-sword.princess-full.png",
+  "thumbnail": "ais.wallenstein-sword.princess-thumb.png"
 }

@@ -13,7 +13,7 @@
   "agi": 759,
   "mag": 1357,
   "combatSkills": [
-    { "specialArts": true, 
+    { "specialArts": true,
       "name": "Sacred Peony", "description": "[Foe] Ultra Light M.Attack w/temp Mag. Boost" },
     { "name": "Flash Perfume", "description": "[Foe] Lo Light M.Attack & [Self] Light Attack Dmg.+75%/4 turns" },
     { "name": "Rampage Beat", "description": "[Self] Increase S.A. Gauge Charge gain by 100%/4 turns & [Foe] Lo Light M.Attack" },
@@ -26,6 +26,6 @@
     { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
     { "name": "Beast Killer", "description": "Ability Pt.+50% toward Beasts", "nemesis": "Beast" }
   ],
-  "image": "res/tione.hiryute-blushing.peony-full.png",
-  "thumbnail": "res/tione.hiryute-blushing.peony-thumb.png"
+  "image": "tione.hiryute-blushing.peony-full.png",
+  "thumbnail": "tione.hiryute-blushing.peony-thumb.png"
 }

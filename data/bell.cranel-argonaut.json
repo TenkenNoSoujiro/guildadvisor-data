@@ -26,6 +26,6 @@
     { "name": "Climb", "description": "End. & Agi.+6%" },
     { "name": "Luck", "description": "All Status+5%" }
   ],
-  "thumbnail": "res/bell.cranel-argonaut-thumb.png",
-  "image": "res/bell.cranel-argonaut-full.png"
+  "thumbnail": "bell.cranel-argonaut-thumb.png",
+  "image": "bell.cranel-argonaut-full.png"
 }

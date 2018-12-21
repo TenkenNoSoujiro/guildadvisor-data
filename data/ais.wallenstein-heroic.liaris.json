@@ -14,7 +14,7 @@
   "agi": 788,
   "mag": 327,
   "combatSkills": [
-    { "specialArts": true, 
+    { "specialArts": true,
       "name": "Tempest Lil Rafaga", "description": "[Foes] Ultra Wind M.Attack indexed to Str." },
     { "name": "Ariel", "description": "[Self] Str.+75% & P.Resist+10%/4 turns" },
     { "name": "Tres Piercer", "description": "[Foe] Hi P.Attack" },
@@ -27,6 +27,6 @@
     { "name": "Status Resist", "description": "Ailment Resist+15%" },
     { "name": "Spirit Healing", "description": "1% MP Regen/turn" }
   ],
-  "image": "res/ais.wallenstein-heroic.liaris-full.png",
-  "thumbnail": "res/ais.wallenstein-heroic.liaris-thumb.png"
+  "image": "ais.wallenstein-heroic.liaris-full.png",
+  "thumbnail": "ais.wallenstein-heroic.liaris-thumb.png"
 }

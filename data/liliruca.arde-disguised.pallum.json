@@ -27,6 +27,6 @@
     { "name": "Status Resist", "description": "Ailment Resist+15%" },
     { "name": "Tough", "description": "End.+5.5%" }
   ],
-  "thumbnail": "res/liliruca.arde-disguised.pallum-thumb.png",
-  "image": "res/liliruca.arde-disguised.pallum-full.png"
+  "thumbnail": "liliruca.arde-disguised.pallum-thumb.png",
+  "image": "liliruca.arde-disguised.pallum-full.png"
 }

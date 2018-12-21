@@ -26,6 +26,6 @@
     { "name": "Chef", "description": "Dex.+10%" },
     { "name": "Unbreakable", "description": "End.+10%" }
   ],
-  "thumbnail": "res/lefiya.viridis-incantation-thumb.png",
-  "image": "res/lefiya.viridis-incantation-full.png"
+  "thumbnail": "lefiya.viridis-incantation-thumb.png",
+  "image": "lefiya.viridis-incantation-full.png"
 }

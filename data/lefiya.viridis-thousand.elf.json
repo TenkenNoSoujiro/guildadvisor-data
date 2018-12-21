@@ -27,6 +27,6 @@
     { "name": "Enlightenment", "description": "Mag.+4%" },
     { "name": "Unbreakable", "description": "End.+7.5%" }
   ],
-  "thumbnail": "res/lefiya.viridis-thousand.elf-thumb.png",
-  "image": "res/lefiya.viridis-thousand.elf-full.png"
+  "thumbnail": "lefiya.viridis-thousand.elf-thumb.png",
+  "image": "lefiya.viridis-thousand.elf-full.png"
 }
