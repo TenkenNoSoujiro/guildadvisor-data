@@ -1,0 +1,32 @@
+{ "id": "welf.crozzo-ignis",
+  "new": false,
+  "title": "Ignis",
+  "name": "Welf Crozzo",
+  "kind": "adventurer",
+  "type": "defense",
+  "limited": false,
+  "rarity": 3,
+  "hp": 3064,
+  "mp": 168,
+  "str": 515,
+  "end": 573,
+  "dex": 382,
+  "agi": 239,
+  "mag": 238,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Firemoon", "description": "[Foes] Hi Fire M.Attack indexed to End. & Mag." },
+    { "name": "Zangetsu", "description": "[Foe] Lo P.Attack" },
+    { "name": "Will o' Wisp", "description": "[Self] Reflects M.Attack x1 exc. Special Arts" },
+    { "name": "Starkhaut", "description": "[Foe] 50% Taunt" }
+  ],
+  "passiveSkills": [
+    { "name": "Blacksmith", "description": "End.+2%" },
+    { "name": "Tough", "description": "End.+2%" },
+    { "name": "Mind's Eye", "description": "Mag.+7.5%" },
+    { "name": "Crafter", "description": "Dex.+7.5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" }
+  ],
+  "thumbnail": "welf.crozzo-ignis.png",
+  "image": "welf.crozzo-ignis.png"
+}

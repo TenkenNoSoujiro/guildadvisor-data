@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "dependencies": {
+    "handlebars": "^4.0.12",
+    "prompts": "^2.0.0"
+  },
+  "scripts": {
+    "create": "node scripts/unit"
+  }
+}

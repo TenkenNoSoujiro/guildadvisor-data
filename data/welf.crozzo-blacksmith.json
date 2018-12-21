@@ -1,0 +1,32 @@
+{ "id": "welf.crozzo-blacksmith",
+  "new": false,
+  "title": "Blacksmith",
+  "name": "Welf Crozzo",
+  "kind": "adventurer",
+  "type": "defense",
+  "limited": false,
+  "rarity": 2,
+  "hp": 3034,
+  "mp": 165,
+  "str": 343,
+  "end": 462,
+  "dex": 294,
+  "agi": 166,
+  "mag": 208,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Firemoon", "description": "[Foes] Hi Fire M.Attack indexed to End. & Mag." },
+    { "name": "Zangetsu", "description": "[Foe] Lo P.Attack" },
+    { "name": "Will o' Wisp", "description": "[Self] Reflects M.Attack x1 exc. Special Arts" },
+    { "name": "Starkhaut", "description": "[Foe] 50% Taunt" }
+  ],
+  "passiveSkills": [
+    { "name": "Blacksmith", "description": "End.+1.5%" },
+    { "name": "Tough", "description": "End.+1.5%" },
+    { "name": "Mind's Eye", "description": "Mag.+5%" },
+    { "name": "Crafter", "description": "Dex.+5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+5%" }
+  ],
+  "thumbnail": "welf.crozzo-blacksmith.png",
+  "image": "welf.crozzo-blacksmith.png"
+}
