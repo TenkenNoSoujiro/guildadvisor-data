@@ -27,6 +27,7 @@
     { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
+  "new": true,
   "banner": "2019 New Year's Sale Battle Fun ny ny2019",
   "thumbnail": "lefiya.viridis-geisha.elf-thumb.png",
   "image": "lefiya.viridis-geisha.elf-full.png"

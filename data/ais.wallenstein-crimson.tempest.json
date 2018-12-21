@@ -26,6 +26,7 @@
     { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
+  "new": true,
   "banner": "2019 New Year's Sale Battle Rich ny ny2019",
   "image": "ais.wallenstein-crimson.tempest-full.png",
   "thumbnail": "ais.wallenstein-crimson.tempest-thumb.png"
