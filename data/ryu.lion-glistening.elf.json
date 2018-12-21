@@ -27,6 +27,6 @@
     { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
-  "thumbnail": "ryu.lion-glistening.elf.png",
-  "image": "ryu.lion-glistening.elf.png"
+  "thumbnail": "ryu.lion-glistening.elf-thumb.png",
+  "image": "ryu.lion-glistening.elf-full.png"
 }

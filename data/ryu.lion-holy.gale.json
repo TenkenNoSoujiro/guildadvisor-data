@@ -27,6 +27,6 @@
     { "name": "Strike", "description": "Critical Damage+10%" },
     { "name": "Fire Resistance", "description": "Fire Resist+20%" }
   ],
-  "thumbnail": "ryu.lion-holy.gale.png",
-  "image": "ryu.lion-holy.gale.png"
+  "thumbnail": "ryu.lion-holy.gale-thumb.png",
+  "image": "ryu.lion-holy.gale-full.png"
 }

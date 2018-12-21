@@ -27,6 +27,6 @@
     { "name": "Hunter", "description": "Agi.+4%" },
     { "name": "Status Resist", "description": "Ailment Resist+10%" }
   ],
-  "thumbnail": "ryu.lion-beach.winds.png",
-  "image": "ryu.lion-beach.winds.png"
+  "thumbnail": "ryu.lion-beach.winds-thumb.png",
+  "image": "ryu.lion-beach.winds-full.png"
 }

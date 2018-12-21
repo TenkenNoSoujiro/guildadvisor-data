@@ -27,6 +27,6 @@
     { "name": "Protection", "description": "P.Resist & M.Resist+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
-  "thumbnail": "ryu.lion-gale.disguised.png",
-  "image": "ryu.lion-gale.disguised.png"
+  "thumbnail": "ryu.lion-gale.disguised-thumb.png",
+  "image": "ryu.lion-gale.disguised-full.png"
 }

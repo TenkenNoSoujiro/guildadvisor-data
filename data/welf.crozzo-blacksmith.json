@@ -27,6 +27,6 @@
     { "name": "Crafter", "description": "Dex.+5%" },
     { "name": "Status Resist", "description": "Ailment Resist+5%" }
   ],
-  "thumbnail": "welf.crozzo-blacksmith.png",
-  "image": "welf.crozzo-blacksmith.png"
+  "thumbnail": "welf.crozzo-blacksmith-thumb.png",
+  "image": "welf.crozzo-blacksmith-full.png"
 }

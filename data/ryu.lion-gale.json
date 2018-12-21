@@ -27,6 +27,6 @@
     { "name": "Concentrate", "description": "Agi. & Dex.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
-  "thumbnail": "ryu.lion-gale.png",
-  "image": "ryu.lion-gale.png"
+  "thumbnail": "ryu.lion-gale-thumb.png",
+  "image": "ryu.lion-gale-full.png"
 }

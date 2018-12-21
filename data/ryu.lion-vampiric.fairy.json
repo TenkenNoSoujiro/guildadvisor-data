@@ -27,6 +27,6 @@
     { "name": "Vision", "description": "Mag. & Agi.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
-  "thumbnail": "ryu.lion-vampiric.fairy.png",
-  "image": "ryu.lion-vampiric.fairy.png"
+  "thumbnail": "ryu.lion-vampiric.fairy-thumb.png",
+  "image": "ryu.lion-vampiric.fairy-full.png"
 }

@@ -27,6 +27,6 @@
     { "name": "Crafter", "description": "Dex.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
-  "thumbnail": "welf.crozzo-howling.blade.png",
-  "image": "welf.crozzo-howling.blade.png"
+  "thumbnail": "welf.crozzo-howling.blade-thumb.png",
+  "image": "welf.crozzo-howling.blade-full.png"
 }
