@@ -1,0 +1,32 @@
+{ "id": "finn.deimne-brave.swordsman",
+  "new": false,
+  "title": "Brave Swordsman",
+  "name": "Finn Deimne",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2676,
+  "mp": 180,
+  "str": 1423,
+  "end": 430,
+  "dex": 548,
+  "agi": 801,
+  "mag": 315,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Furious Brave", "description": "[Foe] Ultra P.Attack w/Ultra Penetration Rate & temp Str. Boost" },
+    { "name": "Heightened Strike", "description": "[Foe] Hi P.Attack w/temp Str. Boost" },
+    { "name": "Slash Cleave", "description": "[Foes] Mid P.Attack" },
+    { "name": "Enrage", "description": "[Foe] Lo P.Attack & [Self] Str.+75%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Aching Thumb", "description": "Dex.+10%" },
+    { "name": "Acceleration", "description": "Agi.+10%" },
+    { "name": "Unbreakable", "description": "End.+10%" },
+    { "name": "Crush", "description": "Str.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "finn.deimne-brave.swordsman-thumb.png",
+  "image": "finn.deimne-brave.swordsman-full.png"
+}

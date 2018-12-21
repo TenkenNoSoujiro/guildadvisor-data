@@ -1,0 +1,32 @@
+{ "id": "finn.deimne-captain",
+  "new": false,
+  "title": "Captain",
+  "name": "Finn Deimne",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 2,
+  "hp": 2306,
+  "mp": 199,
+  "str": 340,
+  "end": 231,
+  "dex": 369,
+  "agi": 301,
+  "mag": 311,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Braver Assault", "description": "[Foes] Hi P.Attack" },
+    { "name": "Rush Spear", "description": "[Foe] Fast Lo P.Attack" },
+    { "name": "Braver Order", "description": "[Allies] Critical Rate+20%/4 turns" },
+    { "name": "Mortal Banish", "description": "[Foes] Lo P.Attack" }
+  ],
+  "passiveSkills": [
+    { "name": "Sword Fighter", "description": "Str.+3%" },
+    { "name": "Aching Thumb", "description": "Dex.+5%" },
+    { "name": "Crush", "description": "Str.+3%" },
+    { "name": "Hunter", "description": "Agi.+3%" },
+    { "name": "Acceleration", "description": "Agi.+3%" }
+  ],
+  "thumbnail": "finn.deimne-captain-thumb.png",
+  "image": "finn.deimne-captain-full.png"
+}

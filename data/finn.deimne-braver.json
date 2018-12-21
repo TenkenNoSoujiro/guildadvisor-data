@@ -1,0 +1,32 @@
+{ "id": "finn.deimne-braver",
+  "new": false,
+  "title": "Braver",
+  "name": "Finn Deimne",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2336,
+  "mp": 201,
+  "str": 462,
+  "end": 304,
+  "dex": 498,
+  "agi": 416,
+  "mag": 389,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Braver Assault", "description": "[Foes] Hi P.Attack" },
+    { "name": "Rush Spear", "description": "[Foe] Fast Lo P.Attack" },
+    { "name": "Braver Order", "description": "[Allies] Critical Rate+20%/4 turns" },
+    { "name": "Trample Lance", "description": "[Foe] Mid P.Attack w/temp Str. Boost & Ultra Penetration Rate" }
+  ],
+  "passiveSkills": [
+    { "name": "Sword Fighter", "description": "Str.+4%" },
+    { "name": "Arching Thumb", "description": "Dex.+7.5%" },
+    { "name": "Crush", "description": "Str.+4%" },
+    { "name": "Hunter", "description": "Agi.+4%" },
+    { "name": "Acceleration", "description": "Agi.+4%" }
+  ],
+  "thumbnail": "finn.deimne-braver-thumb.png",
+  "image": "finn.deimne-braver-full.png"
+}

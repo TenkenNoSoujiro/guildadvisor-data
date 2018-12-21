@@ -1,0 +1,32 @@
+{ "id": "finn.deimne-classy.gentleman",
+  "new": false,
+  "title": "Classy Gentleman",
+  "name": "Finn Deimne",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2542,
+  "mp": 189,
+  "str": 1172,
+  "end": 349,
+  "dex": 530,
+  "agi": 750,
+  "mag": 327,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Tactical Tuxedo", "description": "[Allies] Critical Rate+100%/4 turns" },
+    { "name": "Rush Spear", "description": "[Foe] Fast Mid P.Attack" },
+    { "name": "Buster Edge", "description": "[Foe] Lo P.Attack w/Heal 20% of Dmg." },
+    { "name": "Destructor", "description": "[Foes] Hi P.Attack" }
+  ],
+  "passiveSkills": [
+    { "name": "Sword Fighter", "description": "Str.+5%" },
+    { "name": "Aching Thumb", "description": "Dex.+10%" },
+    { "name": "Crush", "description": "Str.+5%" },
+    { "name": "Hunter", "description": "Agi.+5%" },
+    { "name": "Spirit Healing", "description": "5% MP Regen/turn" }
+  ],
+  "thumbnail": "finn.deimne-classy.gentleman-thumb.png",
+  "image": "finn.deimne-classy.gentleman-full.png"
+}

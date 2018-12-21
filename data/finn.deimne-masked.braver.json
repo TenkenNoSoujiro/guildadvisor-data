@@ -1,0 +1,32 @@
+{ "id": "finn.deimne-masked.braver",
+  "new": false,
+  "title": "Masked Braver",
+  "name": "Finn Deimne",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2426,
+  "mp": 204,
+  "str": 664,
+  "end": 407,
+  "dex": 697,
+  "agi": 592,
+  "mag": 581,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Hell Finegas", "description": "[Foes] Ultra P.Attack" },
+    { "name": "Trample Lance", "description": "[Foe] Mid P.Attack w/temp Str. Boost & Ultra Penetration Rate" },
+    { "name": "Braver Order", "description": "[Allies] Critical Rate+30%/4 turns" },
+    { "name": "Destructor", "description": "[Foes] Hi P.Attack & Critical Rate-20%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Sword Fighter", "description": "Str.+5%" },
+    { "name": "Aching Thumb", "description": "Dex.+10%" },
+    { "name": "Crush", "description": "Str.+5%" },
+    { "name": "Hunter", "description": "Agi.+5%" },
+    { "name": "Acceleration", "description": "Agi.+5%" }
+  ],
+  "thumbnail": "finn.deimne-masked.braver-thumb.png",
+  "image": "finn.deimne-masked.braver-full.png"
+}
