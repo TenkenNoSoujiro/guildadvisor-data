@@ -151,6 +151,7 @@
       "description": "An Adventurer unit.",
       "properties": {
         "id": { "type": "string" },
+        "new": { "type": "boolean" },
         "kind": { "const": "adventurer", "description": "The kind of unit." },
         "title": { "type": "string", "description": "The unit's title (unique between different units with the same name)." },
         "name": { "type": "string", "description": "The unit's character name." },
@@ -168,7 +169,14 @@
         "passiveSkills": { "type": "array", "items": { "$ref": "#/definitions/PassiveSkill" }, "description": "The unit's Skills/Development Abilities" },
         "image": { "type": "string" },
         "thumbnail": { "type": "string" },
-        "alias": { "item": { "type": "string" }, "uniqueItems": true, "default": [] }
+        "alias": { "item": { "type": "string" }, "uniqueItems": true, "default": [] },
+        "banner": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+          ],
+          "default": ""
+        }
       },
       "required": ["id", "title", "name", "rarity", "hp", "mp", "str", "end", "dex", "agi", "mag", "kind", "type", "combatSkills", "passiveSkills"],
       "additionalProperties": false
@@ -179,6 +187,7 @@
       "description": "An Assist unit",
       "properties": {
         "id": { "type": "string" },
+        "new": { "type": "boolean" },
         "kind": { "const": "assist" },
         "title": { "type": "string", "description": "The unit's title (unique between different units with the same name)." },
         "name": { "type": "string", "description": "The unit's character name." },
@@ -194,7 +203,14 @@
         "skill": { "$ref": "#/definitions/AssistSkill" },
         "image": { "type": "string" },
         "thumbnail": { "type": "string" },
-        "alias": { "item": { "type": "string" }, "uniqueItems": true }
+        "alias": { "item": { "type": "string" }, "uniqueItems": true },
+        "banner": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+          ],
+          "default": ""
+        }
       },
       "required": ["id", "title", "name", "rarity", "hp", "mp", "str", "end", "dex", "agi", "mag", "kind", "skill"],
       "additionalProperties": false
