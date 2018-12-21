@@ -1,0 +1,32 @@
+{ "id": "yamato.mikoto-zetsu.ei",
+  "new": false,
+  "title": "Zetsu Ei",
+  "name": "Yamato Mikoto",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2316,
+  "mp": 201,
+  "str": 454,
+  "end": 329,
+  "dex": 498,
+  "agi": 386,
+  "mag": 394,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Futsunomitama", "description": "[Foes] Hi Dark M.Attack" },
+    { "name": "Samidare-Giri", "description": "[Foes] Lo P.Attack" },
+    { "name": "Kagenui Nishiki", "description": "[Foes] Agi.-15%/4 turns" },
+    { "name": "Jubaku-jin Nishiki", "description": "[Foes] Str.-15%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Crafter", "description": "Dex.+7.5%" },
+    { "name": "Tough", "description": "End.+4.5%" },
+    { "name": "Sword Fighter", "description": "Str.+7.5%" },
+    { "name": "Indomitable", "description": "End.+4.5%" }
+  ],
+  "thumbnail": "yamato.mikoto-zetsu.ei-thumb.png",
+  "image": "yamato.mikoto-zetsu.ei-full.png"
+}

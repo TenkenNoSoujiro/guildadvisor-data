@@ -1,0 +1,32 @@
+{ "id": "yamato.mikoto-samurai.kunoichi",
+  "new": false,
+  "title": "Samurai Kunoichi",
+  "name": "Yamato Mikoto",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2406,
+  "mp": 204,
+  "str": 660,
+  "end": 449,
+  "dex": 697,
+  "agi": 537,
+  "mag": 585,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Tenka-chizan", "description": "[Foes] Ultra P.Attack" },
+    { "name": "Brutal Slash Kai", "description": "[Foe] Hi P.Attack w/Ultra Uncounter Rate" },
+    { "name": "Kagenui Yonshiki", "description": "[Foes] Agi.-35%/4 turns" },
+    { "name": "Jubaku-jin Yonshiki", "description": "[Foes] Str.-35%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Crafter", "description": "Dex.+10%" },
+    { "name": "Tough", "description": "End.+5.5%" },
+    { "name": "Sword Fighter", "description": "Str.+10%" },
+    { "name": "Indomitable", "description": "End.+5.5%" }
+  ],
+  "thumbnail": "yamato.mikoto-samurai.kunoichi-thumb.png",
+  "image": "yamato.mikoto-samurai.kunoichi-full.png"
+}

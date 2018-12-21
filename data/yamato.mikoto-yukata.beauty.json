@@ -1,0 +1,32 @@
+{ "id": "yamato.mikoto-yukata.beauty",
+  "new": false,
+  "title": "Yukata Beauty",
+  "name": "Yamato Mikoto",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2440,
+  "mp": 211,
+  "str": 1095,
+  "end": 472,
+  "dex": 738,
+  "agi": 547,
+  "mag": 593,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Furin-kazan", "description": "[Foes] Ultra Wind P.Attack w/temp Str. Boost" },
+    { "name": "Catalpa Katana", "description": "[Foes] Hi Wind P.Attack w/temp Str. Boost" },
+    { "name": "Kekkai-jin Sanshiki", "description": "[Foes] Mid Wind P.Attack w/P.Resist & Guard Rate-25%/3 turns" },
+    { "name": "Ichino-gata Gekishin", "description": "[Foe] Hi Wind P.Attack w/temp Str. Boost" }
+  ],
+  "passiveSkills": [
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Train", "description": "Dex. & End.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Sword Fighter", "description": "Str.+75%" },
+    { "name": "Earth Resistance", "description": "Earth Resist+20%" }
+  ],
+  "thumbnail": "yamato.mikoto-yukata.beauty-thumb.png",
+  "image": "yamato.mikoto-yukata.beauty-full.png"
+}

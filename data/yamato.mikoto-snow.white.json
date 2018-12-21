@@ -1,0 +1,32 @@
+{ "id": "yamato.mikoto-snow.white",
+  "new": false,
+  "title": "Snow White",
+  "name": "Yamato Mikoto",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2316,
+  "mp": 201,
+  "str": 400,
+  "end": 291,
+  "dex": 436,
+  "agi": 333,
+  "mag": 355,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Futsunomitama", "description": "[Foes] Hi Dark M.Attack" },
+    { "name": "Samidare-Giri", "description": "[Foes] Lo P.Attack" },
+    { "name": "Fuma-jin Nishiki", "description": "[Foes] Mag.-15%/4 turns" },
+    { "name": "Yoroi-kuzushi Nishiki", "description": "[Foes] Guard Rate-15%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Crafter", "description": "Dex.+7.5%" },
+    { "name": "Tough", "description": "End.+4.5%" },
+    { "name": "Sword Fighter", "description": "Str.+7.5%" },
+    { "name": "Indomitable", "description": "End.+4.5%" }
+  ],
+  "thumbnail": "yamato.mikoto-snow.white-thumb.png",
+  "image": "yamato.mikoto-snow.white-full.png"
+}
