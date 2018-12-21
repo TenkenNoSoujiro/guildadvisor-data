@@ -1,0 +1,32 @@
+{ "id": "ryu.lion-gale",
+  "new": false,
+  "title": "Gale",
+  "name": "Ryu Lion",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2426,
+  "mp": 206,
+  "str": 596,
+  "end": 445,
+  "dex": 699,
+  "agi": 597,
+  "mag": 645,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Luminous Wind", "description": "[Foes] Ultra Wind M.Attack" },
+    { "name": "Noah Heal", "description": "[Allies] Mid Heal" },
+    { "name": "Vindblitz", "description": "[Foe] Mid Wind M.Attack w/temp Mag. Boost & Ultra Penetration Rate" },
+    { "name": "Teal Wind", "description": "[Allies] Agi.+30% & Mag.+30%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Magic Resistance", "description": "M.Resist+10%" },
+    { "name": "Purpose", "description": "Mag. & End.+10%" },
+    { "name": "Defense", "description": "P.Resist+10%" },
+    { "name": "Concentrate", "description": "Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "ryu.lion-gale.png",
+  "image": "ryu.lion-gale.png"
+}

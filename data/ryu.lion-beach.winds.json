@@ -1,0 +1,32 @@
+{ "id": "ryu.lion-beach.winds",
+  "new": false,
+  "title": "Beach Winds",
+  "name": "Ryu Lion",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2440,
+  "mp": 181,
+  "str": 675,
+  "end": 222,
+  "dex": 333,
+  "agi": 481,
+  "mag": 167,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Milenas Wind", "description": "[Foes] Hi Wind M.Attack indexed to Str." },
+    { "name": "Shockwave Tempest", "description": "[Foe] Mid P.Attack" },
+    { "name": "Tempest Reverberato", "description": "[Foes] Lo P.Attack" },
+    { "name": "Elven Protection", "description": "[Allies] Penetration Rate+20%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Magic Resistance", "description": "M.Resist+8%" },
+    { "name": "Insane Speed", "description": "Agi.+4%" },
+    { "name": "Mind's Eye", "description": "Mag.+8%" },
+    { "name": "Hunter", "description": "Agi.+4%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" }
+  ],
+  "thumbnail": "ryu.lion-beach.winds.png",
+  "image": "ryu.lion-beach.winds.png"
+}

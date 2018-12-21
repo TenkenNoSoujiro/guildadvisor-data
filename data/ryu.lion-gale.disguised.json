@@ -1,0 +1,32 @@
+{ "id": "ryu.lion-gale.disguised",
+  "new": false,
+  "title": "Gale Disguised",
+  "name": "Ryu Lion",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2472,
+  "mp": 220,
+  "str": 903,
+  "end": 405,
+  "dex": 694,
+  "agi": 481,
+  "mag": 1128,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Luminous Vortex", "description": "[Foes] Ultra Wind M.Attack w/30% Stun" },
+    { "name": "Stormbolt", "description": "[Foe] Hi Wind M.Attack w/temp Mag. Boost" },
+    { "name": "Stellaris", "description": "[Foes] Fast Lo Wind M.Attack w/Str. & Mag.-30%/4 turns" },
+    { "name": "Downburst", "description": "[Foes] Hi Wind M.Attack w/Max HP 10% Dmg. Poison" }
+  ],
+  "passiveSkills": [
+    { "name": "Mind's Eye", "description": "Mag.+10%" },
+    { "name": "Unbreakable", "description": "End.+10%" },
+    { "name": "Concentrate", "description": "Agi. & Dex.+10%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "ryu.lion-gale.disguised.png",
+  "image": "ryu.lion-gale.disguised.png"
+}

@@ -1,0 +1,32 @@
+{ "id": "ryu.lion-vampiric.fairy",
+  "new": false,
+  "title": "Vampiric Fairy",
+  "name": "Ryu Lion",
+  "kind": "adventurer",
+  "type": "defense",
+  "limited": true,
+  "rarity": 4,
+  "hp": 3114,
+  "mp": 190,
+  "str": 347,
+  "end": 756,
+  "dex": 540,
+  "agi": 358,
+  "mag": 827,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Vampiric Drain", "description": "[Foes] Ultra Dark M.Attack indexed to End. w/Heal 20% of Dmg." },
+    { "name": "Insite Wind", "description": "[Foes] 50% Taunt & [Self] End.+40%/4 turns" },
+    { "name": "Fairy Vamp", "description": "[Foe] Hi Dark M.Attack indexed to End. w/Heal 50% of Dmg." },
+    { "name": "Vind Chaos", "description": "[Foes] Hi Dark M.Attack indexed to End. w/temp End. Boost" }
+  ],
+  "passiveSkills": [
+    { "name": "Magic Resistance", "description": "M.Resist+10%" },
+    { "name": "Light Resistance", "description": "Light Resist+20%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Vision", "description": "Mag. & Agi.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "ryu.lion-vampiric.fairy.png",
+  "image": "ryu.lion-vampiric.fairy.png"
+}

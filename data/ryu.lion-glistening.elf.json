@@ -1,0 +1,32 @@
+{ "id": "ryu.lion-glistening.elf",
+  "new": false,
+  "title": "Glistening Elf",
+  "name": "Ryu Lion",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2592,
+  "mp": 281,
+  "str": 336,
+  "end": 371,
+  "dex": 556,
+  "agi": 830,
+  "mag": 1340,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Luminos Star Gale", "description": "[Foes] Fast Ultra Wind M.Attack & removes Str. & Mag. Buffs exc. Assist Skills" },
+    { "name": "Arctic", "description": "[Foes] Lo Wind M.Attack & [Self] Wind Attack Dmg.+60%/4 turns" },
+    { "name": "Wind Shear", "description": "[Foes] Hi Wind M.Attack w/temp Mag. Boost & 20% Seal" },
+    { "name": "Storm Weaver", "description": "[Foes] Mid Wind M.Attack & [Allies] P.Resist+25%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Enlightenment", "description": "Mag.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Earth Resistance", "description": "Earth Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "ryu.lion-glistening.elf.png",
+  "image": "ryu.lion-glistening.elf.png"
+}
