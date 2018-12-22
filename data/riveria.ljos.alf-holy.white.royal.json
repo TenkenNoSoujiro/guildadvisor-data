@@ -1,0 +1,32 @@
+{ "id": "riveria.ljos.alf-holy.white.royal",
+  "new": false,
+  "title": "Holy White Royal",
+  "name": "Riveria Ljos Alf",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2452,
+  "mp": 225,
+  "str": 900,
+  "end": 405,
+  "dex": 610,
+  "agi": 490,
+  "mag": 1042,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Pillar of Heavens", "description": "[Foes] Ultra Light M.Attack w/30% Seal" },
+    { "name": "Brightening Weapon", "description": "[Allies] Mag.+45%/4 turns" },
+    { "name": "Lucent Force", "description": "[Foes] Fast Mid Light M.Attack w/15% Stun" },
+    { "name": "Zenith Sanction", "description": "[Foes] Hi Light M.Attack & Light Resist-25%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Acceleration", "description": "Agi.+10%" },
+    { "name": "Unbreakable", "description": "End.+10%" },
+    { "name": "Defense", "description": "P.Resist+10%" },
+    { "name": "Magic Resistance", "description": "M.Resist+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "riveria.ljos.alf-holy.white.royal-thumb.png",
+  "image": "riveria.ljos.alf-holy.white.royal-full.png"
+}

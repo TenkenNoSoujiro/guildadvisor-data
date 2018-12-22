@@ -2,333 +2,506 @@ const fs = require("fs");
 const path = require("path");
 const prompts = require("prompts");
 const handlebars = require("handlebars");
+const kleur = require("kleur");
 
-const adventurerTemplate = handlebars.compile(fs.readFileSync(path.join(__dirname, "adventurer.handlebars"), "utf8"), { noEscape: true });
-const assistTemplate = handlebars.compile(fs.readFileSync(path.join(__dirname, "assist.handlebars"), "utf8"), { noEscape: true });
+const adventurerTemplateFile = path.join(__dirname, "adventurer.handlebars");
+const adventurerTemplate = handlebars.compile(fs.readFileSync(adventurerTemplateFile, "utf8"), { noEscape: true });
+const assistTemplateFile = path.join(__dirname, "assist.handlebars");
+const assistTemplate = handlebars.compile(fs.readFileSync(assistTemplateFile, "utf8"), { noEscape: true });
 
-const passiveSkills = {};
-for (const entry of fs.readdirSync(path.join(__dirname, "../data"), { withFileTypes: true })) {
+const unitNamesFile = path.join(__dirname, "unitNames.json");
+const unitNames = new Set(JSON.parse(fs.readFileSync(unitNamesFile, "utf8")));
+
+const inProgressFile = path.join(__dirname, "autosave.json");
+let lastResponse = readAutosave();
+
+function readAutosave() {
+  try {
+    return JSON.parse(fs.readFileSync(inProgressFile, "utf8"));
+  }
+  catch {}
+}
+
+const dataDir = path.join(__dirname, "../data");
+const knownPassiveSkills = {};
+const knownCombatSkills = {};
+
+for (const entry of fs.readdirSync(dataDir, { withFileTypes: true })) {
   if (!entry.isFile()) continue;
   if (path.extname(entry.name) !== ".json") continue;
-  const unit = JSON.parse(fs.readFileSync(path.join(__dirname, "../data", entry.name), "utf8"));
+  const unit = JSON.parse(fs.readFileSync(path.join(dataDir, entry.name), "utf8"));
+  registerUnitName(unit.name);
   if (unit.kind !== "adventurer") continue;
-  for (const skill of unit.passiveSkills) {
-    const entries = passiveSkills.hasOwnProperty(skill.name) ? passiveSkills[skill.name] : passiveSkills[skill.name] = [];
-    entries.push(skill.description);
+  for (const skill of unit.combatSkills) registerCombatSkill(skill.name, skill.description);
+  for (const skill of unit.passiveSkills) registerPassiveSkill(skill.name, skill.description);
+}
+
+function registerUnitName(name) {
+  unitNames.add(name);
+}
+
+function registerCombatSkill(name, description) {
+  const entries = knownCombatSkills.hasOwnProperty(name) ? knownCombatSkills[name] : knownCombatSkills[name] = new Set();
+  entries.add(description);
+}
+
+function registerPassiveSkill(name, description) {
+  const entries = knownPassiveSkills.hasOwnProperty(name) ? knownPassiveSkills[name] : knownPassiveSkills[name] = new Set();
+  entries.add(description);
+}
+
+function copyLastResponse(field, options = {}) {
+  return !lastResponse ? useDefault() :
+    options.same ? useLastIfSame :
+    useLast();
+  function useLastIfSame(prev, response) {
+    return response[options.same] === lastResponse[options.same] ? useLast() : useDefault();
+  }
+  function useLast() {
+    const value = lastResponse[field];
+    if (value !== undefined) return choose(value);
+    return useDefault();
+  }
+  function useDefault() {
+    return choose(options.default);
+  }
+  function choose(value) {
+    return options.choices ? options.choices.findIndex(choice => (choice.value || choice.title || choice) === value) : value;
   }
 }
 
-const commonSkills = {
-  "Liaris Freese": "Fast Growth. Null Charm",
-  "Sword Fighter": {
-    2: "Str.+3%",
-    3: "Str.+4%",
-    4: "Str.+10%",
-  },
-  "Crush": {
-    2: "Str.+3%",
-    3: "Str.+4%",
-    4: "Str.+15%",
-  },
-  "Tough": "End.+10%",
-  "Unbreakable": "End.+10%",
-  "Saboteur": "Dex.+10%",
-  "Hunter": {
-    2: "Agi.+3%",
-    3: "Agi.+4%",
-    4: "Agi.+10%",
-  },
-  "Acceleration": {
-    2: "Agi.+3%",
-    3: "Agi.+4%",
-    4: "Agi.+10%",
-  },
-  "Mind's Eye": "Mag.+8%",
-  "Enlightenment": "Mag.+10%",
-  "Swift": "Str. & Agi.+10%",
-  "Climb": "End. & Agi.+10%",
-  "Concentrate": "Agi. & Dex.+10%",
-  "Rigid": "End. & Agi. & Dex.+10%",
-  "Luck": "All Status+10%",
-  "Wisdom": "All Status+10%",
-  "Protection": "P.Resist & M.Resist+10%",
-  "Solid": "Guard Rate+30%",
-  "Strike": "Critical Damage+10%",
-  "Water Resistance": "Water Resist+35%",
-  "Wind Resistance": "Wind Resist+35%",
-  "Earth Resistance": "Earth Resist+35%",
-  "Thunder Resistance": "Thunder Resist+35%",
-  "Fire Resistance": "Fire Resist+35%",
-  "Light Resistance": "Light Resist+35%",
-  "Dark Resistance": "Dark Resist+35%",
-  "Defense": "P.Resist+10%",
-  "Magic Resistance": "M.Resist+10%",
-  "Status Resist": "Ailment Resist+15%",
-  "Spirit Healing": "1% MP Regen/turn",
-  "Healing Power": "3% HP Regen/turn",
+function filterChoices(input, choices, custom) {
+  input = input.toLowerCase();
+  let exact = false;
+  const suggestions = [];
+  for (const choice of choices) {
+    if (choice === custom) continue;
+    const value = choice.value.toLowerCase();
+    if (value === input) exact = true;
+    if (value.includes(input)) suggestions.push(choice);
+  }
+  if (!exact) suggestions.push(custom);
+  return suggestions;
 }
 
-async function main(args) {
-  let canceled = false;
-  let lastResponse;
-  const forAdventurer = (type) => (_, values) => values.kind === "adventurer" ? type : null;
-  const forAssist = (type) => (_, values) => values.kind === "assist" ? type : null;
+const kindPrompt = (() => {
+  return () => [
+    { type: "select",
+      name: "kind",
+      message: "Unit kind",
+      choices: [
+        { title: "adventurer", value: "adventurer" },
+        { title: "assist", value: "assist" }
+      ],
+      initial: copyLastResponse("kind", { choices: ["adventurer", "assist"]})
+    }
+  ];
+})();
 
-  // TODO: interrogate passiveSkills for the skill
-  //       if it exists, present an autocomplete for
-  //       existing values. Also add an autocomplete entry
-  //       for `<new>`
-  const initialSkill = (prev, { rarity }) => {
-    if (commonSkills.hasOwnProperty(prev)) {
-      const skill = commonSkills[prev];
-      if (typeof skill === "string") return skill;
-      return skill[rarity];
+const titlePrompt = (() => {
+  return () => [
+    { type: "text", name: "title", message: "Title", initial: copyLastResponse("title") }
+  ];
+})();
+
+const namePrompt = () => {
+  function updateCustom(input) {
+    custom.title = `${kleur.yellow(`+`)}${input ? ` ${input}` : ""}`;
+    custom.value = input;
+  }
+
+  const last = copyLastResponse("name");
+  const custom = { title: kleur.yellow(`+`), value: "" };
+  const choices = [...unitNames]
+    .sort()
+    .map(name => ({ title: name, value: name }))
+    .concat(custom);
+  updateCustom(last);
+
+  return [{
+    name: "name",
+    message: "Name",
+    type: "autocomplete",
+    choices,
+    suggest(input, choices) {
+      if (!input && last) {
+        updateCustom(last);
+        this.value = last;
+        this.moveSelect(choices.length - 1);
+        return [];
+      }
+      updateCustom(input);
+      return filterChoices(input, choices, custom);
+    },
+    fallback() {
+      return last;
+    },
+    initial() {
+      return last ? choices.length - 1 : undefined;
+    },
+    onRender() {
+      if (this.first) {
+        if (last) {
+          this.value = last;
+          this.moveSelect(choices.length - 1);
+        }
+      }
+      if (!this.input) this.cursor = 0;
+    }
+  }];
+};
+
+const adventurerTypePrompt = (() => {
+  const AdventurerType = {
+    type(prev, responses) {
+      return responses.kind === "adventurer" ? "select" : null;
+    },
+    choices: [
+      { title: "P.Attack Type", value: "p.attack" },
+      { title: "M.Attack Type", value: "m.attack" },
+      { title: "Balance Type", value: "balance" },
+      { title: "Healer", value: "healer" },
+      { title: "Defense", value: "defense" }
+    ]
+  };
+  return () => [
+    { ...AdventurerType, name: "type", message: "Adventurer Type", initial: copyLastResponse("type", { same: "name", choices: [
+      "p.attack",
+      "m.attack",
+      "balance",
+      "healer",
+      "defense"
+    ] }) },
+  ];
+})();
+
+const timeLimitedPrompt = (() => {
+  return () => [
+    { type: "confirm",
+      name: "limited",
+      message: "Time-limited",
+      initial: copyLastResponse("limited", { same: "name" }) },
+  ];
+})();
+
+const rarityPrompt = (() => {
+  return () => [
+    { type: "number",
+      name: "rarity",
+      message: "Rarity",
+      min: 1,
+      max: 4,
+      initial: copyLastResponse("rarity", { same: "name", default: 4 }) },
+  ];
+})();
+
+const statPrompt = (() => {
+  return (name, message) => [
+    { type: "number", name, message, initial: copyLastResponse(name, { same: "name" }) }
+  ];
+})();
+
+const combatSkillNamePrompt = (prefix, message) => {
+  let custom;
+  let choices;
+  let last;
+
+  function updateCustom(input) {
+    custom.title = `${kleur.yellow(`+`)}${input ? ` ${input}` : ""}`;
+    custom.value = input;
+  }
+
+  return [{
+    name: `${prefix}Name`,
+    message: `${message} Name`,
+    type(prev, responses) {
+      if (responses.kind !== "adventurer") return null;
+      last = copyLastResponse(`${prefix}Name`, { same: "name" });
+      if (typeof last === "function") last = last(prev, responses);
+      custom = { title: kleur.yellow(`+`), value: "" };
+      choices = Object.keys(knownCombatSkills)
+        .sort()
+        .map(name => ({ title: name, value: name }))
+        .concat(custom);
+      updateCustom(last);
+      return "autocomplete";
+    },
+    choices() { return choices; },
+    fallback() { return last; },
+    initial() { return last && choices ? choices.length - 1 : undefined },
+    suggest(input, choices) {
+      if (!input && last) {
+        updateCustom(last);
+        this.value = last;
+        this.moveSelect(choices.length - 1);
+        return [];
+      }
+      updateCustom(input);
+      return filterChoices(input, choices, custom);
+    },
+    onRender() {
+      if (this.first) {
+        if (last) {
+          this.value = last;
+          this.moveSelect(choices.length - 1);
+        }
+      }
+      if (!this.input) this.cursor = 0;
+    }
+  }];
+};
+
+const combatSkillDescriptionPrompt = (prefix, message) => {
+  let custom;
+  let choices;
+  let last;
+
+  function updateCustom(input) {
+    custom.title = `${kleur.yellow(`+`)}${input ? ` ${input}` : ""}`;
+    custom.value = input;
+  }
+
+  return [{
+    name: `${prefix}Description`,
+    message: `${message} Description`,
+    type(prev, responses) {
+      if (responses.kind !== "adventurer") return null;
+      last = copyLastResponse(`${prefix}Description`, { same: `${prefix}Name` });
+      if (typeof last === "function") last = last(prev, responses);
+      custom = { title: kleur.yellow(`+`), value: "" };
+      const descriptions = knownCombatSkills.hasOwnProperty(prev) ? [...knownCombatSkills[prev]] : [];
+      choices = descriptions
+        .sort()
+        .map(name => ({ title: name, value: name }))
+        .concat(custom);
+      updateCustom(last);
+      return "autocomplete";
+    },
+    choices() { return choices; },
+    fallback() { return last; },
+    initial() { return last && choices ? choices.length - 1 : undefined },
+    suggest(input, choices) {
+      if (!input && last) {
+        updateCustom(last);
+        this.value = last;
+        this.moveSelect(choices.length - 1);
+        return [];
+      }
+      updateCustom(input);
+      return filterChoices(input, choices, custom);
+    },
+    onRender() {
+      if (this.first) {
+        if (last) {
+          this.value = last;
+          this.moveSelect(choices.length - 1);
+        }
+      }
+      if (!this.input) this.cursor = 0;
+    }
+  }];
+};
+
+const combatSkillPrompt = (prefix, message) => {
+  return [
+    ...combatSkillNamePrompt(prefix, message),
+    ...combatSkillDescriptionPrompt(prefix, message)
+  ];
+};
+
+const passiveSkillNamePrompt = (prefix, message) => {
+  let custom;
+  let choices;
+  let last;
+
+  function updateCustom(input) {
+    custom.title = `${kleur.yellow(`+`)}${input ? ` ${input}` : ""}`;
+    custom.value = input;
+  }
+
+  return [{
+    name: `${prefix}Name`,
+    message: `${message} Name`,
+    type(prev, responses) {
+      if (responses.kind !== "adventurer") return null;
+      last = copyLastResponse(`${prefix}Name`, { same: "name" });
+      if (typeof last === "function") last = last(prev, responses);
+      custom = { title: kleur.yellow(`+`), value: "" };
+      choices = Object.keys(knownPassiveSkills)
+        .sort()
+        .map(name => ({ title: name, value: name }))
+        .concat(custom);
+      updateCustom(last);
+      return "autocomplete";
+    },
+    choices() { return choices; },
+    fallback() { return last; },
+    initial() { return last && choices ? choices.length - 1 : undefined },
+    suggest(input, choices) {
+      if (!input && last) {
+        updateCustom(last);
+        this.value = last;
+        this.moveSelect(choices.length - 1);
+        return [];
+      }
+      updateCustom(input);
+      return filterChoices(input, choices, custom);
+    },
+    onRender() {
+      if (this.first) {
+        if (last) {
+          this.value = last;
+          this.moveSelect(choices.length - 1);
+        }
+      }
+      if (!this.input) this.cursor = 0;
+    }
+  }];
+};
+
+const passiveSkillDescriptionPrompt = (prefix, message) => {
+  let custom;
+  let choices;
+  let last;
+
+  function updateCustom(input) {
+    custom.title = `${kleur.yellow(`+`)}${input ? ` ${input}` : ""}`;
+    custom.value = input;
+  }
+
+  return [{
+    name: `${prefix}Description`,
+    message: `${message} Description`,
+    type(prev, responses) {
+      if (responses.kind !== "adventurer") return null;
+      last = copyLastResponse(`${prefix}Description`, { same: `${prefix}Name` });
+      if (typeof last === "function") last = last(prev, responses);
+      custom = { title: kleur.yellow(`+`), value: "" };
+      const descriptions = knownPassiveSkills.hasOwnProperty(prev) ? [...knownPassiveSkills[prev]] : [];
+      choices = descriptions
+        .sort()
+        .map(name => ({ title: name, value: name }))
+        .concat(custom);
+      updateCustom(last);
+      return "autocomplete";
+    },
+    choices() { return choices; },
+    fallback() { return last; },
+    initial() { return last && choices ? choices.length - 1 : undefined },
+    suggest(input, choices) {
+      if (!input && last) {
+        updateCustom(last);
+        this.value = last;
+        this.moveSelect(choices.length - 1);
+        return [];
+      }
+      updateCustom(input);
+      return filterChoices(input, choices, custom);
+    },
+    onRender() {
+      if (this.first) {
+        if (last) {
+          this.value = last;
+          this.moveSelect(choices.length - 1);
+        }
+      }
+      if (!this.input) this.cursor = 0;
+    }
+  }];
+};
+
+
+const passiveSkillPrompt = (prefix, message) => [
+  ...passiveSkillNamePrompt(prefix, message),
+  ...passiveSkillDescriptionPrompt(prefix, message),
+];
+
+const assistSkillPrompt = (() => {
+  const AssistSkill = {
+    type(prev, responses) {
+      return responses.kind === "assist" ? "text" : null;
     }
   };
-  function copy(field, options = {}) {
-    return !lastResponse ? useDefault :
-      options.same ? useLastIfSame :
-      useLast;
-    function useLastIfSame(prev, response) {
-      return response[options.same] === lastResponse[options.same] ? useLast() : useDefault();
-    }
-    function useLast() {
-      const value = lastResponse[field];
-      if (value !== undefined) return value;
-      return useDefault();
-    }
-    function useDefault() {
-      return options.default;
-    }
-  }
-  // const lastForSkill = (field, defaultValue) => (prev) => lastResponse && lastResponse[field] === prev ?
-  while (!canceled) {
+  return () => [
+    { ...AssistSkill, name: "assistSkillName", message: "Assist Skill Name", initial: copyLastResponse("assistSkillName", { same: "name" }) },
+    { ...AssistSkill, name: "assistSkill0Description", message: "Assist Skill Lv.60 Description", initial: copyLastResponse("assistSkill0Description", { same: "assistSkillName" }) },
+    { ...AssistSkill, name: "assistSkill1Description", message: "Assist Skill Lv.80 Description", initial: copyLastResponse("assistSkill1Description", { same: "assistSkillName" }) },
+  ];
+})();
+
+async function main(args) {
+  while (true) {
+    let canceled = false;
     const response = await prompts([
-      { type: "select",
-        name: "kind",
-        message: "Unit kind",
-        choices: [
-          { title: "adventurer", value: "adventurer" },
-          { title: "assist", value: "assist" }
-        ],
-        initial: copy("kind") },
-      { type: "text",
-        name: "title",
-        message: "Title" },
-      { type: "autocomplete",
-        name: "name",
-        message: "Name",
-        choices: [
-          { title: "Ais Wallenstein" },
-          { title: "Amid Teasanare" },
-          { title: "Anakitty Autumn" },
-          { title: "Anya Fromel" },
-          { title: "Armin Arlert" },
-          { title: "Asfi Al Andromeda" },
-          { title: "Bell Cranel" },
-          { title: "Bete Loga" },
-          { title: "chloe Lolo" },
-          { title: "Crunchyroll-Hime" },
-          { title: "Demeter" },
-          { title: "Diancecht" },
-          { title: "Dionysus" },
-          { title: "Eina Tulle" },
-          { title: "Eren Jaeger" },
-          { title: "Fels" },
-          { title: "Filvis Challia" },
-          { title: "Finn Deimne" },
-          { title: "Freya" },
-          { title: "Ganesha" },
-          { title: "Gareth Landrock" },
-          { title: "Goibniu" },
-          { title: "Hephaistios" },
-          { title: "Hermes & Hermes" },
-          { title: "Hermes" },
-          { title: "Hestia" },
-          { title: "Hitachi Chigusa" },
-          { title: "Kashima Ouka" },
-          { title: "Kino & Hermes" },
-          { title: "Kino" },
-          { title: "Lefiya Viridis" },
-          { title: "Levi" },
-          { title: "Liliruca Arde" },
-          { title: "Loki" },
-          { title: "Lunor Faust" },
-          { title: "Mia Grand" },
-          { title: "Miach" },
-          { title: "Mikasa Ackermann" },
-          { title: "Misha Flot" },
-          { title: "Mord Latro" },
-          { title: "Naza Ersuisu" },
-          { title: "Ottarl" },
-          { title: "Ouranos" },
-          { title: "Photo & Sou" },
-          { title: "Raul Nord" },
-          { title: "Riveria Ljos Alf" },
-          { title: "Ryu Lion" },
-          { title: "Shakti Varma" },
-          { title: "Shizu & Riku" },
-          { title: "Syr Flover" },
-          { title: "Takemikazuchi" },
-          { title: "Ti" },
-          { title: "Tiona Hiryute" },
-          { title: "Tione Hiryute" },
-          { title: "Tsubaki Collbrande" },
-          { title: "Welf Crozzo" },
-          { title: "Yamato Mikoto" },
-        ],
-        initial: copy("title") },
-      { type: forAdventurer("autocomplete"),
-        name: "type",
-        message: "Adventurer Type",
-        choices: [
-          { title: "P.Attack Type", value: "p.attack" },
-          { title: "M.Attack Type", value: "m.attack" },
-          { title: "Balance Type", value: "balance" },
-          { title: "Healer", value: "healer" },
-          { title: "Defense", value: "defense" }
-        ],
-        initial: copy("type") },
-      { type: "confirm",
-        name: "limited",
-        message: "Time-limited",
-        initial: copy("limited") },
-      { type: "number",
-        name: "rarity",
-        message: "Rarity",
-        min: 1,
-        max: 4,
-        initial: copy("rarity", { default: 4 }) },
-      { type: "number",
-        name: "hp",
-        message: "hp",
-        initial: copy("hp", { same: "name" }) },
-      { type: "number",
-        name: "mp",
-        message: "mp",
-        initial: copy("mp", { same: "name" }) },
-      { type: "number",
-        name: "str",
-        message: "str",
-        initial: copy("str", { same: "name" }) },
-      { type: "number",
-        name: "end",
-        message: "end",
-        initial: copy("end", { same: "name" }) },
-      { type: "number",
-        name: "dex",
-        message: "dex",
-        initial: copy("dex", { same: "name" }) },
-      { type: "number",
-        name: "agi",
-        message: "agi",
-        initial: copy("agi", { same: "name" }) },
-      { type: "number",
-        name: "mag",
-        message: "mag",
-        initial: copy("mag", { same: "name" }) },
-      { type: forAdventurer("text"),
-        name: "specialArtsName",
-        message: "Special Arts Skill Name",
-        initial: copy("specialArtsName", { same: "name" }) },
-      { type: forAdventurer("text"),
-        name: "specialArtsDescription",
-        message: "Special Arts Skill Description",
-        initial: copy("specialArtsDescription", { same: "specialArtsName" }) },
-      { type: forAdventurer("text"),
-        name: "combatSkill1Name",
-        message: "Combat Skill #1 Name",
-        initial: copy("combatSkill1Name", { same: "name" }) },
-      { type: forAdventurer("text"),
-        name: "combatSkill1Description",
-        message: "Combat Skill #1 Description",
-        initial: copy("combatSkill1Description", { same: "combatSkill1Name" }) },
-      { type: forAdventurer("text"),
-        name: "combatSkill2Name",
-        message: "Combat Skill #2 Name",
-        initial: copy("combatSkill2Name", { same: "name" }) },
-      { type: forAdventurer("text"),
-        name: "combatSkill2Description",
-        message: "Combat Skill #2 Description",
-        initial: copy("combatSkill2Description", { same: "combatSkill2Name" }) },
-      { type: forAdventurer("text"),
-        name: "combatSkill3Name",
-        message: "Combat Skill #3 Name",
-        initial: copy("combatSkill3Name", { same: "name" }) },
-      { type: forAdventurer("text"),
-        name: "combatSkill3Description",
-        message: "Combat Skill #3 Description",
-        initial: copy("combatSkill3Description", { same: "combatSkill3Name" }) },
+      ...kindPrompt(),
+      ...titlePrompt(),
+      ...namePrompt(),
+      ...adventurerTypePrompt(),
+      ...timeLimitedPrompt(),
+      ...rarityPrompt(),
 
-      { type: forAdventurer("text"),
-        name: "passiveSkill0Name",
-        message: "Passive Skill #1 Name",
-        initial: copy("passiveSkill0Name", { same: "name" }) },
-      { type: forAdventurer("text"),
-        name: "passiveSkill0Description",
-        message: "Passive Skill #1 Description",
-        initial: initialSkill },
+      ...statPrompt("hp", "HP"),
+      ...statPrompt("mp", "MP"),
+      ...statPrompt("str", "Str."),
+      ...statPrompt("end", "End."),
+      ...statPrompt("dex", "Dex."),
+      ...statPrompt("agi", "Agi."),
+      ...statPrompt("mag", "Mag."),
 
-      { type: forAdventurer("text"),
-        name: "passiveSkill1Name",
-        message: "Passive Skill #2 Name",
-        initial: copy("passiveSkill1Name", { same: "name" }) },
-      { type: forAdventurer("text"),
-        name: "passiveSkill1Description",
-        message: "Passive Skill #2 Description",
-        initial: initialSkill },
-      { type: forAdventurer("text"),
-        name: "passiveSkill2Name",
-        message: "Passive Skill #3 Name",
-        initial: copy("passiveSkill2Name", { same: "name" }) },
-      { type: forAdventurer("text"),
-        name: "passiveSkill2Description",
-        message: "Passive Skill #3 Description",
-        initial: initialSkill },
-      { type: forAdventurer("text"),
-        name: "passiveSkill3Name",
-        message: "Passive Skill #4 Name",
-        initial: copy("passiveSkill3Name", { same: "name" }) },
-      { type: forAdventurer("text"),
-        name: "passiveSkill3Description",
-        message: "Passive Skill #4 Description",
-        initial: initialSkill },
-      { type: forAdventurer("text"),
-        name: "passiveSkill4Name",
-        message: "Passive Skill #5 Name",
-        initial: copy("passiveSkill4Name", { same: "name" }) },
-      { type: forAdventurer("text"),
-        name: "passiveSkill4Description",
-        message: "Passive Skill #5 Description",
-        initial: initialSkill },
-      { type: forAssist("text"),
-        name: "assistSkillName",
-        message: "Assist Skill Name" },
-      { type: forAssist("text"),
-        name: "assistSkill0Description",
-        message: "Assist Skill Lv.60 Description" },
-      { type: forAssist("text"),
-        name: "assistSkill1Description",
-        message: "Assist Skill Lv.80 Description" },
+      ...combatSkillPrompt("specialArts", "Special Arts Skill"),
+      ...combatSkillPrompt("combatSkill1", "Combat Skill #1"),
+      ...combatSkillPrompt("combatSkill2", "Combat Skill #2"),
+      ...combatSkillPrompt("combatSkill3", "Combat Skill #3"),
+
+      ...passiveSkillPrompt("passiveSkill0", "Passive Skill #1"),
+      ...passiveSkillPrompt("passiveSkill1", "Passive Skill #2"),
+      ...passiveSkillPrompt("passiveSkill2", "Passive Skill #3"),
+      ...passiveSkillPrompt("passiveSkill3", "Passive Skill #4"),
+      ...passiveSkillPrompt("passiveSkill4", "Passive Skill #5"),
+
+      ...assistSkillPrompt(),
     ], { onCancel: () => { canceled = true }});
 
     if (canceled) {
-      console.log("User canceled input", response);
+      const autoSave = readAutosave() || {};
+      for (const p in response) if (response[p] !== undefined) autoSave[p] = response[p];
+      fs.writeFileSync(inProgressFile, JSON.stringify(autoSave, undefined, "  "));
+      console.log("User canceled input");
       return;
     }
 
+    // fill in generated values
     response.id = `${normalize(response.name)}-${normalize(response.title)}`;
     response.new = args.includes("new");
 
+    // populate template
     const content = response.kind === "adventurer"
       ? adventurerTemplate(response)
       : assistTemplate(response);
 
+    // write result
     fs.writeFileSync(path.resolve(__dirname, "../data/", response.id + ".json"), content, "utf8");
     console.log(response.id + ".json added.");
 
+    // update unit names
+    unitNames.add(response.name);
+
+    // update combat and passive skills
+    if (response.kind === "adventurer") {
+      registerCombatSkill(response.specialArtsName, response.specialArtsDescription);
+      registerCombatSkill(response.combatSkill1Name, response.combatSkill1Description);
+      registerCombatSkill(response.combatSkill2Name, response.combatSkill2Description);
+      registerCombatSkill(response.combatSkill3Name, response.combatSkill3Description);
+      registerPassiveSkill(response.passiveSkill0Name, response.passiveSkill0Description);
+      registerPassiveSkill(response.passiveSkill1Name, response.passiveSkill1Description);
+      registerPassiveSkill(response.passiveSkill2Name, response.passiveSkill2Description);
+      registerPassiveSkill(response.passiveSkill3Name, response.passiveSkill3Description);
+      registerPassiveSkill(response.passiveSkill4Name, response.passiveSkill4Description);
+    }
+
+    // check whether we should keep going
     const { keepGoing } = await prompts({ type: "confirm", name: "keepGoing", message: "Create another?", initial: true }, { onCancel: () => { canceled = true }});
-    if (!canceled) canceled = !keepGoing;
+    if (!keepGoing) break;
   }
 }
 

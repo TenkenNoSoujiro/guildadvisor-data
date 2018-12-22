@@ -22,7 +22,7 @@
   ],
   "passiveSkills": [
     { "name": "Wisdom", "description": "All Status+10%" },
-    { "name": "Magic Resistance", "description": "M.Resist.+10%" },
+    { "name": "Magic Resistance", "description": "M.Resist+10%" },
     { "name": "Sword Fighter", "description": "Str.+60%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" },
     { "name": "Spirit Healing", "description": "1% MP Regen/turn" }

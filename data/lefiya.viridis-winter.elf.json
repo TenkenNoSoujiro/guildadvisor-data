@@ -22,7 +22,7 @@
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+30%" },
-    { "name": "Defense", "description": "P.Resist.+10%" },
+    { "name": "Defense", "description": "P.Resist+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" },
     { "name": "Unbreakable", "description": "End.+8%" },
     { "name": "Fire Resistance", "description": "Fire Resist.+20%" }

@@ -1,0 +1,32 @@
+{ "id": "riveria.ljos.alf-nine.hell",
+  "new": false,
+  "title": "Nine Hell",
+  "name": "Riveria Ljos Alf",
+  "kind": "adventurer",
+  "type": "healer",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2171,
+  "mp": 236,
+  "str": 316,
+  "end": 218,
+  "dex": 536,
+  "agi": 417,
+  "mag": 716,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Wynn Fimbulvetr", "description": "[Foes] Hi Water M.Attack" },
+    { "name": "Triple Impaler", "description": "[Foe] Lo P.Attack" },
+    { "name": "Luna Aldis", "description": "[Allies] Mid Heal" },
+    { "name": "Liv Illusio", "description": "[Self] P.Resist+10%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Magic Resistance", "description": "M.Resist+8%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Mage", "description": "Mag.+9%" },
+    { "name": "Healing Power", "description": "1% HP Regen/turn" },
+    { "name": "Spirit Healing", "description": "1% MP Regen/turn" }
+  ],
+  "thumbnail": "riveria.ljos.alf-nine.hell-thumb.png",
+  "image": "riveria.ljos.alf-nine.hell-full.png"
+}

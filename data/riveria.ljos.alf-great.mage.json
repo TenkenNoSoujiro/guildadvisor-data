@@ -1,0 +1,32 @@
+{ "id": "riveria.ljos.alf-great.mage",
+  "new": false,
+  "title": "Great Mage",
+  "name": "Riveria Ljos Alf",
+  "kind": "adventurer",
+  "type": "healer",
+  "limited": false,
+  "rarity": 2,
+  "hp": 2151,
+  "mp": 234,
+  "str": 248,
+  "end": 176,
+  "dex": 353,
+  "agi": 316,
+  "mag": 572,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Wynn Fimbulvetr", "description": "[Foes] Hi Water M.Attack" },
+    { "name": "Triple Impaler", "description": "[Foe] Lo P.Attack" },
+    { "name": "Fil Eldis", "description": "[Allies] Lo Heal" },
+    { "name": "Liv Illusio", "description": "[Self] P.Resist+10%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Magic Resistance", "description": "M.Resist+5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+5%" },
+    { "name": "Mage", "description": "Mag.+8%" },
+    { "name": "Healing Power", "description": "1% HP Regen/turn" },
+    { "name": "Spirit Healing", "description": "1% MP Regen/turn" }
+  ],
+  "thumbnail": "riveria.ljos.alf-great.mage-thumb.png",
+  "image": "riveria.ljos.alf-great.mage-full.png"
+}
