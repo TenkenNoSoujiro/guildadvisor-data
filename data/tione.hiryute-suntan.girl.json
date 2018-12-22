@@ -1,0 +1,32 @@
+{ "id": "tione.hiryute-suntan.girl",
+  "new": false,
+  "title": "Suntan Girl",
+  "name": "Tione Hiryute",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2610,
+  "mp": 178,
+  "str": 1377,
+  "end": 401,
+  "dex": 490,
+  "agi": 788,
+  "mag": 319,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Backdraft", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
+    { "name": "Gritar Amor", "description": "[Foe] Hi P.Attack w/30% Seal" },
+    { "name": "Amor Rampage", "description": "[Foes] Mid P.Attack w/temp Str. Boost & Ailment Resist-40%/2 turns" },
+    { "name": "Lindo Pastel", "description": "[Foes] Mid P.Attack w/50% Taunt & [Self] End.+40%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Fist Strike", "description": "Str.+25%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Climb", "description": "End. & Agi.+10%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+10%" },
+    { "name": "Healing Power", "description": "1% HP Regen/turn" }
+  ],
+  "thumbnail": "tione.hiryute-suntan.girl-thumb.png",
+  "image": "tione.hiryute-suntan.girl-full.png"
+}

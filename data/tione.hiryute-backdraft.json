@@ -1,0 +1,32 @@
+{ "id": "tione.hiryute-backdraft",
+  "new": false,
+  "title": "Backdraft",
+  "name": "Tione Hiryute",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2366,
+  "mp": 195,
+  "str": 460,
+  "end": 330,
+  "dex": 462,
+  "agi": 413,
+  "mag": 388,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Jormungandr Berserk", "description": "[Foes] Hi P.Attack" },
+    { "name": "Furious Espada", "description": "[Foes] Lo P.Attack" },
+    { "name": "List Iorum", "description": "[Foe] 30% Seal" },
+    { "name": "The Last Stand", "description": "[Allies] End.+10%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Fist Strike", "description": "Str.+7.5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Insane Speed", "description": "Agi.+7.5%" },
+    { "name": "Tough", "description": "End.+7.5%" },
+    { "name": "Healing Power", "description": "1% HP Regen/turn" }
+  ],
+  "thumbnail": "tione.hiryute-backdraft-thumb.png",
+  "image": "tione.hiryute-backdraft-full.png"
+}

@@ -22,7 +22,7 @@
   ],
   "passiveSkills": [
     { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
-    { "name": "Solid", "description": "Guard Rate+30%" },
+    { "name": "Solid", "description": "Guard+30%" },
     { "name": "Wind Resistance", "description": "Wind Resist+35%" },
     { "name": "Enlightenment", "description": "Mag.+5%" },
     { "name": "Luck", "description": "All Status+10%" }

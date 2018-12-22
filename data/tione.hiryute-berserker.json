@@ -1,0 +1,32 @@
+{ "id": "tione.hiryute-berserker",
+  "new": false,
+  "title": "Berserker",
+  "name": "Tione Hiryute",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2490,
+  "mp": 175,
+  "str": 801,
+  "end": 276,
+  "dex": 399,
+  "agi": 527,
+  "mag": 169,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Jormungandr Berserk", "description": "[Foes] Hi P.Attack" },
+    { "name": "Furious Espada", "description": "[Foes] Lo P.Attack" },
+    { "name": "Amazoness Ira", "description": "[Self] Str.+75% & P.Resist-15%/4 turns" },
+    { "name": "Rampage Grans", "description": "[Foes] Lo P.Attack w/50% Taunt" }
+  ],
+  "passiveSkills": [
+    { "name": "Fist Strike", "description": "Str.+7.5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Insane Speed", "description": "Agi.+7.5%" },
+    { "name": "Tough", "description": "End.+7.5%" },
+    { "name": "Healing Power", "description": "1% HP Regen/turn" }
+  ],
+  "thumbnail": "tione.hiryute-berserker-thumb.png",
+  "image": "tione.hiryute-berserker-full.png"
+}

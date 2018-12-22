@@ -1,0 +1,32 @@
+{ "id": "tione.hiryute-crimson.dahlia",
+  "new": false,
+  "title": "Crimson Dahlia",
+  "name": "Tione Hiryute",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2636,
+  "mp": 190,
+  "str": 1478,
+  "end": 434,
+  "dex": 544,
+  "agi": 796,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Galvanic Ravager", "description": "[Foes] Ultra Thunder P.Attack & Dmg.+15% per 1 [Self] Regen/Str. Buff Skill" },
+    { "name": "Roll of Thunder", "description": "[Foes] Lo Thunder P.Attack & [Self] Str.+75%/4 turns" },
+    { "name": "Volt Charge", "description": "[Foes] Mid Thunder P.Attack & [Self] 25% HP Regen/4 turns" },
+    { "name": "Unstable Thunder", "description": "[Foes] Hi Thunder P.Attack & Dmg.+25% per 1 [Self] Regen/Str. Buff Skill" }
+  ],
+  "passiveSkills": [
+    { "name": "Fist Strike", "description": "Str.+15%" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "tione.hiryute-crimson.dahlia-thumb.png",
+  "image": "tione.hiryute-crimson.dahlia-full.png"
+}

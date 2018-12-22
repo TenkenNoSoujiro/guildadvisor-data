@@ -4,6 +4,13 @@ const prompts = require("prompts");
 const handlebars = require("handlebars");
 const kleur = require("kleur");
 
+const collator = new Intl.Collator("en-US", {
+  usage: "sort",
+  sensitivity: "base",
+  ignorePunctuation: true,
+  numeric: true
+});
+
 const adventurerTemplateFile = path.join(__dirname, "adventurer.handlebars");
 const adventurerTemplate = handlebars.compile(fs.readFileSync(adventurerTemplateFile, "utf8"), { noEscape: true });
 const assistTemplateFile = path.join(__dirname, "assist.handlebars");
@@ -66,22 +73,97 @@ function copyLastResponse(field, options = {}) {
     return choose(options.default);
   }
   function choose(value) {
-    return options.choices ? options.choices.findIndex(choice => (choice.value || choice.title || choice) === value) : value;
+    if (options.choices) {
+      const index = options.choices.findIndex(choice => (choice.value || choice.title || choice) === value);
+      return index >= 0 ? index : undefined;
+    }
+    return value;
   }
 }
 
 function filterChoices(input, choices, custom) {
   input = input.toLowerCase();
+  let suggestions = [];
   let exact = false;
-  const suggestions = [];
   for (const choice of choices) {
     if (choice === custom) continue;
     const value = choice.value.toLowerCase();
     if (value === input) exact = true;
     if (value.includes(input)) suggestions.push(choice);
   }
-  if (!exact) suggestions.push(custom);
+  suggestions = suggestions.slice(0, 9);
+  if (!exact && input) {
+    suggestions.push(custom);
+  }
   return suggestions;
+}
+
+/**
+ * @param {object} options
+ * @param {string} options.name
+ * @param {string} options.message
+ * @param {string|Function} [options.initial]
+ * @param {{ title: string, value: any }[] | ((prev, responses) => { title: string, value: any }[])} options.choices
+ * @param {(prev, responses) => boolean} [options.hide]
+ */
+function autocompleter(options) {
+  const plus = kleur.yellow("+");
+
+  function updateCustom(input) {
+    custom.title = `${plus}${input ? ` ${input}` : ""}`;
+    custom.value = input;
+  }
+
+  let initial
+  let custom;
+  let choices;
+
+  return {
+    name: options.name,
+    message: options.message,
+    type(prev, responses) {
+      if (options.hide && options.hide(prev, responses)) return null;
+
+      custom = { title: plus, value: "" };
+
+      initial = typeof options.initial === "function"
+        ? options.initial(prev, responses)
+        : options.initial;
+
+      choices = typeof options.choices === "function"
+        ? options.choices(prev, responses).concat(custom)
+        : options.choices.concat(custom);
+
+      updateCustom(initial);
+      return "autocomplete"
+    },
+    choices() { return choices },
+    fallback() { return initial; },
+    initial() { return initial ? choices.length - 1 : undefined; },
+    suggest(input, choices) {
+      if (!input && initial) {
+        updateCustom(initial);
+        this.value = initial;
+        this.moveSelect(choices.length - 1);
+        return [];
+      }
+      updateCustom(input);
+      return filterChoices(input, choices, custom);
+    },
+    onRender() {
+      if (this.first) {
+        if (initial) {
+          this.value = initial;
+          this.moveSelect(choices.length - 1);
+        }
+      }
+      if (!this.input) this.cursor = 0;
+      if (this.done && this.suggestions.length === 0 && initial) {
+        this.suggestions = [{ title: initial, value: initial }];
+        this.select = 0;
+      }
+    }
+  };
 }
 
 const kindPrompt = (() => {
@@ -105,73 +187,36 @@ const titlePrompt = (() => {
 })();
 
 const namePrompt = () => {
-  function updateCustom(input) {
-    custom.title = `${kleur.yellow(`+`)}${input ? ` ${input}` : ""}`;
-    custom.value = input;
-  }
-
-  const last = copyLastResponse("name");
-  const custom = { title: kleur.yellow(`+`), value: "" };
-  const choices = [...unitNames]
-    .sort()
-    .map(name => ({ title: name, value: name }))
-    .concat(custom);
-  updateCustom(last);
-
-  return [{
+  return [autocompleter({
     name: "name",
     message: "Name",
-    type: "autocomplete",
-    choices,
-    suggest(input, choices) {
-      if (!input && last) {
-        updateCustom(last);
-        this.value = last;
-        this.moveSelect(choices.length - 1);
-        return [];
-      }
-      updateCustom(input);
-      return filterChoices(input, choices, custom);
-    },
-    fallback() {
-      return last;
+    choices(prev, responses) {
+      return [...unitNames]
+        .sort(collator.compare)
+        .map(name => ({ title: name, value: name }));
     },
     initial() {
-      return last ? choices.length - 1 : undefined;
-    },
-    onRender() {
-      if (this.first) {
-        if (last) {
-          this.value = last;
-          this.moveSelect(choices.length - 1);
-        }
-      }
-      if (!this.input) this.cursor = 0;
+      return copyLastResponse("name");
     }
-  }];
+  })];
 };
 
 const adventurerTypePrompt = (() => {
+  const choices = [
+    { title: "P.Attack Type", value: "p.attack" },
+    { title: "M.Attack Type", value: "m.attack" },
+    { title: "Balance Type", value: "balance" },
+    { title: "Healer", value: "healer" },
+    { title: "Defense", value: "defense" }
+  ];
   const AdventurerType = {
     type(prev, responses) {
       return responses.kind === "adventurer" ? "select" : null;
     },
-    choices: [
-      { title: "P.Attack Type", value: "p.attack" },
-      { title: "M.Attack Type", value: "m.attack" },
-      { title: "Balance Type", value: "balance" },
-      { title: "Healer", value: "healer" },
-      { title: "Defense", value: "defense" }
-    ]
+    choices
   };
   return () => [
-    { ...AdventurerType, name: "type", message: "Adventurer Type", initial: copyLastResponse("type", { same: "name", choices: [
-      "p.attack",
-      "m.attack",
-      "balance",
-      "healer",
-      "defense"
-    ] }) },
+    { ...AdventurerType, name: "type", message: "Adventurer Type", initial: copyLastResponse("type", { same: "name", choices }) },
   ];
 })();
 
@@ -202,104 +247,32 @@ const statPrompt = (() => {
 })();
 
 const combatSkillNamePrompt = (prefix, message) => {
-  let custom;
-  let choices;
-  let last;
-
-  function updateCustom(input) {
-    custom.title = `${kleur.yellow(`+`)}${input ? ` ${input}` : ""}`;
-    custom.value = input;
-  }
-
-  return [{
+  return [autocompleter({
     name: `${prefix}Name`,
     message: `${message} Name`,
-    type(prev, responses) {
-      if (responses.kind !== "adventurer") return null;
-      last = copyLastResponse(`${prefix}Name`, { same: "name" });
-      if (typeof last === "function") last = last(prev, responses);
-      custom = { title: kleur.yellow(`+`), value: "" };
-      choices = Object.keys(knownCombatSkills)
-        .sort()
-        .map(name => ({ title: name, value: name }))
-        .concat(custom);
-      updateCustom(last);
-      return "autocomplete";
+    hide(prev, responses) { return responses.kind !== "adventurer" },
+    choices(prev, responses) {
+      return Object.keys(knownCombatSkills)
+        .sort(collator.compare)
+        .map(name => ({ title: name, value: name }));
     },
-    choices() { return choices; },
-    fallback() { return last; },
-    initial() { return last && choices ? choices.length - 1 : undefined },
-    suggest(input, choices) {
-      if (!input && last) {
-        updateCustom(last);
-        this.value = last;
-        this.moveSelect(choices.length - 1);
-        return [];
-      }
-      updateCustom(input);
-      return filterChoices(input, choices, custom);
-    },
-    onRender() {
-      if (this.first) {
-        if (last) {
-          this.value = last;
-          this.moveSelect(choices.length - 1);
-        }
-      }
-      if (!this.input) this.cursor = 0;
-    }
-  }];
+    initial: copyLastResponse(`${prefix}Name`, { same: "name" })
+  })];
 };
 
 const combatSkillDescriptionPrompt = (prefix, message) => {
-  let custom;
-  let choices;
-  let last;
-
-  function updateCustom(input) {
-    custom.title = `${kleur.yellow(`+`)}${input ? ` ${input}` : ""}`;
-    custom.value = input;
-  }
-
-  return [{
+  return [autocompleter({
     name: `${prefix}Description`,
     message: `${message} Description`,
-    type(prev, responses) {
-      if (responses.kind !== "adventurer") return null;
-      last = copyLastResponse(`${prefix}Description`, { same: `${prefix}Name` });
-      if (typeof last === "function") last = last(prev, responses);
-      custom = { title: kleur.yellow(`+`), value: "" };
+    hide(prev, responses) { return responses.kind !== "adventurer" },
+    choices(prev, responses) {
       const descriptions = knownCombatSkills.hasOwnProperty(prev) ? [...knownCombatSkills[prev]] : [];
-      choices = descriptions
-        .sort()
-        .map(name => ({ title: name, value: name }))
-        .concat(custom);
-      updateCustom(last);
-      return "autocomplete";
+      return choices = descriptions
+        .sort(collator.compare)
+        .map(name => ({ title: name, value: name }));
     },
-    choices() { return choices; },
-    fallback() { return last; },
-    initial() { return last && choices ? choices.length - 1 : undefined },
-    suggest(input, choices) {
-      if (!input && last) {
-        updateCustom(last);
-        this.value = last;
-        this.moveSelect(choices.length - 1);
-        return [];
-      }
-      updateCustom(input);
-      return filterChoices(input, choices, custom);
-    },
-    onRender() {
-      if (this.first) {
-        if (last) {
-          this.value = last;
-          this.moveSelect(choices.length - 1);
-        }
-      }
-      if (!this.input) this.cursor = 0;
-    }
-  }];
+    initial: copyLastResponse(`${prefix}Description`, { same: `${prefix}Name` })
+  })];
 };
 
 const combatSkillPrompt = (prefix, message) => {
@@ -310,106 +283,33 @@ const combatSkillPrompt = (prefix, message) => {
 };
 
 const passiveSkillNamePrompt = (prefix, message) => {
-  let custom;
-  let choices;
-  let last;
-
-  function updateCustom(input) {
-    custom.title = `${kleur.yellow(`+`)}${input ? ` ${input}` : ""}`;
-    custom.value = input;
-  }
-
-  return [{
+  return [autocompleter({
     name: `${prefix}Name`,
     message: `${message} Name`,
-    type(prev, responses) {
-      if (responses.kind !== "adventurer") return null;
-      last = copyLastResponse(`${prefix}Name`, { same: "name" });
-      if (typeof last === "function") last = last(prev, responses);
-      custom = { title: kleur.yellow(`+`), value: "" };
-      choices = Object.keys(knownPassiveSkills)
-        .sort()
-        .map(name => ({ title: name, value: name }))
-        .concat(custom);
-      updateCustom(last);
-      return "autocomplete";
+    hide(prev, responses) { return responses.kind !== "adventurer" },
+    choices(prev, responses) {
+      return Object.keys(knownPassiveSkills)
+        .sort(collator.compare)
+        .map(name => ({ title: name, value: name }));
     },
-    choices() { return choices; },
-    fallback() { return last; },
-    initial() { return last && choices ? choices.length - 1 : undefined },
-    suggest(input, choices) {
-      if (!input && last) {
-        updateCustom(last);
-        this.value = last;
-        this.moveSelect(choices.length - 1);
-        return [];
-      }
-      updateCustom(input);
-      return filterChoices(input, choices, custom);
-    },
-    onRender() {
-      if (this.first) {
-        if (last) {
-          this.value = last;
-          this.moveSelect(choices.length - 1);
-        }
-      }
-      if (!this.input) this.cursor = 0;
-    }
-  }];
+    initial: copyLastResponse(`${prefix}Name`, { same: "name" })
+  })];
 };
 
 const passiveSkillDescriptionPrompt = (prefix, message) => {
-  let custom;
-  let choices;
-  let last;
-
-  function updateCustom(input) {
-    custom.title = `${kleur.yellow(`+`)}${input ? ` ${input}` : ""}`;
-    custom.value = input;
-  }
-
-  return [{
+  return [autocompleter({
     name: `${prefix}Description`,
     message: `${message} Description`,
-    type(prev, responses) {
-      if (responses.kind !== "adventurer") return null;
-      last = copyLastResponse(`${prefix}Description`, { same: `${prefix}Name` });
-      if (typeof last === "function") last = last(prev, responses);
-      custom = { title: kleur.yellow(`+`), value: "" };
+    hide(prev, responses) { return responses.kind !== "adventurer" },
+    choices(prev, responses) {
       const descriptions = knownPassiveSkills.hasOwnProperty(prev) ? [...knownPassiveSkills[prev]] : [];
-      choices = descriptions
-        .sort()
-        .map(name => ({ title: name, value: name }))
-        .concat(custom);
-      updateCustom(last);
-      return "autocomplete";
+      return descriptions
+        .sort(collator.compare)
+        .map(name => ({ title: name, value: name }));
     },
-    choices() { return choices; },
-    fallback() { return last; },
-    initial() { return last && choices ? choices.length - 1 : undefined },
-    suggest(input, choices) {
-      if (!input && last) {
-        updateCustom(last);
-        this.value = last;
-        this.moveSelect(choices.length - 1);
-        return [];
-      }
-      updateCustom(input);
-      return filterChoices(input, choices, custom);
-    },
-    onRender() {
-      if (this.first) {
-        if (last) {
-          this.value = last;
-          this.moveSelect(choices.length - 1);
-        }
-      }
-      if (!this.input) this.cursor = 0;
-    }
-  }];
+    initial: copyLastResponse(`${prefix}Description`, { same: `${prefix}Name` })
+  })];
 };
-
 
 const passiveSkillPrompt = (prefix, message) => [
   ...passiveSkillNamePrompt(prefix, message),
@@ -462,10 +362,11 @@ async function main(args) {
       ...assistSkillPrompt(),
     ], { onCancel: () => { canceled = true }});
 
+    if (Object.keys(response).length > 0) {
+      fs.writeFileSync(inProgressFile, JSON.stringify(response, undefined, "  "));
+    }
+
     if (canceled) {
-      const autoSave = readAutosave() || {};
-      for (const p in response) if (response[p] !== undefined) autoSave[p] = response[p];
-      fs.writeFileSync(inProgressFile, JSON.stringify(autoSave, undefined, "  "));
       console.log("User canceled input");
       return;
     }

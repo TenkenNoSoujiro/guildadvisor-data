@@ -1,0 +1,32 @@
+{ "id": "tione.hiryute-twinkle.stream",
+  "new": false,
+  "title": "Twinkle Stream",
+  "name": "Tione Hiryute",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2461,
+  "mp": 204,
+  "str": 664,
+  "end": 451,
+  "dex": 631,
+  "agi": 598,
+  "mag": 576,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Karna Lassa", "description": "[Foes] Ultra Hi Rate Seal" },
+    { "name": "Forte Grans", "description": "[Foes] Hi P.Attack" },
+    { "name": "Stela Scudo", "description": "[Allies] P.resist+20%/4 turns" },
+    { "name": "Luna Pleghierra", "description": "[Foes] Removes Str. buffs exc. Assist Skills" }
+  ],
+  "passiveSkills": [
+    { "name": "Fist Strike", "description": "Str.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Insane Speed", "description": "Agi.+10%" },
+    { "name": "Tough", "description": "End.+10%" },
+    { "name": "Healing Power", "description": "1% HP Regen/turn" }
+  ],
+  "thumbnail": "tione.hiryute-twinkle.stream-thumb.png",
+  "image": "tione.hiryute-twinkle.stream-full.png"
+}

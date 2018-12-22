@@ -22,7 +22,7 @@
   "passiveSkills": [
     { "name": "Blessing", "description": "When countering, instead of attacking regularly, it extends Buff for Allies for 1 turn" },
     { "name": "Solid", "description": "Guard+30%" },
-    { "name": "Water REsistance", "description": "Water Resist+35%" },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
     { "name": "Concentrate", "description": "Agi. & Dex.+15%" },
     { "name": "Crush", "description": "Str.+15%" }
   ],

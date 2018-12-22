@@ -1,0 +1,32 @@
+{ "id": "tione.hiryute-pine.heart",
+  "new": false,
+  "title": "Pine Heart",
+  "name": "Tione Hiryute",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 2,
+  "hp": 2460,
+  "mp": 171,
+  "str": 619,
+  "end": 197,
+  "dex": 269,
+  "agi": 397,
+  "mag": 130,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Jormungandr Berserk", "description": "[Foes] Hi P.Attack" },
+    { "name": "Furious Espada", "description": "[Foes] Lo P.Attack" },
+    { "name": "Amazoness Ira", "description": "[Self] Str.+75% & P.Resist-15%/4 turns" },
+    { "name": "Rampage Grans", "description": "[Foes] Lo P.Attack w/50% Taunt" }
+  ],
+  "passiveSkills": [
+    { "name": "Fist Strike", "description": "Str.+5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+5%" },
+    { "name": "Insane Speed", "description": "Agi.+5%" },
+    { "name": "Tough", "description": "End.+5%" },
+    { "name": "Healing Power", "description": "1% HP Regen/turn" }
+  ],
+  "thumbnail": "tione.hiryute-pine.heart-thumb.png",
+  "image": "tione.hiryute-pine.heart-full.png"
+}
