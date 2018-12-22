@@ -1,0 +1,32 @@
+{ "id": "tiona.hiryute-dancing.blessing",
+  "new": false,
+  "title": "Dancing Blessing",
+  "name": "Tiona Hiryute",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2461,
+  "mp": 204,
+  "str": 674,
+  "end": 452,
+  "dex": 632,
+  "agi": 598,
+  "mag": 575,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Vila Lassa", "description": "[Allies] Penetration Rate+100%/4 turns" },
+    { "name": "Pololokka Rodirro", "description": "[Foes] Mid P.Attack w/15% Stun" },
+    { "name": "Stela Defesa", "description": "[Allies] M.Resist+20%/4 turns" },
+    { "name": "Luna Pregare", "description": "[Foes] Removes Mag. buffs exc. Assist Skills" }
+  ],
+  "passiveSkills": [
+    { "name": "Hunter", "description": "Agi.+10%" },
+    { "name": "Indomitable", "description": "End.+10%" },
+    { "name": "Courageous", "description": "Str.+4%" },
+    { "name": "Fist Strike", "description": "Str.+4%" },
+    { "name": "Crush", "description": "Str.+4%" }
+  ],
+  "thumbnail": "tiona.hiryute-dancing.blessing-thumb.png",
+  "image": "tiona.hiryute-dancing.blessing-full.png"
+}

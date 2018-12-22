@@ -1,0 +1,32 @@
+{ "id": "tiona.hiryute-full.throttle",
+  "new": false,
+  "title": "Full Throttle",
+  "name": "Tiona Hiryute",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 2,
+  "hp": 2460,
+  "mp": 171,
+  "str": 625,
+  "end": 196,
+  "dex": 271,
+  "agi": 399,
+  "mag": 127,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Amazon Berserk", "description": "[Foes] Hi P.Attack" },
+    { "name": "Dos Rodirro", "description": "[Foe] Lo P.Attack" },
+    { "name": "Amazoness Ira", "description": "[Self] Str.+75% & P.Resist-15%/4 turns" },
+    { "name": "Decremensis Resa", "description": "[Foe] P.Resist-5%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Hunter", "description": "Agi.+5%" },
+    { "name": "Indomitable", "description": "End.+5%" },
+    { "name": "Courageous", "description": "Str.+2%" },
+    { "name": "Fist Strike", "description": "Str.+2%" },
+    { "name": "Crush", "description": "Str.+2%" }
+  ],
+  "thumbnail": "tiona.hiryute-full.throttle-thumb.png",
+  "image": "tiona.hiryute-full.throttle-full.png"
+}

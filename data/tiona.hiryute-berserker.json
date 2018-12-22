@@ -1,0 +1,32 @@
+{ "id": "tiona.hiryute-berserker",
+  "new": false,
+  "title": "Berserker",
+  "name": "Tiona Hiryute",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2490,
+  "mp": 175,
+  "str": 813,
+  "end": 273,
+  "dex": 404,
+  "agi": 528,
+  "mag": 167,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Amazon Berserk", "description": "[Foes] Hi P.Attack" },
+    { "name": "Pololokka Rodirro", "description": "[Foe] Lo P.Attack w/30% Stun" },
+    { "name": "Amazoness Ira", "description": "[Self] Str.+75% & P.Resist-15%/4 turns" },
+    { "name": "Decremensis Resa", "description": "[Foe] P.Resist-5%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Hunter", "description": "Agi.+7.5%" },
+    { "name": "Indomitable", "description": "End.+7.5%" },
+    { "name": "Courageous", "description": "Str.+3%" },
+    { "name": "Fist Strike", "description": "Str.+3%" },
+    { "name": "Crush", "description": "Str.+3%" }
+  ],
+  "thumbnail": "tiona.hiryute-berserker-thumb.png",
+  "image": "tiona.hiryute-berserker-full.png"
+}

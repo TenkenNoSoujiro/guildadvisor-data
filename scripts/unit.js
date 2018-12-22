@@ -11,6 +11,8 @@ const collator = new Intl.Collator("en-US", {
   numeric: true
 });
 
+const nemesisRegExp = /\btowards (?<Nemesis>\w+)$/;
+
 const adventurerTemplateFile = path.join(__dirname, "adventurer.handlebars");
 const adventurerTemplate = handlebars.compile(fs.readFileSync(adventurerTemplateFile, "utf8"), { noEscape: true });
 const assistTemplateFile = path.join(__dirname, "assist.handlebars");
@@ -375,15 +377,6 @@ async function main(args) {
     response.id = `${normalize(response.name)}-${normalize(response.title)}`;
     response.new = args.includes("new");
 
-    // populate template
-    const content = response.kind === "adventurer"
-      ? adventurerTemplate(response)
-      : assistTemplate(response);
-
-    // write result
-    fs.writeFileSync(path.resolve(__dirname, "../data/", response.id + ".json"), content, "utf8");
-    console.log(response.id + ".json added.");
-
     // update unit names
     unitNames.add(response.name);
 
@@ -398,11 +391,34 @@ async function main(args) {
       registerPassiveSkill(response.passiveSkill2Name, response.passiveSkill2Description);
       registerPassiveSkill(response.passiveSkill3Name, response.passiveSkill3Description);
       registerPassiveSkill(response.passiveSkill4Name, response.passiveSkill4Description);
+
+      let match;
+      match = nemesisRegExp.exec(response.passiveSkill0Description);
+      if (match) response.passiveSkill0Nemesis = match[1];
+      match = nemesisRegExp.exec(response.passiveSkill1Description);
+      if (match) response.passiveSkill1Nemesis = match[1];
+      match = nemesisRegExp.exec(response.passiveSkill2Description);
+      if (match) response.passiveSkill2Nemesis = match[1];
+      match = nemesisRegExp.exec(response.passiveSkill3Description);
+      if (match) response.passiveSkill3Nemesis = match[1];
+      match = nemesisRegExp.exec(response.passiveSkill4Description);
+      if (match) response.passiveSkill4Nemesis = match[1];
     }
+
+    // populate template
+    const content = response.kind === "adventurer"
+      ? adventurerTemplate(response)
+      : assistTemplate(response);
+
+    // write result
+    fs.writeFileSync(path.resolve(__dirname, "../data/", response.id + ".json"), content, "utf8");
+    console.log(response.id + ".json added.");
 
     // check whether we should keep going
     const { keepGoing } = await prompts({ type: "confirm", name: "keepGoing", message: "Create another?", initial: true }, { onCancel: () => { canceled = true }});
     if (!keepGoing) break;
+
+    lastResponse = response;
   }
 }
 

@@ -21,11 +21,11 @@
     { "name": "{{combatSkill3Name}}", "description": "{{combatSkill3Description}}" }
   ],
   "passiveSkills": [
-    { "name": "{{passiveSkill0Name}}", "description": "{{passiveSkill0Description}}" },
-    { "name": "{{passiveSkill1Name}}", "description": "{{passiveSkill1Description}}" },
-    { "name": "{{passiveSkill2Name}}", "description": "{{passiveSkill2Description}}" },
-    { "name": "{{passiveSkill3Name}}", "description": "{{passiveSkill3Description}}" },
-    { "name": "{{passiveSkill4Name}}", "description": "{{passiveSkill4Description}}" }
+    { "name": "{{passiveSkill0Name}}", "description": "{{passiveSkill0Description}}"{{#if passiveSkill0Nemesis}}, "nemesis": "{{passiveSkill0Nemesis}}"{{/if}} },
+    { "name": "{{passiveSkill1Name}}", "description": "{{passiveSkill1Description}}"{{#if passiveSkill1Nemesis}}, "nemesis": "{{passiveSkill1Nemesis}}"{{/if}} },
+    { "name": "{{passiveSkill2Name}}", "description": "{{passiveSkill2Description}}"{{#if passiveSkill2Nemesis}}, "nemesis": "{{passiveSkill2Nemesis}}"{{/if}} },
+    { "name": "{{passiveSkill3Name}}", "description": "{{passiveSkill3Description}}"{{#if passiveSkill3Nemesis}}, "nemesis": "{{passiveSkill3Nemesis}}"{{/if}} },
+    { "name": "{{passiveSkill4Name}}", "description": "{{passiveSkill4Description}}"{{#if passiveSkill4Nemesis}}, "nemesis": "{{passiveSkill4Nemesis}}"{{/if}} }
   ],
   "thumbnail": "{{id}}-thumb.png",
   "image": "{{id}}-full.png"

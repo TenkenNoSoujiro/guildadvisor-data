@@ -1,0 +1,32 @@
+{ "id": "tiona.hiryute-amber.sunflower",
+  "new": false,
+  "title": "Amber Sunflower",
+  "name": "Tiona Hiryute",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2540,
+  "mp": 203,
+  "str": 1101,
+  "end": 402,
+  "dex": 685,
+  "agi": 482,
+  "mag": 981,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Shattering Onslaught", "description": "[Foes] Ultra Thunder P.Attack & Thunder Resist-50%/1 turn" },
+    { "name": "Static State", "description": "[Allies] Fast Taunt Resist+100% & End.+30%/4 turns" },
+    { "name": "Breaking Point", "description": "[Foes] Mid Thunder P.Attack w/Heal & Guard Rate-35%/3 turns" },
+    { "name": "Lightning Slash", "description": "[Foes] Hi Thunder P.Attack w/temp Str. Boost" }
+  ],
+  "passiveSkills": [
+    { "name": "Crush", "description": "Str.+15%" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "tiona.hiryute-amber.sunflower-thumb.png",
+  "image": "tiona.hiryute-amber.sunflower-full.png"
+}

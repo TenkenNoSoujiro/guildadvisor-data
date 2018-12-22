@@ -1,0 +1,32 @@
+{ "id": "tiona.hiryute-summer.swim",
+  "new": false,
+  "title": "Summer Swim",
+  "name": "Tiona Hiryute",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2610,
+  "mp": 178,
+  "str": 1317,
+  "end": 401,
+  "dex": 492,
+  "agi": 793,
+  "mag": 317,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Intense Heat", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
+    { "name": "Tres Rodirro", "description": "[Foe] Hi P.Attack w/temp Str. Boost" },
+    { "name": "Audaz Gusto", "description": "[Self] Str.+75%/4 turns" },
+    { "name": "Puro Rodirro", "description": "[Foes] Hi P.Attack w/temp Str. Boost & 15% Stun" }
+  ],
+  "passiveSkills": [
+    { "name": "Vigor", "description": "Str. & End.+10%" },
+    { "name": "Swift", "description": "Str. & Agi.+10%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+10%" },
+    { "name": "Insect Killer", "description": "Ability Pt.+50% towards Insects", "nemesis": "Insects" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "tiona.hiryute-summer.swim-thumb.png",
+  "image": "tiona.hiryute-summer.swim-full.png"
+}
