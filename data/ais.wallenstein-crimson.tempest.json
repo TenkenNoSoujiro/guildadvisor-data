@@ -14,7 +14,7 @@
   "mag": 1400,
   "combatSkills": [
     { "specialArts": true,
-      "name": "Fleur Lil Rafaga", "description": "[Foes] Ultra Fire M.Attack Dmg.+30% per each Terget's M.Resist Reduction Skill" },
+      "name": "Fleur Lil Rafaga", "description": "[Foes] Ultra Fire M.Attack Dmg.+30% per each Target's M.Resist Reduction Skill" },
     { "name": "Carmine Blaze", "description": "[Foes] Mid Fire M.Attack w/temp Mag. Boost & M.Resist-25%/2 turns" },
     { "name": "Cardinal Blade", "description": "[Foe] Fast Hi Fire M.Attack w/Ultra Penetration Rate" },
     { "name": "Blast of Pain", "description": "[Foes] Hi Fire M.Attack Dmg.+50% per each Target's M.Resist Reduction Skill" }
