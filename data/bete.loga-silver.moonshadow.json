@@ -1,0 +1,32 @@
+{ "id": "bete.loga-silver.moonshadow",
+  "new": false,
+  "title": "Silver Moonshadow",
+  "name": "Bete Loga",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2610,
+  "mp": 183,
+  "str": 1172,
+  "end": 368,
+  "dex": 480,
+  "agi": 793,
+  "mag": 315,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Ulfheoinn", "description": "[Foes] Ultra Fire M.Attack indexed to Str." },
+    { "name": "Wolfskehl", "description": "[Foe] Lo P.Attack" },
+    { "name": "Ulfr Rogi", "description": "[Foes] Mid Fire M.Attack indexed to Str." },
+    { "name": "Fenris Wolf", "description": "[Self] Agi. & Str.+75%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Beast Killer", "description": "Ability Pt.+50% toward Beasts" },
+    { "name": "Insane Speed", "description": "Agi.+10%" },
+    { "name": "Fist Strike", "description": "Str.+10%" },
+    { "name": "Magic Resistance", "description": "M.Resist+10%" },
+    { "name": "Tough", "description": "End.+5%" }
+  ],
+  "thumbnail": "bete.loga-silver.moonshadow-thumb.png",
+  "image": "bete.loga-silver.moonshadow-full.png"
+}

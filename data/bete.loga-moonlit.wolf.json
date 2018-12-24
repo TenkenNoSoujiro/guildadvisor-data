@@ -1,0 +1,32 @@
+{ "id": "bete.loga-moonlit.wolf",
+  "new": false,
+  "title": "Moonlit Wolf",
+  "name": "Bete Loga",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2696,
+  "mp": 175,
+  "str": 1490,
+  "end": 431,
+  "dex": 533,
+  "agi": 799,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Vertilgen Wolf", "description": "[Foes] Ultra Fire P.Attack w/temp Str. Boost & [Self] 50% HP Regen/1 turn" },
+    { "name": "Lethality", "description": "[Foes] Lo Fire P.Attack & [Self] Fire Attack Dmg.+60%/4 turns" },
+    { "name": "Bloodboil", "description": "[Foes] Mid Fire P.Attack w/temp Str. Boost & [Self] Counter Rate+50%/4 turns" },
+    { "name": "Eternal Thirst", "description": "[Foes] Hi Fire P.Attack w/Heal 10% of the Attack Dmg. & [Self] Status Buff +1 turn" }
+  ],
+  "passiveSkills": [
+    { "name": "Fist Strike", "description": "Str.+15%" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Wind Resistance", "description": "Wind Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "bete.loga-moonlit.wolf-thumb.png",
+  "image": "bete.loga-moonlit.wolf-full.png"
+}

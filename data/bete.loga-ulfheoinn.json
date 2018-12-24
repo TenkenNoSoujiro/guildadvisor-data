@@ -1,0 +1,32 @@
+{ "id": "bete.loga-ulfheoinn",
+  "new": false,
+  "title": "Ulfheoinn",
+  "name": "Bete Loga",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2490,
+  "mp": 178,
+  "str": 801,
+  "end": 263,
+  "dex": 395,
+  "agi": 538,
+  "mag": 170,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Vanargand Solmani", "description": "[Foes] Hi P.Attack" },
+    { "name": "Wolfskehl", "description": "[Foe] Lo P.Attack" },
+    { "name": "Wolfen Roar", "description": "[Self] Str.+50%/4 turns" },
+    { "name": "Fenris Wolf", "description": "[Self] Agi.+50%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Insane Speed", "description": "Agi.+4%" },
+    { "name": "Fist Strike", "description": "Str.+7.5%" },
+    { "name": "Magic Resistance", "description": "M.Resist+8%" },
+    { "name": "Tough", "description": "End.+4%" },
+    { "name": "Hunter", "description": "Agi.+4%" }
+  ],
+  "thumbnail": "bete.loga-ulfheoinn-thumb.png",
+  "image": "bete.loga-ulfheoinn-full.png"
+}
