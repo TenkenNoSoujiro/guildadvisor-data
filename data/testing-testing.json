@@ -1,0 +1,32 @@
+{ "id": "testing-testing",
+  "new": ,
+  "title": "Testing",
+  "name": "Testing",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 2,
+  "hp": 1,
+  "mp": 1,
+  "str": 1,
+  "end": 1,
+  "dex": 1,
+  "agi": 1,
+  "mag": 1,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "test", "description": "test" },
+    { "name": "test", "description": "test" },
+    { "name": "test", "description": "test" },
+    { "name": "test", "description": "test" }
+  ],
+  "passiveSkills": [
+    { "name": "test", "description": "test" },
+    { "name": "test", "description": "test" },
+    { "name": "test", "description": "test" },
+    { "name": "test", "description": "test" },
+    { "name": "test", "description": "test" }
+  ],
+  "thumbnail": "testing-testing-thumb.png",
+  "image": "testing-testing-full.png"
+}
