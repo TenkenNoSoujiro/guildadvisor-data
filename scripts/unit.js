@@ -22,7 +22,7 @@ const unitNamesFile = path.join(__dirname, "unitNames.json");
 const unitNames = new Set(JSON.parse(fs.readFileSync(unitNamesFile, "utf8")));
 
 const inProgressFile = path.join(__dirname, "autosave.json");
-let lastResponse = readAutosave();
+let lastResponse;
 
 function readAutosave() {
   try {
@@ -123,6 +123,7 @@ function autocompleter(options) {
   return {
     name: options.name,
     message: options.message,
+    format: options.format,
     type(prev, responses) {
       if (options.hide && options.hide(prev, responses)) return null;
 
@@ -199,6 +200,13 @@ const namePrompt = () => {
     },
     initial() {
       return copyLastResponse("name");
+    },
+    format(val) {
+      const lastName = copyLastResponse("name");
+      if (lastName && val !== lastName) {
+        lastResponse = undefined;
+      }
+      return val;
     }
   })];
 };
@@ -332,6 +340,12 @@ const assistSkillPrompt = (() => {
 })();
 
 async function main(args) {
+  const savedResponse = readAutosave();
+  if (savedResponse) {
+    const { restore } = await prompts({ type: "confirm", message: "Unsaved progress found. Restore?", name: "restore", initial: true });
+    if (restore) lastResponse = savedResponse;
+  }
+
   while (true) {
     let canceled = false;
     const response = await prompts([
@@ -364,13 +378,17 @@ async function main(args) {
       ...assistSkillPrompt(),
     ], { onCancel: () => { canceled = true }});
 
-    if (Object.keys(response).length > 0) {
-      fs.writeFileSync(inProgressFile, JSON.stringify(response, undefined, "  "));
-    }
-
     if (canceled) {
+      if (Object.keys(response).length > 0) {
+        fs.writeFileSync(inProgressFile, JSON.stringify(response, undefined, "  "));
+      }
       console.log("User canceled input");
       return;
+    }
+    else {
+      try {
+        fs.unlinkSync(inProgressFile)
+      } catch {}
     }
 
     // fill in generated values

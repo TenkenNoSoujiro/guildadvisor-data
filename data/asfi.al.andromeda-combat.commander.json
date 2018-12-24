@@ -1,0 +1,32 @@
+{ "id": "asfi.al.andromeda-combat.commander",
+  "new": false,
+  "title": "Combat Commander",
+  "name": "Asfi Al Andromeda",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2306,
+  "mp": 202,
+  "str": 419,
+  "end": 301,
+  "dex": 506,
+  "agi": 412,
+  "mag": 427,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Burst Oil", "description": "[Foes] Hi Fire M.Attack" },
+    { "name": "Poison Bullet", "description": "[Foe] Lo P.Attack w/Max HP 10% Dmg. Poison" },
+    { "name": "Melta Physica", "description": "[Foes] P.Resist-15%/4 turns" },
+    { "name": "Fall Menta", "description": "[Foes] M.Resist-15%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Mystery", "description": "Dex.+4%" },
+    { "name": "Saboteur", "description": "Dex.+4%" },
+    { "name": "Enlightenment", "description": "Mag.+7.5%" },
+    { "name": "Insane Speed", "description": "Agi.+7.5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" }
+  ],
+  "thumbnail": "asfi.al.andromeda-combat.commander-thumb.png",
+  "image": "asfi.al.andromeda-combat.commander-full.png"
+}

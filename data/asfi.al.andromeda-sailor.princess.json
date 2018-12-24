@@ -1,0 +1,32 @@
+{ "id": "asfi.al.andromeda-sailor.princess",
+  "new": false,
+  "title": "Sailor Princess",
+  "name": "Asfi Al Andromeda",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2401,
+  "mp": 209,
+  "str": 643,
+  "end": 445,
+  "dex": 697,
+  "agi": 592,
+  "mag": 1025,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Chemistal Burst", "description": "[Foes] Ultra Dark M.Attack w/Max HP 10% Dmg. Poison" },
+    { "name": "Hypno Mist", "description": "[Foes] Hi Dark M.Attack w/15% Sleep" },
+    { "name": "Plague Sting", "description": "[Foe] Hi Dark M.Attack & Guard Rate-50%/4 turns" },
+    { "name": "Illness Miasma", "description": "[Foes] Mid Dark M.Attack & M.Resist-20%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Wisdom", "description": "All Status+10%" },
+    { "name": "Defense", "description": "P.Resist+10%" },
+    { "name": "Enlightenment", "description": "Mag.+60%" },
+    { "name": "Magic Resistance", "description": "M.Resist+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "asfi.al.andromeda-sailor.princess-thumb.png",
+  "image": "asfi.al.andromeda-sailor.princess-full.png"
+}

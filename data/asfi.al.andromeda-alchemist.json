@@ -1,0 +1,32 @@
+{ "id": "asfi.al.andromeda-alchemist",
+  "new": false,
+  "title": "Alchemist",
+  "name": "Asfi Al Andromeda",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 2,
+  "hp": 2286,
+  "mp": 199,
+  "str": 318,
+  "end": 230,
+  "dex": 373,
+  "agi": 295,
+  "mag": 331,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Burst Oil", "description": "[Foes] Hi Fire M.Attack" },
+    { "name": "Poison Bullet", "description": "[Foe] Lo P.Attack w/Max HP 8% Dmg. Poison" },
+    { "name": "Hypno Ash", "description": "[Foe] 30% Sleep" },
+    { "name": "Melta Physica", "description": "[Foes] P.Resist-10%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Mystery", "description": "Dex.+3%" },
+    { "name": "Saboteur", "description": "Dex.+3%" },
+    { "name": "Enlightenment", "description": "Mag.+5%" },
+    { "name": "Insane Speed", "description": "Agi.+5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+5%" }
+  ],
+  "thumbnail": "asfi.al.andromeda-alchemist-thumb.png",
+  "image": "asfi.al.andromeda-alchemist-full.png"
+}

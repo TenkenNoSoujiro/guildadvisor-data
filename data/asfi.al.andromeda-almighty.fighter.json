@@ -1,0 +1,32 @@
+{ "id": "asfi.al.andromeda-almighty.fighter",
+  "new": false,
+  "title": "Almighty Fighter",
+  "name": "Asfi Al Andromeda",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2512,
+  "mp": 210,
+  "str": 919,
+  "end": 400,
+  "dex": 619,
+  "agi": 500,
+  "mag": 1010,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Throwing Mastery", "description": "[Foes] Ultra P.Attack w/Max HP 25% Dmg. Poison in Ultra Rate" },
+    { "name": "Noxious Sting", "description": "[Foes] Hi P.Attack" },
+    { "name": "Vanishing Shroud", "description": "[Allies] (Fast) Dmg. Received (Attack Type: All Targets) decreases by 30%/3 turns" },
+    { "name": "Maker's Insight", "description": "[Allies] Mid Heal & Counter Rate+30%/2 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Acceleration", "description": "Agi.+10%" },
+    { "name": "Unbreakable", "description": "End.+10%" },
+    { "name": "Defense", "description": "P.Resist+10%" },
+    { "name": "Magic Resistance", "description": "M.Resist+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "asfi.al.andromeda-almighty.fighter-thumb.png",
+  "image": "asfi.al.andromeda-almighty.fighter-full.png"
+}
