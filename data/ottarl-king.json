@@ -1,0 +1,32 @@
+{ "id": "ottarl-king",
+  "new": false,
+  "title": "King",
+  "name": "Ottarl",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2630,
+  "mp": 185,
+  "str": 1397,
+  "end": 427,
+  "dex": 482,
+  "agi": 711,
+  "mag": 317,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "King's War Cry", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
+    { "name": "Providence Eye", "description": "[Self] Counter Rate+25%/3 turns" },
+    { "name": "Raging Impact", "description": "[Foe] Mid P.Attack w/temp Str. Boost" },
+    { "name": "Conqueror's Strike", "description": "[Foes] Hi P.Attack w/temp Str. Boost" }
+  ],
+  "passiveSkills": [
+    { "name": "Magic Resistance", "description": "M.Resist+8%" },
+    { "name": "Defense", "description": "P.Resist+8%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Sword Fighter", "description": "Str.+10%" },
+    { "name": "Tough", "description": "End.+10%" }
+  ],
+  "thumbnail": "ottarl-king-thumb.png",
+  "image": "ottarl-king-full.png"
+}

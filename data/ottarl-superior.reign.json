@@ -1,0 +1,32 @@
+{ "id": "ottarl-superior.reign",
+  "new": false,
+  "title": "Superior Reign",
+  "name": "Ottarl",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2652,
+  "mp": 186,
+  "str": 1431,
+  "end": 440,
+  "dex": 562,
+  "agi": 768,
+  "mag": 317,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Fangs of Apocalypse", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
+    { "name": "Edge of Moment", "description": "[Foes] Mid P.Attack w/temp Str. Boost & End.-15%/2 turns" },
+    { "name": "Rupture of Annihilation", "description": "[Foes] Mid P.Attack w/temp Str. Boost & 15% Slow" },
+    { "name": "Mighty Power Slash", "description": "[Foe] Mid P.Attack w/temp Str. Boost & 30% Stun" }
+  ],
+  "passiveSkills": [
+    { "name": "Saboteur", "description": "Dex.+10%" },
+    { "name": "Acceleration", "description": "Agi.+10%" },
+    { "name": "Tough", "description": "End.+10%" },
+    { "name": "Sword Fighter", "description": "Str.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "ottarl-superior.reign-thumb.png",
+  "image": "ottarl-superior.reign-full.png"
+}
