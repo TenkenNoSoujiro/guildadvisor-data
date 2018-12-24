@@ -1,0 +1,32 @@
+{ "id": "gareth.landrock-elgarm",
+  "new": false,
+  "title": "Elgarm",
+  "name": "Gareth Landrock",
+  "kind": "adventurer",
+  "type": "defense",
+  "limited": false,
+  "rarity": 2,
+  "hp": 3034,
+  "mp": 161,
+  "str": 365,
+  "end": 465,
+  "dex": 276,
+  "agi": 165,
+  "mag": 199,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Dvergr Enhance", "description": "[Foes] Hi Earth M.Attack indexed to Str." },
+    { "name": "Heavy Ax", "description": "[Foe] Lo P.Attack" },
+    { "name": "Sidewinder", "description": "[Foes] Lo P.Attack" },
+    { "name": "Ardigalea", "description": "[Allies] P.Resist+10%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Fist Strike", "description": "Str.+3%" },
+    { "name": "Strong Defense", "description": "End.+3%" },
+    { "name": "Magic Resistance", "description": "M.Resist+5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+5%" },
+    { "name": "Crush", "description": "Str.+3%" }
+  ],
+  "thumbnail": "gareth.landrock-elgarm-thumb.png",
+  "image": "gareth.landrock-elgarm-full.png"
+}

@@ -1,0 +1,32 @@
+{ "id": "gareth.landrock-torrential",
+  "new": false,
+  "title": "Torrential",
+  "name": "Gareth Landrock",
+  "kind": "adventurer",
+  "type": "defense",
+  "limited": false,
+  "rarity": 3,
+  "hp": 3064,
+  "mp": 165,
+  "str": 563,
+  "end": 577,
+  "dex": 348,
+  "agi": 239,
+  "mag": 222,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Dvergr Enhance", "description": "[Foes] Hi Earth M.Attack indexed to Str." },
+    { "name": "Banishing Ax", "description": "[Foe] Mid P.Attack" },
+    { "name": "Sidewinder", "description": "[Foes] Mid P.Attack" },
+    { "name": "Ardigalea", "description": "[Allies] P.Resist+10%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Fist Strike", "description": "Str.+4%" },
+    { "name": "Strong Defense", "description": "End.+4%" },
+    { "name": "Magic Resistance", "description": "M.Resist+8%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Crush", "description": "Str.+4%" }
+  ],
+  "thumbnail": "gareth.landrock-torrential-thumb.png",
+  "image": "gareth.landrock-torrential-full.png"
+}
