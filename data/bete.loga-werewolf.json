@@ -1,0 +1,31 @@
+{ "id": "bete.loga-werewolf",
+  "title": "Werewolf",
+  "name": "Bete Loga",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 2,
+  "hp": 2460,
+  "mp": 175,
+  "str": 620,
+  "end": 191,
+  "dex": 266,
+  "agi": 407,
+  "mag": 129,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Vanargand Solmani", "description": "[Foes] Hi P.Attack" },
+    { "name": "Wolfskehl", "description": "[Foe] Lo P.Attack" },
+    { "name": "Wolfen Roar", "description": "[Self] Str.+50%/4 turns" },
+    { "name": "Fenris Wolf", "description": "[Self] Agi.+50%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Insane Speed", "description": "Agi.+3%" },
+    { "name": "Fist Strike", "description": "Str.+5%" },
+    { "name": "Magic Resistance", "description": "M.Resist+5%" },
+    { "name": "Tough", "description": "End.+3%" },
+    { "name": "Hunter", "description": "Agi.+3%" }
+  ],
+  "thumbnail": "bete.loga-werewolf-thumb.png",
+  "image": "bete.loga-werewolf-full.png"
+}
