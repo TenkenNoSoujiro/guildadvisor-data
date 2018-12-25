@@ -1,0 +1,31 @@
+{ "id": "kashima.ouka-solid.resolutions",
+  "title": "Solid Resolutions",
+  "name": "Kashima Ouka",
+  "kind": "adventurer",
+  "type": "defense",
+  "limited": false,
+  "rarity": 3,
+  "hp": 3064,
+  "mp": 164,
+  "str": 544,
+  "end": 577,
+  "dex": 379,
+  "agi": 256,
+  "mag": 221,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Ouka Issen", "description": "[Foes] Hi P.Attack" },
+    { "name": "Shielding Stance", "description": "Scapegoat during turn" },
+    { "name": "Kenpu-Renzan", "description": "[Foe] Lo P.Attack" },
+    { "name": "Heart of Perseverance", "description": "[Self] Avoids K.O x1 only when HP≥40% (removed when HP<40%)" }
+  ],
+  "passiveSkills": [
+    { "name": "Strong Defense", "description": "End.+2%" },
+    { "name": "Tough", "description": "End.+2%" },
+    { "name": "Hunter", "description": "Agi.+7.5%" },
+    { "name": "Crush", "description": "Str.+5%" },
+    { "name": "Saboteur", "description": "Dex.+7.5%" }
+  ],
+  "thumbnail": "kashima.ouka-solid.resolutions-thumb.png",
+  "image": "kashima.ouka-solid.resolutions-full.png"
+}
