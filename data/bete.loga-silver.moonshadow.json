@@ -21,7 +21,7 @@
     { "name": "Fenris Wolf", "description": "[Self] Agi. & Str.+75%/4 turns" }
   ],
   "passiveSkills": [
-    { "name": "Beast Killer", "description": "Ability Pt.+50% toward Beasts" },
+    { "name": "Beast Killer", "description": "Ability Pt.+50% toward Beasts", "nemesis": "Beasts" },
     { "name": "Insane Speed", "description": "Agi.+10%" },
     { "name": "Fist Strike", "description": "Str.+10%" },
     { "name": "Magic Resistance", "description": "M.Resist+10%" },

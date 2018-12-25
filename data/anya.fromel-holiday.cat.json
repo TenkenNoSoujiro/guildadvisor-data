@@ -1,0 +1,32 @@
+{ "id": "anya.fromel-holiday.cat",
+  "new": false,
+  "title": "Holiday Cat",
+  "name": "Anya Fromel",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2600,
+  "mp": 279,
+  "str": 336,
+  "end": 385,
+  "dex": 603,
+  "agi": 741,
+  "mag": 1370,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Speed Party!", "description": "[Foe] Ultra Earth M.Attack w/temp Mag. Boost & Ultra Critical Rate" },
+    { "name": "Fraction", "description": "[Foe] Lo Earth M.Attack & [Self] Mag.+75%/4 turns" },
+    { "name": "Breach", "description": "[Foe] Hi Earth M.Attack & Earth Resist-35%/3 turns" },
+    { "name": "Ferocious Pierce", "description": "[Foe] Hi Earth M.Attack w/temp Mag. Boost & Guard Rate-40%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Mind's Eye", "description": "Mag.+15%" },
+    { "name": "Piercing Strike", "description": "Dmg.+20% Upon Penetration" },
+    { "name": "Thunder Resistance", "description": "Thunder Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "anya.fromel-holiday.cat-thumb.png",
+  "image": "anya.fromel-holiday.cat-full.png"
+}

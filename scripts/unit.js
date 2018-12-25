@@ -1,7 +1,9 @@
+// @ts-check
 const fs = require("fs");
 const path = require("path");
 const prompts = require("prompts");
 const handlebars = require("handlebars");
+// @ts-ignore
 const kleur = require("kleur");
 
 const collator = new Intl.Collator("en-US", {
@@ -11,8 +13,16 @@ const collator = new Intl.Collator("en-US", {
   numeric: true
 });
 
-const nemesisRegExp = /\btowards (?<Nemesis>\w+)$/;
+/**
+ * @param {[string, number]} left
+ * @param {[string, number]} right
+ */
+function descriptionCollator(left, right) {
+  return -(left[1] - right[1])
+      || collator.compare(left[0], right[0]);
+}
 
+const nemesisRegExp = /\btowards? (?<Nemesis>\w+)$/;
 const adventurerTemplateFile = path.join(__dirname, "adventurer.handlebars");
 const adventurerTemplate = handlebars.compile(fs.readFileSync(adventurerTemplateFile, "utf8"), { noEscape: true });
 const assistTemplateFile = path.join(__dirname, "assist.handlebars");
@@ -32,8 +42,12 @@ function readAutosave() {
 }
 
 const dataDir = path.join(__dirname, "../data");
-const knownPassiveSkills = {};
+
+/** @type {Record<string, Map<string, number>>} */
 const knownCombatSkills = {};
+
+/** @type {Record<string, Map<string, number>>} */
+const knownPassiveSkills = {};
 
 for (const entry of fs.readdirSync(dataDir, { withFileTypes: true })) {
   if (!entry.isFile()) continue;
@@ -45,18 +59,39 @@ for (const entry of fs.readdirSync(dataDir, { withFileTypes: true })) {
   for (const skill of unit.passiveSkills) registerPassiveSkill(skill.name, skill.description);
 }
 
+/** @param {string} name */
 function registerUnitName(name) {
   unitNames.add(name);
 }
 
+/**
+ * @param {string} name
+ * @param {string} description
+ */
 function registerCombatSkill(name, description) {
-  const entries = knownCombatSkills.hasOwnProperty(name) ? knownCombatSkills[name] : knownCombatSkills[name] = new Set();
-  entries.add(description);
+  const entries = knownCombatSkills.hasOwnProperty(name) ? knownCombatSkills[name] : knownCombatSkills[name] = new Map();
+  let count = entries.get(description);
+  if (!count) {
+    entries.set(description, 1);
+  }
+  else {
+    entries.set(description, count + 1);
+  }
 }
 
+/**
+ * @param {string} name
+ * @param {string} description
+ */
 function registerPassiveSkill(name, description) {
-  const entries = knownPassiveSkills.hasOwnProperty(name) ? knownPassiveSkills[name] : knownPassiveSkills[name] = new Set();
-  entries.add(description);
+  const entries = knownPassiveSkills.hasOwnProperty(name) ? knownPassiveSkills[name] : knownPassiveSkills[name] = new Map();
+  let count = entries.get(description);
+  if (!count) {
+    entries.set(description, 1);
+  }
+  else {
+    entries.set(description, count + 1);
+  }
 }
 
 function copyLastResponse(field, options = {}) {
@@ -104,9 +139,11 @@ function filterChoices(input, choices, custom) {
  * @param {object} options
  * @param {string} options.name
  * @param {string} options.message
- * @param {string|Function} [options.initial]
- * @param {{ title: string, value: any }[] | ((prev, responses) => { title: string, value: any }[])} options.choices
+ * @param {(val: string, values: any) => string} [options.format]
  * @param {(prev, responses) => boolean} [options.hide]
+ * @param {string | ((prev, responses) => string)} [options.initial]
+ * @param {prompts.Choice[] | ((prev, responses) => prompts.Choice[])} options.choices
+ * @returns {PromptObject<"autocomplete">}
  */
 function autocompleter(options) {
   const plus = kleur.yellow("+");
@@ -126,17 +163,13 @@ function autocompleter(options) {
     format: options.format,
     type(prev, responses) {
       if (options.hide && options.hide(prev, responses)) return null;
-
       custom = { title: plus, value: "" };
-
       initial = typeof options.initial === "function"
         ? options.initial(prev, responses)
         : options.initial;
-
       choices = typeof options.choices === "function"
         ? options.choices(prev, responses).concat(custom)
         : options.choices.concat(custom);
-
       updateCustom(initial);
       return "autocomplete"
     },
@@ -169,26 +202,25 @@ function autocompleter(options) {
   };
 }
 
-const kindPrompt = (() => {
-  return () => [
-    { type: "select",
-      name: "kind",
-      message: "Unit kind",
-      choices: [
-        { title: "adventurer", value: "adventurer" },
-        { title: "assist", value: "assist" }
-      ],
-      initial: copyLastResponse("kind", { choices: ["adventurer", "assist"]})
-    }
-  ];
-})();
+/** @type {() => PromptObject<"select">[]} */
+const kindPrompt = () => [
+  { type: "select",
+    name: "kind",
+    message: "Unit kind",
+    choices: [
+      { title: "adventurer", value: "adventurer" },
+      { title: "assist", value: "assist" }
+    ],
+    initial: copyLastResponse("kind", { choices: ["adventurer", "assist"]})
+  }
+];
 
-const titlePrompt = (() => {
-  return () => [
-    { type: "text", name: "title", message: "Title", initial: copyLastResponse("title") }
-  ];
-})();
+/** @type {() => PromptObject<"text">[]} */
+const titlePrompt = () => [
+  { type: "text", name: "title", message: "Title", initial: copyLastResponse("title") }
+];
 
+/** @type {() => PromptObject<"autocomplete">[]} */
 const namePrompt = () => {
   return [autocompleter({
     name: "name",
@@ -211,6 +243,7 @@ const namePrompt = () => {
   })];
 };
 
+/** @type {() => PromptObject<"select">[]} */
 const adventurerTypePrompt = (() => {
   const choices = [
     { title: "P.Attack Type", value: "p.attack" },
@@ -220,6 +253,7 @@ const adventurerTypePrompt = (() => {
     { title: "Defense", value: "defense" }
   ];
   const AdventurerType = {
+    /** @returns {"select" | null} */
     type(prev, responses) {
       return responses.kind === "adventurer" ? "select" : null;
     },
@@ -230,32 +264,30 @@ const adventurerTypePrompt = (() => {
   ];
 })();
 
-const timeLimitedPrompt = (() => {
-  return () => [
-    { type: "confirm",
-      name: "limited",
-      message: "Time-limited",
-      initial: copyLastResponse("limited", { same: "name" }) },
-  ];
-})();
+/** @type {() => PromptObject<"confirm">[]} */
+const timeLimitedPrompt = () => [
+  { type: "confirm",
+    name: "limited",
+    message: "Time-limited",
+    initial: copyLastResponse("limited", { same: "name" }) },
+];
 
-const rarityPrompt = (() => {
-  return () => [
-    { type: "number",
-      name: "rarity",
-      message: "Rarity",
-      min: 1,
-      max: 4,
-      initial: copyLastResponse("rarity", { same: "name", default: 4 }) },
-  ];
-})();
+/** @type {() => PromptObject<"number">[]} */
+const rarityPrompt = () => [
+  { type: "number",
+    name: "rarity",
+    message: "Rarity",
+    min: 1,
+    max: 4,
+    initial: copyLastResponse("rarity", { same: "name", default: 4 }) },
+];
 
-const statPrompt = (() => {
-  return (name, message) => [
-    { type: "number", name, message, initial: copyLastResponse(name, { same: "name" }) }
-  ];
-})();
+/** @type {(name: string, message: string) => PromptObject<"number">[]} */
+const statPrompt = (name, message) => [
+  { type: "number", name, message, initial: copyLastResponse(name, { same: "name" }) }
+];
 
+/** @type {(prefix: string, message: string) => PromptObject<"autocomplete">[]} */
 const combatSkillNamePrompt = (prefix, message) => {
   return [autocompleter({
     name: `${prefix}Name`,
@@ -270,6 +302,7 @@ const combatSkillNamePrompt = (prefix, message) => {
   })];
 };
 
+/** @type {(prefix: string, message: string) => PromptObject<"autocomplete">[]} */
 const combatSkillDescriptionPrompt = (prefix, message) => {
   return [autocompleter({
     name: `${prefix}Description`,
@@ -277,14 +310,15 @@ const combatSkillDescriptionPrompt = (prefix, message) => {
     hide(prev, responses) { return responses.kind !== "adventurer" },
     choices(prev, responses) {
       const descriptions = knownCombatSkills.hasOwnProperty(prev) ? [...knownCombatSkills[prev]] : [];
-      return choices = descriptions
-        .sort(collator.compare)
-        .map(name => ({ title: name, value: name }));
+      return descriptions
+        .sort(descriptionCollator)
+        .map(([text]) => ({ title: text, value: text }));
     },
     initial: copyLastResponse(`${prefix}Description`, { same: `${prefix}Name` })
   })];
 };
 
+/** @type {(prefix: string, message: string) => PromptObject<"autocomplete">[]} */
 const combatSkillPrompt = (prefix, message) => {
   return [
     ...combatSkillNamePrompt(prefix, message),
@@ -292,6 +326,7 @@ const combatSkillPrompt = (prefix, message) => {
   ];
 };
 
+/** @type {(prefix: string, message: string) => PromptObject<"autocomplete">[]} */
 const passiveSkillNamePrompt = (prefix, message) => {
   return [autocompleter({
     name: `${prefix}Name`,
@@ -306,6 +341,7 @@ const passiveSkillNamePrompt = (prefix, message) => {
   })];
 };
 
+/** @type {(prefix: string, message: string) => PromptObject<"autocomplete">[]} */
 const passiveSkillDescriptionPrompt = (prefix, message) => {
   return [autocompleter({
     name: `${prefix}Description`,
@@ -314,20 +350,23 @@ const passiveSkillDescriptionPrompt = (prefix, message) => {
     choices(prev, responses) {
       const descriptions = knownPassiveSkills.hasOwnProperty(prev) ? [...knownPassiveSkills[prev]] : [];
       return descriptions
-        .sort(collator.compare)
-        .map(name => ({ title: name, value: name }));
+        .sort(descriptionCollator)
+        .map(([text]) => ({ title: text, value: text }));
     },
     initial: copyLastResponse(`${prefix}Description`, { same: `${prefix}Name` })
   })];
 };
 
+/** @type {(prefix: string, message: string) => PromptObject<"autocomplete">[]} */
 const passiveSkillPrompt = (prefix, message) => [
   ...passiveSkillNamePrompt(prefix, message),
   ...passiveSkillDescriptionPrompt(prefix, message),
 ];
 
+/** @type {() => PromptObject<"text">[]} */
 const assistSkillPrompt = (() => {
   const AssistSkill = {
+    /** @returns {"text" | null} */
     type(prev, responses) {
       return responses.kind === "assist" ? "text" : null;
     }
@@ -448,3 +487,9 @@ function normalize(text) {
 }
 
 main(process.argv.slice(2));
+
+/**
+ * @template {prompts.PromptType} P
+ * @typedef {import("prompts").PromptObject<string, any, P>} PromptObject
+ */
+void 0;

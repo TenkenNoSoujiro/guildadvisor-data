@@ -1,0 +1,32 @@
+{ "id": "anya.fromel-feline.lancer",
+  "new": false,
+  "title": "Feline Lancer",
+  "name": "Anya Fromel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2580,
+  "mp": 186,
+  "str": 1394,
+  "end": 423,
+  "dex": 481,
+  "agi": 788,
+  "mag": 323,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Geiravor Dens", "description": "[Foe] Ultra P.Attack w/Ultra Penetration Rate & temp Str. Boost" },
+    { "name": "Cat Spike", "description": "[Foes] Mid P.Attack & P.Resist-10%/2 turns" },
+    { "name": "Quick Revenge", "description": "[Self] Fast/Avoids K.O. x1 only when HP≥20% (removed when HP<20%)" },
+    { "name": "Charge Growl", "description": "[Foe] Hi P.Attack w/temp Str. Boost & P.Resist-20%/2 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Nimble", "description": "Str. & Agi.+10%" },
+    { "name": "Magic Resistance", "description": "M.Resist+8%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Defense", "description": "P.Resist+8%" },
+    { "name": "Tough", "description": "End.+10%" }
+  ],
+  "thumbnail": "anya.fromel-feline.lancer-thumb.png",
+  "image": "anya.fromel-feline.lancer-full.png"
+}

@@ -1,0 +1,32 @@
+{ "id": "tsubaki.collbrande-iron.warrior",
+  "new": false,
+  "title": "Iron Warrior",
+  "name": "Tsubaki Collbrande",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2566,
+  "mp": 190,
+  "str": 1382,
+  "end": 446,
+  "dex": 545,
+  "agi": 718,
+  "mag": 319,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Iron Glaive", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
+    { "name": "Oniyuri", "description": "[Foes] Mid P.Attack w/temp Str. Boost & Str.-20%/4 turns" },
+    { "name": "Suzuran", "description": "[Foe] Mid P.Attack w/temp Str. Boost" },
+    { "name": "Hitujigusa", "description": "[Foe] Mid P.Attack & removes all Mag. Buffs exc. Assist Skills" }
+  ],
+  "passiveSkills": [
+    { "name": "Tough", "description": "End.+10%" },
+    { "name": "Defense", "description": "P.Resist+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Battle Arts", "description": "Str. & Dex.+8%" },
+    { "name": "Dragon Killer", "description": "Ability Pt.+50% toward Dragons", "nemesis": "Dragons" }
+  ],
+  "thumbnail": "tsubaki.collbrande-iron.warrior-thumb.png",
+  "image": "tsubaki.collbrande-iron.warrior-full.png"
+}
