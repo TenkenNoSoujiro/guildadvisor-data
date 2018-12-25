@@ -1,0 +1,23 @@
+{ "id": "hestia-sacred.fire",
+  "title": "Sacred Fire",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 898,
+  "mp": 154,
+  "str": 321,
+  "end": 224,
+  "dex": 364,
+  "agi": 520,
+  "mag": 321,
+  "skill": {
+    "name": "Mysterious Bonfire",
+    "descriptions": [
+      "[Foes] Dmg. received (Attack Type: All Targets) +10% & [Allies] Agi.+8%",
+      "[Foes] Dmg. received (Attack Type: All Targets) +15% & [Allies] Agi.+10%"
+    ]
+  },
+  "thumbnail": "hestia-sacred.fire-thumb.png",
+  "image": "hestia-sacred.fire-full.png"
+}
