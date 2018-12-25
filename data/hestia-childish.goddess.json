@@ -1,0 +1,23 @@
+{ "id": "hestia-childish.goddess",
+  "title": "Childish Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 1,
+  "hp": 818,
+  "mp": 141,
+  "str": 256,
+  "end": 130,
+  "dex": 168,
+  "agi": 135,
+  "mag": 94,
+  "skill": {
+    "name": "Flame of Hope",
+    "descriptions": [
+      "Str.+10%",
+      "Str.+15%"
+    ]
+  },
+  "thumbnail": "hestia-childish.goddess-thumb.png",
+  "image": "hestia-childish.goddess-full.png"
+}
