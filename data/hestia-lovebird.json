@@ -1,0 +1,23 @@
+{ "id": "hestia-lovebird",
+  "title": "Lovebird",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 838,
+  "mp": 148,
+  "str": 354,
+  "end": 174,
+  "dex": 204,
+  "agi": 235,
+  "mag": 136,
+  "skill": {
+    "name": "My Heart To You",
+    "descriptions": [
+      "Dex.+12%",
+      "Dex.+15%"
+    ]
+  },
+  "thumbnail": "hestia-lovebird-thumb.png",
+  "image": "hestia-lovebird-full.png"
+}
