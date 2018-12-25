@@ -1,0 +1,23 @@
+{ "id": "hestia-filmic.goddess",
+  "title": "Filmic Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 918,
+  "mp": 154,
+  "str": 370,
+  "end": 401,
+  "dex": 347,
+  "agi": 227,
+  "mag": 294,
+  "skill": {
+    "name": "Sparkling Smile",
+    "descriptions": [
+      "[Allies] P.Resist & Guard Rate+8%",
+      "[Allies] P.Resist & Guard Rate+10%"
+    ]
+  },
+  "thumbnail": "hestia-filmic.goddess-thumb.png",
+  "image": "hestia-filmic.goddess-full.png"
+}
