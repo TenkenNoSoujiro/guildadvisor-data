@@ -1,0 +1,31 @@
+{ "id": "lunor.faust-black.fist",
+  "title": "Black Fist",
+  "name": "Lunor Faust",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2640,
+  "mp": 189,
+  "str": 1474,
+  "end": 427,
+  "dex": 534,
+  "agi": 817,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Assault Strike", "description": "[Foes] Ultra Dark P.Attack w/temp Str. Boost & Ultra Unguard Rate" },
+    { "name": "Danger Detection", "description": "[Foes] Lo Dark P.Attack & removes all Str. Buffs exc. Assist Skills" },
+    { "name": "Thorough Destruction", "description": "[Foes] Hi Dark P.Attack w/temp Str. Boost & Agi.-20%/4 turns" },
+    { "name": "Black Fist Crush", "description": "[Foes] Mid Dark P.Attack w/temp Str. Boost & P.Resist-15%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Crush", "description": "Str.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Rigid", "description": "End.& Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "lunor.faust-black.fist-thumb.png",
+  "image": "lunor.faust-black.fist-full.png"
+}
