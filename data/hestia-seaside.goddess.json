@@ -1,0 +1,23 @@
+{ "id": "hestia-seaside.goddess",
+  "title": "Seaside Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 918,
+  "mp": 154,
+  "str": 561,
+  "end": 291,
+  "dex": 316,
+  "agi": 374,
+  "mag": 225,
+  "skill": {
+    "name": "Bouncing Blessing",
+    "descriptions": [
+      "[Foes] Str.-15%",
+      "[Foes] Str.-20%"
+    ]
+  },
+  "thumbnail": "hestia-seaside.goddess-thumb.png",
+  "image": "hestia-seaside.goddess-full.png"
+}
