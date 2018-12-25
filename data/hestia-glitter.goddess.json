@@ -1,0 +1,23 @@
+{ "id": "hestia-glitter.goddess",
+  "title": "Glitter Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 922,
+  "mp": 148,
+  "str": 321,
+  "end": 238,
+  "dex": 510,
+  "agi": 340,
+  "mag": 321,
+  "skill": {
+    "name": "Gold Fever",
+    "descriptions": [
+      "[Allies] 14% HP Regen",
+      "[Allies] 18% HP Regen"
+    ]
+  },
+  "thumbnail": "hestia-glitter.goddess-thumb.png",
+  "image": "hestia-glitter.goddess-full.png"
+}
