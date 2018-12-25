@@ -1,0 +1,23 @@
+{ "id": "hestia-goddess.of.purity",
+  "title": "Goddess of Purity",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 838,
+  "mp": 148,
+  "str": 354,
+  "end": 174,
+  "dex": 204,
+  "agi": 235,
+  "mag": 136,
+  "skill": {
+    "name": "Maiden's Protection",
+    "descriptions": [
+      "Str.+25%",
+      "Str.+30%"
+    ]
+  },
+  "thumbnail": "hestia-goddess.of.purity-thumb.png",
+  "image": "hestia-goddess.of.purity-full.png"
+}
