@@ -1,0 +1,31 @@
+{ "id": "kashima.ouka-war.gods.child",
+  "title": "War God's Child",
+  "name": "Kashima Ouka",
+  "kind": "adventurer",
+  "type": "defense",
+  "limited": false,
+  "rarity": 2,
+  "hp": 3034,
+  "mp": 161,
+  "str": 358,
+  "end": 464,
+  "dex": 290,
+  "agi": 175,
+  "mag": 197,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Ouka Issen", "description": "[Foes] Hi P.Attack" },
+    { "name": "Kenpu-Renzan", "description": "[Foe] Lo P.Attack" },
+    { "name": "Shielding Stance", "description": "Scapegoat during turn" },
+    { "name": "Spirited Stance", "description": "[Foe] Str.-10%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Strong Defense", "description": "End.+1.5%" },
+    { "name": "Tough", "description": "End.+1.5%" },
+    { "name": "Hunter", "description": "Agi.+5%" },
+    { "name": "Crush", "description": "Str.+4%" },
+    { "name": "Saboteur", "description": "Dex.+5%" }
+  ],
+  "thumbnail": "kashima.ouka-war.gods.child-thumb.png",
+  "image": "kashima.ouka-war.gods.child-full.png"
+}
