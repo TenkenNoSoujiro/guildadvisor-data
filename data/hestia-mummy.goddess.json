@@ -1,0 +1,23 @@
+{ "id": "hestia-mummy.goddess",
+  "title": "Mummy Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 918,
+  "mp": 154,
+  "str": 369,
+  "end": 401,
+  "dex": 342,
+  "agi": 228,
+  "mag": 293,
+  "skill": {
+    "name": "Mummy Guildance",
+    "descriptions": [
+      "[Foes] Dex.-8% & [Allies] Counter Rate+10%",
+      "[Foes] Dex.-10% & [Allies] Counter Rate+15%"
+    ]
+  },
+  "thumbnail": "hestia-mummy.goddess-thumb.png",
+  "image": "hestia-mummy.goddess-full.png"
+}
