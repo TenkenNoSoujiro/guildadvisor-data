@@ -1,0 +1,23 @@
+{ "id": "hestia-kunoichi.goddess",
+  "title": "Kunoichi Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 950,
+  "mp": 141,
+  "str": 555,
+  "end": 296,
+  "dex": 329,
+  "agi": 380,
+  "mag": 213,
+  "skill": {
+    "name": "Goddess Aure",
+    "descriptions": [
+      "[Allies] Str.+8% & 10% HP Regen",
+      "[Allies] Str.+10% & 15% HP Regen"
+    ]
+  },
+  "thumbnail": "hestia-kunoichi.goddess-thumb.png",
+  "image": "hestia-kunoichi.goddess-full.png"
+}
