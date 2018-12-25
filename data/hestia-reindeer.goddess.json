@@ -1,0 +1,23 @@
+{ "id": "hestia-reindeer.goddess",
+  "title": "Reindeer Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 870,
+  "mp": 161,
+  "str": 209,
+  "end": 224,
+  "dex": 359,
+  "agi": 286,
+  "mag": 594,
+  "skill": {
+    "name": "Phantom Beast",
+    "descriptions": [
+      "[Allies] Mag. & Fire Attack Damage & Wind Attack Damage+10%",
+      "[Allies] Mag. & Fire Attack Damage & Wind Attack Damage+15%"
+    ]
+  },
+  "thumbnail": "hestia-reindeer.goddess-thumb.png",
+  "image": "hestia-reindeer.goddess-full.png"
+}
