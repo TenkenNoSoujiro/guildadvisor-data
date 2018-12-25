@@ -1,0 +1,23 @@
+{ "id": "hestia-parttime.goddess",
+  "title": "Part-time Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 918,
+  "mp": 154,
+  "str": 548,
+  "end": 281,
+  "dex": 312,
+  "agi": 367,
+  "mag": 214,
+  "skill": {
+    "name": "Hilarious Service",
+    "descriptions": [
+      "[Allies] Str.+10%",
+      "[Allies] Str.+15%"
+    ]
+  },
+  "thumbnail": "hestia-parttime.goddess-thumb.png",
+  "image": "hestia-parttime.goddess-full.png"
+}
