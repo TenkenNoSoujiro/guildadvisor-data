@@ -1,0 +1,31 @@
+{ "id": "hitachi.chigusa-evanescent",
+  "title": "Evanescent",
+  "name": "Hitachi Chigusa",
+  "kind": "adventurer",
+  "type": "healer",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2171,
+  "mp": 235,
+  "str": 257,
+  "end": 205,
+  "dex": 468,
+  "agi": 331,
+  "mag": 608,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Chigusa Senbu", "description": "[Foes] Hi P.Attack" },
+    { "name": "Breath of Spring", "description": "[Allies] Lo Heal" },
+    { "name": "Purifying Water", "description": "[Allies] Ailment Cure" },
+    { "name": "Anti-Spell Circle", "description": "[Allies] M.Resist+10%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Abnormal Resistance", "description": "Ailment Resist+10%" },
+    { "name": "Tough", "description": "End.+4%" },
+    { "name": "Mind's Eye", "description": "Mag.+7.5%" },
+    { "name": "Saboteur", "description": "Dex.+7.5%" },
+    { "name": "Unbreakable", "description": "End.+4%" }
+  ],
+  "thumbnail": "hitachi.chigusa-evanescent-thumb.png",
+  "image": "hitachi.chigusa-evanescent-full.png"
+}
