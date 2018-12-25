@@ -1,0 +1,23 @@
+{ "id": "hestia-summer.goddess",
+  "title": "Summer Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 950,
+  "mp": 141,
+  "str": 314,
+  "end": 218,
+  "dex": 380,
+  "agi": 524,
+  "mag": 314,
+  "skill": {
+    "name": "Summer Holiday!",
+    "descriptions": [
+      "[Foes] 60% Slow & [Allies] Critical Rate+8%",
+      "[Foes] 90% Slow & [Allies] Critical Rate+10%"
+    ]
+  },
+  "thumbnail": "hestia-summer.goddess-thumb.png",
+  "image": "hestia-summer.goddess-full.png"
+}
