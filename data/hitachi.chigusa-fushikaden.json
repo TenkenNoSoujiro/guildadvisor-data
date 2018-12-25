@@ -1,0 +1,31 @@
+{ "id": "hitachi.chigusa-fushikaden",
+  "title": "Fushi-kaden",
+  "name": "Hitachi Chigusa",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2492,
+  "mp": 215,
+  "str": 898,
+  "end": 400,
+  "dex": 605,
+  "agi": 470,
+  "mag": 1133,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Narukami Sakura", "description": "[Foes] Ultra Thunder M.Attack w/30% Charm" },
+    { "name": "Shunrai Shigure", "description": "[Foe] Hi P.Attack" },
+    { "name": "Shinobigoi Yukidoke", "description": "[Allies] Lo Heal" },
+    { "name": "Kushimitama Kagura", "description": "[Allies] Str.+35%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Enlightenment", "description": "Mag.+10%" },
+    { "name": "Defense", "description": "P.Resist+10%" },
+    { "name": "Magic Resistance", "description": "M.Resist+10%" },
+    { "name": "Unbreakable", "description": "End.+10%" },
+    { "name": "Abnormal Resistance", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "hitachi.chigusa-fushikaden-thumb.png",
+  "image": "hitachi.chigusa-fushikaden-full.png"
+}
