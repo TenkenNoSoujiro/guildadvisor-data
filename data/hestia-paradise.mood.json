@@ -1,0 +1,23 @@
+{ "id": "hestia-paradise.mood",
+  "title": "Paradise Mood",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 693,
+  "mp": 230,
+  "str": 216,
+  "end": 236,
+  "dex": 353,
+  "agi": 287,
+  "mag": 580,
+  "skill": {
+    "name": "Onsen Effect",
+    "descriptions": [
+      "[Foes] Str.-15%",
+      "[Foes] Str.-20%"
+    ]
+  },
+  "thumbnail": "hestia-paradise.mood-thumb.png",
+  "image": "hestia-paradise.mood-full.png"
+}
