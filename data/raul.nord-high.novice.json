@@ -1,0 +1,31 @@
+{ "id": "raul.nord-high.novice",
+  "title": "High Novice",
+  "name": "Raul Nord",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2327,
+  "mp": 200,
+  "str": 430,
+  "end": 334,
+  "dex": 500,
+  "agi": 390,
+  "mag": 391,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Lethal Weapon", "description": "[Foes] Hi P.Attack" },
+    { "name": "Heavy Smash", "description": "[Foe] Mid P.Attack & Guard Rate-45%/3 turns" },
+    { "name": "Full Swing", "description": "[Foe] Hi P.Attack w/temp Str. Boost" },
+    { "name": "Ordinary Plan", "description": "[Allies] End.+15% & Guard Rate+20%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Saboteur", "description": "Dex.+8%" },
+    { "name": "Tough", "description": "End.+8%" },
+    { "name": "Defense", "description": "P.Resist+8%" },
+    { "name": "Magic Resistance", "description": "M.Resist+8%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" }
+  ],
+  "thumbnail": "raul.nord-high.novice-thumb.png",
+  "image": "raul.nord-high.novice-full.png"
+}
