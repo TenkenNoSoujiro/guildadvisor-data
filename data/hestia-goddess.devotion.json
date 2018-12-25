@@ -1,0 +1,23 @@
+{ "id": "hestia-goddess.devotion",
+  "title": "Goddess' Devotion",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 838,
+  "mp": 148,
+  "str": 354,
+  "end": 174,
+  "dex": 204,
+  "agi": 235,
+  "mag": 136,
+  "skill": {
+    "name": "Dazzling Wish",
+    "descriptions": [
+      "[Allies] 3MP Regen",
+      "[Allies] 5MP Regen"
+    ]
+  },
+  "thumbnail": "hestia-goddess.devotion-thumb.png",
+  "image": "hestia-goddess.devotion-full.png"
+}
