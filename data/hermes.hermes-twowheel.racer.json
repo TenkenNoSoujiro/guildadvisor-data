@@ -1,0 +1,31 @@
+{ "id": "hermes.hermes-twowheel.racer",
+  "title": "Two-Wheel Racer",
+  "name": "Hermes & Hermes",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2524,
+  "mp": 207,
+  "str": 1009,
+  "end": 397,
+  "dex": 676,
+  "agi": 546,
+  "mag": 976,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Biker Bash", "description": "[Foes] Ultra P.Attack w/30% Stun" },
+    { "name": "Rev-Up", "description": "[Self] Agi.+75%/4 turns & [Foes] Stun Resist-75%" },
+    { "name": "Burn Out", "description": "[Foe] Hi P.Attack w/30% Stun" },
+    { "name": "Traction Burst", "description": "[Foes] Hi P.Attack w/15% Stun" }
+  ],
+  "passiveSkills": [
+    { "name": "Crafter", "description": "Dex.+10%" },
+    { "name": "Acceleration", "description": "Agi.+10%" },
+    { "name": "Unbreakable", "description": "End.+10%" },
+    { "name": "Crush", "description": "Str.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "hermes.hermes-twowheel.racer-thumb.png",
+  "image": "hermes.hermes-twowheel.racer-full.png"
+}
