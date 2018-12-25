@@ -1,0 +1,32 @@
+{ "id": "chloe.lolo-black.cat",
+  "new": false,
+  "title": "Black Cat",
+  "name": "Chloe Lolo",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2426,
+  "mp": 209,
+  "str": 1113,
+  "end": 448,
+  "dex": 634,
+  "agi": 599,
+  "mag": 576,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Felesculus", "description": "[Allies] Null P.Attack x2 exc. Special Arts" },
+    { "name": "Fierce Dagger", "description": "[Foes] Hi Dark P.Attack w/Max HP 10% Dmg. Poison" },
+    { "name": "Siecle Thief", "description": "[Foes] Mid Dark P.Attack w/Agi. & Dark Resist-35%/2 turns" },
+    { "name": "Nox Haze", "description": "[Foes] Hi Dark P.Attack w/Ultra Uncounter Rate & Dex.-35%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Climb", "description": "End. & Agi.+10%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+8%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Light Resistance", "description": "Light Resist+20%" },
+    { "name": "Sword Fighter", "description": "Str.+85%" }
+  ],
+  "thumbnail": "chloe.lolo-black.cat-thumb.png",
+  "image": "chloe.lolo-black.cat-full.png"
+}
