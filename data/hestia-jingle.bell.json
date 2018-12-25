@@ -1,0 +1,23 @@
+{ "id": "hestia-jingle.bell",
+  "title": "Jingle Bell",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 748,
+  "mp": 224,
+  "str": 217,
+  "end": 227,
+  "dex": 356,
+  "agi": 289,
+  "mag": 578,
+  "skill": {
+    "name": "God's Present",
+    "descriptions": [
+      "[Foes] Str. & Counter Rate-10%",
+      "[Foes] Str. & Counter Rate-15%"
+    ]
+  },
+  "thumbnail": "hestia-jingle.bell-thumb.png",
+  "image": "hestia-jingle.bell-full.png"
+}
