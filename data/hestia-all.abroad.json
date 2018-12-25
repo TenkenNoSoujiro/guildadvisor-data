@@ -1,0 +1,23 @@
+{ "id": "hestia-all.abroad",
+  "title": "All Abroad",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1224,
+  "mp": 108,
+  "str": 350,
+  "end": 390,
+  "dex": 330,
+  "agi": 219,
+  "mag": 350,
+  "skill": {
+    "name": "Lucky Tour",
+    "descriptions": [
+      "[Allies] Stun Resist+75% & [Foes] End.-6%",
+      "[Allies] Stun Resist+100% & [Foes] End.-8%"
+    ]
+  },
+  "thumbnail": "hestia-all.abroad-thumb.png",
+  "image": "hestia-all.abroad-full.png"
+}
