@@ -1,0 +1,32 @@
+{ "id": "shakti.varma-fist.fighter",
+  "new": false,
+  "title": "Fist Fighter",
+  "name": "Shakti Varma",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2451,
+  "mp": 180,
+  "str": 727,
+  "end": 247,
+  "dex": 360,
+  "agi": 484,
+  "mag": 150,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Muthee Sagrama", "description": "[Foes] Hi P.Attack" },
+    { "name": "Visana", "description": "[Foes] Hi P.Attack w/temp Str. Boost" },
+    { "name": "Udayati", "description": "[Self] Str.+50%/4 turns" },
+    { "name": "Dharana", "description": "[Self] 30% MP Heal" }
+  ],
+  "passiveSkills": [
+    { "name": "Crafter", "description": "Dex.+8%" },
+    { "name": "Insane Speed", "description": "Agi.+8%" },
+    { "name": "Unbreakable", "description": "End.+8%" },
+    { "name": "Fist Strike", "description": "Str.+8%" },
+    { "name": "Spirit Healing", "description": "1% MP Regen/turn" }
+  ],
+  "thumbnail": "shakti.varma-fist.fighter-thumb.png",
+  "image": "shakti.varma-fist.fighter-full.png"
+}

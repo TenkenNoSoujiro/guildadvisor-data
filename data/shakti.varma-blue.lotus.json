@@ -1,0 +1,32 @@
+{ "id": "shakti.varma-blue.lotus",
+  "new": false,
+  "title": "Blue Lotus",
+  "name": "Shakti Varma",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2656,
+  "mp": 185,
+  "str": 1040,
+  "end": 423,
+  "dex": 477,
+  "agi": 667,
+  "mag": 286,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Ambra Ugrata", "description": "[Foe] Ultra Thunder P.Attack w/temp Str. Boost" },
+    { "name": "Vidyut", "description": "[Foe] Mid Thunder P.Attack & Mag.-25%/4 turns" },
+    { "name": "Ek Garjana", "description": "[Foe] Hi Thunder P.Attack & removes all Mag. Buffs exc. Assist Skills" },
+    { "name": "Vajrapaat", "description": "[Foe] Lo Thunder P.Attack & [Self] Str.+65%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Train", "description": "End. & Dex.+10%" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Water Resistance", "description": "Water Resist+25%" },
+    { "name": "Climb", "description": "End. & Agi.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "shakti.varma-blue.lotus-thumb.png",
+  "image": "shakti.varma-blue.lotus-full.png"
+}
