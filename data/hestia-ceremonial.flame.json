@@ -1,0 +1,23 @@
+{ "id": "hestia-ceremonial.flame",
+  "title": "Ceremonial Flame",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1228,
+  "mp": 107,
+  "str": 350,
+  "end": 381,
+  "dex": 332,
+  "agi": 226,
+  "mag": 350,
+  "skill": {
+    "name": "Goddess's Prayer",
+    "descriptions": [
+      "[Allies] Null Aliments x1",
+      "[Allies] Null Aliments x2"
+    ]
+  },
+  "thumbnail": "hestia-ceremonial.flame-thumb.png",
+  "image": "hestia-ceremonial.flame-full.png"
+}
