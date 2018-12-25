@@ -14,7 +14,7 @@
   "mag": 332,
   "combatSkills": [
     { "specialArts": true,
-      "name": "Ouka-Nisouren", "description": "[Foes] Ultra P.Attack & Penetration Rate -45%/4 turns" },
+      "name": "Ouka-Nisouren", "description": "[Foes] Ultra P.Attack & Penetration Rate-45%/4 turns" },
     { "name": "Spear of Absolute Bravery", "description": "[Foe] Hi P.Attack indexed to HP" },
     { "name": "Fair and Square", "description": "[Self] Covers Allies from single attack/1 turn & Heal 20%" },
     { "name": "Do or Die Resistance", "description": "[Allies] Fast End.+20%/4 turns" }
