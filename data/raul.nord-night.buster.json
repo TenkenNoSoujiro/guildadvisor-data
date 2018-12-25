@@ -1,0 +1,31 @@
+{ "id": "raul.nord-night.buster",
+  "title": "Night Buster",
+  "name": "Raul Nord",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2388,
+  "mp": 241,
+  "str": 903,
+  "end": 411,
+  "dex": 720,
+  "agi": 466,
+  "mag": 1162,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Voltage Emission", "description": "[Foes] Ultra Thunder M.Attack+50%[Self] Regen/Dmg.Reduction(Attack: All Targets)" },
+    { "name": "Negative Electrode", "description": "[Allies] (Fast) Dmg. recieved (Attack Type: All Targets) decreases by 30%/3 turns" },
+    { "name": "Positive Electrode", "description": "[Foes] Hi Thunder M.Attack & [Self] 30% HP Regen/4 turns" },
+    { "name": "Polarity Repulsion", "description": "[Foes] Mid Thunder M.Attack+60% per [Self] Regen/Dmg.Reduction(Attack: All Targets)" }
+  ],
+  "passiveSkills": [
+    { "name": "Mind's Eye", "description": "Mag.+15%" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
+    { "name": "Rigid", "description": "End.& Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "raul.nord-night.buster-thumb.png",
+  "image": "raul.nord-night.buster-full.png"
+}
