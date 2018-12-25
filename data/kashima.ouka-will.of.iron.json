@@ -1,0 +1,31 @@
+{ "id": "kashima.ouka-will.of.iron",
+  "title": "Will of Iron",
+  "name": "Kashima Ouka",
+  "kind": "adventurer",
+  "type": "defense",
+  "limited": false,
+  "rarity": 4,
+  "hp": 3216,
+  "mp": 171,
+  "str": 818,
+  "end": 797,
+  "dex": 590,
+  "agi": 342,
+  "mag": 332,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Ouka-Nisouren", "description": "[Foes] Ultra P.Attack & Penetration Rate-45%/4 turns" },
+    { "name": "Spear of Absolute Bravery", "description": "[Foe] Hi P.Attack indexed to HP" },
+    { "name": "Fair and Square", "description": "[Self] Covers Allies from single attack/1 turn & Heal 20%" },
+    { "name": "Do or Die Resistance", "description": "[Allies] Fast End.+20%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Saboteur", "description": "Dex.+10%" },
+    { "name": "Courageous", "description": "Str.+10%" },
+    { "name": "Insane Speed", "description": "Agi.10%" },
+    { "name": "Healing Power", "description": "3% HP Regen/turn" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "kashima.ouka-will.of.iron-thumb.png",
+  "image": "kashima.ouka-will.of.iron-full.png"
+}
