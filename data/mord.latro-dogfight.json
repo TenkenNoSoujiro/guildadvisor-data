@@ -1,0 +1,31 @@
+{ "id": "mord.latro-dogfight",
+  "title": "Dogfight",
+  "name": "Mord Latro",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2460,
+  "mp": 184,
+  "str": 800,
+  "end": 276,
+  "dex": 400,
+  "agi": 527,
+  "mag": 171,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Invisible Slayer", "description": "[Foes] Hi P.Attack" },
+    { "name": "Short Ripper", "description": "[Foe] Lo P.Attack w/30% Taunt" },
+    { "name": "Massive Force", "description": "[Self] Str.+75%/4 turns" },
+    { "name": "Wide Slash", "description": "[Foes] Mid P.Attack" }
+  ],
+  "passiveSkills": [
+    { "name": "Defense", "description": "P.Resist+8%" },
+    { "name": "Insane Speed", "description": "Agi.+7.5%" },
+    { "name": "Indomitable", "description": "End.+7.5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Sword Fighter", "description": "Str.+7.5%" }
+  ],
+  "thumbnail": "mord.latro-dogfight-thumb.png",
+  "image": "mord.latro-dogfight-full.png"
+}
