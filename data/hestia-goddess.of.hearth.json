@@ -1,0 +1,23 @@
+{ "id": "hestia-goddess.of.hearth",
+  "title": "Goddess of Hearth",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 818,
+  "mp": 145,
+  "str": 289,
+  "end": 140,
+  "dex": 165,
+  "agi": 190,
+  "mag": 99,
+  "skill": {
+    "name": "Aid of Divine Fire",
+    "descriptions": [
+      "Str.+15%",
+      "Str.+20%"
+    ]
+  },
+  "thumbnail": "hestia-goddess.of.hearth-thumb.png",
+  "image": "hestia-goddess.of.hearth-full.png"
+}
