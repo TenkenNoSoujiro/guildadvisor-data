@@ -1,0 +1,31 @@
+{ "id": "hitachi.chigusa-thousand.blades",
+  "title": "Thousand Blades",
+  "name": "Hitachi Chigusa",
+  "kind": "adventurer",
+  "type": "healer",
+  "limited": false,
+  "rarity": 2,
+  "hp": 2151,
+  "mp": 231,
+  "str": 247,
+  "end": 186,
+  "dex": 370,
+  "agi": 318,
+  "mag": 552,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Chigusa Senbu", "description": "[Foes] Hi P.Attack" },
+    { "name": "Loyal Knife", "description": "[Foe] Lo P.Attack" },
+    { "name": "Breath of Spring", "description": "[Allies] Lo Heal" },
+    { "name": "Anti-Katana Circle", "description": "[Allies] P.Resist+10%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Abnormal Resistance", "description": "Ailment Resist+5%" },
+    { "name": "Tough", "description": "End.+3%" },
+    { "name": "Mind's Eye", "description": "Mag.+5%" },
+    { "name": "Saboteur", "description": "Dex.+5%" },
+    { "name": "Unbreakable", "description": "End.+3%" }
+  ],
+  "thumbnail": "hitachi.chigusa-thousand.blades-thumb.png",
+  "image": "hitachi.chigusa-thousand.blades-full.png"
+}
