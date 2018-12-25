@@ -1,0 +1,31 @@
+{ "id": "filvis.challia-maenads.maiden",
+  "title": "Maenad's Maiden",
+  "name": "Filvis Challia",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2490,
+  "mp": 269,
+  "str": 341,
+  "end": 375,
+  "dex": 508,
+  "agi": 784,
+  "mag": 1320,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Light Pillar", "description": "[Foes] Ultra Light M.Attack" },
+    { "name": "Sacred Scourge", "description": "[Foes] Mid Light M.Attack w/15% Stun" },
+    { "name": "Force Field", "description": "[Self] Avoids K.O x1 only when HP≥20% (removed when HP<20%)" },
+    { "name": "Sol Illuminate", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost" }
+  ],
+  "passiveSkills": [
+    { "name": "Mage", "description": "Mag.+13%" },
+    { "name": "Unbreakable", "description": "End.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Hunter", "description": "Agi.+7.5%" },
+    { "name": "Insane Speed", "description": "Agi.+7.5%" }
+  ],
+  "thumbnail": "filvis.challia-maenads.maiden-thumb.png",
+  "image": "filvis.challia-maenads.maiden-full.png"
+}
