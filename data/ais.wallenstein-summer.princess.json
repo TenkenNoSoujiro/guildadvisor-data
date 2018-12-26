@@ -1,7 +1,6 @@
 { "id": "ais.wallenstein-summer.princess",
   "title": "Summer Princess",
   "name": "Ais Wallenstein",
-  "alias": ["summer ais"],
   "kind": "adventurer",
   "type": "p.attack",
   "limited": true,
@@ -16,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Tidal Lil Rafaga", "description": "[Foes] Ultra Water P.Attack w/temp Str. Boost" },
-    { "name": "Aqua Blade", "description": "[Foes] Mid Water P.Attack & removes all Str. Buffs exc Assist Skills" },
-    { "name": "Cobalt Edge", "description": "[Foes] Hi Water P.Attack w/temp Str. Boost & [Foes] Status Buff -1 turn" },
-    { "name": "Aqua Bite", "description": "[Foes] Mid Water P.Attack w/temp Str. Boost & [Foes] P.Resist-15%/3 turns" }
+    { "name": "Aqua Blade", "description": "[Foes] Mid Water P.Attack & removes all Str. Buffs exc Assist Skills", "mp": 25 },
+    { "name": "Cobalt Edge", "description": "[Foes] Hi Water P.Attack w/temp Str. Boost & [Foes] Status Buff -1 turn", "mp": 34 },
+    { "name": "Aqua Bite", "description": "[Foes] Mid Water P.Attack w/temp Str. Boost & [Foes] P.Resist-15%/3 turns", "mp": 27 }
   ],
   "passiveSkills": [
     { "name": "Sword Fighter", "description": "Str.+15%" },
@@ -27,6 +26,6 @@
     { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
-  "image": "ais.wallenstein-summer.princess-full.png",
-  "thumbnail": "ais.wallenstein-summer.princess-thumb.png"
+  "thumbnail": "ais.wallenstein-summer.princess-thumb.png",
+  "image": "ais.wallenstein-summer.princess-full.png"
 }
