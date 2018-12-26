@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Argonaut Firebolt", "description": "[Foes] Hi Fire M.Attack" },
-    { "name": "Rapid Slash", "description": "[Foe] Fast Lo P.Attack" },
-    { "name": "Firebolt", "description": "[Foe] Mid Fire M.Attack" },
-    { "name": "Argonaut", "description": "[Self] Str. & Mag.+50%/4 turns" }
+    { "name": "Rapid Slash", "description": "[Foe] Fast Lo P.Attack", "mp": 8 },
+    { "name": "Firebolt", "description": "[Foe] Mid Fire M.Attack", "mp": 8 },
+    { "name": "Argonaut", "description": "[Self] Str. & Mag.+50%/4 turns", "mp": 18 }
   ],
   "passiveSkills": [
     { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
