@@ -1,0 +1,32 @@
+{ "id": "eren.jaeger-wings.of.freedom",
+  "new": false,
+  "title": "Wings of Freedom",
+  "name": "Eren Jaeger",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2596,
+  "mp": 200,
+  "str": 1200,
+  "end": 400,
+  "dex": 463,
+  "agi": 665,
+  "mag": 286,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "High Altitude Trajectory", "description": "[Foes] Ultra Wind P.Attack w/temp Str. Boost" },
+    { "name": "Dive Attack", "description": "[Foes] Hi Wind P.Attack" },
+    { "name": "Focused Attack", "description": "[Self] Str.+65% & 20% HP Regen/4 turns" },
+    { "name": "Head-on Attack", "description": "[Foe] Hi Wind P.Attack w/Hi Critical Rate" }
+  ],
+  "passiveSkills": [
+    { "name": "Sword Fighter", "description": "Str.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Earth Resistance", "description": "Earth Resist+25%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "eren.jaeger-wings.of.freedom-thumb.png",
+  "image": "eren.jaeger-wings.of.freedom-full.png"
+}

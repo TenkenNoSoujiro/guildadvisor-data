@@ -1,0 +1,32 @@
+{ "id": "levi-strongest.soldier",
+  "new": false,
+  "title": "Strongest Soldier",
+  "name": "Levi",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2680,
+  "mp": 179,
+  "str": 1490,
+  "end": 378,
+  "dex": 561,
+  "agi": 848,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Fast Dimensional Attack", "description": "[Foes] Ultra Dark P.Attack w/temp Str. Boost" },
+    { "name": "Horizontal Attack", "description": "[Foes] Lo Dark P.Attack & [Self] Dark Attack Dmg.+75%/4 turns" },
+    { "name": "Slash", "description": "[Foes] Mid Dark P.Attack & [Self] Str.+60%/4 turns" },
+    { "name": "Rotating Attack", "description": "[Foes] Hi Dark P.Attack w/Ultra Uncounter Rate" }
+  ],
+  "passiveSkills": [
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Giant Killer", "description": "Ability Pt.+50% toward Giants", "nemesis": "Giants" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "levi-strongest.soldier-thumb.png",
+  "image": "levi-strongest.soldier-full.png"
+}

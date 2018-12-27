@@ -23,7 +23,7 @@
     { "name": "Crush", "description": "Str.+15%" },
     { "name": "Strike", "description": "Critical Damage+10%" },
     { "name": "Light Resistance", "description": "Light Resist+35%" },
-    { "name": "Rigid", "description": "End.& Agi. & Dex.+10%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
   "thumbnail": "lunor.faust-black.fist-thumb.png",

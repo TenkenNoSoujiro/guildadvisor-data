@@ -24,7 +24,7 @@
     { "name": "Tough", "description": "End.+5%" },
     { "name": "Enlightenment", "description": "Mag.+8%" },
     { "name": "Insane Speed", "description": "Agi.+10%" },
-    { "name": "Status Resist", "description": "Ailment Resist +10%" }
+    { "name": "Status Resist", "description": "Ailment Resist+10%" }
   ],
   "thumbnail": "amid.teasanare-dea.saint-thumb.png",
   "image": "amid.teasanare-dea.saint-full.png"
