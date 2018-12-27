@@ -1,0 +1,32 @@
+{ "id": "filvis.challia-maenads",
+  "new": false,
+  "title": "Maenads",
+  "name": "Filvis Challia",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 3,
+  "hp": 1626,
+  "mp": 267,
+  "str": 161,
+  "end": 240,
+  "dex": 335,
+  "agi": 435,
+  "mag": 808,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Dio Thyrsos", "description": "[Foes] Hi Thunder M.Attack" },
+    { "name": "Xeno Lightning", "description": "[Foe] Mid Thunder M.Attack" },
+    { "name": "Grandis Luster", "description": "[Foes] Lo Light M.Attack" },
+    { "name": "Dio Grail", "description": "[Allies] P.Resist+10%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Mage", "description": "Mag.+5%" },
+    { "name": "Unbreakable", "description": "End.+4%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Saboteur", "description": "Dex.+7.5%" },
+    { "name": "Tough", "description": "End.+4%" }
+  ],
+  "thumbnail": "filvis.challia-maenads-thumb.png",
+  "image": "filvis.challia-maenads-full.png"
+}
