@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "High Altitude Trajectory", "description": "[Foes] Ultra Wind P.Attack w/temp Str. Boost" },
-    { "name": "Dive Attack", "description": "[Foes] Hi Wind P.Attack" },
-    { "name": "Focused Attack", "description": "[Self] Str.+65% & 20% HP Regen/4 turns" },
-    { "name": "Head-on Attack", "description": "[Foe] Hi Wind P.Attack w/Hi Critical Rate" }
+    { "name": "Dive Attack", "description": "[Foes] Hi Wind P.Attack", "mp": 24 },
+    { "name": "Focused Attack", "description": "[Self] Str.+65% & 20% HP Regen/4 turns", "mp": 21 },
+    { "name": "Head-on Attack", "description": "[Foe] Hi Wind P.Attack w/Hi Critical Rate", "mp": 22 }
   ],
   "passiveSkills": [
     { "name": "Sword Fighter", "description": "Str.+15%" },

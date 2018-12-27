@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "ODM Attacks", "description": "[Foe] Ultra Dark P.Attack w/temp Str. Boost" },
-    { "name": "Cartwheel Attack", "description": "[Foe] Lo Dark P.Attack & [Self] Str.+75%/4 turns" },
-    { "name": "Ascending Attack", "description": "[Foe] Mid Dark P.Attack & [Self] Dark Attack Dmg.+60%/4 turns" },
-    { "name": "Non-Stop", "description": "[Foe] Hi Dark P.Attack & removes all Mag. Buffs exc. Assist Skills" }
+    { "name": "Cartwheel Attack", "description": "[Foe] Lo Dark P.Attack & [Self] Str.+75%/4 turns", "mp": 25 },
+    { "name": "Ascending Attack", "description": "[Foe] Mid Dark P.Attack & [Self] Dark Attack Dmg.+60%/4 turns", "mp": 29 },
+    { "name": "Non-Stop", "description": "[Foe] Hi Dark P.Attack & removes all Mag. Buffs exc. Assist Skills", "mp": 26 }
   ],
   "passiveSkills": [
     { "name": "Battle Arts", "description": "Str. & Dex.+15%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Fast Dimensional Attack", "description": "[Foes] Ultra Dark P.Attack w/temp Str. Boost" },
-    { "name": "Horizontal Attack", "description": "[Foes] Lo Dark P.Attack & [Self] Dark Attack Dmg.+75%/4 turns" },
-    { "name": "Slash", "description": "[Foes] Mid Dark P.Attack & [Self] Str.+60%/4 turns" },
-    { "name": "Rotating Attack", "description": "[Foes] Hi Dark P.Attack w/Ultra Uncounter Rate" }
+    { "name": "Horizontal Attack", "description": "[Foes] Lo Dark P.Attack & [Self] Dark Attack Dmg.+75%/4 turns", "mp": 27 },
+    { "name": "Slash", "description": "[Foes] Mid Dark P.Attack & [Self] Str.+60%/4 turns", "mp": 31 },
+    { "name": "Rotating Attack", "description": "[Foes] Hi Dark P.Attack w/Ultra Uncounter Rate", "mp": 29 }
   ],
   "passiveSkills": [
     { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+15%" },
