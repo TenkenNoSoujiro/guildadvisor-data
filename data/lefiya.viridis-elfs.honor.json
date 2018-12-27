@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Har Rae Laevateinn", "description": "[Foes] Ultra Fire M.Attack w/temp Mag. Boost" },
-    { "name": "Kindling", "description": "[Foes] Lo Fire M.Attack & [Self] Mag.+75%/4 turns" },
-    { "name": "Laid Waste", "description": "[Foe] Hi Fire M.Attack w/temp Mag. Boost" },
-    { "name": "Immolation", "description": "[Foes] Fast Mid Fire M.Attack w/temp Mag. Boost & M.resist-10%/4 turns" }
+    { "name": "Kindling", "description": "[Foes] Lo Fire M.Attack & [Self] Mag.+75%/4 turns", "mp": 29 },
+    { "name": "Laid Waste", "description": "[Foe] Hi Fire M.Attack w/temp Mag. Boost", "mp": 38 },
+    { "name": "Immolation", "description": "[Foes] Fast Mid Fire M.Attack w/temp Mag. Boost & M.resist-10%/4 turns", "mp": 48 }
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+15%" },

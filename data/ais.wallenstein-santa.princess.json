@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Present Lil Rafaga", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost" },
-    { "name": "Kamita Mech", "description": "[Foes] Hi Water M.Attack & Agi.-20%/4 turns" },
-    { "name": "Varder Mech", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost" },
-    { "name": "Veter Grato", "description": "[Self] Null P.Attack x2 exc. Special Arts" }
+    { "name": "Kamita Mech", "description": "[Foes] Hi Water M.Attack & Agi.-20%/4 turns", "mp": 34 },
+    { "name": "Varder Mech", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost", "mp": 38 },
+    { "name": "Veter Grato", "description": "[Self] Null P.Attack x2 exc. Special Arts", "mp": 108 }
   ],
   "passiveSkills": [
     { "name": "Enlightenment", "description": "Mag.+11%" },

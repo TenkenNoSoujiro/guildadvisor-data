@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Solid Lil Rafaga", "description": "[Foes] Ultra Wind P.Attack w/temp Str. Boost" },
-    { "name": "Air Combination", "description": "[Foes] Lo Wind P.Attack & [Self] Wind Attack Dmg.+60%/4 turns" },
-    { "name": "Tornado Break", "description": "[Foes] Hi Wind P.Attack w/temp Str. Boost" },
-    { "name": "Revelation Cyclone", "description": "[Foes] Hi Wind P.Attack & Dmg. received (Attack: All Targets) increases by 15%/3 turns" }
+    { "name": "Air Combination", "description": "[Foes] Lo Wind P.Attack & [Self] Wind Attack Dmg.+60%/4 turns", "mp": 27 },
+    { "name": "Tornado Break", "description": "[Foes] Hi Wind P.Attack w/temp Str. Boost", "mp": 29 },
+    { "name": "Revelation Cyclone", "description": "[Foes] Hi Wind P.Attack & Dmg. received (Attack: All Targets) increases by 15%/3 turns", "mp": 30 }
   ],
   "passiveSkills": [
     { "name": "Sword Fighter", "description": "Str.+15%" },

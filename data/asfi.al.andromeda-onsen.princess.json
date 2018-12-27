@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Crack Burst", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
-    { "name": "Division Knive", "description": "[Foes] Mid P.Attack w/temp Str. Boost & Mag.-20%/4 turns" },
-    { "name": "Foresight Dagger", "description": "[Foe] Mid P.Attack & 30% Seal w/temp Str. Boost" },
-    { "name": "Flash Knowledge", "description": "[Self] Null P.Attack x2 exc. Special Arts" }
+    { "name": "Division Knive", "description": "[Foes] Mid P.Attack w/temp Str. Boost & Mag.-20%/4 turns", "mp": 30 },
+    { "name": "Foresight Dagger", "description": "[Foe] Mid P.Attack & 30% Seal w/temp Str. Boost", "mp": 24 },
+    { "name": "Flash Knowledge", "description": "[Self] Null P.Attack x2 exc. Special Arts", "mp": 108 }
   ],
   "passiveSkills": [
     { "name": "Mystery", "description": "Dex.+10%" },

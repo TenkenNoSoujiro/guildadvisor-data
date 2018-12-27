@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Sharp Gift", "description": "[Foes] Ultra Earth P.Attack w/temp Str. Boost" },
-    { "name": "Parrying Dagger", "description": "[Allies] P.Resist+35%/3 turns" },
-    { "name": "Fend", "description": "[Foes] Mid Earth P.Attack & Str.-35%/3 turns" },
-    { "name": "Laceration", "description": "[Foes] Mid Earth P.Attack w/temp Str. Boost" }
+    { "name": "Parrying Dagger", "description": "[Allies] P.Resist+35%/3 turns", "mp": 30 },
+    { "name": "Fend", "description": "[Foes] Mid Earth P.Attack & Str.-35%/3 turns", "mp": 22 },
+    { "name": "Laceration", "description": "[Foes] Mid Earth P.Attack w/temp Str. Boost", "mp": 21 }
   ],
   "passiveSkills": [
     { "name": "Crush", "description": "Str.+15%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Patatrin Naga", "description": "[Foes] Ultra P.Attack w/30% Stun" },
-    { "name": "Suzila", "description": "[Allies] Guard Rate+35% & P.Resist+35%/3 turns" },
-    { "name": "Durbalata", "description": "[Foes] Mid P.Attack w/Str. & Critical Rate-35%/3 turns" },
-    { "name": "Askanda", "description": "[Foes] Hi P.Attack w/temp Str. Boost" }
+    { "name": "Suzila", "description": "[Allies] Guard Rate+35% & P.Resist+35%/3 turns", "mp": 42 },
+    { "name": "Durbalata", "description": "[Foes] Mid P.Attack w/Str. & Critical Rate-35%/3 turns", "mp": 40 },
+    { "name": "Askanda", "description": "[Foes] Hi P.Attack w/temp Str. Boost", "mp": 28 }
   ],
   "passiveSkills": [
     { "name": "Fist Strike", "description": "Str.+10%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Powering Arrow", "description": "[Foes] Ultra Light M.Attack" },
-    { "name": "Heal Medicine", "description": "[Allies] Lo Heal & Ailment Cure" },
-    { "name": "Chaos Pale", "description": "[Foe] Lo Dark M.Attack w/Max HP 10% Dmg. Poison" },
-    { "name": "Flaming Blade", "description": "[Foe] Hi Fire M.Attack" }
+    { "name": "Heal Medicine", "description": "[Allies] Lo Heal & Ailment Cure", "mp": 20 },
+    { "name": "Chaos Pale", "description": "[Foe] Lo Dark M.Attack w/Max HP 10% Dmg. Poison", "mp": 23 },
+    { "name": "Flaming Blade", "description": "[Foe] Hi Fire M.Attack", "mp": 30 }
   ],
   "passiveSkills": [
     { "name": "Enlightenment", "description": "Mag.+5.5%" },

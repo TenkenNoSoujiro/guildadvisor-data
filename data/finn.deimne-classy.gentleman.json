@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Tactical Tuxedo", "description": "[Allies] Critical Rate+100%/4 turns" },
-    { "name": "Rush Spear", "description": "[Foe] Fast Mid P.Attack" },
-    { "name": "Buster Edge", "description": "[Foe] Lo P.Attack w/Heal 20% of Dmg." },
-    { "name": "Destructor", "description": "[Foes] Hi P.Attack" }
+    { "name": "Rush Spear", "description": "[Foe] Fast Mid P.Attack", "mp": 15 },
+    { "name": "Buster Edge", "description": "[Foe] Lo P.Attack w/Heal 20% of Dmg.", "mp": 20 },
+    { "name": "Destructor", "description": "[Foes] Hi P.Attack", "mp": 28 }
   ],
   "passiveSkills": [
     { "name": "Sword Fighter", "description": "Str.+5%" },

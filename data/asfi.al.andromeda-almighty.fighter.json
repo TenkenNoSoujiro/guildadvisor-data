@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Throwing Mastery", "description": "[Foes] Ultra P.Attack w/Max HP 25% Dmg. Poison in Ultra Rate" },
-    { "name": "Noxious Sting", "description": "[Foes] Hi P.Attack" },
-    { "name": "Vanishing Shroud", "description": "[Allies] (Fast) Dmg. Received (Attack Type: All Targets) decreases by 30%/3 turns" },
-    { "name": "Maker's Insight", "description": "[Allies] Mid Heal & Counter Rate+30%/2 turns" }
+    { "name": "Noxious Sting", "description": "[Foes] Hi P.Attack", "mp": 23 },
+    { "name": "Vanishing Shroud", "description": "[Allies] (Fast) Dmg. Received (Attack Type: All Targets) decreases by 30%/3 turns", "mp": 77 },
+    { "name": "Maker's Insight", "description": "[Allies] Mid Heal & Counter Rate+30%/2 turns", "mp": 39 }
   ],
   "passiveSkills": [
     { "name": "Acceleration", "description": "Agi.+10%" },

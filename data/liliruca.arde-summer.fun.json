@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Dolphin Army", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost" },
-    { "name": "Calamity Water", "description": "[Foes] Mid Water M.Attack & removes all Mag. Buffs exc. Assist Skills" },
-    { "name": "Water Magic Sword", "description": "[Foes] Hi Water M.Attack w/temp Mag. Boost & [Foes] Status Debuff +1 turn" },
-    { "name": "Frozen Water", "description": "[Foes] Mid Water M.Attack w/temp Mag. Boost & [Foes] M.Resist-15%/3 turns" }
+    { "name": "Calamity Water", "description": "[Foes] Mid Water M.Attack & removes all Mag. Buffs exc. Assist Skills", "mp": 35 },
+    { "name": "Water Magic Sword", "description": "[Foes] Hi Water M.Attack w/temp Mag. Boost & [Foes] Status Debuff +1 turn", "mp": 53 },
+    { "name": "Frozen Water", "description": "[Foes] Mid Water M.Attack w/temp Mag. Boost & [Foes] M.Resist-15%/3 turns", "mp": 43 }
   ],
   "passiveSkills": [
     { "name": "Mind's Eye", "description": "Mag.+15%" },

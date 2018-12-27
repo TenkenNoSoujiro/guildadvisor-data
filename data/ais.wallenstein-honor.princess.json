@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Radiant Lil Rafaga", "description": "[Foe] Ultra P.Attack w/temp Str. Boost" },
-    { "name": "Blade Dance", "description": "[Foe] Mid P.Attack w/temp Str. Boost & Str.-30%/4 turns" },
-    { "name": "Phase Slicer", "description": "[Foe] Mid P.Attack w/temp Str. Boost & P.Resist-20%/4 turns" },
-    { "name": "Stiletto", "description": "[Foe] Lo P.Attack & [Self] Str.+75%/4 turns" }
+    { "name": "Blade Dance", "description": "[Foe] Mid P.Attack w/temp Str. Boost & Str.-30%/4 turns", "mp": 30 },
+    { "name": "Phase Slicer", "description": "[Foe] Mid P.Attack w/temp Str. Boost & P.Resist-20%/4 turns", "mp": 30 },
+    { "name": "Stiletto", "description": "[Foe] Lo P.Attack & [Self] Str.+75%/4 turns", "mp": 24 }
   ],
   "passiveSkills": [
     { "name": "Sword Fighter", "description": "Str.+15%" },

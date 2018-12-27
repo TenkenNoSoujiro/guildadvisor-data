@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Aquatic Tornado", "description": "[Foe] Ultra Water M.Attack w/Ultra Penetration Rate w/temp Mag. Boost" },
-    { "name": "Aquatic Nova", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost" },
-    { "name": "Aquatic Lure", "description": "[Foes] Mid Water M.Attack" },
-    { "name": "Aquatic Ray", "description": "[Foe] Lo Water M.Attack & [Self] Mag.+75%/4 turns" }
+    { "name": "Aquatic Nova", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost", "mp": 38 },
+    { "name": "Aquatic Lure", "description": "[Foes] Mid Water M.Attack", "mp": 26 },
+    { "name": "Aquatic Ray", "description": "[Foe] Lo Water M.Attack & [Self] Mag.+75%/4 turns", "mp": 29 }
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+15%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Tenka-chizan", "description": "[Foes] Ultra P.Attack" },
-    { "name": "Brutal Slash Kai", "description": "[Foe] Hi P.Attack w/Ultra Uncounter Rate" },
-    { "name": "Kagenui Yonshiki", "description": "[Foes] Agi.-35%/4 turns" },
-    { "name": "Jubaku-jin Yonshiki", "description": "[Foes] Str.-35%/4 turns" }
+    { "name": "Brutal Slash Kai", "description": "[Foe] Hi P.Attack w/Ultra Uncounter Rate", "mp": 28 },
+    { "name": "Kagenui Yonshiki", "description": "[Foes] Agi.-35%/4 turns", "mp": 36 },
+    { "name": "Jubaku-jin Yonshiki", "description": "[Foes] Str.-35%/4 turns", "mp": 36 }
   ],
   "passiveSkills": [
     { "name": "Status Resist", "description": "Ailment Resist+15%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Secourer Tenebres", "description": "[Foes] Ultra Light P.Attack w/temp Str. Boost" },
-    { "name": "Void Circle", "description": "[Foes] Mid Light P.Attack w/Str. & Mag.-25%/3 turns" },
-    { "name": "Riptide Roller", "description": "[Foes] Hi Light P.Attack" },
-    { "name": "Crescent Abrasion", "description": "[Foe] Hi Light P.Attack w/temp Str. Boost" }
+    { "name": "Void Circle", "description": "[Foes] Mid Light P.Attack w/Str. & Mag.-25%/3 turns", "mp": 28 },
+    { "name": "Riptide Roller", "description": "[Foes] Hi Light P.Attack", "mp": 24 },
+    { "name": "Crescent Abrasion", "description": "[Foe] Hi Light P.Attack w/temp Str. Boost", "mp": 25 }
   ],
   "passiveSkills": [
     { "name": "Crush", "description": "Str.+15%" },

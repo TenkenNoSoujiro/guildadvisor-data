@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Flute Shot", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
-    { "name": "Projected Trajectory Shot", "description": "[Foe] Hi P.Attcak w/Ultra Critical Rate" },
-    { "name": "Bolting Assault Shot", "description": "[Foes] Mid P.Attack w/Str. & Mag.-20%/4 turns" },
-    { "name": "Target-Focused Shot", "description": "[Foes] Mid P.Attack w/15% Seal" }
+    { "name": "Projected Trajectory Shot", "description": "[Foe] Hi P.Attcak w/Ultra Critical Rate", "mp": 25 },
+    { "name": "Bolting Assault Shot", "description": "[Foes] Mid P.Attack w/Str. & Mag.-20%/4 turns", "mp": 28 },
+    { "name": "Target-Focused Shot", "description": "[Foes] Mid P.Attack w/15% Seal", "mp": 22 }
   ],
   "passiveSkills": [
     { "name": "Saboteur", "description": "Dex.+10%" },

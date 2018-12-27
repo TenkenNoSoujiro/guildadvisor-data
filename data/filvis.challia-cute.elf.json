@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Electrocute", "description": "[Foes] Ultra Thunder M.Attack w/temp Mag. Boost" },
-    { "name": "Trueno Natura", "description": "[Foe] Hi Thunder M.Attack & Thunder Resist-40%/2 turns" },
-    { "name": "Ardor Fulmen", "description": "[Foes]Hi Thunder M.Attack & Thunder Resist-30%/2 turns" },
-    { "name": "Cor Exaltatio", "description": "[Self] Guard Rate+45%/3 turns" }
+    { "name": "Trueno Natura", "description": "[Foe] Hi Thunder M.Attack & Thunder Resist-40%/2 turns", "mp": 39 },
+    { "name": "Ardor Fulmen", "description": "[Foes]Hi Thunder M.Attack & Thunder Resist-30%/2 turns", "mp": 45 },
+    { "name": "Cor Exaltatio", "description": "[Self] Guard Rate+45%/3 turns", "mp": 15 }
   ],
   "passiveSkills": [
     { "name": "Crafter", "description": "Dex.+10%" },

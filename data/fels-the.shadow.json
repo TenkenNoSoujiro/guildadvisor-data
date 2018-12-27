@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Verite Amour", "description": "[Allies] Hi Heal & Removes all Debuffs exc Assist Skills" },
-    { "name": "Hekma Irada", "description": "[Allies] Mid Heal & Ailment Cure" },
-    { "name": "Nadam Reruabado", "description": "[Foes] Hi Thunder M.Attack" },
-    { "name": "God's Theorem", "description": "[Allies] P.Resist & Ailment Resist+20%/4 turns" }
+    { "name": "Hekma Irada", "description": "[Allies] Mid Heal & Ailment Cure", "mp": 35 },
+    { "name": "Nadam Reruabado", "description": "[Foes] Hi Thunder M.Attack", "mp": 36 },
+    { "name": "God's Theorem", "description": "[Allies] P.Resist & Ailment Resist+20%/4 turns", "mp": 40 }
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+7.5%" },

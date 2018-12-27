@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Hell Finegas", "description": "[Foes] Ultra P.Attack" },
-    { "name": "Trample Lance", "description": "[Foe] Mid P.Attack w/temp Str. Boost & Ultra Penetration Rate" },
-    { "name": "Braver Order", "description": "[Allies] Critical Rate+30%/4 turns" },
-    { "name": "Destructor", "description": "[Foes] Hi P.Attack & Critical Rate-20%/4 turns" }
+    { "name": "Trample Lance", "description": "[Foe] Mid P.Attack w/temp Str. Boost & Ultra Penetration Rate", "mp": 25 },
+    { "name": "Braver Order", "description": "[Allies] Critical Rate+30%/4 turns", "mp": 30 },
+    { "name": "Destructor", "description": "[Foes] Hi P.Attack & Critical Rate-20%/4 turns", "mp": 32 }
   ],
   "passiveSkills": [
     { "name": "Sword Fighter", "description": "Str.+5%" },

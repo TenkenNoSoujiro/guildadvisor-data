@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Chemistal Burst", "description": "[Foes] Ultra Dark M.Attack w/Max HP 10% Dmg. Poison" },
-    { "name": "Hypno Mist", "description": "[Foes] Hi Dark M.Attack w/15% Sleep" },
-    { "name": "Plague Sting", "description": "[Foe] Hi Dark M.Attack & Guard Rate-50%/4 turns" },
-    { "name": "Illness Miasma", "description": "[Foes] Mid Dark M.Attack & M.Resist-20%/4 turns" }
+    { "name": "Hypno Mist", "description": "[Foes] Hi Dark M.Attack w/15% Sleep", "mp": 45 },
+    { "name": "Plague Sting", "description": "[Foe] Hi Dark M.Attack & Guard Rate-50%/4 turns", "mp": 39 },
+    { "name": "Illness Miasma", "description": "[Foes] Mid Dark M.Attack & M.Resist-20%/4 turns", "mp": 35 }
   ],
   "passiveSkills": [
     { "name": "Wisdom", "description": "All Status+10%" },

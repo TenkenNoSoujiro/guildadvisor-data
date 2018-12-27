@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Shining Explosion", "description": "[Foe] Ultra Light M.Attack w/temp Mag. Boost" },
-    { "name": "Sparkle Circle", "description": "[Foes] Lo Light M.Attack" },
-    { "name": "Light Magic-Sword", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & M.Resist-20%/2 turns" },
-    { "name": "Shining Howling", "description": "[Self] Null P.Attack x2 exc. Special Arts" }
+    { "name": "Sparkle Circle", "description": "[Foes] Lo Light M.Attack", "mp": 20 },
+    { "name": "Light Magic-Sword", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & M.Resist-20%/2 turns", "mp": 39 },
+    { "name": "Shining Howling", "description": "[Self] Null P.Attack x2 exc. Special Arts", "mp": 108 }
   ],
   "passiveSkills": [
     { "name": "Crafter", "description": "Dex.+10%" },
