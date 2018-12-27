@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Illumines Lil Rafaga", "description": "[Foes] Ultra Light M.Attack w/30% Seal" },
-    { "name": "Échthra Piercer", "description": "[Foe] Fast Mid Light M.Attack" },
-    { "name": "Comtempt Mech", "description": "[Foes] Hi Light M.Attack w/temp Mag. Boost" },
-    { "name": "Prevent Wind", "description": "[Allies] Guard Rate & End.+30%/4 turns" }
+    { "name": "Échthra Piercer", "description": "[Foe] Fast Mid Light M.Attack", "mp": 25 },
+    { "name": "Comtempt Mech", "description": "[Foes] Hi Light M.Attack w/temp Mag. Boost", "mp": 44 },
+    { "name": "Prevent Wind", "description": "[Allies] Guard Rate & End.+30%/4 turns", "mp": 30 }
   ],
   "passiveSkills": [
     { "name": "Wisdom", "description": "All Status+10%" },

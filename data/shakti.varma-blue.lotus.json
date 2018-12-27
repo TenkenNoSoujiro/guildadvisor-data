@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Ambra Ugrata", "description": "[Foe] Ultra Thunder P.Attack w/temp Str. Boost" },
-    { "name": "Vidyut", "description": "[Foe] Mid Thunder P.Attack & Mag.-25%/4 turns" },
-    { "name": "Ek Garjana", "description": "[Foe] Hi Thunder P.Attack & removes all Mag. Buffs exc. Assist Skills" },
-    { "name": "Vajrapaat", "description": "[Foe] Lo Thunder P.Attack & [Self] Str.+65%/4 turns" }
+    { "name": "Vidyut", "description": "[Foe] Mid Thunder P.Attack & Mag.-25%/4 turns", "mp": 19 },
+    { "name": "Ek Garjana", "description": "[Foe] Hi Thunder P.Attack & removes all Mag. Buffs exc. Assist Skills", "mp": 26 },
+    { "name": "Vajrapaat", "description": "[Foe] Lo Thunder P.Attack & [Self] Str.+65%/4 turns", "mp": 21 }
   ],
   "passiveSkills": [
     { "name": "Train", "description": "End. & Dex.+10%" },

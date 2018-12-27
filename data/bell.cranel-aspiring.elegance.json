@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Firebolt Igniter", "description": "[Foes] Ultra Fire M.Attack w/temp Mag. boost" },
-    { "name": "Seething", "description": "[Foes] Lo Fire M.Attack & [Self] Fire Attack Damage+75%/4 turns" },
-    { "name": "Fiery Courage", "description": "[Foes] Mid Fire M.Attack & [Self] Mag.+60%/4 turns" },
-    { "name": "Noble Firebolt", "description": "[Foes] Hi Fire M.Attack w/Ultra Uncounter Rate" }
+    { "name": "Seething", "description": "[Foes] Lo Fire M.Attack & [Self] Fire Attack Damage+75%/4 turns", "mp": 29 },
+    { "name": "Fiery Courage", "description": "[Foes] Mid Fire M.Attack & [Self] Mag.+60%/4 turns", "mp": 34 },
+    { "name": "Noble Firebolt", "description": "[Foes] Hi Fire M.Attack w/Ultra Uncounter Rate", "mp": 33 }
   ],
   "passiveSkills": [
     { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },

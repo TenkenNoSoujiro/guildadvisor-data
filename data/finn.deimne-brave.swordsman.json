@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Furious Brave", "description": "[Foe] Ultra P.Attack w/Ultra Penetration Rate & temp Str. Boost" },
-    { "name": "Heightened Strike", "description": "[Foe] Hi P.Attack w/temp Str. Boost" },
-    { "name": "Slash Cleave", "description": "[Foes] Mid P.Attack" },
-    { "name": "Enrage", "description": "[Foe] Lo P.Attack & [Self] Str.+75%/4 turns" }
+    { "name": "Heightened Strike", "description": "[Foe] Hi P.Attack w/temp Str. Boost", "mp": 25 },
+    { "name": "Slash Cleave", "description": "[Foes] Mid P.Attack", "mp": 16 },
+    { "name": "Enrage", "description": "[Foe] Lo P.Attack & [Self] Str.+75%/4 turns", "mp": 24 }
   ],
   "passiveSkills": [
     { "name": "Aching Thumb", "description": "Dex.+10%" },

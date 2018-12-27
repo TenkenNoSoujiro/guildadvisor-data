@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Biker Bash", "description": "[Foes] Ultra P.Attack w/30% Stun" },
-    { "name": "Rev-Up", "description": "[Self] Agi.+75%/4 turns & [Foes] Stun Resist-75%" },
-    { "name": "Burn Out", "description": "[Foe] Hi P.Attack w/30% Stun" },
-    { "name": "Traction Burst", "description": "[Foes] Hi P.Attack w/15% Stun" }
+    { "name": "Rev-Up", "description": "[Self] Agi.+75%/4 turns & [Foes] Stun Resist-75%", "mp": 30 },
+    { "name": "Burn Out", "description": "[Foe] Hi P.Attack w/30% Stun", "mp": 26 },
+    { "name": "Traction Burst", "description": "[Foes] Hi P.Attack w/15% Stun", "mp": 29 }
   ],
   "passiveSkills": [
     { "name": "Crafter", "description": "Dex.+10%" },

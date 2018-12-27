@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Mortal Encounter", "description": "[Foe] Ultra Dark P.Attack w/temp Str. Boost" },
-    { "name": "Devour Magic", "description": "[Foe] Mid Dark P.Attack w/temp Str. Boost & Dark Resist-25%/4 turns" },
-    { "name": "Bone Spliter", "description": "[Foe] Mid Dark P.Attack w/temp Str. Boost & Mag.-30%/4 turns" },
-    { "name": "Hunger", "description": "[Foe] Lo Dark P.Attack & [Self] Str.+75%/4 turns" }
+    { "name": "Devour Magic", "description": "[Foe] Mid Dark P.Attack w/temp Str. Boost & Dark Resist-25%/4 turns", "mp": 24 },
+    { "name": "Bone Spliter", "description": "[Foe] Mid Dark P.Attack w/temp Str. Boost & Mag.-30%/4 turns", "mp": 24 },
+    { "name": "Hunger", "description": "[Foe] Lo Dark P.Attack & [Self] Str.+75%/4 turns", "mp": 24 }
   ],
   "passiveSkills": [
     { "name": "Crush", "description": "Str.+15%" },

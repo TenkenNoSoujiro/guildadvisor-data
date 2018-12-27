@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Gatling Arrow", "description": "[Foes] Ultra P.Attack w/30% Seal" },
-    { "name": "Trick Arrow", "description": "[Foes] Mid P.Attack & Mag.-30%/4 turns" },
-    { "name": "Buster Arrow", "description": "[Foe] Hi P.Attack w/Heal 30% of Dmg." },
-    { "name": "Hiding Position", "description": "[Allies] M.Resist+30%/4 turns" }
+    { "name": "Trick Arrow", "description": "[Foes] Mid P.Attack & Mag.-30%/4 turns", "mp": 28 },
+    { "name": "Buster Arrow", "description": "[Foe] Hi P.Attack w/Heal 30% of Dmg.", "mp": 28 },
+    { "name": "Hiding Position", "description": "[Allies] M.Resist+30%/4 turns", "mp": 30 }
   ],
   "passiveSkills": [
     { "name": "Acceleration", "description": "Agi.+10%" },

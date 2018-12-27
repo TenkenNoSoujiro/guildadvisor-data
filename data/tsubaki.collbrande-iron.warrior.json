@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Iron Glaive", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
-    { "name": "Oniyuri", "description": "[Foes] Mid P.Attack w/temp Str. Boost & Str.-20%/4 turns" },
-    { "name": "Suzuran", "description": "[Foe] Mid P.Attack w/temp Str. Boost" },
-    { "name": "Hitujigusa", "description": "[Foe] Mid P.Attack & removes all Mag. Buffs exc. Assist Skills" }
+    { "name": "Oniyuri", "description": "[Foes] Mid P.Attack w/temp Str. Boost & Str.-20%/4 turns", "mp": 30 },
+    { "name": "Suzuran", "description": "[Foe] Mid P.Attack w/temp Str. Boost", "mp": 18 },
+    { "name": "Hitujigusa", "description": "[Foe] Mid P.Attack & removes all Mag. Buffs exc. Assist Skills", "mp": 22 }
   ],
   "passiveSkills": [
     { "name": "Tough", "description": "End.+10%" },

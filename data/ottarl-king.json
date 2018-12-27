@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "King's War Cry", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
-    { "name": "Providence Eye", "description": "[Self] Counter Rate+25%/3 turns" },
-    { "name": "Raging Impact", "description": "[Foe] Mid P.Attack w/temp Str. Boost" },
-    { "name": "Conqueror's Strike", "description": "[Foes] Hi P.Attack w/temp Str. Boost" }
+    { "name": "Providence Eye", "description": "[Self] Counter Rate+25%/3 turns", "mp": 25 },
+    { "name": "Raging Impact", "description": "[Foe] Mid P.Attack w/temp Str. Boost", "mp": 15 },
+    { "name": "Conqueror's Strike", "description": "[Foes] Hi P.Attack w/temp Str. Boost", "mp": 28 }
   ],
   "passiveSkills": [
     { "name": "Magic Resistance", "description": "M.Resist+8%" },

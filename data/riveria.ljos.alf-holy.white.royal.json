@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Pillar of Heavens", "description": "[Foes] Ultra Light M.Attack w/30% Seal" },
-    { "name": "Brightening Weapon", "description": "[Allies] Mag.+45%/4 turns" },
-    { "name": "Lucent Force", "description": "[Foes] Fast Mid Light M.Attack w/15% Stun" },
-    { "name": "Zenith Sanction", "description": "[Foes] Hi Light M.Attack & Light Resist-25%/4 turns" }
+    { "name": "Brightening Weapon", "description": "[Allies] Mag.+45%/4 turns", "mp": 30 },
+    { "name": "Lucent Force", "description": "[Foes] Fast Mid Light M.Attack w/15% Stun", "mp": 35 },
+    { "name": "Zenith Sanction", "description": "[Foes] Hi Light M.Attack & Light Resist-25%/4 turns", "mp": 45 }
   ],
   "passiveSkills": [
     { "name": "Acceleration", "description": "Agi.+10%" },

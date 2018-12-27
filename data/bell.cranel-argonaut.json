@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Heroic Strike", "description": "[Foes] Ultra P.Attack" },
-    { "name": "Rapid Firebolt", "description": "[Foes] Fast Hi Fire M.Attack" },
-    { "name": "Broad Slicer", "description": "[Foes] Fast Hi P.Attack" },
-    { "name": "Argonaut", "description": "[Self] Str. & Mag.+75%/4 turns" }
+    { "name": "Rapid Firebolt", "description": "[Foes] Fast Hi Fire M.Attack", "mp": 32 },
+    { "name": "Broad Slicer", "description": "[Foes] Fast Hi P.Attack", "mp": 28 },
+    { "name": "Argonaut", "description": "[Self] Str. & Mag.+75%/4 turns", "mp": 18 }
   ],
   "passiveSkills": [
     { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },

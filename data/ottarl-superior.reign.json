@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Fangs of Apocalypse", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
-    { "name": "Edge of Moment", "description": "[Foes] Mid P.Attack w/temp Str. Boost & End.-15%/2 turns" },
-    { "name": "Rupture of Annihilation", "description": "[Foes] Mid P.Attack w/temp Str. Boost & 15% Slow" },
-    { "name": "Mighty Power Slash", "description": "[Foe] Mid P.Attack w/temp Str. Boost & 30% Stun" }
+    { "name": "Edge of Moment", "description": "[Foes] Mid P.Attack w/temp Str. Boost & End.-15%/2 turns", "mp": 27 },
+    { "name": "Rupture of Annihilation", "description": "[Foes] Mid P.Attack w/temp Str. Boost & 15% Slow", "mp": 27 },
+    { "name": "Mighty Power Slash", "description": "[Foe] Mid P.Attack w/temp Str. Boost & 30% Stun", "mp": 24 }
   ],
   "passiveSkills": [
     { "name": "Saboteur", "description": "Dex.+10%" },

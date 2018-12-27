@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Speed Party!", "description": "[Foe] Ultra Earth M.Attack w/temp Mag. Boost & Ultra Critical Rate" },
-    { "name": "Fraction", "description": "[Foe] Lo Earth M.Attack & [Self] Mag.+75%/4 turns" },
-    { "name": "Breach", "description": "[Foe] Hi Earth M.Attack & Earth Resist-35%/3 turns" },
-    { "name": "Ferocious Pierce", "description": "[Foe] Hi Earth M.Attack w/temp Mag. Boost & Guard Rate-40%/4 turns" }
+    { "name": "Fraction", "description": "[Foe] Lo Earth M.Attack & [Self] Mag.+75%/4 turns", "mp": 27 },
+    { "name": "Breach", "description": "[Foe] Hi Earth M.Attack & Earth Resist-35%/3 turns", "mp": 30 },
+    { "name": "Ferocious Pierce", "description": "[Foe] Hi Earth M.Attack w/temp Mag. Boost & Guard Rate-40%/4 turns", "mp": 35 }
   ],
   "passiveSkills": [
     { "name": "Mind's Eye", "description": "Mag.+15%" },

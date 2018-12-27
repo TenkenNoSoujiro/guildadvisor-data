@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Sunshine Ray", "description": "[Foes] Ultra Light M.Attack" },
-    { "name": "Heal Medicine", "description": "[Allies] Lo Heal & Ailment Cure" },
-    { "name": "Negative Pill", "description": "[Foe] Lo Light M.Attack w/30% Sleep" },
-    { "name": "Ether Assist", "description": "[Allies] M.Resist+20%/4 turns" }
+    { "name": "Heal Medicine", "description": "[Allies] Lo Heal & Ailment Cure", "mp": 20 },
+    { "name": "Negative Pill", "description": "[Foe] Lo Light M.Attack w/30% Sleep", "mp": 23 },
+    { "name": "Ether Assist", "description": "[Allies] M.Resist+20%/4 turns", "mp": 30 }
   ],
   "passiveSkills": [
     { "name": "Enlightenment", "description": "Mag.+11%" },

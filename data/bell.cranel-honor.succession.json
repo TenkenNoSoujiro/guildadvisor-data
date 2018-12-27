@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Argonaut Incarnation", "description": "[Foes] Ultra Fire M.Attack indexed to Str. w/temp Str. boost" },
-    { "name": "Sharpness", "description": "[Foes] Lo P.Attack & [Self] Str.+75%/4 turns" },
-    { "name": "Molten Spike", "description": "[Foe] Hi P.Attack w/temp Str. boost" },
-    { "name": "Sweeping Strike", "description": "[Foes] Hi P.Attack w/temp Str. boost & P.Resist-10%/4 turns" }
+    { "name": "Sharpness", "description": "[Foes] Lo P.Attack & [Self] Str.+75%/4 turns", "mp": 24 },
+    { "name": "Molten Spike", "description": "[Foe] Hi P.Attack w/temp Str. boost", "mp": 25 },
+    { "name": "Sweeping Strike", "description": "[Foes] Hi P.Attack w/temp Str. boost & P.Resist-10%/4 turns", "mp": 34 }
   ],
   "passiveSkills": [
     { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },

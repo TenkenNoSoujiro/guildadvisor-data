@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Tera Sagrado", "description": "[Allies] Hi Heal & 50MP Heal" },
-    { "name": "Dea Animus", "description": "[Allies] Mid Heal" },
-    { "name": "Dea Templum", "description": "[Self] Seal Resist+50%/4 turns" },
-    { "name": "Gehenna Croce", "description": "[Allies] Slight Heal & Remove Curse" }
+    { "name": "Dea Animus", "description": "[Allies] Mid Heal", "mp": 30 },
+    { "name": "Dea Templum", "description": "[Self] Seal Resist+50%/4 turns", "mp": 18 },
+    { "name": "Gehenna Croce", "description": "[Allies] Slight Heal & Remove Curse", "mp": 16 }
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+3%" },

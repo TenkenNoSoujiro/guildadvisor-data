@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Faye Congelation", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost" },
-    { "name": "Glacies Nivis", "description": "[Foes] Mid Water M.Attack & Critical Rate-20%/4 turns" },
-    { "name": "Valanga Neve", "description": "[Foes] Mid Water M.Attack & Str.-30%/4 turns" },
-    { "name": "Nous Oblio", "description": "[Self] Avoids K.O. x1 only when HP≥20% (removed when HP<20%)" }
+    { "name": "Glacies Nivis", "description": "[Foes] Mid Water M.Attack & Critical Rate-20%/4 turns", "mp": 35 },
+    { "name": "Valanga Neve", "description": "[Foes] Mid Water M.Attack & Str.-30%/4 turns", "mp": 35 },
+    { "name": "Nous Oblio", "description": "[Self] Avoids K.O. x1 only when HP≥20% (removed when HP<20%)", "mp": 72 }
   ],
   "passiveSkills": [
     { "name": "Mind's Eye", "description": "Mag.+11%" },

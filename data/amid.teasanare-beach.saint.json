@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Shining Halation", "description": "[Allies] Hi Heal & Ailment Cure" },
-    { "name": "Flooding Water", "description": "[Foes] Mid Water M.Attack w/Water Resist & Agi.-30%/3 turns" },
-    { "name": "Clear Water Potion", "description": "[Allies] 15% HP Regen/3 turns & Water Attack+35%/3 turns" },
-    { "name": "Cure Stream Potion", "description": "[Allies] Mid Heal & Remove Curse" }
+    { "name": "Flooding Water", "description": "[Foes] Mid Water M.Attack w/Water Resist & Agi.-30%/3 turns", "mp": 44 },
+    { "name": "Clear Water Potion", "description": "[Allies] 15% HP Regen/3 turns & Water Attack+35%/3 turns", "mp": 38 },
+    { "name": "Cure Stream Potion", "description": "[Allies] Mid Heal & Remove Curse", "mp": 35 }
   ],
   "passiveSkills": [
     { "name": "Mind's Eye", "description": "Mag.+15%" },

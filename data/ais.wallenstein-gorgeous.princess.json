@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Amazon Lil Rafaga", "description": "[Foes] Ultra P.Attack" },
-    { "name": "Calma Lovushka", "description": "[Foes] Hi P.Attack & Guard Rate-30%/4 turns" },
-    { "name": "Force Wind", "description": "[Allies] Str.+35%/4 turns" },
-    { "name": "Veter Escudo", "description": "[Allies] Wind Resist+50%/4 turns" }
+    { "name": "Calma Lovushka", "description": "[Foes] Hi P.Attack & Guard Rate-30%/4 turns", "mp": 29 },
+    { "name": "Force Wind", "description": "[Allies] Str.+35%/4 turns", "mp": 20 },
+    { "name": "Veter Escudo", "description": "[Allies] Wind Resist+50%/4 turns", "mp": 17 }
   ],
   "passiveSkills": [
     { "name": "Wisdom", "description": "All Status+10%" },

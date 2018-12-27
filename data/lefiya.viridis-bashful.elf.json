@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Elf Ring", "description": "[Foes] Ultra Fire M.Attack w/temp Mag. Boost" },
-    { "name": "Karpos Dallos", "description": "[Foe] Hi Fire M.Attack w/temp Mag. Boost" },
-    { "name": "Karpos Pyr", "description": "[Foes] Hi Fire M.Attack w/15% Seal" },
-    { "name": "Anemos Fotia", "description": "[Foes] Mid Fire M.Attack w/temp Mag. Boost" }
+    { "name": "Karpos Dallos", "description": "[Foe] Hi Fire M.Attack w/temp Mag. Boost", "mp": 38 },
+    { "name": "Karpos Pyr", "description": "[Foes] Hi Fire M.Attack w/15% Seal", "mp": 35 },
+    { "name": "Anemos Fotia", "description": "[Foes] Mid Fire M.Attack w/temp Mag. Boost", "mp": 35 }
   ],
   "passiveSkills": [
     { "name": "Rouse", "description": "Mag. & End.+10%" },

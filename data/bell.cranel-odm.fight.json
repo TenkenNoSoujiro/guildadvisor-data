@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Argonaut Sky Chain", "description": "[Foes] Ultra Wind M.Attack w/temp Mag. boost" },
-    { "name": "Blast Edge", "description": "[Foes] Lo Wind M.Attack & [Self] Wind Attack Damage+60%/4 turns" },
-    { "name": "Wind Storm", "description": "[Foes] Hi Wind M.Attack w/temp Mag. boost & Wind Resist-20%/3 turns" },
-    { "name": "Gale Force", "description": "[Foes] Hi Wind M.Attack & [Allies] Critical Rate+20%/3 turns" }
+    { "name": "Blast Edge", "description": "[Foes] Lo Wind M.Attack & [Self] Wind Attack Damage+60%/4 turns", "mp": 28 },
+    { "name": "Wind Storm", "description": "[Foes] Hi Wind M.Attack w/temp Mag. boost & Wind Resist-20%/3 turns", "mp": 39 },
+    { "name": "Gale Force", "description": "[Foes] Hi Wind M.Attack & [Allies] Critical Rate+20%/3 turns", "mp": 34 }
   ],
   "passiveSkills": [
     { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },

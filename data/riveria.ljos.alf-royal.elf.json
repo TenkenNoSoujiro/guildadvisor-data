@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Rea Laevateinn", "description": "[Foes] Ultra Fire M.Attack" },
-    { "name": "Luna Aldis", "description": "[Allies] Mid Heal & End.+10%/2 turns" },
-    { "name": "Veil Breath", "description": "[Allies] P.Resist+10%/4 turns & Slight Heal" },
-    { "name": "Wynn Fimbulvetr", "description": "[Foes] Hi Water M.Attack & End.-10%/2 turns" }
+    { "name": "Luna Aldis", "description": "[Allies] Mid Heal & End.+10%/2 turns", "mp": 36 },
+    { "name": "Veil Breath", "description": "[Allies] P.Resist+10%/4 turns & Slight Heal", "mp": 34 },
+    { "name": "Wynn Fimbulvetr", "description": "[Foes] Hi Water M.Attack & End.-10%/2 turns", "mp": 42 }
   ],
   "passiveSkills": [
     { "name": "Magic Resistance", "description": "M.Resist+10%" },

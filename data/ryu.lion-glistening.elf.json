@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Luminos Star Gale", "description": "[Foes] Fast Ultra Wind M.Attack & removes Str. & Mag. Buffs exc. Assist Skills" },
-    { "name": "Arctic", "description": "[Foes] Lo Wind M.Attack & [Self] Wind Attack Dmg.+60%/4 turns" },
-    { "name": "Wind Shear", "description": "[Foes] Hi Wind M.Attack w/temp Mag. Boost & 20% Seal" },
-    { "name": "Storm Weaver", "description": "[Foes] Mid Wind M.Attack & [Allies] P.Resist+25%/3 turns" }
+    { "name": "Arctic", "description": "[Foes] Lo Wind M.Attack & [Self] Wind Attack Dmg.+60%/4 turns", "mp": 29 },
+    { "name": "Wind Shear", "description": "[Foes] Hi Wind M.Attack w/temp Mag. Boost & 20% Seal", "mp": 39 },
+    { "name": "Storm Weaver", "description": "[Foes] Mid Wind M.Attack & [Allies] P.Resist+25%/3 turns", "mp": 34 }
   ],
   "passiveSkills": [
     { "name": "Enlightenment", "description": "Mag.+15%" },

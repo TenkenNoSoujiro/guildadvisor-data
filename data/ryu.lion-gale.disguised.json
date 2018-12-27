@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Luminous Vortex", "description": "[Foes] Ultra Wind M.Attack w/30% Stun" },
-    { "name": "Stormbolt", "description": "[Foe] Hi Wind M.Attack w/temp Mag. Boost" },
-    { "name": "Stellaris", "description": "[Foes] Fast Lo Wind M.Attack w/Str. & Mag.-30%/4 turns" },
-    { "name": "Downburst", "description": "[Foes] Hi Wind M.Attack w/Max HP 10% Dmg. Poison" }
+    { "name": "Stormbolt", "description": "[Foe] Hi Wind M.Attack w/temp Mag. Boost", "mp": 38 },
+    { "name": "Stellaris", "description": "[Foes] Fast Lo Wind M.Attack w/Str. & Mag.-30%/4 turns", "mp": 56 },
+    { "name": "Downburst", "description": "[Foes] Hi Wind M.Attack w/Max HP 10% Dmg. Poison", "mp": 45 }
   ],
   "passiveSkills": [
     { "name": "Mind's Eye", "description": "Mag.+10%" },

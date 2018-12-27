@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Eternal Burst", "description": "[Foes] Ultra Light M.Attack & 30% Seal w/temp Mag. Boost" },
-    { "name": "Lumen Keorn", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost" },
-    { "name": "Lumen Solum", "description": "[Foes] Hi Light M.Attack w/temp Mag. Boost" },
-    { "name": "Alvis Kairos", "description": "[Self] 15% MP Heal & Ailment Cure" }
+    { "name": "Lumen Keorn", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost", "mp": 38 },
+    { "name": "Lumen Solum", "description": "[Foes] Hi Light M.Attack w/temp Mag. Boost", "mp": 44 },
+    { "name": "Alvis Kairos", "description": "[Self] 15% MP Heal & Ailment Cure", "mp": 8 }
   ],
   "passiveSkills": [
     { "name": "Wisdom", "description": "All Status+10%" },

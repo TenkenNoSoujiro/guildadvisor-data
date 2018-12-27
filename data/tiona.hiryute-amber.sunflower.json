@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Shattering Onslaught", "description": "[Foes] Ultra Thunder P.Attack & Thunder Resist-50%/1 turn" },
-    { "name": "Static State", "description": "[Allies] Fast Taunt Resist+100% & End.+30%/4 turns" },
-    { "name": "Breaking Point", "description": "[Foes] Mid Thunder P.Attack w/Heal & Guard Rate-35%/3 turns" },
-    { "name": "Lightning Slash", "description": "[Foes] Hi Thunder P.Attack w/temp Str. Boost" }
+    { "name": "Static State", "description": "[Allies] Fast Taunt Resist+100% & End.+30%/4 turns", "mp": 43 },
+    { "name": "Breaking Point", "description": "[Foes] Mid Thunder P.Attack w/Heal & Guard Rate-35%/3 turns", "mp": 40 },
+    { "name": "Lightning Slash", "description": "[Foes] Hi Thunder P.Attack w/temp Str. Boost", "mp": 28 }
   ],
   "passiveSkills": [
     { "name": "Crush", "description": "Str.+15%" },
