@@ -1,0 +1,31 @@
+{ "id": "amid.teasanare-dea.saint",
+  "title": "Dea Saint",
+  "name": "Amid Teasanare",
+  "kind": "adventurer",
+  "type": "healer",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2231,
+  "mp": 241,
+  "str": 434,
+  "end": 321,
+  "dex": 716,
+  "agi": 660,
+  "mag": 1097,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Tera Sagrado", "description": "[Allies] Hi Heal & 50MP Heal" },
+    { "name": "Dea Animus", "description": "[Allies] Mid Heal" },
+    { "name": "Dea Templum", "description": "[Self] Seal Resist+50%/4 turns" },
+    { "name": "Gehenna Croce", "description": "[Allies] Slight Heal & Remove Curse" }
+  ],
+  "passiveSkills": [
+    { "name": "Mage", "description": "Mag.+3%" },
+    { "name": "Tough", "description": "End.+5%" },
+    { "name": "Enlightenment", "description": "Mag.+8%" },
+    { "name": "Insane Speed", "description": "Agi.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist +10%" }
+  ],
+  "thumbnail": "amid.teasanare-dea.saint-thumb.png",
+  "image": "amid.teasanare-dea.saint-full.png"
+}
