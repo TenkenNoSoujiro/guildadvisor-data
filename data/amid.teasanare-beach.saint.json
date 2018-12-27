@@ -16,14 +16,14 @@
     { "specialArts": true,
       "name": "Shining Halation", "description": "[Allies] Hi Heal & Ailment Cure" },
     { "name": "Flooding Water", "description": "[Foes] Mid Water M.Attack w/Water Resist & Agi.-30%/3 turns" },
-    { "name": "Clear Water Potion", "description": "[Allies] 15% HP Regen/3 turns & Water Attack +35%/3 turns" },
+    { "name": "Clear Water Potion", "description": "[Allies] 15% HP Regen/3 turns & Water Attack+35%/3 turns" },
     { "name": "Cure Stream Potion", "description": "[Allies] Mid Heal & Remove Curse" }
   ],
   "passiveSkills": [
     { "name": "Mind's Eye", "description": "Mag.+15%" },
     { "name": "Strike", "description": "Critical Damage+10%" },
     { "name": "Fire Resistance", "description": "Fire Resist+35%" },
-    { "name": "Rigid", "description": "End.& Agi. & Dex.+10%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
   "thumbnail": "amid.teasanare-beach.saint-thumb.png",
