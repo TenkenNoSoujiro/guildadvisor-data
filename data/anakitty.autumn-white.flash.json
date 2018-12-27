@@ -1,0 +1,31 @@
+{ "id": "anakitty.autumn-white.flash",
+  "title": "White Flash",
+  "name": "Anakitty Autumn",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2472,
+  "mp": 220,
+  "str": 1089,
+  "end": 409,
+  "dex": 687,
+  "agi": 486,
+  "mag": 981,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Splashing Barrage", "description": "[Foes] Ultra Water P.Attack w/30% Seal" },
+    { "name": "Breezy Blade", "description": "[Foes] Mid Water P.Attack w/Str. & Mag.-35%/3 turns" },
+    { "name": "Sword Stream", "description": "[Foes] Hi Water P.Attack w/temp Str. Boost" },
+    { "name": "Water Spike", "description": "[Foe] Hi Water P.Attack w/temp Str. Boost" }
+  ],
+  "passiveSkills": [
+    { "name": "Crush", "description": "Str.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Rigid", "description": "End.& Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "anakitty.autumn-white.flash-thumb.png",
+  "image": "anakitty.autumn-white.flash-full.png"
+}
