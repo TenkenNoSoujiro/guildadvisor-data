@@ -1,0 +1,31 @@
+{ "id": "filvis.challia-cute.elf",
+  "title": "Cute Elf",
+  "name": "Filvis Challia",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2600,
+  "mp": 279,
+  "str": 336,
+  "end": 390,
+  "dex": 570,
+  "agi": 754,
+  "mag": 1325,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Electrocute", "description": "[Foes] Ultra Thunder M.Attack w/temp Mag. Boost" },
+    { "name": "Trueno Natura", "description": "[Foe] Hi Thunder M.Attack & Thunder Resist-40%/2 turns" },
+    { "name": "Ardor Fulmen", "description": "[Foes]Hi Thunder M.Attack & Thunder Resist-30%/2 turns" },
+    { "name": "Cor Exaltatio", "description": "[Self] Guard Rate+45%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Crafter", "description": "Dex.+10%" },
+    { "name": "Insane Speed", "description": "Agi.+10%" },
+    { "name": "Unbreakable", "description": "End.+10%" },
+    { "name": "Mage", "description": "Mag.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "filvis.challia-cute.elf-thumb.png",
+  "image": "filvis.challia-cute.elf-full.png"
+}
