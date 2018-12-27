@@ -6,11 +6,11 @@ const kleur = require("kleur");
 const validator = ajv();
 const dataDir = process.argv.length > 2 ? path.resolve(process.argv[2]) : path.resolve(__dirname, "../data");
 let errors = 0;
-for (const entry of fs.readdirSync(dataDir, { withFileTypes: true })) {
-  if (!entry.isFile()) continue;
-  if (path.extname(entry.name) !== ".json") continue;
-  const file = path.join(dataDir, entry.name);
+for (const name of fs.readdirSync(dataDir)) {
+  if (path.extname(name) !== ".json") continue;
+  const file = path.join(dataDir, name);
   try {
+    if (!fs.statSync(file).isFile()) continue;
     const data = fs.readFileSync(file, "utf8");
     const json = JSON.parse(data);
     if (!validator.validate(schema, json)) {
