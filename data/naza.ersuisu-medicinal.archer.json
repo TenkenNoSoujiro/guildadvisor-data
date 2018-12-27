@@ -1,0 +1,31 @@
+{ "id": "naza.ersuisu-medicinal.archer",
+  "title": "Medicinal Archer",
+  "name": "Naza Ersuisu",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2472,
+  "mp": 220,
+  "str": 923,
+  "end": 418,
+  "dex": 619,
+  "agi": 514,
+  "mag": 977,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Gatling Arrow", "description": "[Foes] Ultra P.Attack w/30% Seal" },
+    { "name": "Trick Arrow", "description": "[Foes] Mid P.Attack & Mag.-30%/4 turns" },
+    { "name": "Buster Arrow", "description": "[Foe] Hi P.Attack w/Heal 30% of Dmg." },
+    { "name": "Hiding Position", "description": "[Allies] M.Resist+30%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Acceleration", "description": "Agi.+10%" },
+    { "name": "Unbreakable", "description": "End.+10%" },
+    { "name": "Defense", "description": "P.Resist+10%" },
+    { "name": "Magic Resistance", "description": "M.Resist+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "naza.ersuisu-medicinal.archer-thumb.png",
+  "image": "naza.ersuisu-medicinal.archer-full.png"
+}
