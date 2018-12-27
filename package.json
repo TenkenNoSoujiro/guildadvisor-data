@@ -1,15 +1,16 @@
 {
   "private": true,
-  "dependencies": {
-    "handlebars": "^4.0.12",
-    "prompts": "^2.0.0"
-  },
   "scripts": {
-    "create": "node scripts/unit"
+    "create": "node scripts/unit",
+    "validate": "node scripts/validate"
   },
   "devDependencies": {
+    "@types/ajv": "^1.0.0",
     "@types/handlebars": "^4.0.40",
     "@types/node": "^10.12.18",
-    "@types/prompts": "^1.2.0"
+    "@types/prompts": "^1.2.0",
+    "ajv": "^6.6.2",
+    "handlebars": "^4.0.12",
+    "prompts": "^2.0.0"
   }
 }

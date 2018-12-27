@@ -1,0 +1,32 @@
+{ "id": "kino-traveler",
+  "new": false,
+  "title": "Traveler",
+  "name": "Kino",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2407,
+  "mp": 191,
+  "str": 726,
+  "end": 240,
+  "dex": 367,
+  "agi": 486,
+  "mag": 150,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Canon Shot", "description": "[Foe] Hi P.Attack" },
+    { "name": "Persuader", "description": "[Foe] Hi P.Attack" },
+    { "name": "First Chance", "description": "[Foe] Mid P.Attack & P.Resist-20%/2 turns" },
+    { "name": "Stance Square", "description": "[Self] Str.+50%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Saboteur", "description": "Dex.+8%" },
+    { "name": "Acceleration", "description": "Agi.+8%" },
+    { "name": "Unbreakable", "description": "End.+8%" },
+    { "name": "Crush", "description": "Str.+8%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" }
+  ],
+  "thumbnail": "kino-traveler-thumb.png",
+  "image": "kino-traveler-full.png"
+}

@@ -1,0 +1,32 @@
+{ "id": "shizu.riku-wondering.man",
+  "new": false,
+  "title": "Wondering Man",
+  "name": "Shizu & Riku",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2660,
+  "mp": 184,
+  "str": 1414,
+  "end": 422,
+  "dex": 556,
+  "agi": 812,
+  "mag": 313,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "One-Bladed Bisection", "description": "[Foe] Ultra P.Attack w/temp Str. Boost" },
+    { "name": "Headwind", "description": "[Foe] Hi P.Attack w/temp Str. Boost" },
+    { "name": "Artisan Sword", "description": "[Foe] Mid P.Attack & removes all P.Resist Buffs exc. Assist Skills" },
+    { "name": "Concentration", "description": "[Self] Critical Rate+50%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Saboteur", "description": "Dex.+10%" },
+    { "name": "Acceleration", "description": "Agi.+10%" },
+    { "name": "Unbreakable", "description": "End.+10%" },
+    { "name": "Sword Fighter", "description": "Str.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "shizu.riku-wondering.man-thumb.png",
+  "image": "shizu.riku-wondering.man-full.png"
+}

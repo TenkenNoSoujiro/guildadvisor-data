@@ -99,10 +99,10 @@ function copyLastResponse(field, options = {}) {
     options.same ? useLastIfSame :
     useLast();
   function useLastIfSame(prev, response) {
-    return response[options.same] === lastResponse[options.same] ? useLast() : useDefault();
+    return lastResponse && response[options.same] === lastResponse[options.same] ? useLast() : useDefault();
   }
   function useLast() {
-    const value = lastResponse[field];
+    const value = lastResponse && lastResponse[field];
     if (value !== undefined) return choose(value);
     return useDefault();
   }

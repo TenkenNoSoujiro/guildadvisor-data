@@ -1,0 +1,32 @@
+{ "id": "kino.hermes-foreign.traveler",
+  "new": false,
+  "title": "Foreign Traveler",
+  "name": "Kino & Hermes",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2600,
+  "mp": 199,
+  "str": 1417,
+  "end": 421,
+  "dex": 557,
+  "agi": 809,
+  "mag": 313,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Flute Shot", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
+    { "name": "Projected Trajectory Shot", "description": "[Foe] Hi P.Attcak w/Ultra Critical Rate" },
+    { "name": "Bolting Assault Shot", "description": "[Foes] Mid P.Attack w/Str. & Mag.-20%/4 turns" },
+    { "name": "Target-Focused Shot", "description": "[Foes] Mid P.Attack w/15% Seal" }
+  ],
+  "passiveSkills": [
+    { "name": "Saboteur", "description": "Dex.+10%" },
+    { "name": "Acceleration", "description": "Agi.+10%" },
+    { "name": "Unbreakable", "description": "End.+10%" },
+    { "name": "Crush", "description": "Str.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "kino.hermes-foreign.traveler-thumb.png",
+  "image": "kino.hermes-foreign.traveler-full.png"
+}

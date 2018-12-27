@@ -1,0 +1,32 @@
+{ "id": "photo.sou-photographer",
+  "new": false,
+  "title": "Photographer",
+  "name": "Photo & Sou",
+  "kind": "adventurer",
+  "type": "healer",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2317,
+  "mp": 260,
+  "str": 425,
+  "end": 346,
+  "dex": 786,
+  "agi": 722,
+  "mag": 1085,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Strobe Light", "description": "[Foes] P.Resist & M.Resist-30%/4 turns" },
+    { "name": "Full throttle", "description": "[Foe] Hi P.Attack indexed to Mag." },
+    { "name": "Pharmacy", "description": "[Allies] Mid Heal & Guard Rate+30%/2 turns" },
+    { "name": "Voice of Poplar Street", "description": "[Allies] Heal+20%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Crafter", "description": "Dex.+10%" },
+    { "name": "Acceleration", "description": "Agi.+10%" },
+    { "name": "Unbreakable", "description": "End.+10%" },
+    { "name": "Mind's Eye", "description": "Mag.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "photo.sou-photographer-thumb.png",
+  "image": "photo.sou-photographer-full.png"
+}

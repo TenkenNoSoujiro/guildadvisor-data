@@ -220,6 +220,7 @@
       "type": "object",
       "properties": {
         "specialArts": { "type": "boolean", "default": true, "description": "A value indicating whether the Combat Skill is a Special Arts." },
+        "mp": { "type": "integer", "description": "The MP cost of the skill." },
         "name": { "type": "string", "description": "The name of the Combat Skill." },
         "description": { "type": "string" },
         "tags": { "items": { "$ref": "#/definitions/Tag" } }
