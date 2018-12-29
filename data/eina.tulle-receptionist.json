@@ -1,0 +1,23 @@
+{ "id": "eina.tulle-receptionist",
+  "title": "Receptionist",
+  "name": "Eina Tulle",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 668,
+  "mp": 208,
+  "str": 142,
+  "end": 119,
+  "dex": 286,
+  "agi": 176,
+  "mag": 132,
+  "skill": {
+    "name": "Advice",
+    "descriptions": [
+      "Critical Rate+15%",
+      "Critical Rate+20%"
+    ]
+  },
+  "thumbnail": "eina.tulle-receptionist-thumb.png",
+  "image": "eina.tulle-receptionist-full.png"
+}
