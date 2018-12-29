@@ -1,0 +1,23 @@
+{ "id": "loki-cheers",
+  "title": "Cheers!",
+  "name": "Loki",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 838,
+  "mp": 148,
+  "str": 195,
+  "end": 139,
+  "dex": 226,
+  "agi": 355,
+  "mag": 180,
+  "skill": {
+    "name": "Tonight, we feast!",
+    "descriptions": [
+      "M.Resist+12%",
+      "M.Resist+15%"
+    ]
+  },
+  "thumbnail": "loki-cheers-thumb.png",
+  "image": "loki-cheers-full.png"
+}
