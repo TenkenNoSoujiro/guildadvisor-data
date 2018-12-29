@@ -1,0 +1,23 @@
+{ "id": "freya-devious.emotion",
+  "title": "Devious Emotion",
+  "name": "Freya",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 1136,
+  "mp": 109,
+  "str": 354,
+  "end": 177,
+  "dex": 204,
+  "agi": 233,
+  "mag": 136,
+  "skill": {
+    "name": "Mad Love",
+    "descriptions": [
+      "[Foes] End.-8%",
+      "[Foes] End.-10%"
+    ]
+  },
+  "thumbnail": "freya-devious.emotion-thumb.png",
+  "image": "freya-devious.emotion-full.png"
+}
