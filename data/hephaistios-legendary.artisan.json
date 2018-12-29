@@ -1,0 +1,23 @@
+{ "id": "hephaistios-legendary.artisan",
+  "title": "Legendary Artisan",
+  "name": "Hephaistios",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 1166,
+  "mp": 106,
+  "str": 230,
+  "end": 258,
+  "dex": 221,
+  "agi": 135,
+  "mag": 178,
+  "skill": {
+    "name": "Forge God's Refine",
+    "descriptions": [
+      "[Foes] P.Resist-12%",
+      "[Foes] P.Resist-15%"
+    ]
+  },
+  "thumbnail": "hephaistios-legendary.artisan-thumb.png",
+  "image": "hephaistios-legendary.artisan-full.png"
+}
