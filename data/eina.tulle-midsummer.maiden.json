@@ -1,0 +1,23 @@
+{ "id": "eina.tulle-midsummer.maiden",
+  "title": "Midsummer Maiden",
+  "name": "Eina Tulle",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1120,
+  "mp": 134,
+  "str": 300,
+  "end": 358,
+  "dex": 292,
+  "agi": 218,
+  "mag": 300,
+  "skill": {
+    "name": "Summer Fling",
+    "descriptions": [
+      "[Foes] Water Resist-10%",
+      "[Foes] Water Resist-15%"
+    ]
+  },
+  "thumbnail": "eina.tulle-midsummer.maiden-thumb.png",
+  "image": "eina.tulle-midsummer.maiden-full.png"
+}
