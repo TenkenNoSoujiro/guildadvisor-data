@@ -1,0 +1,23 @@
+{ "id": "hephaistios-artless",
+  "title": "Artless",
+  "name": "Hephaistios",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1256,
+  "mp": 112,
+  "str": 358,
+  "end": 394,
+  "dex": 339,
+  "agi": 219,
+  "mag": 277,
+  "skill": {
+    "name": "Wrought Iron",
+    "descriptions": [
+      "[Allies] P.Resist+12%",
+      "[Allies] P.Resist+15%"
+    ]
+  },
+  "thumbnail": "hephaistios-artless-thumb.png",
+  "image": "hephaistios-artless-full.png"
+}
