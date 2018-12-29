@@ -1,0 +1,23 @@
+{ "id": "syr.flover-pure.white",
+  "title": "Pure White",
+  "name": "Syr Flover",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 748,
+  "mp": 224,
+  "str": 218,
+  "end": 231,
+  "dex": 356,
+  "agi": 283,
+  "mag": 579,
+  "skill": {
+    "name": "Snow Gift",
+    "descriptions": [
+      "[Allies] Mag.+10% & [Foes] Water Resist-10%",
+      "[Allies] Mag.+15% & [Foes] Water Resist-15%"
+    ]
+  },
+  "thumbnail": "syr.flover-pure.white-thumb.png",
+  "image": "syr.flover-pure.white-full.png"
+}
