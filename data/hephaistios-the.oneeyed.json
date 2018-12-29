@@ -1,0 +1,23 @@
+{ "id": "hephaistios-the.oneeyed",
+  "title": "The One-Eyed",
+  "name": "Hephaistios",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 1136,
+  "mp": 102,
+  "str": 176,
+  "end": 212,
+  "dex": 177,
+  "agi": 108,
+  "mag": 140,
+  "skill": {
+    "name": "Steel Guard",
+    "descriptions": [
+      "P.Resist+8%",
+      "P.Resist+10%"
+    ]
+  },
+  "thumbnail": "hephaistios-the.oneeyed-thumb.png",
+  "image": "hephaistios-the.oneeyed-full.png"
+}
