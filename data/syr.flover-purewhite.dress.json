@@ -1,0 +1,23 @@
+{ "id": "syr.flover-purewhite.dress",
+  "title": "Pure-White Dress",
+  "name": "Syr Flover",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 828,
+  "mp": 219,
+  "str": 354,
+  "end": 392,
+  "dex": 339,
+  "agi": 219,
+  "mag": 282,
+  "skill": {
+    "name": "Innocent Blessing",
+    "descriptions": [
+      "[Allies] End.+15%",
+      "[Allies] End.+20%"
+    ]
+  },
+  "thumbnail": "syr.flover-purewhite.dress-thumb.png",
+  "image": "syr.flover-purewhite.dress-full.png"
+}
