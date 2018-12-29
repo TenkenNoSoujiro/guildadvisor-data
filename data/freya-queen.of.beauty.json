@@ -1,0 +1,23 @@
+{ "id": "freya-queen.of.beauty",
+  "title": "Queen of Beauty",
+  "name": "Freya",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 946,
+  "mp": 142,
+  "str": 209,
+  "end": 212,
+  "dex": 380,
+  "agi": 271,
+  "mag": 600,
+  "skill": {
+    "name": "Beauty Worship",
+    "descriptions": [
+      "[Allies] Dmg. received (Attack Type: All Targets) -8% & Mag.+10%",
+      "[Allies] Dmg. received (Attack Type: All Targets) -10% & Mag.+15%"
+    ]
+  },
+  "thumbnail": "freya-queen.of.beauty-thumb.png",
+  "image": "freya-queen.of.beauty-full.png"
+}
