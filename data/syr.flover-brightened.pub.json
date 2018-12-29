@@ -1,0 +1,23 @@
+{ "id": "syr.flover-brightened.pub",
+  "title": "Brightened Pub",
+  "name": "Syr Flover",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 738,
+  "mp": 214,
+  "str": 227,
+  "end": 257,
+  "dex": 221,
+  "agi": 136,
+  "mag": 181,
+  "skill": {
+    "name": "Heartful Smile",
+    "descriptions": [
+      "Mag.+25%",
+      "Mag.+30%"
+    ]
+  },
+  "thumbnail": "syr.flover-brightened.pub-thumb.png",
+  "image": "syr.flover-brightened.pub-full.png"
+}
