@@ -1,0 +1,23 @@
+{ "id": "syr.flover-countess",
+  "title": "Countess",
+  "name": "Syr Flover",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1248,
+  "mp": 102,
+  "str": 350,
+  "end": 383,
+  "dex": 342,
+  "agi": 214,
+  "mag": 350,
+  "skill": {
+    "name": "Sleight of Hands",
+    "descriptions": [
+      "[Self] Increase S.A Gauge Charge gain by 66%",
+      "[Self] Increase S.A Gauge Charge gain by 100%"
+    ]
+  },
+  "thumbnail": "syr.flover-countess-thumb.png",
+  "image": "syr.flover-countess-full.png"
+}
