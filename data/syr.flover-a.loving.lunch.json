@@ -1,0 +1,23 @@
+{ "id": "syr.flover-a.loving.lunch",
+  "title": "A Loving Lunch",
+  "name": "Syr Flover",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 738,
+  "mp": 214,
+  "str": 227,
+  "end": 257,
+  "dex": 221,
+  "agi": 136,
+  "mag": 181,
+  "skill": {
+    "name": "Hearty Lunch Box",
+    "descriptions": [
+      "End.+8%",
+      "End.+10%"
+    ]
+  },
+  "thumbnail": "syr.flover-a.loving.lunch-thumb.png",
+  "image": "syr.flover-a.loving.lunch-full.png"
+}
