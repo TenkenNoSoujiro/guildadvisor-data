@@ -1,0 +1,24 @@
+{ "id": "lunor.faust-fertility.helper",
+  "new": false,
+  "title": "Fertility Helper",
+  "name": "Lunor Faust",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 818,
+  "mp": 141,
+  "str": 144,
+  "end": 118,
+  "dex": 286,
+  "agi": 175,
+  "mag": 132,
+  "skill": {
+    "name": "Cleaning Skills",
+    "descriptions": [
+      "[Foes] Critical Rate-10%",
+      "[Foes] Critical Rate-15%"
+    ]
+  },
+  "thumbnail": "lunor.faust-fertility.helper-thumb.png",
+  "image": "lunor.faust-fertility.helper-full.png"
+}

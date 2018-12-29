@@ -1,0 +1,24 @@
+{ "id": "demeter-harvest.goddess",
+  "new": false,
+  "title": "Harvest Goddess",
+  "name": "Demeter",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 688,
+  "mp": 213,
+  "str": 109,
+  "end": 112,
+  "dex": 172,
+  "agi": 147,
+  "mag": 287,
+  "skill": {
+    "name": "Harvest Grace",
+    "descriptions": [
+      "Guard Rate+15%",
+      "Guard Rate+20%"
+    ]
+  },
+  "thumbnail": "demeter-harvest.goddess-thumb.png",
+  "image": "demeter-harvest.goddess-full.png"
+}

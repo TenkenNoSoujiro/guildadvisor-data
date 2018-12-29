@@ -1,0 +1,24 @@
+{ "id": "lunor.faust-prideful.waitress",
+  "new": false,
+  "title": "Prideful Waitress",
+  "name": "Lunor Faust",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 1126,
+  "mp": 110,
+  "str": 353,
+  "end": 176,
+  "dex": 202,
+  "agi": 233,
+  "mag": 139,
+  "skill": {
+    "name": "Service Skills",
+    "descriptions": [
+      "[Self] Dex.+12%",
+      "[Self] Dex.+15%"
+    ]
+  },
+  "thumbnail": "lunor.faust-prideful.waitress-thumb.png",
+  "image": "lunor.faust-prideful.waitress-full.png"
+}

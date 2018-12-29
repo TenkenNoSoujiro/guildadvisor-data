@@ -1,0 +1,24 @@
+{ "id": "miach-god.neighbor",
+  "new": false,
+  "title": "God Neighbor",
+  "name": "Miach",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 688,
+  "mp": 218,
+  "str": 137,
+  "end": 136,
+  "dex": 217,
+  "agi": 179,
+  "mag": 379,
+  "skill": {
+    "name": "God's Medicine",
+    "descriptions": [
+      "[Allies] 8% HP Regen",
+      "[Allies] 10% HP Regen"
+    ]
+  },
+  "thumbnail": "miach-god.neighbor-thumb.png",
+  "image": "miach-god.neighbor-full.png"
+}

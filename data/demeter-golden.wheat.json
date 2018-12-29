@@ -1,0 +1,24 @@
+{ "id": "demeter-golden.wheat",
+  "new": false,
+  "title": "Golden Wheat",
+  "name": "Demeter",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 946,
+  "mp": 142,
+  "str": 209,
+  "end": 239,
+  "dex": 360,
+  "agi": 277,
+  "mag": 587,
+  "skill": {
+    "name": "Gentle Gaze",
+    "descriptions": [
+      "[Foes] M.Resist-10% & Guard Rate-8%",
+      "[Foes] M.Resist-15% & Guard Rate-10%"
+    ]
+  },
+  "thumbnail": "demeter-golden.wheat-thumb.png",
+  "image": "demeter-golden.wheat-full.png"
+}

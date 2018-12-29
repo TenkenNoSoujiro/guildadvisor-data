@@ -1,0 +1,24 @@
+{ "id": "miach-pharmacist",
+  "new": false,
+  "title": "Pharmacist",
+  "name": "Miach",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 668,
+  "mp": 213,
+  "str": 110,
+  "end": 111,
+  "dex": 173,
+  "agi": 146,
+  "mag": 287,
+  "skill": {
+    "name": "Secret Potion",
+    "descriptions": [
+      "[Foes] Max HP 4% Dmg. Poison",
+      "[Foes] Max HP 6% Dmg. Poison"
+    ]
+  },
+  "thumbnail": "miach-pharmacist-thumb.png",
+  "image": "miach-pharmacist-full.png"
+}

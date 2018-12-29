@@ -1,0 +1,24 @@
+{ "id": "ganesha-god.of.the.masses",
+  "new": false,
+  "title": "God of the Masses",
+  "name": "Ganesha",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 1156,
+  "mp": 102,
+  "str": 78,
+  "end": 209,
+  "dex": 175,
+  "agi": 109,
+  "mag": 139,
+  "skill": {
+    "name": "I am Ganesha!",
+    "descriptions": [
+      "[Foes] Str.-4%",
+      "[Foes] Str.-5%"
+    ]
+  },
+  "thumbnail": "ganesha-god.of.the.masses-thumb.png",
+  "image": "ganesha-god.of.the.masses-full.png"
+}

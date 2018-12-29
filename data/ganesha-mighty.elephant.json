@@ -1,0 +1,24 @@
+{ "id": "ganesha-mighty.elephant",
+  "new": false,
+  "title": "Mighty Elephant",
+  "name": "Ganesha",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 1186,
+  "mp": 106,
+  "str": 232,
+  "end": 257,
+  "dex": 218,
+  "agi": 135,
+  "mag": 176,
+  "skill": {
+    "name": "Grand Order",
+    "descriptions": [
+      "[Foes] Str.-8%",
+      "[Foes] Str.-10%"
+    ]
+  },
+  "thumbnail": "ganesha-mighty.elephant-thumb.png",
+  "image": "ganesha-mighty.elephant-full.png"
+}

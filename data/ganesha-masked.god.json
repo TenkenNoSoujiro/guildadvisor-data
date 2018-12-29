@@ -1,0 +1,24 @@
+{ "id": "ganesha-masked.god",
+  "new": false,
+  "title": "Masked God",
+  "name": "Ganesha",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 888,
+  "mp": 144,
+  "str": 232,
+  "end": 261,
+  "dex": 218,
+  "agi": 135,
+  "mag": 176,
+  "skill": {
+    "name": "Cry of a God",
+    "descriptions": [
+      "[Allies] Taunt Resist+75%",
+      "[Allies] Taunt Resist+100%"
+    ]
+  },
+  "thumbnail": "ganesha-masked.god-thumb.png",
+  "image": "ganesha-masked.god-full.png"
+}

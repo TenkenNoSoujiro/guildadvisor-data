@@ -1,0 +1,24 @@
+{ "id": "demeter-mother.seedling",
+  "new": false,
+  "title": "Mother Seedling",
+  "name": "Demeter",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 708,
+  "mp": 216,
+  "str": 139,
+  "end": 138,
+  "dex": 216,
+  "agi": 178,
+  "mag": 378,
+  "skill": {
+    "name": "Mother Bounty",
+    "descriptions": [
+      "Guard Rate+25%",
+      "Guard Rate+35%"
+    ]
+  },
+  "thumbnail": "demeter-mother.seedling-thumb.png",
+  "image": "demeter-mother.seedling-full.png"
+}

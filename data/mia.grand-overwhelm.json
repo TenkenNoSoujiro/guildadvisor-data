@@ -1,0 +1,24 @@
+{ "id": "mia.grand-overwhelm",
+  "new": false,
+  "title": "Overwhelm",
+  "name": "Mia Grand",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 1186,
+  "mp": 107,
+  "str": 233,
+  "end": 257,
+  "dex": 217,
+  "agi": 133,
+  "mag": 174,
+  "skill": {
+    "name": "Straighten Up!",
+    "descriptions": [
+      "End.+8%",
+      "End.+10%"
+    ]
+  },
+  "thumbnail": "mia.grand-overwhelm-thumb.png",
+  "image": "mia.grand-overwhelm-full.png"
+}

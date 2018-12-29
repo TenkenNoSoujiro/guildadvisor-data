@@ -1,0 +1,24 @@
+{ "id": "mia.grand-fertilitys.mom",
+  "new": false,
+  "title": "Fertility's Mom",
+  "name": "Mia Grand",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 1156,
+  "mp": 102,
+  "str": 179,
+  "end": 213,
+  "dex": 173,
+  "agi": 106,
+  "mag": 136,
+  "skill": {
+    "name": "Fertility's Cheer",
+    "descriptions": [
+      "End.+4%",
+      "End.+5%"
+    ]
+  },
+  "thumbnail": "mia.grand-fertilitys.mom-thumb.png",
+  "image": "mia.grand-fertilitys.mom-full.png"
+}

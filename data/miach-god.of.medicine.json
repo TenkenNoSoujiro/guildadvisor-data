@@ -1,0 +1,24 @@
+{ "id": "miach-god.of.medicine",
+  "new": false,
+  "title": "God of Medicine",
+  "name": "Miach",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 688,
+  "mp": 218,
+  "str": 140,
+  "end": 137,
+  "dex": 218,
+  "agi": 176,
+  "mag": 379,
+  "skill": {
+    "name": "Medi-God's Grace",
+    "descriptions": [
+      "[Foes] Max HP 5% Dmg. Poison",
+      "[Foes] Max HP 7% Dmg. Poison"
+    ]
+  },
+  "thumbnail": "miach-god.of.medicine-thumb.png",
+  "image": "miach-god.of.medicine-full.png"
+}
