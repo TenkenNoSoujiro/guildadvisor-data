@@ -1,0 +1,23 @@
+{ "id": "anya.fromel-catears",
+  "title": "Cat-Ears",
+  "name": "Anya Fromel",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 818,
+  "mp": 141,
+  "str": 149,
+  "end": 116,
+  "dex": 181,
+  "agi": 287,
+  "mag": 133,
+  "skill": {
+    "name": "Cat's Aid",
+    "descriptions": [
+      "[Allies] Seal Resist+60%",
+      "[Allies] Seal Resist+80%"
+    ]
+  },
+  "thumbnail": "anya.fromel-catears-thumb.png",
+  "image": "anya.fromel-catears-full.png"
+}
