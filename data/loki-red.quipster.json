@@ -1,0 +1,23 @@
+{ "id": "loki-red.quipster",
+  "title": "Red Quipster",
+  "name": "Loki",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 918,
+  "mp": 154,
+  "str": 195,
+  "end": 139,
+  "dex": 226,
+  "agi": 355,
+  "mag": 180,
+  "skill": {
+    "name": "Say What?!",
+    "descriptions": [
+      "Penetration Rate+25%",
+      "Penetration Rate+35%"
+    ]
+  },
+  "thumbnail": "loki-red.quipster-thumb.png",
+  "image": "loki-red.quipster-full.png"
+}
