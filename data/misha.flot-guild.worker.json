@@ -1,0 +1,24 @@
+{ "id": "misha.flot-guild.worker",
+  "new": false,
+  "title": "Guild Worker",
+  "name": "Misha Flot",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 798,
+  "mp": 141,
+  "str": 289,
+  "end": 137,
+  "dex": 163,
+  "agi": 188,
+  "mag": 100,
+  "skill": {
+    "name": "Crucial Hint",
+    "descriptions": [
+      "[Allies] Stun Resist+60%",
+      "[Allies] Stun Resist+80%"
+    ]
+  },
+  "thumbnail": "misha.flot-guild.worker-thumb.png",
+  "image": "misha.flot-guild.worker-full.png"
+}

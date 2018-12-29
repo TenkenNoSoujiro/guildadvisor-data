@@ -1,0 +1,24 @@
+{ "id": "misha.flot-workplace.gossip",
+  "new": false,
+  "title": "Workplace Gossip",
+  "name": "Misha Flot",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 818,
+  "mp": 146,
+  "str": 352,
+  "end": 173,
+  "dex": 203,
+  "agi": 235,
+  "mag": 138,
+  "skill": {
+    "name": "Rumor Hunter",
+    "descriptions": [
+      "[Allies] Stun Resist+75%",
+      "[Allies] Stun Resist+100%"
+    ]
+  },
+  "thumbnail": "misha.flot-workplace.gossip-thumb.png",
+  "image": "misha.flot-workplace.gossip-full.png"
+}

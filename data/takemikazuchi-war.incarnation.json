@@ -1,0 +1,24 @@
+{ "id": "takemikazuchi-war.incarnation",
+  "new": false,
+  "title": "War Incarnation",
+  "name": "Takemikazuchi",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 1166,
+  "mp": 109,
+  "str": 355,
+  "end": 177,
+  "dex": 202,
+  "agi": 233,
+  "mag": 133,
+  "skill": {
+    "name": "War Rampage",
+    "descriptions": [
+      "[Foes] Counter Rate-8%",
+      "[Foes] Counter Rate-10%"
+    ]
+  },
+  "thumbnail": "takemikazuchi-war.incarnation-thumb.png",
+  "image": "takemikazuchi-war.incarnation-full.png"
+}

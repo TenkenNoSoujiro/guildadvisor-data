@@ -1,0 +1,24 @@
+{ "id": "dionysus-god.of.wine",
+  "new": false,
+  "title": "God of Wine",
+  "name": "Dionysus",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 958,
+  "mp": 139,
+  "str": 560,
+  "end": 277,
+  "dex": 304,
+  "agi": 420,
+  "mag": 212,
+  "skill": {
+    "name": "Winding Intoxication",
+    "descriptions": [
+      "[Foes] Max HP 8% Dmg. Poison & Heal-20%",
+      "[Foes] Max HP 10% Dmg. Poison & Heal-25%"
+    ]
+  },
+  "thumbnail": "dionysus-god.of.wine-thumb.png",
+  "image": "dionysus-god.of.wine-full.png"
+}

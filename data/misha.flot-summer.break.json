@@ -1,0 +1,24 @@
+{ "id": "misha.flot-summer.break",
+  "new": false,
+  "title": "Summer Break",
+  "name": "Misha Flot",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 950,
+  "mp": 141,
+  "str": 314,
+  "end": 242,
+  "dex": 356,
+  "agi": 524,
+  "mag": 314,
+  "skill": {
+    "name": "Happy Vacation",
+    "descriptions": [
+      "[Allies] Slow Resist+75% & Agi.+8%",
+      "[Allies] Slow Resist+100% & Agi.+10%"
+    ]
+  },
+  "thumbnail": "misha.flot-summer.break-thumb.png",
+  "image": "misha.flot-summer.break-full.png"
+}

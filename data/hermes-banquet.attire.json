@@ -1,0 +1,24 @@
+{ "id": "hermes-banquet.attire",
+  "new": false,
+  "title": "Banquet Attire",
+  "name": "Hermes",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 743,
+  "mp": 229,
+  "str": 211,
+  "end": 216,
+  "dex": 349,
+  "agi": 280,
+  "mag": 566,
+  "skill": {
+    "name": "Smooth Talk",
+    "descriptions": [
+      "[Foes] M.Resist-15%",
+      "[Foes] M.Resist-20%"
+    ]
+  },
+  "thumbnail": "hermes-banquet.attire-thumb.png",
+  "image": "hermes-banquet.attire-full.png"
+}

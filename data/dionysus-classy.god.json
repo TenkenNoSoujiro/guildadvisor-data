@@ -1,0 +1,24 @@
+{ "id": "dionysus-classy.god",
+  "new": false,
+  "title": "Classy God",
+  "name": "Dionysus",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 708,
+  "mp": 216,
+  "str": 139,
+  "end": 137,
+  "dex": 219,
+  "agi": 176,
+  "mag": 376,
+  "skill": {
+    "name": "Grace of Cups",
+    "descriptions": [
+      "[Foes] 25% Sleep",
+      "[Foes] 30% Sleep"
+    ]
+  },
+  "thumbnail": "dionysus-classy.god-thumb.png",
+  "image": "dionysus-classy.god-full.png"
+}

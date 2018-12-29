@@ -1,0 +1,24 @@
+{ "id": "dionysus-tipsy.gaze",
+  "new": false,
+  "title": "Tipsy Gaze",
+  "name": "Dionysus",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 888,
+  "mp": 145,
+  "str": 232,
+  "end": 257,
+  "dex": 218,
+  "agi": 135,
+  "mag": 176,
+  "skill": {
+    "name": "Sweet Smile",
+    "descriptions": [
+      "[Allies] Charm Resist+75%",
+      "[Allies] Charm Resist+100%"
+    ]
+  },
+  "thumbnail": "dionysus-tipsy.gaze-thumb.png",
+  "image": "dionysus-tipsy.gaze-full.png"
+}

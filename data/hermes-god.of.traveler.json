@@ -1,0 +1,24 @@
+{ "id": "hermes-god.of.traveler",
+  "new": false,
+  "title": "God of Traveler",
+  "name": "Hermes",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 818,
+  "mp": 145,
+  "str": 145,
+  "end": 118,
+  "dex": 286,
+  "agi": 175,
+  "mag": 131,
+  "skill": {
+    "name": "Travel God's Grace",
+    "descriptions": [
+      "[Allies] Sleep Resist+60%",
+      "[Allies] Sleep Resist+80%"
+    ]
+  },
+  "thumbnail": "hermes-god.of.traveler-thumb.png",
+  "image": "hermes-god.of.traveler-full.png"
+}

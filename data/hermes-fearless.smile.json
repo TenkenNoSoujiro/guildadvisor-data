@@ -1,0 +1,24 @@
+{ "id": "hermes-fearless.smile",
+  "new": false,
+  "title": "Fearless Smile",
+  "name": "Hermes",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 838,
+  "mp": 148,
+  "str": 187,
+  "end": 154,
+  "dex": 347,
+  "agi": 228,
+  "mag": 165,
+  "skill": {
+    "name": "Secret Intuition",
+    "descriptions": [
+      "[Allies] Sleep Resist+75%",
+      "[Allies] Sleep Resist+100%"
+    ]
+  },
+  "thumbnail": "hermes-fearless.smile-thumb.png",
+  "image": "hermes-fearless.smile-full.png"
+}

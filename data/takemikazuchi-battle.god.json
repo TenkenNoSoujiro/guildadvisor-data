@@ -1,0 +1,24 @@
+{ "id": "takemikazuchi-battle.god",
+  "new": false,
+  "title": "Battle God",
+  "name": "Takemikazuchi",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 1136,
+  "mp": 104,
+  "str": 290,
+  "end": 143,
+  "dex": 162,
+  "agi": 187,
+  "mag": 96,
+  "skill": {
+    "name": "War God's Grace",
+    "descriptions": [
+      "[Foes] P.Resist-4%",
+      "[Foes] P.Resist-5%"
+    ]
+  },
+  "thumbnail": "takemikazuchi-battle.god-thumb.png",
+  "image": "takemikazuchi-battle.god-full.png"
+}
