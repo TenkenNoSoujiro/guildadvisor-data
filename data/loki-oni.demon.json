@@ -1,0 +1,23 @@
+{ "id": "loki-oni.demon",
+  "title": "Oni Demon",
+  "name": "Loki",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 878,
+  "mp": 159,
+  "str": 353,
+  "end": 385,
+  "dex": 339,
+  "agi": 224,
+  "mag": 288,
+  "skill": {
+    "name": "Just for Fun",
+    "descriptions": [
+      "[Allies] Seal Resist+75% & [Foes] End.-6%",
+      "[Allies] Seal Resist+100% & [Foes] End.-8%"
+    ]
+  },
+  "thumbnail": "loki-oni.demon-thumb.png",
+  "image": "loki-oni.demon-full.png"
+}
