@@ -1,0 +1,23 @@
+{ "id": "chloe.lolo-the.sly.cat",
+  "title": "The Sly Cat",
+  "name": "Chloe Lolo",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1216,
+  "mp": 115,
+  "str": 548,
+  "end": 279,
+  "dex": 310,
+  "agi": 369,
+  "mag": 216,
+  "skill": {
+    "name": "Black Cat Inspection",
+    "descriptions": [
+      "[Allies] Null P.Attack x1 exc. Special Arts",
+      "[Allies] Null P.Attack x2 exc. Special Arts"
+    ]
+  },
+  "thumbnail": "chloe.lolo-the.sly.cat-thumb.png",
+  "image": "chloe.lolo-the.sly.cat-full.png"
+}
