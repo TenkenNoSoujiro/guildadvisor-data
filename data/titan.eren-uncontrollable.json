@@ -1,0 +1,24 @@
+{ "id": "titan.eren-uncontrollable",
+  "new": false,
+  "title": "Uncontrollable",
+  "name": "Titan Eren",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 958,
+  "mp": 139,
+  "str": 580,
+  "end": 315,
+  "dex": 303,
+  "agi": 363,
+  "mag": 212,
+  "skill": {
+    "name": "Titan's Roar",
+    "descriptions": [
+      "[Foes] 30% Stun & P.Resist-10%",
+      "[Foes] 45% Stun & P.Resist-15%"
+    ]
+  },
+  "thumbnail": "titan.eren-uncontrollable-thumb.png",
+  "image": "titan.eren-uncontrollable-full.png"
+}

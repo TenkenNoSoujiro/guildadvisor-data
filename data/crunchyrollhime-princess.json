@@ -1,0 +1,24 @@
+{ "id": "crunchyrollhime-princess",
+  "new": false,
+  "title": "Princess",
+  "name": "Crunchyroll-Hime",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 930,
+  "mp": 146,
+  "str": 209,
+  "end": 246,
+  "dex": 344,
+  "agi": 283,
+  "mag": 590,
+  "skill": {
+    "name": "Elemental Aura",
+    "descriptions": [
+      "[Allies] Mag.+10% & [Foes] 30% Stun",
+      "[Allies] Mag.+15% & [Foes] 45% Stun"
+    ]
+  },
+  "thumbnail": "crunchyrollhime-princess-thumb.png",
+  "image": "crunchyrollhime-princess-full.png"
+}
