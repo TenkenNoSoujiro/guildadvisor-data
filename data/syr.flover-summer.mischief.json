@@ -1,0 +1,23 @@
+{ "id": "syr.flover-summer.mischief",
+  "title": "Summer Mischief",
+  "name": "Syr Flover",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 828,
+  "mp": 219,
+  "str": 364,
+  "end": 403,
+  "dex": 344,
+  "agi": 228,
+  "mag": 294,
+  "skill": {
+    "name": "Devilish Spur",
+    "descriptions": [
+      "[Foes] Mag.-15%",
+      "[Foes] Mag.-20%"
+    ]
+  },
+  "thumbnail": "syr.flover-summer.mischief-thumb.png",
+  "image": "syr.flover-summer.mischief-full.png"
+}
