@@ -1,0 +1,23 @@
+{ "id": "eina.tulle-brains.and.beauty",
+  "title": "Brains and Beauty",
+  "name": "Eina Tulle",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 748,
+  "mp": 218,
+  "str": 307,
+  "end": 239,
+  "dex": 513,
+  "agi": 344,
+  "mag": 277,
+  "skill": {
+    "name": "Welcome!",
+    "descriptions": [
+      "[Allies] 7MP Regen",
+      "[Allies] 10MP Regen"
+    ]
+  },
+  "thumbnail": "eina.tulle-brains.and.beauty-thumb.png",
+  "image": "eina.tulle-brains.and.beauty-full.png"
+}
