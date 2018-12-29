@@ -1,0 +1,23 @@
+{ "id": "eina.tulle-holy.choir",
+  "title": "Holy Choir",
+  "name": "Eina Tulle",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 748,
+  "mp": 224,
+  "str": 218,
+  "end": 222,
+  "dex": 360,
+  "agi": 287,
+  "mag": 580,
+  "skill": {
+    "name": "Blessing Carols",
+    "descriptions": [
+      "[Allies] P.Resist+8% & [Foes] Critical Rate-10%",
+      "[Allies] P.Resist+10% & [Foes] Critical Rate-15%"
+    ]
+  },
+  "thumbnail": "eina.tulle-holy.choir-thumb.png",
+  "image": "eina.tulle-holy.choir-full.png"
+}
