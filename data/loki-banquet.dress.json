@@ -1,0 +1,23 @@
+{ "id": "loki-banquet.dress",
+  "title": "Banquet Dress",
+  "name": "Loki",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 918,
+  "mp": 154,
+  "str": 299,
+  "end": 218,
+  "dex": 361,
+  "agi": 527,
+  "mag": 294,
+  "skill": {
+    "name": "Trickster's Skills",
+    "descriptions": [
+      "[Allies] M.Resist+12%",
+      "[Allies] M.Resist+15%"
+    ]
+  },
+  "thumbnail": "loki-banquet.dress-thumb.png",
+  "image": "loki-banquet.dress-full.png"
+}
