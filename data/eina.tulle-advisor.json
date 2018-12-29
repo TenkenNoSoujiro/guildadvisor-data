@@ -1,0 +1,23 @@
+{ "id": "eina.tulle-advisor",
+  "title": "Advisor",
+  "name": "Eina Tulle",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 688,
+  "mp": 213,
+  "str": 184,
+  "end": 155,
+  "dex": 346,
+  "agi": 230,
+  "mag": 167,
+  "skill": {
+    "name": "Guild's Advice",
+    "descriptions": [
+      "Critical Rate+25%",
+      "Critical Rate+35%"
+    ]
+  },
+  "thumbnail": "eina.tulle-advisor-thumb.png",
+  "image": "eina.tulle-advisor-full.png"
+}
