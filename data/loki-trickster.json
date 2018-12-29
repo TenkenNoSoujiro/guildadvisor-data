@@ -1,0 +1,23 @@
+{ "id": "loki-trickster",
+  "title": "Trickster",
+  "name": "Loki",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 838,
+  "mp": 148,
+  "str": 195,
+  "end": 139,
+  "dex": 226,
+  "agi": 355,
+  "mag": 180,
+  "skill": {
+    "name": "The Masked Grin",
+    "descriptions": [
+      "[Foes] M.Resist-12%",
+      "[Foes] M.Resist-15%"
+    ]
+  },
+  "thumbnail": "loki-trickster-thumb.png",
+  "image": "loki-trickster-full.png"
+}
