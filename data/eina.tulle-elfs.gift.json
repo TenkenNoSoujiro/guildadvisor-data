@@ -1,0 +1,23 @@
+{ "id": "eina.tulle-elfs.gift",
+  "title": "Elf's Gift",
+  "name": "Eina Tulle",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 748,
+  "mp": 218,
+  "str": 307,
+  "end": 239,
+  "dex": 513,
+  "agi": 344,
+  "mag": 277,
+  "skill": {
+    "name": "Small Devotion",
+    "descriptions": [
+      "[Allies] Critical Rate+15%",
+      "[Allies] Critical Rate+20%"
+    ]
+  },
+  "thumbnail": "eina.tulle-elfs.gift-thumb.png",
+  "image": "eina.tulle-elfs.gift-full.png"
+}
