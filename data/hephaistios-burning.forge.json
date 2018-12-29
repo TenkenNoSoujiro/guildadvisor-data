@@ -1,0 +1,23 @@
+{ "id": "hephaistios-burning.forge",
+  "title": "Burning Forge",
+  "name": "Hephaistios",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 1166,
+  "mp": 106,
+  "str": 230,
+  "end": 258,
+  "dex": 221,
+  "agi": 135,
+  "mag": 178,
+  "skill": {
+    "name": "Melody of Steel",
+    "descriptions": [
+      "P.Resist+12%",
+      "P.Resist+15%"
+    ]
+  },
+  "thumbnail": "hephaistios-burning.forge-thumb.png",
+  "image": "hephaistios-burning.forge-full.png"
+}
