@@ -1,0 +1,23 @@
+{ "id": "syr.flover-tricky.angel",
+  "title": "Tricky Angel",
+  "name": "Syr Flover",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 958,
+  "mp": 154,
+  "str": 366,
+  "end": 402,
+  "dex": 342,
+  "agi": 232,
+  "mag": 291,
+  "skill": {
+    "name": "Angelic Fertility",
+    "descriptions": [
+      "[Foes] Counter Rate-8% & [Allies] Mag.+10%",
+      "[Foes] Counter Rate-10% & [Allies] Mag.+15%"
+    ]
+  },
+  "thumbnail": "syr.flover-tricky.angel-thumb.png",
+  "image": "syr.flover-tricky.angel-full.png"
+}
