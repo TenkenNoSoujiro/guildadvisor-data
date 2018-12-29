@@ -1,0 +1,23 @@
+{ "id": "syr.flover-holiday.spirit",
+  "title": "Holiday Spirit",
+  "name": "Syr Flover",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1200,
+  "mp": 114,
+  "str": 355,
+  "end": 383,
+  "dex": 331,
+  "agi": 215,
+  "mag": 355,
+  "skill": {
+    "name": "Promised Road Home",
+    "descriptions": [
+      "[Allies] Slow Resist & Seal Resist+75% w/End.+4%",
+      "[Allies] Slow Resist & Seal Resist+100% w/End.+5%"
+    ]
+  },
+  "thumbnail": "syr.flover-holiday.spirit-thumb.png",
+  "image": "syr.flover-holiday.spirit-full.png"
+}
