@@ -1,0 +1,23 @@
+{ "id": "anya.fromel-lighthearted",
+  "title": "Lighthearted",
+  "name": "Anya Fromel",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 838,
+  "mp": 146,
+  "str": 198,
+  "end": 140,
+  "dex": 224,
+  "agi": 357,
+  "mag": 175,
+  "skill": {
+    "name": "Cheerful Support",
+    "descriptions": [
+      "[Allies] Seal Resist+75%",
+      "[Allies] Seal Resist+100%"
+    ]
+  },
+  "thumbnail": "anya.fromel-lighthearted-thumb.png",
+  "image": "anya.fromel-lighthearted-full.png"
+}
