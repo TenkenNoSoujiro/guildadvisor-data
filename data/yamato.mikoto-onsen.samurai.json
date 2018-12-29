@@ -1,0 +1,23 @@
+{ "id": "yamato.mikoto-onsen.samurai",
+  "title": "Onsen Samurai",
+  "name": "Yamato Mikoto",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1256,
+  "mp": 110,
+  "str": 555,
+  "end": 283,
+  "dex": 310,
+  "agi": 373,
+  "mag": 212,
+  "skill": {
+    "name": "Onsen Prayer",
+    "descriptions": [
+      "[Foes] Mag.-15%",
+      "[Foes] Mag.-20%"
+    ]
+  },
+  "thumbnail": "yamato.mikoto-onsen.samurai-thumb.png",
+  "image": "yamato.mikoto-onsen.samurai-full.png"
+}
