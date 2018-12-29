@@ -1,0 +1,23 @@
+{ "id": "ryu.lion-elven.employee",
+  "title": "Elven Employee",
+  "name": "Ryu Lion",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 838,
+  "mp": 148,
+  "str": 196,
+  "end": 139,
+  "dex": 223,
+  "agi": 358,
+  "mag": 180,
+  "skill": {
+    "name": "Chivalry's Lesson",
+    "descriptions": [
+      "Counter Rate+12%",
+      "Counter Rate+15%"
+    ]
+  },
+  "thumbnail": "ryu.lion-elven.employee-thumb.png",
+  "image": "ryu.lion-elven.employee-full.png"
+}
