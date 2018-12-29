@@ -1,0 +1,23 @@
+{ "id": "eina.tulle-scholar",
+  "title": "Scholar",
+  "name": "Eina Tulle",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 688,
+  "mp": 213,
+  "str": 184,
+  "end": 155,
+  "dex": 346,
+  "agi": 230,
+  "mag": 167,
+  "skill": {
+    "name": "Theory Library",
+    "descriptions": [
+      "[Foes] Guard Rate-15%",
+      "[Foes] Guard Rate-20%"
+    ]
+  },
+  "thumbnail": "eina.tulle-scholar-thumb.png",
+  "image": "eina.tulle-scholar-full.png"
+}
