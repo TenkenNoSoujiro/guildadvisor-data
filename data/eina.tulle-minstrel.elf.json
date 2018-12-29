@@ -1,0 +1,23 @@
+{ "id": "eina.tulle-minstrel.elf",
+  "title": "Minstrel Elf",
+  "name": "Eina Tulle",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 914,
+  "mp": 150,
+  "str": 209,
+  "end": 212,
+  "dex": 341,
+  "agi": 310,
+  "mag": 600,
+  "skill": {
+    "name": "Song of Honor",
+    "descriptions": [
+      "[Allies] Null M.Attack x1 exc. Special Arts",
+      "[Allies] Null M.Attack x2 exc. Special Arts"
+    ]
+  },
+  "thumbnail": "eina.tulle-minstrel.elf-thumb.png",
+  "image": "eina.tulle-minstrel.elf-full.png"
+}
