@@ -1,0 +1,23 @@
+{ "id": "anya.fromel-clumsy.detective",
+  "title": "Clumsy Detective",
+  "name": "Anya Fromel",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1216,
+  "mp": 115,
+  "str": 545,
+  "end": 282,
+  "dex": 308,
+  "agi": 369,
+  "mag": 218,
+  "skill": {
+    "name": "By Instinct",
+    "descriptions": [
+      "[Foes] P.Resist-15%",
+      "[Foes] P.Resist-20%"
+    ]
+  },
+  "thumbnail": "anya.fromel-clumsy.detective-thumb.png",
+  "image": "anya.fromel-clumsy.detective-full.png"
+}
