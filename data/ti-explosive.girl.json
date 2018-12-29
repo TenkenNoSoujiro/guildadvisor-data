@@ -1,0 +1,24 @@
+{ "id": "ti-explosive.girl",
+  "new": false,
+  "title": "Explosive Girl",
+  "name": "Ti",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 1236,
+  "mp": 115,
+  "str": 554,
+  "end": 284,
+  "dex": 312,
+  "agi": 370,
+  "mag": 213,
+  "skill": {
+    "name": "It's Alright Now",
+    "descriptions": [
+      "[Allies] Str. & Critical Rate+8%",
+      "[Allies] Str. & Critical Rate+10%"
+    ]
+  },
+  "thumbnail": "ti-explosive.girl-thumb.png",
+  "image": "ti-explosive.girl-full.png"
+}

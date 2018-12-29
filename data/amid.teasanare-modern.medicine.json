@@ -1,0 +1,24 @@
+{ "id": "amid.teasanare-modern.medicine",
+  "new": false,
+  "title": "Modern Medicine",
+  "name": "Amid Teasanare",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 1102,
+  "mp": 111,
+  "str": 225,
+  "end": 253,
+  "dex": 215,
+  "agi": 133,
+  "mag": 206,
+  "skill": {
+    "name": "Scholar Mind Trick",
+    "descriptions": [
+      "[Allies] Poison Resist+75%",
+      "[Allies] Poison Resist+100%"
+    ]
+  },
+  "thumbnail": "amid.teasanare-modern.medicine-thumb.png",
+  "image": "amid.teasanare-modern.medicine-full.png"
+}

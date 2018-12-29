@@ -1,0 +1,24 @@
+{ "id": "goibniu-elder.smith",
+  "new": false,
+  "title": "Elder Smith",
+  "name": "Goibniu",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 838,
+  "mp": 141,
+  "str": 289,
+  "end": 141,
+  "dex": 164,
+  "agi": 187,
+  "mag": 95,
+  "skill": {
+    "name": "Cunning Advice",
+    "descriptions": [
+      "P.Resist+8%",
+      "P.Resist+10%"
+    ]
+  },
+  "thumbnail": "goibniu-elder.smith-thumb.png",
+  "image": "goibniu-elder.smith-full.png"
+}

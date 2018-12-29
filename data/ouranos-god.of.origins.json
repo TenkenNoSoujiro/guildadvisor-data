@@ -1,0 +1,24 @@
+{ "id": "ouranos-god.of.origins",
+  "new": false,
+  "title": "God of Origins",
+  "name": "Ouranos",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 788,
+  "mp": 219,
+  "str": 216,
+  "end": 222,
+  "dex": 346,
+  "agi": 274,
+  "mag": 563,
+  "skill": {
+    "name": "Giant's Prayer",
+    "descriptions": [
+      "[Foes] End.-12%",
+      "[Foes] End.-15%"
+    ]
+  },
+  "thumbnail": "ouranos-god.of.origins-thumb.png",
+  "image": "ouranos-god.of.origins-full.png"
+}

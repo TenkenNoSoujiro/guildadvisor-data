@@ -1,0 +1,24 @@
+{ "id": "armin.arlert-sharp.thinker",
+  "new": false,
+  "title": "Sharp Thinker",
+  "name": "Armin Arlert",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 910,
+  "mp": 151,
+  "str": 310,
+  "end": 215,
+  "dex": 368,
+  "agi": 547,
+  "mag": 310,
+  "skill": {
+    "name": "Great Vision",
+    "descriptions": [
+      "[Foes] Str.-10% & [Allies] Guard Rate+10%",
+      "[Foes] Str.-15% & [Allies] Guard Rate+15%"
+    ]
+  },
+  "thumbnail": "armin.arlert-sharp.thinker-thumb.png",
+  "image": "armin.arlert-sharp.thinker-full.png"
+}

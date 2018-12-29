@@ -1,0 +1,24 @@
+{ "id": "diancecht-vigorous.medigod",
+  "new": false,
+  "title": "Vigorous Medi-God",
+  "name": "Diancecht",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 800,
+  "mp": 151,
+  "str": 124,
+  "end": 134,
+  "dex": 187,
+  "agi": 160,
+  "mag": 346,
+  "skill": {
+    "name": "Thank Me, Peasants!",
+    "descriptions": [
+      "[Self] Ailment Resist+40%",
+      "[Self] Ailment Resist+60%"
+    ]
+  },
+  "thumbnail": "diancecht-vigorous.medigod-thumb.png",
+  "image": "diancecht-vigorous.medigod-full.png"
+}

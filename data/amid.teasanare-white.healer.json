@@ -1,0 +1,24 @@
+{ "id": "amid.teasanare-white.healer",
+  "new": false,
+  "title": "White Healer",
+  "name": "Amid Teasanare",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 748,
+  "mp": 224,
+  "str": 210,
+  "end": 217,
+  "dex": 347,
+  "agi": 279,
+  "mag": 569,
+  "skill": {
+    "name": "Nurse's Healing",
+    "descriptions": [
+      "[Allies] 15% HP Regen",
+      "[Allies] 20% HP Regen"
+    ]
+  },
+  "thumbnail": "amid.teasanare-white.healer-thumb.png",
+  "image": "amid.teasanare-white.healer-full.png"
+}

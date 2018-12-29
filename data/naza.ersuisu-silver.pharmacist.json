@@ -1,0 +1,24 @@
+{ "id": "naza.ersuisu-silver.pharmacist",
+  "new": false,
+  "title": "Silver Pharmacist",
+  "name": "Naza Ersuisu",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 1118,
+  "mp": 107,
+  "str": 321,
+  "end": 161,
+  "dex": 185,
+  "agi": 213,
+  "mag": 120,
+  "skill": {
+    "name": "Child of the MediGod",
+    "descriptions": [
+      "[Allies] 8% HP Regen",
+      "[Allies] 10% HP Regen"
+    ]
+  },
+  "thumbnail": "naza.ersuisu-silver.pharmacist-thumb.png",
+  "image": "naza.ersuisu-silver.pharmacist-full.png"
+}
