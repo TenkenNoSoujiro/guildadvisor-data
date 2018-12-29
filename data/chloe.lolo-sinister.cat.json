@@ -1,0 +1,23 @@
+{ "id": "chloe.lolo-sinister.cat",
+  "title": "Sinister Cat",
+  "name": "Chloe Lolo",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 838,
+  "mp": 141,
+  "str": 149,
+  "end": 117,
+  "dex": 182,
+  "agi": 286,
+  "mag": 132,
+  "skill": {
+    "name": "Killer's Trickery",
+    "descriptions": [
+      "[Foes] Guard Rate-10%",
+      "[Foes] Guard Rate-15%"
+    ]
+  },
+  "thumbnail": "chloe.lolo-sinister.cat-thumb.png",
+  "image": "chloe.lolo-sinister.cat-full.png"
+}
