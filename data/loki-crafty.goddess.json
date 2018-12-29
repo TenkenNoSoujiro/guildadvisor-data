@@ -1,0 +1,23 @@
+{ "id": "loki-crafty.goddess",
+  "title": "Crafty Goddess",
+  "name": "Loki",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 818,
+  "mp": 145,
+  "str": 146,
+  "end": 117,
+  "dex": 181,
+  "agi": 286,
+  "mag": 137,
+  "skill": {
+    "name": "Jester's Policy",
+    "descriptions": [
+      "M.Resist+8%",
+      "M.Resist+10%"
+    ]
+  },
+  "thumbnail": "loki-crafty.goddess-thumb.png",
+  "image": "loki-crafty.goddess-full.png"
+}
