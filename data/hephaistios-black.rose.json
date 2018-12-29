@@ -1,0 +1,23 @@
+{ "id": "hephaistios-black.rose",
+  "title": "Black Rose",
+  "name": "Hephaistios",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 930,
+  "mp": 146,
+  "str": 560,
+  "end": 296,
+  "dex": 325,
+  "agi": 380,
+  "mag": 212,
+  "skill": {
+    "name": "Thunder Steel",
+    "descriptions": [
+      "[Foes] P.Resist-10% & Guard Rate-8%",
+      "[Foes] P.Resist-15% & Guard Rate-10%"
+    ]
+  },
+  "thumbnail": "hephaistios-black.rose-thumb.png",
+  "image": "hephaistios-black.rose-full.png"
+}
