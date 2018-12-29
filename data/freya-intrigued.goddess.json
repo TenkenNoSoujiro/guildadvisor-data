@@ -1,0 +1,23 @@
+{ "id": "freya-intrigued.goddess",
+  "title": "Intrigued Goddess",
+  "name": "Freya",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 668,
+  "mp": 213,
+  "str": 108,
+  "end": 111,
+  "dex": 172,
+  "agi": 148,
+  "mag": 288,
+  "skill": {
+    "name": "In The Shadows",
+    "descriptions": [
+      "Mag.+15%",
+      "Mag.+20%"
+    ]
+  },
+  "thumbnail": "freya-intrigued.goddess-thumb.png",
+  "image": "freya-intrigued.goddess-full.png"
+}
