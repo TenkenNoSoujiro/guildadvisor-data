@@ -1,0 +1,23 @@
+{ "id": "syr.flover-fertility.staff",
+  "title": "Fertility Staff",
+  "name": "Syr Flover",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 2,
+  "hp": 708,
+  "mp": 210,
+  "str": 173,
+  "end": 211,
+  "dex": 177,
+  "agi": 109,
+  "mag": 143,
+  "skill": {
+    "name": "Fertility's Gift",
+    "descriptions": [
+      "End.+4%",
+      "End.+5%"
+    ]
+  },
+  "thumbnail": "syr.flover-fertility.staff-thumb.png",
+  "image": "syr.flover-fertility.staff-full.png"
+}
