@@ -1,0 +1,23 @@
+{ "id": "riveria.ljos.alf-dark.divine",
+  "title": "Dark Divine",
+  "name": "Riveria Ljos Alf",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 914,
+  "mp": 150,
+  "str": 209,
+  "end": 220,
+  "dex": 350,
+  "agi": 292,
+  "mag": 601,
+  "skill": {
+    "name": "Mastery Lightning",
+    "descriptions": [
+      "[Foes] Thunder Resist-10% & [Allies] 10% HP Regen",
+      "[Foes] Thunder Resist-15% & [Allies] 15% HP Regen"
+    ]
+  },
+  "thumbnail": "riveria.ljos.alf-dark.divine-thumb.png",
+  "image": "riveria.ljos.alf-dark.divine-full.png"
+}
