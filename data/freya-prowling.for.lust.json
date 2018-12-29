@@ -1,0 +1,23 @@
+{ "id": "freya-prowling.for.lust",
+  "title": "Prowling for Lust",
+  "name": "Freya",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 3,
+  "hp": 688,
+  "mp": 218,
+  "str": 137,
+  "end": 136,
+  "dex": 217,
+  "agi": 179,
+  "mag": 379,
+  "skill": {
+    "name": "Rampant Compassion",
+    "descriptions": [
+      "Mag.+25%",
+      "Mag.+30%"
+    ]
+  },
+  "thumbnail": "freya-prowling.for.lust-thumb.png",
+  "image": "freya-prowling.for.lust-full.png"
+}
