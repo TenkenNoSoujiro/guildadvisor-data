@@ -1,0 +1,23 @@
+{ "id": "freya-banquet.queen",
+  "title": "Banquet Queen",
+  "name": "Freya",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 748,
+  "mp": 224,
+  "str": 211,
+  "end": 214,
+  "dex": 349,
+  "agi": 280,
+  "mag": 568,
+  "skill": {
+    "name": "Wicked Temptation",
+    "descriptions": [
+      "[Allies] Mag.+10% & Agi.+8%",
+      "[Allies] Mag.+15% & Agi.+10%"
+    ]
+  },
+  "thumbnail": "freya-banquet.queen-thumb.png",
+  "image": "freya-banquet.queen-full.png"
+}
