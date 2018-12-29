@@ -1,0 +1,23 @@
+{ "id": "freya-utmost.beauty",
+  "title": "Utmost Beauty",
+  "name": "Freya",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1180,
+  "mp": 119,
+  "str": 351,
+  "end": 391,
+  "dex": 331,
+  "agi": 215,
+  "mag": 351,
+  "skill": {
+    "name": "Regina Coeli",
+    "descriptions": [
+      "[Allies] Charm Resist+75% & [Foes] End.-6%",
+      "[Allies] Charm Resist+100% & [Foes] End.-8%"
+    ]
+  },
+  "thumbnail": "freya-utmost.beauty-thumb.png",
+  "image": "freya-utmost.beauty-full.png"
+}
