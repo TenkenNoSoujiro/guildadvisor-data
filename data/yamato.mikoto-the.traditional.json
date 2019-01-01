@@ -1,0 +1,32 @@
+{ "id": "yamato.mikoto-the.traditional",
+  "new": false,
+  "title": "The Traditional",
+  "name": "Yamato Mikoto",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2436,
+  "mp": 201,
+  "str": 919,
+  "end": 406,
+  "dex": 626,
+  "agi": 446,
+  "mag": 1100,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Shimenawanomitama", "description": "[Foes] Ultra Light M.Attack" },
+    { "name": "Tora-girl", "description": "[Foe] Mid Light M.Attack & Light Resist-35%/4 turns" },
+    { "name": "Shining Katana", "description": "[Foes] Fast Mid Light M.Attack w/15% Slow" },
+    { "name": "Kourin-jin", "description": "[Allies] Mag.+45%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Tough", "description": "End.+5.5%" },
+    { "name": "Mind's Eye", "description": "Mag.+9%" },
+    { "name": "Indomitable", "description": "End.+5.5%" },
+    { "name": "Giant Killer", "description": "Ability Pt.+50% toward Giants", "nemesis": "Giants" }
+  ],
+  "thumbnail": "yamato.mikoto-the.traditional-thumb.png",
+  "image": "yamato.mikoto-the.traditional-full.png"
+}

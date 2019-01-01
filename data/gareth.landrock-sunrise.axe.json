@@ -1,0 +1,32 @@
+{ "id": "gareth.landrock-sunrise.axe",
+  "new": false,
+  "title": "Sunrise Axe",
+  "name": "Gareth Landrock",
+  "kind": "adventurer",
+  "type": "defense",
+  "limited": true,
+  "rarity": 4,
+  "hp": 3154,
+  "mp": 186,
+  "str": 822,
+  "end": 797,
+  "dex": 538,
+  "agi": 319,
+  "mag": 349,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Mighty Sunrise", "description": "[Allies] Avoids K.O x1 only when HP≥1% (removed when HP<1%)" },
+    { "name": "Strong Defense", "description": "[Foes] Fast 75% Taunt & Penetration Rate-30%/4 turns" },
+    { "name": "Attack Fortress", "description": "[Self] Counter & Guard Rate+50%/4 turns" },
+    { "name": "Scintillate Ax", "description": "[Foes] Hi P.Attack w/temp Str. Boost & Heal 25% of Dmg." }
+  ],
+  "passiveSkills": [
+    { "name": "Fist Strike", "description": "Str.+10%" },
+    { "name": "Strong Defense", "description": "End.+4%" },
+    { "name": "Magic Resistance", "description": "M.Resist+8%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Healing Power", "description": "1% HP Regen/turn" }
+  ],
+  "thumbnail": "gareth.landrock-sunrise.axe-thumb.png",
+  "image": "gareth.landrock-sunrise.axe-full.png"
+}

@@ -1,0 +1,32 @@
+{ "id": "bell.cranel-a.fresh.start",
+  "new": false,
+  "title": "A Fresh Start",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2426,
+  "mp": 194,
+  "str": 1407,
+  "end": 439,
+  "dex": 519,
+  "agi": 812,
+  "mag": 353,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "New Year's Strike", "description": "[Foes] Ultra P.Attack w/30% Seal" },
+    { "name": "Blast Gleam", "description": "[Foe] Mid P.Attack w/Ultra Critical Rate" },
+    { "name": "Rapid Flash", "description": "[Foes] Fast Mid P.Attack w/15% Seal & temp Str. Boost" },
+    { "name": "Double Defense", "description": "[Self] Null P.Attack x2 exc. Special Arts" }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
+    { "name": "Acceleration", "description": "Agi.+6%" },
+    { "name": "Tough", "description": "End.+6%" },
+    { "name": "Crush", "description": "Str.+6%" },
+    { "name": "Luck", "description": "All Status+5%" }
+  ],
+  "thumbnail": "bell.cranel-a.fresh.start-thumb.png",
+  "image": "bell.cranel-a.fresh.start-full.png"
+}

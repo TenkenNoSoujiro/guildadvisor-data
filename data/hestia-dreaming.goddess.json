@@ -1,0 +1,24 @@
+{ "id": "hestia-dreaming.goddess",
+  "new": false,
+  "title": "Dreaming Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 768,
+  "mp": 221,
+  "str": 220,
+  "end": 229,
+  "dex": 352,
+  "agi": 286,
+  "mag": 580,
+  "skill": {
+    "name": "Rise and Shine",
+    "descriptions": [
+      "[Allies] Sleep Resist+75% & [Foes] M.Resist-12%",
+      "[Allies] Sleep Resist+100% & [Foes] M.Resist-15%"
+    ]
+  },
+  "thumbnail": "hestia-dreaming.goddess-thumb.png",
+  "image": "hestia-dreaming.goddess-full.png"
+}

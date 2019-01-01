@@ -1,0 +1,24 @@
+{ "id": "freya-elegant.queen",
+  "new": false,
+  "title": "Elegant Queen",
+  "name": "Freya",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 738,
+  "mp": 224,
+  "str": 217,
+  "end": 223,
+  "dex": 355,
+  "agi": 288,
+  "mag": 584,
+  "skill": {
+    "name": "Ceremonial Sensation",
+    "descriptions": [
+      "[Allies] Mag.+10% & [Foes] Light Resist-10%",
+      "[Allies] Mag.+15% & [Foes] Light Resist-15%"
+    ]
+  },
+  "thumbnail": "freya-elegant.queen-thumb.png",
+  "image": "freya-elegant.queen-full.png"
+}

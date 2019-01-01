@@ -1,0 +1,32 @@
+{ "id": "hitachi.chigusa-sparkling.crystal",
+  "new": false,
+  "title": "Sparkling Crystal",
+  "name": "Hitachi Chigusa",
+  "kind": "adventurer",
+  "type": "healer",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2231,
+  "mp": 238,
+  "str": 431,
+  "end": 355,
+  "dex": 724,
+  "agi": 661,
+  "mag": 1122,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Chigusa Snowfall", "description": "[Allies] Ultra Heal & 50% HP Regen/1 turn" },
+    { "name": "Healing Waters", "description": "[Ally] Fast Hi Heal to an Ally. Prioritizes an Ally with lower percentage HP." },
+    { "name": "Emerald Shrine", "description": "[Foes] 50% Seal" },
+    { "name": "Divine Waters", "description": "[Allies] 15% HP Regen/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Abnormal Resistance", "description": "Ailment Resist+15%" },
+    { "name": "Tough", "description": "End.+5%" },
+    { "name": "Mind's Eye", "description": "Mag.+10%" },
+    { "name": "Hunter", "description": "Agi.+10%" },
+    { "name": "Unbreakable", "description": "End.+5%" }
+  ],
+  "thumbnail": "hitachi.chigusa-sparkling.crystal-thumb.png",
+  "image": "hitachi.chigusa-sparkling.crystal-full.png"
+}
