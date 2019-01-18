@@ -1,0 +1,32 @@
+{ "id": "anya.fromel-brave.fighter",
+  "new": false,
+  "title": "Brave Fighter",
+  "name": "Anya Fromel",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2468,
+  "mp": 221,
+  "str": 1062,
+  "end": 387,
+  "dex": 667,
+  "agi": 553,
+  "mag": 981,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Ruling Rift", "description": "[Foes] Ultra Earth P.Attack w/50% Stun" },
+    { "name": "Lancer Inspiration", "description": "[Allies] Guard Rate+35% & M.Resist+35%/3 turns" },
+    { "name": "Riddle", "description": "[Foes] Mid Earth P.Attack w/Mag. & Critical Rate-35%/3 turns" },
+    { "name": "Dismantle", "description": "[Foes] Hi Earth P.Attack & removes all HP Regen exc. Assist Skills" }
+  ],
+  "passiveSkills": [
+    { "name": "Protection", "description": "P.Resist & M.Resist+10%" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Thunder Resistance", "description": "Thunder Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Crush", "description": "Str.+15%" }
+  ],
+  "thumbnail": "anya.fromel-brave.fighter-thumb.png",
+  "image": "anya.fromel-brave.fighter-full.png"
+}

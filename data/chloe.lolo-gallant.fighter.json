@@ -1,0 +1,32 @@
+{ "id": "chloe.lolo-gallant.fighter",
+  "new": false,
+  "title": "Gallant Fighter",
+  "name": "Chloe Lolo",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2512,
+  "mp": 301,
+  "str": 336,
+  "end": 370,
+  "dex": 605,
+  "agi": 737,
+  "mag": 1389,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Resonating Rift", "description": "[Foe] Ultra Earth M.Attack w/temp Mag. Boost" },
+    { "name": "Wanted Mark", "description": "[Foe] Hi Earth M.Attack w/temp Mag. Boost & [Foe] Dmg. received (Attack Type: Single Target)+15%/4 turns" },
+    { "name": "Land Spike", "description": "[Foe] Hi Earth M.Attack w/temp Mag. Boost & [Allies] Earth Attack Dmg.+20%/3 turns" },
+    { "name": "Dagger Mastery", "description": "[Foe] Lo Earth M.Attack & [Self] Mag.+75%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Enlightenment", "description": "Mag.+15%" },
+    { "name": "Piercing Strike", "description": "Dmg.+20% Upon Penetration" },
+    { "name": "Thunder Resistance", "description": "Thunder Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "chloe.lolo-gallant.fighter-thumb.png",
+  "image": "chloe.lolo-gallant.fighter-full.png"
+}
