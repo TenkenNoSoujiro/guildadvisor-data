@@ -1,0 +1,32 @@
+{ "id": "ryu.lion-pretty.lady",
+  "new": false,
+  "title": "Pretty Lady",
+  "name": "Ryu Lion",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2580,
+  "mp": 204,
+  "str": 1469,
+  "end": 382,
+  "dex": 553,
+  "agi": 872,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Confession D'amour", "description": "[Foes] Ultra Earth P.Attack w/temp Str. Boost" },
+    { "name": "Orange Veil", "description": "[Foes] Mid Earth P.Attack w/temp Str. Boost & P.Resist, Earth Resist-15%/3 turns" },
+    { "name": "Chagrin Chanter", "description": "[Foes] Hi Earth P.Attack w/temp Str. Boost" },
+    { "name": "Gloire Tyffon", "description": "[Foes] Mid Earth P.Attack w/temp Str. Boost & [Allies] removes Str. Debuffs exc. Assist Skills" }
+  ],
+  "passiveSkills": [
+    { "name": "Battle Arts", "description": "Str. & Dex.+15%" },
+    { "name": "Piercing Strike", "description": "Damage+10% upon Penetration" },
+    { "name": "Thunder Resistance", "description": "Thunder Resist+35%" },
+    { "name": "Hunter", "description": "Agi.+15%" },
+    { "name": "Material Killer", "description": "Ability Pt.+50% toward Material", "nemesis": "Material" }
+  ],
+  "thumbnail": "ryu.lion-pretty.lady-thumb.png",
+  "image": "ryu.lion-pretty.lady-full.png"
+}

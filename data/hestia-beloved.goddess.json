@@ -1,0 +1,24 @@
+{ "id": "hestia-beloved.goddess",
+  "new": false,
+  "title": "Beloved Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 854,
+  "mp": 165,
+  "str": 550,
+  "end": 285,
+  "dex": 322,
+  "agi": 380,
+  "mag": 236,
+  "skill": {
+    "name": "Chocolate is War",
+    "descriptions": [
+      "[Foes] Counter Rate-10% & [Allies] M.Resist+10%",
+      "[Foes] Counter Rate-15% & [Allies] M.Resist+15%"
+    ]
+  },
+  "thumbnail": "hestia-beloved.goddess-thumb.png",
+  "image": "hestia-beloved.goddess-full.png"
+}

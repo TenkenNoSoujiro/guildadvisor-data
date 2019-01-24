@@ -1,0 +1,24 @@
+{ "id": "eina.tulle-handmade.elf",
+  "new": false,
+  "title": "Handmade Elf",
+  "name": "Eina Tulle",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 834,
+  "mp": 170,
+  "str": 313,
+  "end": 215,
+  "dex": 355,
+  "agi": 554,
+  "mag": 313,
+  "skill": {
+    "name": "Chocolate Advice",
+    "descriptions": [
+      "[Foes] Light & Earth Resist-5% & [Allies] Light & Earth Attack Damage+10%",
+      "[Foes] Light & Earth Resist-7% & [Allies] Light & Earth Attack Damage+15%"
+    ]
+  },
+  "thumbnail": "eina.tulle-handmade.elf-thumb.png",
+  "image": "eina.tulle-handmade.elf-full.png"
+}

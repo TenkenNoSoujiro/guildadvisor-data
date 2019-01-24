@@ -1,0 +1,32 @@
+{ "id": "ais.wallenstein-sweet.princess",
+  "new": false,
+  "title": "Sweet Princess",
+  "name": "Ais Wallenstein",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2592,
+  "mp": 281,
+  "str": 336,
+  "end": 374,
+  "dex": 607,
+  "agi": 741,
+  "mag": 1378,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Mal Amour", "description": "[Foe] Ultra Light M.Attack w/temp Mag. Boost" },
+    { "name": "Heart Breaker", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & removes Mag. Buffs exc. Assist Skills" },
+    { "name": "Pure Glittering Edge", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & [Allies] Light Attack Dmg.+20%/4 turns" },
+    { "name": "Passion Coordination", "description": "[Foe] Lo Light M.Attack & [Self] Mag.+75%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Enlightenment", "description": "Mag.+15%" },
+    { "name": "Piercing Strike", "description": "Dmg.+20% Upon Penetration" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Material Killer", "description": "Ability Pt.+50% toward Material", "nemesis": "Material" }
+  ],
+  "thumbnail": "ais.wallenstein-sweet.princess-thumb.png",
+  "image": "ais.wallenstein-sweet.princess-full.png"
+}
