@@ -1,0 +1,32 @@
+{ "id": "ryu.lion-roaring.gale",
+  "new": false,
+  "title": "Roaring Gale",
+  "name": "Ryu Lion",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2452,
+  "mp": 225,
+  "str": 1101,
+  "end": 347,
+  "dex": 692,
+  "agi": 550,
+  "mag": 981,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Zephyrus Dawnbringer", "description": "[Foes] Ultra Light P.Attack w/30% Seal" },
+    { "name": "Flashing", "description": "[Foes] Fast Lo Light P.Attack w/Str. & Mag.-35%/2 turns" },
+    { "name": "Oppression", "description": "[Foes] Hi Light P.Attack & Status Debuff +1 turns" },
+    { "name": "Against Bane", "description": "[Foe] Hi Light P.Attack w/temp Str. Boost" }
+  ],
+  "passiveSkills": [
+    { "name": "Transcendence", "description": "When countering, instead of attacking regularly, it decreases Foe's Str. & Mag. by 45% for 2 turns." },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+15%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+10%" }
+  ],
+  "thumbnail": "ryu.lion-roaring.gale-thumb.png",
+  "image": "ryu.lion-roaring.gale-full.png"
+}

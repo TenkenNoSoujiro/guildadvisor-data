@@ -1,0 +1,32 @@
+{ "id": "liliruca.arde-echoing.arrow",
+  "new": false,
+  "title": "Echoing Arrow",
+  "name": "Liliruca Arde",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2624,
+  "mp": 193,
+  "str": 1478,
+  "end": 401,
+  "dex": 587,
+  "agi": 807,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Lightning Arcbolt", "description": "[Foe] Ultra Thunder P.Attack w/temp. Str. Boost & Ultra Penetration Rate" },
+    { "name": "Conductivity", "description": "[Foe] Hi Thunder P.Attack w/temp Str. Boost & Dmg. received (Attack Type: Single Target)+15%/4 turns" },
+    { "name": "Enhanced Lightning", "description": "[Foe] Hi Thunder P.Attack w/temp Str. Boost & [Allies] Thunder Attack Dmg.+20%/3 turns" },
+    { "name": "Loaded Lightning", "description": "[Foe] Lo Thunder P.Attack & [Self] Str.+75%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Courageous", "description": "Str.+15%" },
+    { "name": "Strike", "description": "Critical Damage+20%" },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
+    { "name": "Concentrate", "description": "Agi. & Dex.+15%" },
+    { "name": "Worm Killer", "description": "Ability Pt.+50% toward Worm", "nemesis": "Worm" }
+  ],
+  "thumbnail": "liliruca.arde-echoing.arrow-thumb.png",
+  "image": "liliruca.arde-echoing.arrow-full.png"
+}

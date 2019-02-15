@@ -1,0 +1,24 @@
+{ "id": "hestia-moonlight.reunion",
+  "new": false,
+  "title": "Moonlight Reunion",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 902,
+  "mp": 153,
+  "str": 566,
+  "end": 279,
+  "dex": 353,
+  "agi": 363,
+  "mag": 212,
+  "skill": {
+    "name": "Eternal Agape",
+    "descriptions": [
+      "[Foes] Dmg. received (Attack Type: Single Target)+10% & [Allies] Dex.+15%",
+      "[Foes] Dmg. received (Attack Type: Single Target)+15% & [Allies] Dex.+20%"
+    ]
+  },
+  "thumbnail": "hestia-moonlight.reunion-thumb.png",
+  "image": "hestia-moonlight.reunion-full.png"
+}

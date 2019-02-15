@@ -1,0 +1,32 @@
+{ "id": "bell.cranel-moonlight.oath",
+  "new": false,
+  "title": "Moonlight Oath",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2516,
+  "mp": 194,
+  "str": 1542,
+  "end": 421,
+  "dex": 534,
+  "agi": 820,
+  "mag": 360,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Sworn Strike", "description": "[Foes] Ultra Light P.Attack w/temp Str. Boost & Ultra Unguard Rate" },
+    { "name": "True Strike", "description": "[Foe] Fast Hi Light P.Attack w/Ultra Penetration Rate" },
+    { "name": "Glorious Aim", "description": "[Foes] Hi Light P.Attack w/temp Str. Boost & 20% Stun" },
+    { "name": "Bright Fatality", "description": "[Foes] Mid Light P.Attack w/temp Str. Boost & [Allies] M.Resist+20%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
+    { "name": "Courageous", "description": "Str.+10%" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Ox Slayer", "description": "Ability Pt.+100% towards Ox", "nemesis": "Ox" },
+    { "name": "Luck", "description": "All Status+10%" }
+  ],
+  "thumbnail": "bell.cranel-moonlight.oath-thumb.png",
+  "image": "bell.cranel-moonlight.oath-full.png"
+}

@@ -1,0 +1,24 @@
+{ "id": "artemis-innocent.goddess",
+  "new": false,
+  "title": "Innocent Goddess",
+  "name": "Artemis",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 914,
+  "mp": 150,
+  "str": 575,
+  "end": 280,
+  "dex": 305,
+  "agi": 401,
+  "mag": 212,
+  "skill": {
+    "name": "Holy Bowstring",
+    "descriptions": [
+      "[Self] Str.+15% & [Allies] Str.+10% (effect does not apply to [Self])",
+      "[Self] Str.+20% & [Allies] Str.+15% (effect does not apply to [Self])"
+    ]
+  },
+  "thumbnail": "artemis-innocent.goddess-thumb.png",
+  "image": "artemis-innocent.goddess-full.png"
+}

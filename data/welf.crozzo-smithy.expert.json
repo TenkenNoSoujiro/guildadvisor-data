@@ -1,0 +1,32 @@
+{ "id": "welf.crozzo-smithy.expert",
+  "new": false,
+  "title": "Smithy Expert",
+  "name": "Welf Crozzo",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2432,
+  "mp": 230,
+  "str": 903,
+  "end": 360,
+  "dex": 624,
+  "agi": 558,
+  "mag": 1218,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Thousand Flames", "description": "[Foes] Ultra Fire M.Attack w/temp. Mag. Boost" },
+    { "name": "Name of the Flame", "description": "[Allies] Guard Rate+40%/2 turns & [Foes] Penetration Rate-40%/2 turns" },
+    { "name": "The art of Forging", "description": "[Allies] Avoids K.O. x1 only when HP≥10% (removed when HP<10%)" },
+    { "name": "Spark Hammer", "description": "[Foes] Hi Fire M.Attack w/temp Mag. Boost" }
+  ],
+  "passiveSkills": [
+    { "name": "Forestall", "description": "Mag. & Agi.+20%" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Wind Resistance", "description": "Wind Resist+35%" },
+    { "name": "Spirit Healing", "description": "5% MP Regen/turn" },
+    { "name": "Worm Killer", "description": "Ability Pt.+50% toward Worm", "nemesis": "Worm" }
+  ],
+  "thumbnail": "welf.crozzo-smithy.expert-thumb.png",
+  "image": "welf.crozzo-smithy.expert-full.png"
+}
