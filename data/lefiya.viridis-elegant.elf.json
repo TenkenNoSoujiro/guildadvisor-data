@@ -1,0 +1,32 @@
+{ "id": "lefiya.viridis-elegant.elf",
+  "new": false,
+  "title": "Elegant Elf",
+  "name": "Lefiya Viridis",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2492,
+  "mp": 215,
+  "str": 789,
+  "end": 307,
+  "dex": 569,
+  "agi": 515,
+  "mag": 938,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Icechunk Impact", "description": "[Foes] Ultra Water M.Attack" },
+    { "name": "Sleet Fall", "description": "[Allies] Dmg. received (Attack Type: All Targets)-20%/4 turns" },
+    { "name": "Crushing Deluge", "description": "[Foe] Mid Water M.Attack w/Hi Unguard Rate" },
+    { "name": "Soothing Mist", "description": "[Allies] Lo HP Heal & Mag.+25%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Mage", "description": "Mag.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+25%" },
+    { "name": "Chef", "description": "Dex.+15%" },
+    { "name": "Insane Speed", "description": "Agi.+15%" }
+  ],
+  "thumbnail": "lefiya.viridis-elegant.elf-thumb.png",
+  "image": "lefiya.viridis-elegant.elf-full.png"
+}

@@ -1,0 +1,32 @@
+{ "id": "ryu.lion-knight.elf",
+  "new": false,
+  "title": "Knight Elf",
+  "name": "Ryu Lion",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2652,
+  "mp": 186,
+  "str": 1482,
+  "end": 435,
+  "dex": 526,
+  "agi": 809,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Furore Impaler", "description": "[Foe] Ultra Wind P.Attack w/temp Str. Boost" },
+    { "name": "Velocity", "description": "[Foe] Lo Wind P.Attack & [Self] Str.+75%/4 turns" },
+    { "name": "Cyclocity", "description": "[Foe] Mid Wind P.Attack & [Self] Wind Attack Dmg.+60%/4 turns" },
+    { "name": "Windfury", "description": "[Foe] Hi Wind P.Attack & P.Resist-20%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Crush", "description": "Str.+15%" },
+    { "name": "Strike", "description": "Critical Damage+20%" },
+    { "name": "Earth Resistance", "description": "Earth Resist+35%" },
+    { "name": "Dragon Killer", "description": "Ability Pt.+50% toward Dragons", "nemesis": "Dragons" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" }
+  ],
+  "thumbnail": "ryu.lion-knight.elf-thumb.png",
+  "image": "ryu.lion-knight.elf-full.png"
+}

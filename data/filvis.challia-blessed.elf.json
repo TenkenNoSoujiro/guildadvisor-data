@@ -1,0 +1,32 @@
+{ "id": "filvis.challia-blessed.elf",
+  "new": false,
+  "title": "Blessed Elf",
+  "name": "Filvis Challia",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2480,
+  "mp": 218,
+  "str": 903,
+  "end": 408,
+  "dex": 678,
+  "agi": 495,
+  "mag": 1179,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Blinkedge Tornado", "description": "[Foes] Ultra Wind M.Attack w/50% Stun" },
+    { "name": "Windforce", "description": "[Allies] Water & Wind Attack Dmg.+35%/4 turns & Ailment Cure" },
+    { "name": "Sonic Wind", "description": "[Foe] Mid Wind M.Attack w/temp Mag. Boost" },
+    { "name": "Vitalize", "description": "[Allies] Mid HP Heal & removes all Mag. Debuffs exc. Assist Skills" }
+  ],
+  "passiveSkills": [
+    { "name": "Mage", "description": "Mag.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Earth Resistance", "description": "Earth Resist+35%" },
+    { "name": "Crafter", "description": "Dex.+10%" },
+    { "name": "Climb", "description": "End. & Agi.+10%" }
+  ],
+  "thumbnail": "filvis.challia-blessed.elf-thumb.png",
+  "image": "filvis.challia-blessed.elf-full.png"
+}

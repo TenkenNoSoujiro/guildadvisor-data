@@ -1,0 +1,24 @@
+{ "id": "eina.tulle-valorous.elf",
+  "new": false,
+  "title": "Valorous Elf",
+  "name": "Eina Tulle",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 894,
+  "mp": 155,
+  "str": 209,
+  "end": 212,
+  "dex": 343,
+  "agi": 328,
+  "mag": 580,
+  "skill": {
+    "name": "Sanctuary Prayer",
+    "descriptions": [
+      "[Allies] Dmg. received (Attack Type: All Targets)-8% & P.Resist+10%",
+      "[Allies] Dmg. received (Attack Type: All Targets)-10% & P.Resist+15%"
+    ]
+  },
+  "thumbnail": "eina.tulle-valorous.elf-thumb.png",
+  "image": "eina.tulle-valorous.elf-full.png"
+}

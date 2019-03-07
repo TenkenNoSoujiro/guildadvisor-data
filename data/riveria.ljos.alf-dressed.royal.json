@@ -1,0 +1,32 @@
+{ "id": "riveria.ljos.alf-dressed.royal",
+  "new": false,
+  "title": "Dressed Royal",
+  "name": "Riveria Ljos Alf",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2608,
+  "mp": 277,
+  "str": 336,
+  "end": 334,
+  "dex": 577,
+  "agi": 875,
+  "mag": 1401,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Diamond Trail", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost" },
+    { "name": "Frost Nova", "description": "[Foes] Mid Water M.Attack w/Hi Uncounter Rate & Water Resist-25%/3 turns" },
+    { "name": "Chilling Blast", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost" },
+    { "name": "Winter's Grasp", "description": "[Foes] Hi Water M.Attack w/temp Mag. Boost & Ultra Unguard Rate" }
+  ],
+  "passiveSkills": [
+    { "name": "Mage", "description": "Mag.+20%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Dragon Killer", "description": "Ability Pt.+50% toward Dragons", "nemesis": "Dragons" },
+    { "name": "Concentrate", "description": "Agi. & Dex.+15%" }
+  ],
+  "thumbnail": "riveria.ljos.alf-dressed.royal-thumb.png",
+  "image": "riveria.ljos.alf-dressed.royal-full.png"
+}
