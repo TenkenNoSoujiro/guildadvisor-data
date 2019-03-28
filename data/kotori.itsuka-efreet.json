@@ -1,0 +1,24 @@
+{ "id": "kotori.itsuka-efreet",
+  "new": false,
+  "title": "Efreet",
+  "name": "Kotori Itsuka",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 902,
+  "mp": 153,
+  "str": 563,
+  "end": 289,
+  "dex": 304,
+  "agi": 404,
+  "mag": 213,
+  "skill": {
+    "name": "Crimson Coat",
+    "descriptions": [
+      "[Allies] 15% HP Regen",
+      "[Allies] 20% HP Regen"
+    ]
+  },
+  "thumbnail": "kotori.itsuka-efreet-thumb.png",
+  "image": "kotori.itsuka-efreet-full.png"
+}

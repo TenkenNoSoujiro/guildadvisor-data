@@ -1,0 +1,32 @@
+{ "id": "touka.yatogami-princess",
+  "new": false,
+  "title": "Princess",
+  "name": "Touka Yatogami",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2608,
+  "mp": 197,
+  "str": 1482,
+  "end": 414,
+  "dex": 521,
+  "agi": 836,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Sword of the End", "description": "[Foes] Ultra Light P.Attack w/temp Str. Boost" },
+    { "name": "Spirit Extinction Bow", "description": "[Foes] Hi Light P.Attack w/temp Str. Boost & Light Resist-30%/2 turns" },
+    { "name": "Aerial Glint", "description": "[Foe] Hi Light P.Attack w/temp Str. Boost" },
+    { "name": "Sword Force", "description": "[Foes] Lo Light P.Attack & [Allies] Light Attack Dmg.+25%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Sword Fighter", "description": "Str.+15%" },
+    { "name": "Piercing Strike", "description": "Damage+10% upon Penetration" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "touka.yatogami-princess-thumb.png",
+  "image": "touka.yatogami-princess-full.png"
+}

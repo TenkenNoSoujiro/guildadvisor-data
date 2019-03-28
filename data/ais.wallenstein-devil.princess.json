@@ -1,0 +1,32 @@
+{ "id": "ais.wallenstein-devil.princess",
+  "new": false,
+  "title": "Devil Princess",
+  "name": "Ais Wallenstein",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2652,
+  "mp": 186,
+  "str": 1503,
+  "end": 430,
+  "dex": 534,
+  "agi": 806,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Heaven's Catastrophe", "description": "[Foes] Ultra Dark P.Attack w/temp Str. Boost & Status Buff -2 turns" },
+    { "name": "Devilish Malevolence", "description": "[Foes] Lo Dark P.Attack & [Allies] Dark Attack Dmg.+25%/3 turns" },
+    { "name": "Disintegrate", "description": "[Foes] Hi Dark P.Attack w/temp Str. Boost & Max HP 25% Dmg. Poison/1 turn" },
+    { "name": "Ruthless Sword", "description": "[Foe] Hi Dark P.Attack w/temp Str. Boost" }
+  ],
+  "passiveSkills": [
+    { "name": "Sword Fighter", "description": "Str.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Concentrate", "description": "Agi. & Dex.+10%" },
+    { "name": "Tough", "description": "End.+15%" }
+  ],
+  "thumbnail": "ais.wallenstein-devil.princess-thumb.png",
+  "image": "ais.wallenstein-devil.princess-full.png"
+}

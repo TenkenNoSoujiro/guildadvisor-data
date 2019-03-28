@@ -1,0 +1,24 @@
+{ "id": "kaguya.liliruca-berserk",
+  "new": false,
+  "title": "Berserk",
+  "name": "Kaguya & Liliruca",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 1252,
+  "mp": 101,
+  "str": 322,
+  "end": 321,
+  "dex": 293,
+  "agi": 210,
+  "mag": 322,
+  "skill": {
+    "name": "Drilling Wind",
+    "descriptions": [
+      "[Allies] Charm Resist+75% & Dmg. received (Attack Type: All Targets)-6%",
+      "[Allies] Charm Resist+100% & Dmg. received (Attack Type: All Targets)-7%"
+    ]
+  },
+  "thumbnail": "kaguya.liliruca-berserk-thumb.png",
+  "image": "kaguya.liliruca-berserk-full.png"
+}

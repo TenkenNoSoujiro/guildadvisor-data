@@ -1,0 +1,24 @@
+{ "id": "hestia-chief.goddess",
+  "new": false,
+  "title": "Chief Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 950,
+  "mp": 141,
+  "str": 568,
+  "end": 280,
+  "dex": 303,
+  "agi": 410,
+  "mag": 212,
+  "skill": {
+    "name": "Date with Bell",
+    "descriptions": [
+      "[Foes] Agi.-8% & P.Resist-10%",
+      "[Foes] Agi.-10% & P.Resist-15%"
+    ]
+  },
+  "thumbnail": "hestia-chief.goddess-thumb.png",
+  "image": "hestia-chief.goddess-full.png"
+}

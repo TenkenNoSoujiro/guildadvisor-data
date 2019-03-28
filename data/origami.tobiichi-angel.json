@@ -1,0 +1,32 @@
+{ "id": "origami.tobiichi-angel",
+  "new": false,
+  "title": "Angel",
+  "name": "Origami Tobiichi",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2620,
+  "mp": 274,
+  "str": 336,
+  "end": 377,
+  "dex": 573,
+  "agi": 784,
+  "mag": 1339,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Metatron", "description": "[Foe] Ultra Light M.Attack w/temp Mag. Boost & Ultra Penetration Rate" },
+    { "name": "Heavenly Wings", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & Light Resist-20%/4 turns" },
+    { "name": "Sword of Light", "description": "[Foe] Mid Light M.Attack & [Self] Mag.+75%/4 turns" },
+    { "name": "The Sun", "description": "[Foes] Hi Light M.Attack w/temp Mag. Boost" }
+  ],
+  "passiveSkills": [
+    { "name": "Enlightenment", "description": "Mag.+15%" },
+    { "name": "Piercing Strike", "description": "Dmg.+20% Upon Penetration" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Spirit Killer", "description": "Ability Pt.+50% toward Spirits", "nemesis": "Spirits" }
+  ],
+  "thumbnail": "origami.tobiichi-angel-thumb.png",
+  "image": "origami.tobiichi-angel-full.png"
+}

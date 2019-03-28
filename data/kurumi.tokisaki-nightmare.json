@@ -1,0 +1,32 @@
+{ "id": "kurumi.tokisaki-nightmare",
+  "new": false,
+  "title": "Nightmare",
+  "name": "Kurumi Tokisaki",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2476,
+  "mp": 219,
+  "str": 1001,
+  "end": 346,
+  "dex": 611,
+  "agi": 700,
+  "mag": 981,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Eighth Bullet", "description": "[Foes] Ultra Dark P.Attack w/temp Str. Boost" },
+    { "name": "Second Bullet", "description": "[Foes] Lo Dark P.Attack w/Dark Resist & Agi.-35%/3 turns" },
+    { "name": "Fourth Bullet", "description": "[Allies] 15% HP Heal & 35% HP Regen/1 turn" },
+    { "name": "Seventh Bullet", "description": "[Foe] Fast Mid Dark P.Attack w/Stun & Ultra Penetration Rate" }
+  ],
+  "passiveSkills": [
+    { "name": "First Bullet", "description": "Agi.+35%" },
+    { "name": "Piercing Strike", "description": "Damage+10% upon Penetration" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Crush", "description": "Str.+10%" },
+    { "name": "Spirit Killer", "description": "Ability Pt.+50% toward Spirits", "nemesis": "Spirits" }
+  ],
+  "thumbnail": "kurumi.tokisaki-nightmare-thumb.png",
+  "image": "kurumi.tokisaki-nightmare-full.png"
+}
