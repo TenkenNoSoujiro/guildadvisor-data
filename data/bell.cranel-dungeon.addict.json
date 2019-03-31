@@ -1,0 +1,32 @@
+{ "id": "bell.cranel-dungeon.addict",
+  "new": false,
+  "title": "Dungeon Addict",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 3,
+  "hp": 2445,
+  "mp": 179,
+  "str": 683,
+  "end": 224,
+  "dex": 350,
+  "agi": 459,
+  "mag": 153,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Dungeon Dance", "description": "[Foes] Hi P.Attack" },
+    { "name": "Firebolt?", "description": "[Foe] Fast Mid Fire M.Attack" },
+    { "name": "Tri-Slicer?", "description": "[Foe] Lo P.Attack w/30% Stun" },
+    { "name": "Argonaut?", "description": "[Self] Str. & Mag.+50%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Saboteur", "description": "Dex.+5%" },
+    { "name": "Acceleration", "description": "Agi.+4%" },
+    { "name": "Tough", "description": "End.+3%" },
+    { "name": "Crush", "description": "Str.+2%" },
+    { "name": "Enlightenment", "description": "Mag.+1%" }
+  ],
+  "thumbnail": "bell.cranel-dungeon.addict-thumb.png",
+  "image": "bell.cranel-dungeon.addict-full.png"
+}

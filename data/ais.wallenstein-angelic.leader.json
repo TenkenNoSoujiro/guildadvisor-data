@@ -1,0 +1,32 @@
+{ "id": "ais.wallenstein-angelic.leader",
+  "new": false,
+  "title": "Angelic Leader",
+  "name": "Ais Wallenstein",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2556,
+  "mp": 210,
+  "str": 1083,
+  "end": 370,
+  "dex": 451,
+  "agi": 627,
+  "mag": 286,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Salvaging Aeriel", "description": "[Foes] Ultra Light P.Attack" },
+    { "name": "Complete Angelic Power", "description": "[Self] Str.+70% & P.Resist+10%/4 turns" },
+    { "name": "Piko Hammer Slash", "description": "[Foe] Hi Light P.Attack" },
+    { "name": "Angelic Cut", "description": "[Foes] Mid Light P.Attack" }
+  ],
+  "passiveSkills": [
+    { "name": "Crush", "description": "Str.+5%" },
+    { "name": "Tough", "description": "End.+5%" },
+    { "name": "Acceleration", "description": "Agi.+5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Spirit Healing", "description": "1% MP Regen/turn" }
+  ],
+  "thumbnail": "ais.wallenstein-angelic.leader-thumb.png",
+  "image": "ais.wallenstein-angelic.leader-full.png"
+}

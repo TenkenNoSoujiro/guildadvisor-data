@@ -1,0 +1,24 @@
+{ "id": "hestia-director.goddess",
+  "new": false,
+  "title": "Director Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 1208,
+  "mp": 112,
+  "str": 320,
+  "end": 327,
+  "dex": 334,
+  "agi": 185,
+  "mag": 302,
+  "skill": {
+    "name": "Yearly Revival",
+    "descriptions": [
+      "[Allies] Str.+8%",
+      "[Allies] Str.+10%"
+    ]
+  },
+  "thumbnail": "hestia-director.goddess-thumb.png",
+  "image": "hestia-director.goddess-full.png"
+}

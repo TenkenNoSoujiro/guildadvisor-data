@@ -1,0 +1,24 @@
+{ "id": "hestia-cunning.goddess",
+  "new": false,
+  "title": "Cunning Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 3,
+  "hp": 820,
+  "mp": 146,
+  "str": 352,
+  "end": 173,
+  "dex": 202,
+  "agi": 233,
+  "mag": 135,
+  "skill": {
+    "name": "Uncontrollable God",
+    "descriptions": [
+      "Dex.+12%",
+      "Dex.+15%"
+    ]
+  },
+  "thumbnail": "hestia-cunning.goddess-thumb.png",
+  "image": "hestia-cunning.goddess-full.png"
+}

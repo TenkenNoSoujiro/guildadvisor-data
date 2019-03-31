@@ -1,0 +1,32 @@
+{ "id": "ais.wallenstein-cold.princess",
+  "new": false,
+  "title": "Cold Princess",
+  "name": "Ais Wallenstein",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 3,
+  "hp": 2455,
+  "mp": 179,
+  "str": 683,
+  "end": 226,
+  "dex": 347,
+  "agi": 460,
+  "mag": 150,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Pikopiko Aerial", "description": "[Foes] Hi P.Attack" },
+    { "name": "Ariel?", "description": "[Self] Str.+50% & M.Resist+5%/4 turns" },
+    { "name": "Tres Piercer?", "description": "[Foe] Lo P.Attack" },
+    { "name": "Veter Mech?", "description": "[Foes] Lo P.Attack" }
+  ],
+  "passiveSkills": [
+    { "name": "Saboteur", "description": "Dex.+5%" },
+    { "name": "Hunter", "description": "Agi.+4%" },
+    { "name": "Tough", "description": "End.+3%" },
+    { "name": "Sword Fighter", "description": "Str.+2%" },
+    { "name": "Healing Power", "description": "1% HP Regen/turn" }
+  ],
+  "thumbnail": "ais.wallenstein-cold.princess-thumb.png",
+  "image": "ais.wallenstein-cold.princess-full.png"
+}

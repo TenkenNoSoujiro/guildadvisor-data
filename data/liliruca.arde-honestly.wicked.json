@@ -1,0 +1,32 @@
+{ "id": "liliruca.arde-honestly.wicked",
+  "new": false,
+  "title": "Honestly Wicked",
+  "name": "Liliruca Arde",
+  "kind": "adventurer",
+  "type": "healer",
+  "limited": true,
+  "rarity": 3,
+  "hp": 2156,
+  "mp": 232,
+  "str": 255,
+  "end": 190,
+  "dex": 459,
+  "agi": 338,
+  "mag": 573,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Tumbling!", "description": "[Foes] Hi P.Attack" },
+    { "name": "Cure Potion?", "description": "[Allies] Lo Heal" },
+    { "name": "Detoxification?", "description": "[Allies] Ailment Cure" },
+    { "name": "Poison Arrow?", "description": "[Foe] Lo P.Attack w/Max HP 10% Dmg. Poison" }
+  ],
+  "passiveSkills": [
+    { "name": "Saboteur", "description": "Dex.+5%" },
+    { "name": "Acceleration", "description": "Agi.+4%" },
+    { "name": "Tough", "description": "End.+3%" },
+    { "name": "Mage", "description": "Mag.+2%" },
+    { "name": "Spirit Healing", "description": "1% MP Regen/turn" }
+  ],
+  "thumbnail": "liliruca.arde-honestly.wicked-thumb.png",
+  "image": "liliruca.arde-honestly.wicked-full.png"
+}

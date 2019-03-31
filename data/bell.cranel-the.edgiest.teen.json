@@ -1,0 +1,32 @@
+{ "id": "bell.cranel-the.edgiest.teen",
+  "new": false,
+  "title": "The Edgiest Teen",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2520,
+  "mp": 208,
+  "str": 854,
+  "end": 358,
+  "dex": 532,
+  "agi": 413,
+  "mag": 838,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Darkest Doom's Edge", "description": "[Foes] Ultra Dark P.Attack" },
+    { "name": "Slashing Atonement", "description": "[Foes] Hi Dark P.Attack" },
+    { "name": "Blackest Aura", "description": "[Foes] Hi Dark M.Attack" },
+    { "name": "Forbidden Left Arm", "description": "[Self] Str. & Mag.+70%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Crush", "description": "Str.+5%" },
+    { "name": "Enlightenment", "description": "Mag.+5%" },
+    { "name": "Tough", "description": "End.+5%" },
+    { "name": "Acceleration", "description": "Agi.+5%" },
+    { "name": "Saboteur", "description": "Dex.+5%" }
+  ],
+  "thumbnail": "bell.cranel-the.edgiest.teen-thumb.png",
+  "image": "bell.cranel-the.edgiest.teen-full.png"
+}
