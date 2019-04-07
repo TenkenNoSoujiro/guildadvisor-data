@@ -12,18 +12,18 @@
   "end": 407,
   "dex": 687,
   "agi": 451,
-  "mag": 1117,
+  "mag": 1219,
   "combatSkills": [
     { "specialArts": true,
-      "name": "Timidus Lil Rafaga", "description": "[Foes] Ultra Wind M.Attack & Heal-50%/4 turns" },
-    { "name": "Illusion Mech", "description": "[Foes] Mid Wind M.Attack & M.Resist.-20%/2 turns", "mp": 35 },
-    { "name": "Illusion Piercer", "description": "[Foe] Hi Wind M.Attack w/30% Sleep", "mp": 39 },
-    { "name": "Veter Schrimm", "description": "[Allies] P.Resist+40%/2 turns", "mp": 64 }
+      "name": "Timidus Lil Rafaga", "description": "[Foes] Ultra Wind M.Attack & Wind Resist-40%/4 turns" },
+    { "name": "Illusion Mech", "description": "[Foes] Mid Wind M.Attack & M.Resist & Heal-25%/2 turns", "mp": 35 },
+    { "name": "Illusion Piercer", "description": "[Foe] Hi Wind M.Attack & 40% Sleep", "mp": 30 },
+    { "name": "Veter Schrimm", "description": "[Allies] P.Resist+40%/3 turns", "mp": 30 }
   ],
   "passiveSkills": [
-    { "name": "Saboteur", "description": "Dex.+10%" },
-    { "name": "Tough", "description": "End.+10%" },
-    { "name": "Enlightenment", "description": "Mag.+10%" },
+    { "name": "Enlightenment", "description": "Mag.+20%" },
+    { "name": "Train", "description": "End. & Dex.+10%" },
+    { "name": "Earth Resistance", "description": "Earth Resist+20%" },
     { "name": "Defense", "description": "P.Resist+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
