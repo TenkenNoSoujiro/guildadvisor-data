@@ -1,0 +1,32 @@
+{ "id": "line.arshe-faithful.mage",
+  "new": false,
+  "title": "Faithful Mage",
+  "name": "Line Arshe",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2456,
+  "mp": 224,
+  "str": 903,
+  "end": 416,
+  "dex": 722,
+  "agi": 503,
+  "mag": 1219,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Blinding Chant", "description": "[Allies] Ultra HP Heal & Light Attack Dmg.+65%/1 turns" },
+    { "name": "Face Cutter", "description": "[Foe] Hi Light M.Attack w/Str. & Mag.-40%/4 turns" },
+    { "name": "Focused Will", "description": "[Allies] Mid HP Heal & Counter Rate+30%/2 turns" },
+    { "name": "Enlightenment", "description": "[Allies] Fast Increase S.A Gauge Charge gain by 33%/4 turns & [Foe] Lo Light M.Attack" }
+  ],
+  "passiveSkills": [
+    { "name": "Enlightenment", "description": "Mag.+20%" },
+    { "name": "Perseverance", "description": "End. & Dex.+15%" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Insane Speed", "description": "Agi.+10%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+  ],
+  "thumbnail": "line.arshe-faithful.mage-thumb.png",
+  "image": "line.arshe-faithful.mage-full.png"
+}
