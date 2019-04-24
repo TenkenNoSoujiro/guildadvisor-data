@@ -1,0 +1,34 @@
+{ "id": "{{id}}",{{#if new}}
+  "new": true,{{/if}}{{#if banner}}
+  "banner": {{json banner}},{{/if}}
+  "title": "{{title}}",
+  "name": "{{name}}",{{#if alias}}
+  "alias": {{json alias}},{{/if}}
+  "kind": "adventurer",
+  "type": "{{type}}",
+  "limited": {{limited}},
+  "rarity": {{rarity}},
+  "hp": {{hp}},
+  "mp": {{mp}},
+  "str": {{str}},
+  "end": {{end}},
+  "dex": {{dex}},
+  "agi": {{agi}},
+  "mag": {{mag}},
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "{{combatSkills.[0].name}}", "description": "{{combatSkills.[0].description}}"{{#if combatSkills.[0].tags}}, "tags": {{json combatSkills.[0].tags}}{{/if}} },
+    { "name": "{{combatSkills.[1].name}}", "description": "{{combatSkills.[1].description}}"{{#if combatSkills.[1].mp}}, "mp": {{combatSkills.[1].mp}}{{/if}}{{#if combatSkills.[1].tags}}, "tags": {{json combatSkills.[1].tags}}{{/if}} },
+    { "name": "{{combatSkills.[2].name}}", "description": "{{combatSkills.[2].description}}"{{#if combatSkills.[2].mp}}, "mp": {{combatSkills.[2].mp}}{{/if}}{{#if combatSkills.[2].tags}}, "tags": {{json combatSkills.[2].tags}}{{/if}} },
+    { "name": "{{combatSkills.[3].name}}", "description": "{{combatSkills.[3].description}}"{{#if combatSkills.[3].mp}}, "mp": {{combatSkills.[3].mp}}{{/if}}{{#if combatSkills.[3].tags}}, "tags": {{json combatSkills.[3].tags}}{{/if}} }
+  ],
+  "passiveSkills": [
+    { "name": "{{passiveSkills.[0].name}}", "description": "{{passiveSkills.[0].description}}"{{#if passiveSkills.[0].nemesis}}, "nemesis": "{{passiveSkills.[0].nemesis}}"{{/if}}{{#if passiveSkills.[0].tags}}, "tags": {{json passiveSkills.[0].tags}}{{/if}} },
+    { "name": "{{passiveSkills.[1].name}}", "description": "{{passiveSkills.[1].description}}"{{#if passiveSkills.[1].nemesis}}, "nemesis": "{{passiveSkills.[1].nemesis}}"{{/if}}{{#if passiveSkills.[1].tags}}, "tags": {{json passiveSkills.[1].tags}}{{/if}} },
+    { "name": "{{passiveSkills.[2].name}}", "description": "{{passiveSkills.[2].description}}"{{#if passiveSkills.[2].nemesis}}, "nemesis": "{{passiveSkills.[2].nemesis}}"{{/if}}{{#if passiveSkills.[2].tags}}, "tags": {{json passiveSkills.[2].tags}}{{/if}} },
+    { "name": "{{passiveSkills.[3].name}}", "description": "{{passiveSkills.[3].description}}"{{#if passiveSkills.[3].nemesis}}, "nemesis": "{{passiveSkills.[3].nemesis}}"{{/if}}{{#if passiveSkills.[3].tags}}, "tags": {{json passiveSkills.[3].tags}}{{/if}} },
+    { "name": "{{passiveSkills.[4].name}}", "description": "{{passiveSkills.[4].description}}"{{#if passiveSkills.[4].nemesis}}, "nemesis": "{{passiveSkills.[4].nemesis}}"{{/if}}{{#if passiveSkills.[4].tags}}, "tags": {{json passiveSkills.[4].tags}}{{/if}} }
+  ]{{#if thumbnail}},
+  "thumbnail": "{{thumbnail}}"{{/if}}{{#if image}},
+  "image": "{{image}}"{{/if}}
+}

@@ -1,4 +1,5 @@
 { "id": "tione.hiryute-blushing.peony",
+  "banner": "2019 New Year's Sale Battle Rich ny ny2019",
   "title": "Blushing Peony",
   "name": "Tione Hiryute",
   "kind": "adventurer",
@@ -26,8 +27,6 @@
     { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
     { "name": "Beast Killer", "description": "Ability Pt.+50% toward Beasts", "nemesis": "Beast" }
   ],
-  "new": true,
-  "banner": "2019 New Year's Sale Battle Rich ny ny2019",
-  "image": "tione.hiryute-blushing.peony-full.png",
-  "thumbnail": "tione.hiryute-blushing.peony-thumb.png"
+  "thumbnail": "tione.hiryute-blushing.peony-thumb.png",
+  "image": "tione.hiryute-blushing.peony-full.png"
 }

@@ -1,0 +1,27 @@
+{ "id": "{{id}}",{{#if new}}
+  "new": true,{{/if}}{{#if banner}}
+  "banner": {{json banner}},{{/if}}
+  "title": "{{title}}",
+  "name": "{{name}}",{{#if alias}}
+  "alias": {{json alias}},{{/if}}
+  "kind": "assist",
+  "limited": {{limited}},
+  "rarity": {{rarity}},
+  "hp": {{hp}},
+  "mp": {{mp}},
+  "str": {{str}},
+  "end": {{end}},
+  "dex": {{dex}},
+  "agi": {{agi}},
+  "mag": {{mag}},
+  "skill": {
+    "name": "{{skill.name}}",
+    "descriptions": [
+      "{{skill.descriptions.[0]}}",
+      "{{skill.descriptions.[1]}}"
+    ]{{#if skill.tags}},
+    "tags": {{json skill.tags}}{{/if}}
+  }{{#if thumbnail}},
+  "thumbnail": "{{thumbnail}}"{{/if}}{{#if image}},
+  "image": "{{image}}"{{/if}}
+}

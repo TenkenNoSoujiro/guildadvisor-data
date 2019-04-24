@@ -1,4 +1,5 @@
 { "id": "welf.crozzo-festive.blade",
+  "banner": "2019 New Year's Sale Battle Rich ny ny2019",
   "title": "Festive Blade",
   "name": "Welf Crozzo",
   "alias": ["fb welf"],
@@ -19,8 +20,6 @@
       "[Allies] Taunt Resist & Stun Resist+100% w/End.+5%"
     ]
   },
-  "new": true,
-  "banner": "2019 New Year's Sale Battle Rich ny ny2019",
   "thumbnail": "welf.crozzo-festive.blade-thumb.png",
   "image": "welf.crozzo-festive.blade-full.png"
 }

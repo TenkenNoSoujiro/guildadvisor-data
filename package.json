@@ -3,6 +3,7 @@
   "scripts": {
     "create": "node scripts/unit",
     "start": "node scripts/unit",
+    "new": "node scripts/newUnits",
     "validate": "node scripts/validate"
   },
   "devDependencies": {

@@ -1,4 +1,5 @@
 { "id": "tiona.hiryute-blustering.beauty",
+  "banner": "2019 New Year's Sale Battle Fun ny ny2019",
   "title": "Blustering Beauty",
   "name": "Tiona Hiryute",
   "kind": "adventurer",
@@ -26,8 +27,6 @@
     { "name": "Concentrate", "description": "Agi. & Dex.+15%" },
     { "name": "Crush", "description": "Str.+15%" }
   ],
-  "new": true,
-  "banner": "2019 New Year's Sale Battle Fun ny ny2019",
-  "image": "tiona.hiryute-blustering.beauty-full.png",
-  "thumbnail": "tiona.hiryute-blustering.beauty-thumb.png"
+  "thumbnail": "tiona.hiryute-blustering.beauty-thumb.png",
+  "image": "tiona.hiryute-blustering.beauty-full.png"
 }
