@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "create": "node scripts/unit",
+    "start": "node scripts/unit",
     "validate": "node scripts/validate"
   },
   "devDependencies": {

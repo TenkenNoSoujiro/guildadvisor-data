@@ -1,0 +1,32 @@
+{ "id": "ottarl-mighty.king",
+  "new": false,
+  "title": "Mighty King",
+  "name": "Ottarl",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2912,
+  "mp": 256,
+  "str": 1580,
+  "end": 395,
+  "dex": 760,
+  "agi": 759,
+  "mag": 400,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Unknown Special Arts", "description": "[Foes] Ultra Thunder P.Attack w/temp. Str. Boost & 35% Stun" },
+    { "name": "Unknown Skill 1", "description": "[Foes] Very Hi Thunder P.Attack w/Ultra Unguard Rate & 25% Taunt" },
+    { "name": "Unknown Skill 2", "description": "[Foes] Lo Thunder P.Attack & removes all HP Regen & Dmg. Received (Attack Type: All Targets) Buffs exc. Assist Skills" },
+    { "name": "Unknown Skill 3", "description": "[Foe] Hi Thunder P.Attack w/temp Str. Boost & Ultra Unguard Rate " }
+  ],
+  "passiveSkills": [
+    { "name": "Unknown Ability 1", "description": "When countering, it counters with a normal attack w/Ultra Unguard Rate" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
+    { "name": "Insect Killer", "description": "Ability Pt.+50% towards Insects", "nemesis": "Insects" },
+    { "name": "Unknown Ability 5", "description": "" }
+  ],
+  "thumbnail": "ottarl-mighty.king-thumb.png",
+  "image": "ottarl-mighty.king-full.png"
+}

@@ -1,0 +1,24 @@
+{ "id": "hestia-pajama.goddess",
+  "new": false,
+  "title": "Pajama Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1202,
+  "mp": 213,
+  "str": 633,
+  "end": 324,
+  "dex": 357,
+  "agi": 441,
+  "mag": 288,
+  "skill": {
+    "name": "Unknown Skill",
+    "descriptions": [
+      "[Foes] ?% Sleep & Thunder Resist-?%",
+      "[Foes] 45% Sleep & Thunder Resist-15%"
+    ]
+  },
+  "thumbnail": "hestia-pajama.goddess-thumb.png",
+  "image": "hestia-pajama.goddess-full.png"
+}

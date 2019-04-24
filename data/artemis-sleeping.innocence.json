@@ -1,0 +1,24 @@
+{ "id": "artemis-sleeping.innocence",
+  "new": false,
+  "title": "Sleeping Innocence",
+  "name": "Artemis",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1552,
+  "mp": 151,
+  "str": 429,
+  "end": 399,
+  "dex": 378,
+  "agi": 274,
+  "mag": 429,
+  "skill": {
+    "name": "Unknown Skill",
+    "descriptions": [
+      "[Allies] Sleep & Taunt Resist+?% & End.+?%",
+      "[Allies] Sleep & Taunt Resist+100% & End.+5%"
+    ]
+  },
+  "thumbnail": "artemis-sleeping.innocence-thumb.png",
+  "image": "artemis-sleeping.innocence-full.png"
+}
