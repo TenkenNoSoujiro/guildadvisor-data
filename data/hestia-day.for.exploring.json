@@ -1,0 +1,25 @@
+{ "id": "hestia-day.for.exploring",
+  "new": true,
+  "title": "Day for Exploring",
+  "name": "Hestia",
+  "alias": ["dora"],
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 1184,
+  "mp": 118,
+  "str": 302,
+  "end": 365,
+  "dex": 303,
+  "agi": 196,
+  "mag": 302,
+  "skill": {
+    "name": "With a Secret Map",
+    "descriptions": [
+      "[Foes] P.Resist & M.Resist-8%",
+      "[Foes] P.Resist & M.Resist-10%"
+    ]
+  },
+  "thumbnail": "hestia-day.for.exploring-thumb.png",
+  "image": "hestia-day.for.exploring-full.png"
+}

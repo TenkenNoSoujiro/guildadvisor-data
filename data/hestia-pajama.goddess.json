@@ -5,17 +5,17 @@
   "kind": "assist",
   "limited": false,
   "rarity": 4,
-  "hp": 1202,
-  "mp": 213,
-  "str": 633,
-  "end": 324,
-  "dex": 357,
-  "agi": 441,
-  "mag": 288,
+  "hp": 902,
+  "mp": 153,
+  "str": 561,
+  "end": 306,
+  "dex": 309,
+  "agi": 381,
+  "mag": 216,
   "skill": {
-    "name": "Unknown Skill",
+    "name": "Old Times",
     "descriptions": [
-      "[Foes] ?% Sleep & Thunder Resist-?%",
+      "[Foes] 30% Sleep & Thunder Resist-10%",
       "[Foes] 45% Sleep & Thunder Resist-15%"
     ]
   },

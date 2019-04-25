@@ -6,26 +6,26 @@
   "type": "balance",
   "limited": false,
   "rarity": 4,
-  "hp": 2768,
-  "mp": 281,
-  "str": 1188,
-  "end": 372,
-  "dex": 757,
-  "agi": 675,
-  "mag": 1053,
+  "hp": 2468,
+  "mp": 221,
+  "str": 1101,
+  "end": 354,
+  "dex": 702,
+  "agi": 603,
+  "mag": 981,
   "combatSkills": [
     { "specialArts": true,
-      "name": "Unknown Special Arts", "description": "[Foes] Ultra Thunder P.Attack w/P.Resist & M.Resist-25%/2 turns" },
-    { "name": "Unknown Skill 1", "description": "[Foes] Mid Thunder P.Attack w/Counter & Heal-35%/3 turns" },
-    { "name": "Unknown Skill 2", "description": "[Foes] Hi Thunder P.Attack w/Ultra Uncounter Rate & [Allies] 35% Nullify 1 M.Attack exc. Special Arts" },
-    { "name": "Unknown Skill 3", "description": "[Foe] Mid Thunder P.Attack Dmg.+60% per each Target's Heal Rate debuff (max 120%)" }
+      "name": "Ascending Knives", "description": "[Foes] Ultra Thunder P.Attack w/P.Resist & M.Resist-25%/2 turns" },
+    { "name": "Magnetic Maze", "description": "[Foes] Mid Thunder P.Attack w/Counter Rate & Heal-35%/3 turns" },
+    { "name": "Phase Shift", "description": "[Foes] Hi Thunder P.Attack w/Hi Uncounter Rate & [Allies] 35% Chance Null M.Attack x1 exc. Special Arts" },
+    { "name": "Thunder Crash", "description": "[Foe] Mid Thunder P.Attack Dmg.+60% per each Target's Heal Reduction Skill" }
   ],
   "passiveSkills": [
-    { "name": "Unknown Ability 1", "description": "30% Dmg. Reduction on Guard" },
+    { "name": "Mystery", "description": "Dex.+15%" },
+    { "name": "Solid", "description": "Guard+30%" },
     { "name": "Water Resistance", "description": "Water Resist+35%" },
-    { "name": "Insect Killer", "description": "Ability Pt.+50% towards Insects", "nemesis": "Insects" },
-    { "name": "Unknown Ability 4", "description": "" },
-    { "name": "Unknown Ability 5", "description": "" }
+    { "name": "Nimble", "description": "Str. & Agi.+20%" },
+    { "name": "Insect Killer", "description": "Ability Pt.+50% towards Insects", "nemesis": "Insects" }
   ],
   "thumbnail": "asfi.al.andromeda-thunderous.perseus-thumb.png",
   "image": "asfi.al.andromeda-thunderous.perseus-full.png"

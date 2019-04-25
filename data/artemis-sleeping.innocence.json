@@ -5,18 +5,18 @@
   "kind": "assist",
   "limited": false,
   "rarity": 4,
-  "hp": 1552,
-  "mp": 151,
-  "str": 429,
-  "end": 399,
-  "dex": 378,
-  "agi": 274,
-  "mag": 429,
+  "hp": 1252,
+  "mp": 101,
+  "str": 357,
+  "end": 381,
+  "dex": 330,
+  "agi": 214,
+  "mag": 357,
   "skill": {
-    "name": "Unknown Skill",
+    "name": "Until the Sunrise",
     "descriptions": [
-      "[Allies] Sleep & Taunt Resist+?% & End.+?%",
-      "[Allies] Sleep & Taunt Resist+100% & End.+5%"
+      "[Allies] Sleep & Taunt Resist+75% w/End.+4%",
+      "[Allies] Sleep & Taunt Resist+100% w/End.+5%"
     ]
   },
   "thumbnail": "artemis-sleeping.innocence-thumb.png",
