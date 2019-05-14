@@ -7,23 +7,23 @@
   "rarity": 4,
   "hp": 2472,
   "mp": 220,
-  "str": 923,
+  "str": 1061,
   "end": 418,
   "dex": 619,
   "agi": 514,
   "mag": 977,
   "combatSkills": [
     { "specialArts": true,
-      "name": "Gatling Arrow", "description": "[Foes] Ultra P.Attack w/30% Seal" },
-    { "name": "Trick Arrow", "description": "[Foes] Mid P.Attack & Mag.-30%/4 turns", "mp": 28 },
-    { "name": "Buster Arrow", "description": "[Foe] Hi P.Attack w/Heal 30% of Dmg.", "mp": 28 },
-    { "name": "Hiding Position", "description": "[Allies] M.Resist+30%/4 turns", "mp": 30 }
+      "name": "Gatling Arrow", "description": "[Foes] Ultra Light P.Attack w/30% Seal" },
+    { "name": "Spread Arrow", "description": "[Foes] Mid Light P.Attack w/Mag. & Guard Rate-30%/4 turns", "mp": 36 },
+    { "name": "Buster Arrow", "description": "[Foe] Hi Light P.Attack w/temp Str. Boost & Heal 30% of Dmg.", "mp": 28 },
+    { "name": "Quick Draw", "description": "[Allies] M.Resist & Counter Rate+30%/4 turns", "mp": 40 }
   ],
   "passiveSkills": [
-    { "name": "Acceleration", "description": "Agi.+10%" },
-    { "name": "Unbreakable", "description": "End.+10%" },
-    { "name": "Defense", "description": "P.Resist+10%" },
-    { "name": "Magic Resistance", "description": "M.Resist+10%" },
+    { "name": "Crush", "description": "Str.+15%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist.+10%" },
+    { "name": "Dark Resistance", "description": "Dark Resist+20%" },
+    { "name": "Climb", "description": "End. & Agi.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
   "thumbnail": "naza.ersuisu-medicinal.archer-thumb.png",

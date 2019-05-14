@@ -8,24 +8,24 @@
   "rarity": 4,
   "hp": 2461,
   "mp": 204,
-  "str": 664,
-  "end": 451,
+  "str": 1026,
+  "end": 471,
   "dex": 631,
-  "agi": 598,
+  "agi": 625,
   "mag": 576,
   "combatSkills": [
     { "specialArts": true,
       "name": "Karna Lassa", "description": "[Foes] Ultra Hi Rate Seal" },
-    { "name": "Forte Grans", "description": "[Foes] Hi P.Attack" },
-    { "name": "Stela Scudo", "description": "[Allies] P.resist+20%/4 turns" },
-    { "name": "Luna Pleghierra", "description": "[Foes] Removes Str. buffs exc. Assist Skills" }
+    { "name": "Forte Grans", "description": "[Foes] Hi Water P.Attack w/temp Str. Boost & 15% Seal", "mp": 35 },
+    { "name": "Stela Scudo", "description": "[Allies] P.Resist & Agi.+30%/4 turns", "mp": 36 },
+    { "name": "Luna Pleghierra", "description": "[Foes] Mid Water P.Attack & removes all Str. buffs exc. Assist Skills", "mp": 40 }
   ],
   "passiveSkills": [
-    { "name": "Fist Strike", "description": "Str.+10%" },
+    { "name": "Fist Strike", "description": "Str.+70%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" },
-    { "name": "Insane Speed", "description": "Agi.+10%" },
-    { "name": "Tough", "description": "End.+10%" },
-    { "name": "Healing Power", "description": "1% HP Regen/turn" }
+    { "name": "Fire Resistance", "description": "Fire Resist.+20%" },
+    { "name": "Climb", "description": "End. & Agi.+15%" },
+    { "name": "Healing Power", "description": "3% HP Regen/turn" }
   ],
   "thumbnail": "tione.hiryute-twinkle.stream-thumb.png",
   "image": "tione.hiryute-twinkle.stream-full.png"

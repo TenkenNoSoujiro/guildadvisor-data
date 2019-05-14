@@ -1,0 +1,32 @@
+{ "id": "liliruca.arde-metal.robot",
+  "new": false,
+  "title": "Metal Robot",
+  "name": "Liliruca Arde",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2488,
+  "mp": 216,
+  "str": 789,
+  "end": 336,
+  "dex": 539,
+  "agi": 429,
+  "mag": 864,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Pallum Satellite Cannon", "description": "[Foes] Ultra Thunder M.Attack" },
+    { "name": "Emergency Maintenance", "description": "[Allies] Lo HP Heal & Ailment Cure" },
+    { "name": "Caustic Smog", "description": "[Foe] Lo Thunder M.Attack & Max HP 10% Dmg. Poison" },
+    { "name": "Robot Punch", "description": "[Foes] Mid Thunder M.Attack" }
+  ],
+  "passiveSkills": [
+    { "name": "Enlightenment", "description": "Mag.+5%" },
+    { "name": "Saboteur", "description": "Dex.+5%" },
+    { "name": "Acceleration", "description": "Agi.+5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Tough", "description": "End.+5%" }
+  ],
+  "thumbnail": "liliruca.arde-metal.robot-thumb.png",
+  "image": "liliruca.arde-metal.robot-full.png"
+}

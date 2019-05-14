@@ -8,7 +8,7 @@
   "rarity": 4,
   "hp": 2461,
   "mp": 204,
-  "str": 674,
+  "str": 1083,
   "end": 452,
   "dex": 632,
   "agi": 598,
@@ -16,16 +16,16 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Vila Lassa", "description": "[Allies] Penetration Rate+100%/4 turns" },
-    { "name": "Pololokka Rodirro", "description": "[Foes] Mid P.Attack w/15% Stun" },
-    { "name": "Stela Defesa", "description": "[Allies] M.Resist+20%/4 turns" },
-    { "name": "Luna Pregare", "description": "[Foes] Removes Mag. buffs exc. Assist Skills" }
+    { "name": "Pololokka Rodirro", "description": "[Foes] Hi Fire P.Attack w/temp Str. Boost & 15% Stun", "mp": 35 },
+    { "name": "Stela Defesa", "description": "[Allies] M.Resist & Dex.+30%/4 turns", "mp": 36 },
+    { "name": "Luna Pregare", "description": "[Foes] Mid Fire P.Attack & removes all Mag. buffs exc. Assist Skills", "mp": 40 }
   ],
   "passiveSkills": [
-    { "name": "Hunter", "description": "Agi.+10%" },
-    { "name": "Indomitable", "description": "End.+10%" },
-    { "name": "Courageous", "description": "Str.+4%" },
-    { "name": "Fist Strike", "description": "Str.+4%" },
-    { "name": "Crush", "description": "Str.+4%" }
+    { "name": "Crush", "description": "Str.+80%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Earth Resistance", "description": "Earth Resist+20%" },
+    { "name": "Climb", "description": "End. & Agi.+10%" },
+    { "name": "Healing Power", "description": "3% HP Regen/turn" }
   ],
   "thumbnail": "tiona.hiryute-dancing.blessing-thumb.png",
   "image": "tiona.hiryute-dancing.blessing-full.png"

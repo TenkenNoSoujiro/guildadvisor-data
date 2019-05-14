@@ -1,0 +1,24 @@
+{ "id": "loki-whoever",
+  "new": false,
+  "title": "Whoever",
+  "name": "Loki",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 1192,
+  "mp": 116,
+  "str": 297,
+  "end": 333,
+  "dex": 294,
+  "agi": 209,
+  "mag": 335,
+  "skill": {
+    "name": "My time, finally!",
+    "descriptions": [
+      "[Allies] Mag.+8%",
+      "[Allies] Mag.+10%"
+    ]
+  },
+  "thumbnail": "loki-whoever-thumb.png",
+  "image": "loki-whoever-full.png"
+}

@@ -1,0 +1,32 @@
+{ "id": "lefiya.viridis-love.magic",
+  "new": false,
+  "title": "Love Magic",
+  "name": "Lefiya Viridis",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2576,
+  "mp": 285,
+  "str": 330,
+  "end": 297,
+  "dex": 456,
+  "agi": 651,
+  "mag": 1055,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Galactica Magica", "description": "[Foes] Ultra Water M.Attack" },
+    { "name": "Shining Wizard", "description": "[Foe] Mid Light P.Attack" },
+    { "name": "Keep it a secret!", "description": "[Foes] Mid Water M.Attack w/5% Seal" },
+    { "name": "Magic Attack", "description": "[Foes] Mid Water M.Attack & M.Resist-5%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Mage", "description": "Mag.+5%" },
+    { "name": "Saboteur", "description": "Dex.+5%" },
+    { "name": "Acceleration", "description": "Agi.+5%" },
+    { "name": "Status Resist", "description": "Ailment Resist+10%" },
+    { "name": "Tough", "description": "End.+5%" }
+  ],
+  "thumbnail": "lefiya.viridis-love.magic-thumb.png",
+  "image": "lefiya.viridis-love.magic-full.png"
+}

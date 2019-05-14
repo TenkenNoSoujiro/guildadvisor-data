@@ -12,19 +12,19 @@
   "end": 385,
   "dex": 556,
   "agi": 775,
-  "mag": 1323,
+  "mag": 1383,
   "combatSkills": [
     { "specialArts": true,
       "name": "Shining Explosion", "description": "[Foe] Ultra Light M.Attack w/temp Mag. Boost" },
-    { "name": "Sparkle Circle", "description": "[Foes] Lo Light M.Attack", "mp": 20 },
+    { "name": "Calamity Ray", "description": "[Foes] Lo Light M.Attack & [Self] Light Attack Dmg.+70%/4 turns", "mp": 29 },
     { "name": "Light Magic-Sword", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & M.Resist-20%/2 turns", "mp": 39 },
     { "name": "Shining Howling", "description": "[Self] Null P.Attack x2 exc. Special Arts", "mp": 108 }
   ],
   "passiveSkills": [
-    { "name": "Crafter", "description": "Dex.+10%" },
-    { "name": "Acceleration", "description": "Agi.+10%" },
-    { "name": "Unbreakable", "description": "End.+10%" },
-    { "name": "Enlightenment", "description": "Mag.+10%" },
+    { "name": "Enlightenment", "description": "Mag.+15%" },
+    { "name": "Instinct", "description": "Agi. & Dex.+10%" },
+    { "name": "Dark Resistance", "description": "Dark Resist+10%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
   "thumbnail": "liliruca.arde-lovely.travel-thumb.png",

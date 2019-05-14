@@ -1,0 +1,32 @@
+{ "id": "tsubaki.collbrande-cyclops",
+  "new": false,
+  "title": "Cyclops",
+  "name": "Tsubaki Collbrande",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 3,
+  "hp": 2500,
+  "mp": 180,
+  "str": 724,
+  "end": 239,
+  "dex": 331,
+  "agi": 440,
+  "mag": 153,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Lepida Cyclops", "description": "[Foes] Hi P.Attack & P.Resist-40%/1 turn" },
+    { "name": "Kakitsubata", "description": "[Foe] Lo P.Attack w/30% Stun" },
+    { "name": "Rindo", "description": "[Self] Str.+50%/4 turns" },
+    { "name": "Housenka", "description": "[Foe] Removes Mag. buffs exc Assist Skills" }
+  ],
+  "passiveSkills": [
+    { "name": "Tough", "description": "End.+5%" },
+    { "name": "Crush", "description": "Str.+7.5%" },
+    { "name": "Defense", "description": "P.Resist+8%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" },
+    { "name": "Giant Killer", "description": "Ability Pt.+50% toward Giants", "nemesis": "Giants" }
+  ],
+  "thumbnail": "tsubaki.collbrande-cyclops-thumb.png",
+  "image": "tsubaki.collbrande-cyclops-full.png"
+}
