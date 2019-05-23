@@ -1,0 +1,24 @@
+{ "id": "hestia-wedding.wish",
+  "new": false,
+  "title": "Wedding Wish",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 954,
+  "mp": 140,
+  "str": 208,
+  "end": 210,
+  "dex": 341,
+  "agi": 273,
+  "mag": 640,
+  "skill": {
+    "name": "Day of the Dream",
+    "descriptions": [
+      "[Allies] Mag.+15% & Critical Rate+8%",
+      "[Allies] Mag.+20% & Critical Rate+10%"
+    ]
+  },
+  "thumbnail": "hestia-wedding.wish-thumb.png",
+  "image": "hestia-wedding.wish-full.png"
+}

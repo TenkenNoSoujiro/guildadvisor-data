@@ -1,0 +1,32 @@
+{ "id": "liliruca.arde-longing.bride",
+  "new": false,
+  "title": "Longing Bride",
+  "name": "Liliruca Arde",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2520,
+  "mp": 299,
+  "str": 336,
+  "end": 367,
+  "dex": 562,
+  "agi": 898,
+  "mag": 1381,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Bubble Bloom", "description": "[Foes] Ultra Water M.Attack w/Ultra Penetration Rate & 30% Seal" },
+    { "name": "Bubble Rush", "description": "[Foes] Mid Water M.Attack w/Ultra Uncounter Rate & [Allies] Status Debuff-1 turn" },
+    { "name": "Wipe Away", "description": "[Foes] Fast Lo Water M.Attack & removes all Guard Rate and Heal Buffs exc. Assist Skills" },
+    { "name": "Hydro Blast", "description": "[Foes] Hi Water M.Attack & [Allies] Mag. and Water Attack Dmg.+30%/2 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Forestall", "description": "Mag. & Agi.+15%" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Plant Killer", "description": "Ability Pt.+50% toward Plants", "nemesis": "Plants" }
+  ],
+  "thumbnail": "liliruca.arde-longing.bride-thumb.png",
+  "image": "liliruca.arde-longing.bride-full.png"
+}

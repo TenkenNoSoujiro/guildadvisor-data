@@ -1,0 +1,32 @@
+{ "id": "tione.hiryute-passionately.postal",
+  "new": false,
+  "title": "Passionately Postal",
+  "name": "Tione Hiryute",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2540,
+  "mp": 214,
+  "str": 1548,
+  "end": 435,
+  "dex": 553,
+  "agi": 782,
+  "mag": 328,
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Unrequited Rhapsody", "description": "[Foe] Ultra Water P.Attack Dmg.+50% per each [Self] Str. Buff Skill" },
+    { "name": "Rumble Dance", "description": "[Foe] Mid Water P.Attack & [Self] Str. & Water Attack Dmg.+50%/4 turns" },
+    { "name": "Bridal Path Dash", "description": "[Foe] Lo Water P.Attack & [Allies] Dmg. received (Attack Type: All Targets)-25%/2 turns" },
+    { "name": "Single-Minded Lover", "description": "[Foe] Hi Water P.Attack & removes all Str. Buffs exc. Assist Skills" }
+  ],
+  "passiveSkills": [
+    { "name": "Fist Strike", "description": "Str.+20%" },
+    { "name": "Strike", "description": "Critical Damage+20%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Plant Killer", "description": "Ability Pt.+50% toward Plants", "nemesis": "Plants" }
+  ],
+  "thumbnail": "tione.hiryute-passionately.postal-thumb.png",
+  "image": "tione.hiryute-passionately.postal-full.png"
+}

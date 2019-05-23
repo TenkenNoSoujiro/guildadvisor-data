@@ -25,7 +25,7 @@
     { "name": "Defense", "description": "P.Resist+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" },
     { "name": "Unbreakable", "description": "End.+8%" },
-    { "name": "Fire Resistance", "description": "Fire Resist.+20%" }
+    { "name": "Fire Resistance", "description": "Fire Resist+20%" }
   ],
   "thumbnail": "lefiya.viridis-winter.elf-thumb.png",
   "image": "lefiya.viridis-winter.elf-full.png"

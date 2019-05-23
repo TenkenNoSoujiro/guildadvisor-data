@@ -23,7 +23,7 @@
   "passiveSkills": [
     { "name": "Mystery", "description": "Dex.+10%" },
     { "name": "Climb", "description": "End. & Agi.+10%" },
-    { "name": "Fire Resistance", "description": "Fire Resist.+20%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+20%" },
     { "name": "Courageous", "description": "Str.+15%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
