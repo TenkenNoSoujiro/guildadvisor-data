@@ -23,7 +23,7 @@
   "passiveSkills": [
     { "name": "Fist Strike", "description": "Str.+70%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" },
-    { "name": "Fire Resistance", "description": "Fire Resist.+20%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+20%" },
     { "name": "Climb", "description": "End. & Agi.+15%" },
     { "name": "Healing Power", "description": "3% HP Regen/turn" }
   ],
