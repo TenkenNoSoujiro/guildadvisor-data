@@ -1,0 +1,24 @@
+{ "id": "ariadne-chained.reign",
+  "new": true,
+  "title": "Chained Reign",
+  "name": "Ariadne",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 1328,
+  "mp": 107,
+  "str": 405,
+  "end": 381,
+  "dex": 330,
+  "agi": 218,
+  "mag": 405,
+  "skill": {
+    "name": "Vow of Sacrifice",
+    "descriptions": [
+      "[Foes] Str. & End.-10% & [Allies] Null Ailments x2",
+      "[Foes] Str. & End.-15% & [Allies] Null Ailments x3"
+    ]
+  },
+  "thumbnail": "ariadne-chained.reign-thumb.png",
+  "image": "ariadne-chained.reign-full.png"
+}

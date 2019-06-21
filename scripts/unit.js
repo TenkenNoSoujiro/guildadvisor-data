@@ -272,6 +272,17 @@ const timeLimitedPrompt = () => [
     initial: copyLastResponse("limited", { same: "name" }) },
 ];
 
+/** @type {() => PromptObject<"confirm">[]} */
+const ascensionPrompt = () => [
+  {
+    type(prev, responses) {
+      return responses.kind === "adventurer" ? "confirm" : null;
+    },
+    name: "ascension",
+    message: "Supports Hero Ascension",
+    initial: copyLastResponse("ascension", { same: "name" }) },
+];
+
 /** @type {() => PromptObject<"number">[]} */
 const rarityPrompt = () => [
   { type: "number",
@@ -285,6 +296,15 @@ const rarityPrompt = () => [
 /** @type {(name: string, message: string) => PromptObject<"number">[]} */
 const statPrompt = (name, message) => [
   { type: "number", name, message, initial: copyLastResponse(name, { same: "name" }) }
+];
+
+/** @type {(name: string, message: string) => PromptObject<"number">[]} */
+const ascendedStatPrompt = (name, message) => [
+  {
+    type(prev, responses) {
+      return responses.ascension === true ? "number" : null;
+    },
+    name, message, initial: copyLastResponse(name, { same: "name" }) }
 ];
 
 /** @type {(prefix: string, message: string) => PromptObject<"autocomplete">[]} */
@@ -402,6 +422,15 @@ async function main(args) {
       ...statPrompt("dex", "Dex."),
       ...statPrompt("agi", "Agi."),
       ...statPrompt("mag", "Mag."),
+
+      ...ascensionPrompt(),
+      ...ascendedStatPrompt("hp_ascended", "HP (Ascended)"),
+      ...ascendedStatPrompt("mp_ascended", "MP (Ascended)"),
+      ...ascendedStatPrompt("str_ascended", "Str. (Ascended)"),
+      ...ascendedStatPrompt("end_ascended", "End. (Ascended)"),
+      ...ascendedStatPrompt("dex_ascended", "Dex. (Ascended)"),
+      ...ascendedStatPrompt("agi_ascended", "Agi. (Ascended)"),
+      ...ascendedStatPrompt("mag_ascended", "Mag. (Ascended)"),
 
       ...combatSkillPrompt("specialArts", "Special Arts Skill"),
       ...combatSkillPrompt("combatSkill1", "Combat Skill #1"),

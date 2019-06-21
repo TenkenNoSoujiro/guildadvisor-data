@@ -1,0 +1,24 @@
+{ "id": "ryulu-nomadic.bard",
+  "new": true,
+  "title": "Nomadic Bard",
+  "name": "Ryulu",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 918,
+  "mp": 174,
+  "str": 381,
+  "end": 233,
+  "dex": 500,
+  "agi": 335,
+  "mag": 381,
+  "skill": {
+    "name": "Nomadic Poetry",
+    "descriptions": [
+      "[Foes] Dmg. received (Attack: All Targets) increases by 10% & Guard Rate-20%",
+      "[Foes] Dmg. received (Attack: All Targets) increases by 15% & Guard Rate-30%"
+    ]
+  },
+  "thumbnail": "ryulu-nomadic.bard-thumb.png",
+  "image": "ryulu-nomadic.bard-full.png"
+}
