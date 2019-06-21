@@ -13,14 +13,15 @@
   "dex": 710,
   "agi": 875,
   "mag": 318,
-  "ascension": true,
-  "hp_ascended": 3793,
-  "mp_ascended": 277,
-  "str_ascended": 1987,
-  "end_ascended": 562,
-  "dex_ascended": 785,
-  "agi_ascended": 958,
-  "mag_ascended": 368,
+  "ascension": {
+    "hp": 3793,
+    "mp": 277,
+    "str": 1987,
+    "end": 562,
+    "dex": 785,
+    "agi": 958,
+    "mag": 368
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Wolven Incarnation", "description": "[Foe] Ultra Earth P.Attack w/temp Str. Boost & P.Resist-50%/1 turn" },

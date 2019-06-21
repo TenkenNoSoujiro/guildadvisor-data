@@ -13,14 +13,15 @@
   "dex": 695,
   "agi": 867,
   "mag": 1542,
-  "ascension": true,
-  "hp_ascended": 3731,
-  "mp_ascended": 370,
-  "str_ascended": 387,
-  "end_ascended": 492,
-  "dex_ascended": 774,
-  "agi_ascended": 946,
-  "mag_ascended": 1877,
+  "ascension": {
+    "hp": 3731,
+    "mp": 370,
+    "str": 387,
+    "end": 492,
+    "dex": 774,
+    "agi": 946,
+    "mag": 1877
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Gale Blast", "description": "[Foes] Ultra Wind M.Attack w/temp Mag. Boost & 50% Stun" },

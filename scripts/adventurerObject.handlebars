@@ -15,14 +15,15 @@
   "dex": {{dex}},
   "agi": {{agi}},
   "mag": {{mag}},{{#if ascension}}
-  "ascension": true,{{/if}}{{#if hp_ascended}}
-  "hp_ascended": {{hp_ascended}},{{/if}}{{#if mp_ascended}}
-  "mp_ascended": {{mp_ascended}},{{/if}}{{#if str_ascended}}
-  "str_ascended": {{str_ascended}},{{/if}}{{#if end_ascended}}
-  "end_ascended": {{end_ascended}},{{/if}}{{#if dex_ascended}}
-  "dex_ascended": {{dex_ascended}},{{/if}}{{#if agi_ascended}}
-  "agi_ascended": {{agi_ascended}},{{/if}}{{#if mag_ascended}}
-  "mag_ascended": {{mag_ascended}},{{/if}}
+  "ascension": {
+    "hp": {{ascension.hp}},
+    "mp": {{ascension.mp}},
+    "str": {{ascension.str}},
+    "end": {{ascension.end}},
+    "dex": {{ascension.dex}},
+    "agi": {{ascension.agi}},
+    "mag": {{ascension.mag}}
+  },{{/if}}
   "combatSkills": [
     { "specialArts": true,
       "name": "{{combatSkills.[0].name}}", "description": "{{combatSkills.[0].description}}"{{#if combatSkills.[0].tags}}, "tags": {{json combatSkills.[0].tags}}{{/if}} },

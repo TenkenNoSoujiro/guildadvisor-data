@@ -13,14 +13,15 @@
   "dex": 658,
   "agi": 955,
   "mag": 318,
-  "ascension": true,
-  "hp_ascended": 3853,
-  "mp_ascended": 262,
-  "str_ascended": 1971,
-  "end_ascended": 552,
-  "dex_ascended": 733,
-  "agi_ascended": 1038,
-  "mag_ascended": 368,
+  "ascension": {
+    "hp": 3853,
+    "mp": 262,
+    "str": 1971,
+    "end": 552,
+    "dex": 733,
+    "agi": 1038,
+    "mag": 368
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Fleur de Sinclair", "description": "[Foe] Ultra Dark P.Attack Dmg.+60% against a poisoned target & Ultra Critical Rate" },

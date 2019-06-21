@@ -13,14 +13,15 @@
   "dex": 509,
   "agi": 811,
   "mag": 276,
-  "ascension": true,
-  "hp_ascended": 3650,
-  "mp_ascended": 240,
-  "str_ascended": 1479,
-  "end_ascended": 519,
-  "dex_ascended": 569,
-  "agi_ascended": 877,
-  "mag_ascended": 316,
+  "ascension": {
+    "hp": 3650,
+    "mp": 240,
+    "str": 1479,
+    "end": 519,
+    "dex": 569,
+    "agi": 877,
+    "mag": 316
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Heroic Tale: Prelude", "description": "[Foes] Ultra Fire P.Attack w/temp Str. Boost & Hi Unguard Rate" },

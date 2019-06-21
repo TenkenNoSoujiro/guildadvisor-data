@@ -165,14 +165,20 @@
         "dex": { "type": "integer", "description": "The unit's Dexterity. Affects the unit's critical rate, penetration rate, and counter rate." },
         "agi": { "type": "integer", "description": "The unit's Agility. Affects the unit's action order, critical rate, guard rate, and counter rate." },
         "mag": { "type": "integer", "description": "The unit's Magic ability. Affects the unit's magic damage and heal amount." },
-        "ascension": { "type": "boolean", "default": true, "description": "(optional) When 'true', indicates that this unit supports Hero Ascension." },
-        "hp_ascended": { "type": "integer", "description": "The unit's HP when ascended. When this reaches 0 during battle, this unit will be knocked out." },
-        "mp_ascended": { "type": "integer", "description": "The unit's MP when ascended. You will need this when using the unit's Combat Skills." },
-        "str_ascended": { "type": "integer", "description": "The unit's Strength when ascended. Affects the unit's physical attack and penetration rate." },
-        "end_ascended": { "type": "integer", "description": "The unit's Endurance when ascended. Affects the unit's guard rate and damage dealt by enemies." },
-        "dex_ascended": { "type": "integer", "description": "The unit's Dexterity when ascended. Affects the unit's critical rate, penetration rate, and counter rate." },
-        "agi_ascended": { "type": "integer", "description": "The unit's Agility when ascended. Affects the unit's action order, critical rate, guard rate, and counter rate." },
-        "mag_ascended": { "type": "integer", "description": "The unit's Magic ability when ascended. Affects the unit's magic damage and heal amount." },
+        "ascension": {
+          "type": "object",
+          "description": "(optional) Indicates that this unit supports Hero Ascension and the ascended stats.",
+          "properties": {
+            "hp": { "type": "integer", "description": "The unit's HP when ascended. When this reaches 0 during battle, this unit will be knocked out." },
+            "mp": { "type": "integer", "description": "The unit's MP when ascended. You will need this when using the unit's Combat Skills." },
+            "str": { "type": "integer", "description": "The unit's Strength when ascended. Affects the unit's physical attack and penetration rate." },
+            "end": { "type": "integer", "description": "The unit's Endurance when ascended. Affects the unit's guard rate and damage dealt by enemies." },
+            "dex": { "type": "integer", "description": "The unit's Dexterity when ascended. Affects the unit's critical rate, penetration rate, and counter rate." },
+            "agi": { "type": "integer", "description": "The unit's Agility when ascended. Affects the unit's action order, critical rate, guard rate, and counter rate." },
+            "mag": { "type": "integer", "description": "The unit's Magic ability when ascended. Affects the unit's magic damage and heal amount." }
+          },
+          "required": ["hp", "mp", "str", "end", "dex", "agi", "mag"]
+        },
         "combatSkills": { "type": "array", "items": { "$ref": "#/definitions/CombatSkill" }, "minItems": 4, "maxItems": 4, "description": "The unit's combat skills." },
         "passiveSkills": { "type": "array", "items": { "$ref": "#/definitions/PassiveSkill" }, "description": "The unit's Skills/Development Abilities" },
         "image": { "type": "string" },

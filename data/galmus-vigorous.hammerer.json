@@ -13,14 +13,15 @@
   "dex": 601,
   "agi": 416,
   "mag": 981,
-  "ascension": true,
-  "hp_ascended": 3706,
-  "mp_ascended": 314,
-  "str_ascended": 1712,
-  "end_ascended": 767,
-  "dex_ascended": 696,
-  "agi_ascended": 441,
-  "mag_ascended": 1130,
+  "ascension": {
+    "hp": 3706,
+    "mp": 314,
+    "str": 1712,
+    "end": 767,
+    "dex": 696,
+    "agi": 441,
+    "mag": 1130
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Techtonik Breaker", "description": "[Foes] Ultra Earth P.Attack w/temp Str. Boost & Slow & Ultra Unguard Rate" },
