@@ -1,0 +1,41 @@
+{ "id": "daphne.lauros-serene.swordsman",
+  "banner": "Anime",
+  "title": "Serene Swordsman",
+  "name": "Daphne Lauros",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2470,
+  "mp": 233,
+  "str": 1101,
+  "end": 346,
+  "dex": 693,
+  "agi": 1144,
+  "mag": 903,
+  "ascension": {
+    "hp": 3670,
+    "mp": 323,
+    "str": 1426,
+    "end": 514,
+    "dex": 788,
+    "agi": 1169,
+    "mag": 1052
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Shrapnel Lights Tact", "description": "[Foes] Ultra Light P.Attack Dmg.+40% per each [Self] Agi. Buff Skill & Ultra Unguard Rate" },
+    { "name": "Touche", "description": "[Foe] Hi Light P.Attack & [Allies] Dmg. received (Attack Type: All and Single Targets)-20%/2 turns" },
+    { "name": "Fente", "description": "[Foes] Hi Light P.Attack & [Allies] Dmg. received (Attack Type: All and Single Targets)-20%/2 turns" },
+    { "name": "Raumure", "description": "[Allies] Str. & End. & Agi.+30%/4 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Elios Passion", "description": "Agi.+50%" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Battle Arts", "description": "Str. & Dex.+15%" },
+    { "name": "Healing Power", "description": "8% HP Regen/turn" }
+  ],
+  "thumbnail": "daphne.lauros-serene.swordsman-thumb.png",
+  "image": "daphne.lauros-serene.swordsman-full.png"
+}

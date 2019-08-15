@@ -49,6 +49,9 @@ const knownCombatSkills = {};
 /** @type {Record<string, Map<string, number>>} */
 const knownPassiveSkills = {};
 
+/** @type {Record<string, Map<string, number>>} */
+const knownCombinationSkills = {};
+
 for (const entry of fs.readdirSync(dataDir, { withFileTypes: true })) {
   if (!entry.isFile()) continue;
   if (path.extname(entry.name) !== ".json") continue;
@@ -57,6 +60,9 @@ for (const entry of fs.readdirSync(dataDir, { withFileTypes: true })) {
   if (unit.kind !== "adventurer") continue;
   for (const skill of unit.combatSkills) registerCombatSkill(skill.name, skill.description);
   for (const skill of unit.passiveSkills) registerPassiveSkill(skill.name, skill.description);
+  if (unit.ascension && unit.ascension.combinationSkills) {
+    for (const skill of unit.ascension.combinationSkills) registerCombinationSkill(skill.name, skill.description);
+  }
 }
 
 /** @param {string} name */
@@ -85,6 +91,21 @@ function registerCombatSkill(name, description) {
  */
 function registerPassiveSkill(name, description) {
   const entries = knownPassiveSkills.hasOwnProperty(name) ? knownPassiveSkills[name] : knownPassiveSkills[name] = new Map();
+  let count = entries.get(description);
+  if (!count) {
+    entries.set(description, 1);
+  }
+  else {
+    entries.set(description, count + 1);
+  }
+}
+
+/**
+ * @param {string} name
+ * @param {string} description
+ */
+function registerCombinationSkill(name, description) {
+  const entries = knownCombinationSkills.hasOwnProperty(name) ? knownCombinationSkills[name] : knownCombinationSkills[name] = new Map();
   let count = entries.get(description);
   if (!count) {
     entries.set(description, 1);
@@ -307,6 +328,55 @@ const ascendedStatPrompt = (name, message) => [
     name, message, initial: copyLastResponse(name, { same: "name" }) }
 ];
 
+/** @type {(index: number) => PromptObject<"autocomplete">[]} */
+const combinationSkillNamePrompt = (index) => [
+  autocompleter({
+    name: `combinationSkill${index}Name`,
+    message: `Combination Skill #${index + 1} Name`,
+    hide(prev, responses) {
+      if (!responses.ascension) return true;
+      for (let i = index - 1; i >= 0; i--) {
+        if (!responses[`combinationSkill${i}Name`]) return true;
+      }
+      return false;
+    },
+    choices(prev, responses) {
+      return [{ title: "<none>", value: "" }].concat(Object.keys(knownCombinationSkills)
+        .sort(collator.compare)
+        .map(name => ({ title: name, value: name })));
+    },
+    initial: copyLastResponse(`combinationSkill${index}Name`, { same: "name" })
+  })
+];
+
+/** @type {(index: number) => PromptObject<"autocomplete">[]} */
+const combinationSkillDescriptionPrompt = (index) => [
+  autocompleter({
+    name: `combinationSkill${index}Description`,
+    message: `Combination Skill #${index + 1} Description`,
+    hide(prev, responses) {
+      if (!responses.ascension) return true;
+      for (let i = index - 1; i >= 0; i--) {
+        if (!responses[`combinationSkill${i}Name`] || responses[`combinationSkill${i}Name`] === '<none>') return true;
+      }
+      return false;
+    },
+    choices(prev, responses) {
+      const descriptions = knownCombinationSkills.hasOwnProperty(prev) ? [...knownCombinationSkills[prev]] : [];
+      return descriptions
+        .sort(descriptionCollator)
+        .map(([text]) => ({ title: text, value: text }));
+    },
+    initial: copyLastResponse(`combinationSkill${index}Description`, { same: `combinationSkill${index}Name` })
+  })
+];
+
+/** @type {(index: number) => PromptObject<"autocomplete">[]} */
+const combinationSkillPrompt = (index) => [
+  ...combinationSkillNamePrompt(index),
+  ...combinationSkillDescriptionPrompt(index)
+];
+
 /** @type {(prefix: string, message: string) => PromptObject<"autocomplete">[]} */
 const combatSkillNamePrompt = (prefix, message) => {
   return [autocompleter({
@@ -437,6 +507,9 @@ async function main(args) {
       ...combatSkillPrompt("combatSkill2", "Combat Skill #2"),
       ...combatSkillPrompt("combatSkill3", "Combat Skill #3"),
 
+      ...combinationSkillPrompt(0),
+      ...combinationSkillPrompt(1),
+
       ...passiveSkillPrompt("passiveSkill0", "Passive Skill #1"),
       ...passiveSkillPrompt("passiveSkill1", "Passive Skill #2"),
       ...passiveSkillPrompt("passiveSkill2", "Passive Skill #3"),
@@ -477,6 +550,16 @@ async function main(args) {
       registerPassiveSkill(response.passiveSkill2Name, response.passiveSkill2Description);
       registerPassiveSkill(response.passiveSkill3Name, response.passiveSkill3Description);
       registerPassiveSkill(response.passiveSkill4Name, response.passiveSkill4Description);
+      if (response.ascension) {
+        if (response.combinationSkill0Name && response.combinationSkill0Name !== "<none>") {
+          response.combinationSkills = [{ name: response.combinationSkill0Name, description: response.combinationSkill0Description }];
+          registerCombinationSkill(response.combinationSkill0Name, response.combinationSkill0Description)
+        }
+        if (response.combinationSkill1Name && response.combinationSkill1Name !== "<none>") {
+          response.combinationSkills.push({ name: response.combinationSkill1Name, description: response.combinationSkill1Description });
+          registerCombinationSkill(response.combinationSkill1Name, response.combinationSkill1Description)
+        }
+      }
 
       let match;
       match = nemesisRegExp.exec(response.passiveSkill0Description);

@@ -1,0 +1,45 @@
+{ "id": "crozzo-the.ancestry",
+  "new": false,
+  "title": "The Ancestry",
+  "name": "Crozzo",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2698,
+  "mp": 187,
+  "str": 1611,
+  "end": 386,
+  "dex": 676,
+  "agi": 930,
+  "mag": 318,
+  "ascension": {
+    "hp": 3873,
+    "mp": 257,
+    "str": 1961,
+    "end": 566,
+    "dex": 751,
+    "agi": 1013,
+    "mag": 368,
+    "combinationSkills": [
+      { "name": "Pound", "description": "[Foes] Non-Elem. P.Attack activates aft. S.A Combos by 2+ Ascension-unlocked Units w/same Comb. Attack. ※ Can be Units of same character." },
+      { "name": "Ancient Bond", "description": "[Foes] Non-Elem. P.Attack activates aft. S.A Combos by 2+ Ascension upgraded(x3+) Units w/same Comb. Attack. ※ Cannot be Units of same character." }
+    ]
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Fiery Protector", "description": "[Foes] Ultra Fire P.Attack w/temp Str. Boost & P.Resist and Fire Resist-35%/1 turn" },
+    { "name": "Jolts", "description": "[Foes] Fast Lo Fire P.Attack & Str., Mag. and Agi.-30%/2 turns" },
+    { "name": "Pure Casting", "description": "[Foes] Super Fire P.Attack w/Ultra Unguard Rate & P.Resist and Fire Resist-25%/2 turns" },
+    { "name": "Vortex of Flames", "description": "[Foe] Hi Fire P.Attack w/temp Str. Boost & [Allies] Status Buff+1 turn" }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Fire", "description": "When countering and attacking, regular P.Attack a Foe with Fire Element." },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Wind Resistance", "description": "Wind Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Piercing Strike", "description": "Damage+10% upon Penetration" }
+  ],
+  "thumbnail": "crozzo-the.ancestry-thumb.png",
+  "image": "crozzo-the.ancestry-full.png"
+}

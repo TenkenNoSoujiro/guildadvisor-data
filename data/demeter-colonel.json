@@ -1,0 +1,24 @@
+{ "id": "demeter-colonel",
+  "banner": "Secret Game: Ace",
+  "title": "Colonel",
+  "name": "Demeter",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 822,
+  "mp": 198,
+  "str": 209,
+  "end": 211,
+  "dex": 340,
+  "agi": 370,
+  "mag": 642,
+  "skill": {
+    "name": "Harvest Swimsuit",
+    "descriptions": [
+      "[Foes] Critical Rate and M.Resist-15% & [Self] Critical Rate+8%",
+      "[Foes] Critical Rate and M.Resist-20% & [Self] Critical Rate+10%"
+    ]
+  },
+  "thumbnail": "demeter-colonel-thumb.png",
+  "image": "demeter-colonel-full.png"
+}

@@ -9,22 +9,31 @@
   "hp": 2644,
   "mp": 268,
   "str": 336,
-  "end": 388,
-  "dex": 574,
-  "agi": 760,
-  "mag": 1378,
+  "end": 423,
+  "dex": 626,
+  "agi": 829,
+  "mag": 1438,
+  "ascension": {
+    "hp": 3769,
+    "mp": 348,
+    "str": 387,
+    "end": 584,
+    "dex": 705,
+    "agi": 908,
+    "mag": 1773
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Aquatic Tornado", "description": "[Foe] Ultra Water M.Attack w/Ultra Penetration Rate w/temp Mag. Boost" },
-    { "name": "Aquatic Nova", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost", "mp": 38 },
-    { "name": "Aquatic Lure", "description": "[Foes] Mid Water M.Attack", "mp": 26 },
-    { "name": "Aquatic Ray", "description": "[Foe] Lo Water M.Attack & [Self] Mag.+75%/4 turns", "mp": 29 }
+    { "name": "Aquatic Nova", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost & M.Resist and Water Resist-20%/2 turns", "mp": 39 },
+    { "name": "Aquatic Lure", "description": "[Foes] Hi Water M.Attack w/temp Mag. Boost", "mp": 32 },
+    { "name": "Aquatic Ray", "description": "[Foe] Mid Water M.Attack & [Self] Mag.+80%/4 turns", "mp": 33 }
   ],
   "passiveSkills": [
-    { "name": "Mage", "description": "Mag.+15%" },
+    { "name": "Will of Water", "description": "When countering and attacking, regular M.Attack a Foe with Water Element." },
     { "name": "Strike", "description": "Critical Damage+20%" },
     { "name": "Fire Resistance", "description": "Fire Resist+35%" },
-    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Hex", "description": "Mag. & End. & Agi. & Dex.+20%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
   "thumbnail": "lefiya.viridis-offshore.elf-thumb.png",

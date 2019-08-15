@@ -1,5 +1,4 @@
 { "id": "elmina-deathly.dance",
-  "new": true,
   "title": "Deathly Dance",
   "name": "Elmina",
   "kind": "adventurer",
@@ -20,7 +19,10 @@
     "end": 552,
     "dex": 733,
     "agi": 1038,
-    "mag": 368
+    "mag": 368,
+    "combinationSkills": [
+      { "name": "Pound", "description": "[Foes] Non-Elem. P.Attack activates aft. S.A Combos by 2+ Ascension-unlocked Units w/same Comb. Attack. ※ Can be Units of same character." }
+    ]
   },
   "combatSkills": [
     { "specialArts": true,

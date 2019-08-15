@@ -9,22 +9,31 @@
   "hp": 2628,
   "mp": 272,
   "str": 336,
-  "end": 396,
-  "dex": 581,
-  "agi": 757,
-  "mag": 1365,
+  "end": 432,
+  "dex": 634,
+  "agi": 826,
+  "mag": 1424,
+  "ascension": {
+    "hp": 3753,
+    "mp": 352,
+    "str": 387,
+    "end": 593,
+    "dex": 713,
+    "agi": 905,
+    "mag": 1759
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Dolphin Army", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost" },
-    { "name": "Calamity Water", "description": "[Foes] Mid Water M.Attack & removes all Mag. Buffs exc. Assist Skills", "mp": 35 },
-    { "name": "Water Magic Sword", "description": "[Foes] Hi Water M.Attack w/temp Mag. Boost & [Foes] Status Debuff +1 turn", "mp": 53 },
-    { "name": "Frozen Water", "description": "[Foes] Mid Water M.Attack w/temp Mag. Boost & [Foes] M.Resist-15%/3 turns", "mp": 43 }
+    { "name": "Calamity Water", "description": "[Foes] Mid Water M.Attack & removes all Mag. Buffs exc. Assist Skills", "mp": 31 },
+    { "name": "Water Magic Sword", "description": "[Foes] Hi Water M.Attack w/temp Mag. Boost & [Foes] Status Debuff +1 turn", "mp": 46 },
+    { "name": "Frozen Water", "description": "[Foes] Mid Water M.Attack w/temp Mag. Boost & [Foes] M.Resist-20%/3 turns", "mp": 29 }
   ],
   "passiveSkills": [
-    { "name": "Mind's Eye", "description": "Mag.+15%" },
+    { "name": "Will of Water", "description": "When countering and attacking, regular M.Attack a Foe with Water Element." },
     { "name": "Strike", "description": "Critical Damage+10%" },
     { "name": "Fire Resistance", "description": "Fire Resist+35%" },
-    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Hex", "description": "Mag. & End. & Agi. & Dex.+20%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
   "thumbnail": "liliruca.arde-summer.fun-thumb.png",

@@ -1,5 +1,4 @@
 { "id": "yuri-wolven.pride",
-  "new": true,
   "title": "Wolven Pride",
   "name": "Yuri",
   "kind": "adventurer",
@@ -20,7 +19,10 @@
     "end": 562,
     "dex": 785,
     "agi": 958,
-    "mag": 368
+    "mag": 368,
+    "combinationSkills": [
+      { "name": "Pound", "description": "[Foes] Non-Elem. P.Attack activates aft. S.A Combos by 2+ Ascension-unlocked Units w/same Comb. Attack. ※ Can be Units of same character." }
+    ]
   },
   "combatSkills": [
     { "specialArts": true,

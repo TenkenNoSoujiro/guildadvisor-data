@@ -22,7 +22,10 @@
     "end": {{ascension.end}},
     "dex": {{ascension.dex}},
     "agi": {{ascension.agi}},
-    "mag": {{ascension.mag}}
+    "mag": {{ascension.mag}}{{#if ascension.combinationSkills}},
+    "combinationSkills": [{{#each ascension.combinationSkills}}
+      { "name": "{{name}}", "description": "{{description}}"{{#if tags}}{{/if}} }{{#unless @last}},{{/unless}}{{/each}}
+    ]{{/if}}
   },{{/if}}
   "combatSkills": [
     { "specialArts": true,

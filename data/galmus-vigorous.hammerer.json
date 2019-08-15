@@ -1,5 +1,4 @@
 { "id": "galmus-vigorous.hammerer",
-  "new": true,
   "title": "Vigorous Hammerer",
   "name": "Galmus",
   "kind": "adventurer",
@@ -20,7 +19,10 @@
     "end": 767,
     "dex": 696,
     "agi": 441,
-    "mag": 1130
+    "mag": 1130,
+    "combinationSkills": [
+      { "name": "Blitz", "description": "[Foes] Non-Elem. P.Attack activates aft. S.A Combos by 2+ Ascension-unlocked Units w/same Comb. Attack. ※ Can be Units of same character." }
+    ]
   },
   "combatSkills": [
     { "specialArts": true,

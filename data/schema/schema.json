@@ -1,20 +1,20 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "allOf": [
-    { "properties": { "$schema": { "type": "string" } } },
-    { "oneOf": [
-      { "$ref": "#/definitions/AdventurerUnit" },
-      { "$ref": "#/definitions/AssistUnit" }]
-    }
+  "$id": "http://guildadvisor.chronicles.org/schemas/unit.json",
+  "oneOf": [
+    { "$ref": "#AdventurerUnit" },
+    { "$ref": "#AssistUnit" }
   ],
   "definitions": {
     "Rarity": {
+      "$id": "#Rarity",
       "type": "integer",
       "enum": [1, 2, 3, 4],
       "description": "Indicates the rarity of the unit."
     },
 
     "TagStats": {
+      "$id": "#TagStats",
       "type": "string",
       "enum": [
         "x_str", "str_buff", "str_debuff", "remove_str_buff", "temp_str_boost", "index_to_str",
@@ -26,6 +26,7 @@
       ]
     },
     "TagTargets": {
+      "$id": "#TagTargets",
       "type": "string",
       "enum": [
         "foe",
@@ -37,6 +38,7 @@
       ]
     },
     "TagElements": {
+      "$id": "#TagElements",
       "type": "string",
       "enum": [
         "fire",     "fire_p.attack",    "fire_m.attack",    "fire_resist",    "fire_resist_buff",    "fire_resist_debuff",    "fire_attack_dmg_buff",
@@ -49,6 +51,7 @@
       ]
     },
     "TagAttacks": {
+      "$id": "#TagAttacks",
       "type": "string",
       "enum": [
         "p.attack",             "p.resist_buff",        "p.resist_debuff",        "null_p.attack",
@@ -57,6 +60,7 @@
       ]
     },
     "TagHeals": {
+      "$id": "#TagHeals",
       "type": "string",
       "enum": [
         "heal",     "heal_buff",      "heal_debuff",
@@ -65,6 +69,7 @@
       ]
     },
     "TagAilments": {
+      "$id": "#TagAilments",
       "type": "string",
       "enum": [
         "ailment",  "ailment_resist", "ailment_resist_buff",  "ailment_resist_debuff",  "null_ailment", "remove_ailment",
@@ -78,6 +83,7 @@
       ]
     },
     "TagCurses": {
+      "$id": "#TagCurses",
       "type": "string",
       "enum": [
         "null_curse", "remove_curse",
@@ -89,6 +95,7 @@
       ]
     },
     "TagBuffs": {
+      "$id": "#TagBuffs",
       "type": "string",
       "enum": [
         "guard_rate_buff",        "guard_rate_debuff",         "ultra_guard_rate",
@@ -99,9 +106,34 @@
         "penetration_rate_buff",  "penetration_rate_debuff",   "ultra_penetration_rate"
       ]
     },
-    "TagPowers": { "type": "string", "enum": ["lo", "mid", "hi", "ultra"] },
-    "TagOther": { "type": "string", "enum": ["fast", "nemesis"] },
+    "TagPowers": {
+      "$id": "#TagPowers",
+      "type": "string",
+      "enum": ["lo", "mid", "hi", "super", "ultra"]
+    },
+    "TagOther": {
+      "$id": "#TagOther",
+      "type": "string",
+      "enum": ["fast", "nemesis"]
+    },
+    "Tag": {
+      "$id": "#Tag",
+      "type": "string",
+      "oneOf": [
+        { "$ref": "#TagStats" },
+        { "$ref": "#TagTargets" },
+        { "$ref": "#TagElements" },
+        { "$ref": "#TagAttacks" },
+        { "$ref": "#TagHeals" },
+        { "$ref": "#TagAilments" },
+        { "$ref": "#TagCurses" },
+        { "$ref": "#TagBuffs" },
+        { "$ref": "#TagPowers" },
+        { "$ref": "#TagOther" }
+      ]
+    },
     "TagPassive": {
+      "$id": "#TagPassive",
       "type": "string",
       "enum": [
         "passive_str_buff",
@@ -130,34 +162,46 @@
         "passive_mp_regen"
       ]
     },
-    "Tag": {
+
+    "AdventurerType": {
+      "$id": "#AdventurerType",
+      "description": "Indicates the fighting style of the adventurer.",
       "type": "string",
-      "oneOf": [
-        { "$ref": "#/definitions/TagStats" },
-        { "$ref": "#/definitions/TagTargets" },
-        { "$ref": "#/definitions/TagElements" },
-        { "$ref": "#/definitions/TagAttacks" },
-        { "$ref": "#/definitions/TagHeals" },
-        { "$ref": "#/definitions/TagAilments" },
-        { "$ref": "#/definitions/TagCurses" },
-        { "$ref": "#/definitions/TagBuffs" },
-        { "$ref": "#/definitions/TagPowers" },
-        { "$ref": "#/definitions/TagOther" }
-      ]
+      "enum": ["p.attack", "m.attack", "balance", "defense", "healer"]
+    },
+
+    "AscensionStats": {
+      "$id": "#AscensionStats",
+      "type": "object",
+      "description": "(optional) Indicates that this unit supports Hero Ascension and the ascended stats.",
+      "properties": {
+        "hp": { "type": "integer", "description": "The unit's HP when ascended. When this reaches 0 during battle, this unit will be knocked out." },
+        "mp": { "type": "integer", "description": "The unit's MP when ascended. You will need this when using the unit's Combat Skills." },
+        "str": { "type": "integer", "description": "The unit's Strength when ascended. Affects the unit's physical attack and penetration rate." },
+        "end": { "type": "integer", "description": "The unit's Endurance when ascended. Affects the unit's guard rate and damage dealt by enemies." },
+        "dex": { "type": "integer", "description": "The unit's Dexterity when ascended. Affects the unit's critical rate, penetration rate, and counter rate." },
+        "agi": { "type": "integer", "description": "The unit's Agility when ascended. Affects the unit's action order, critical rate, guard rate, and counter rate." },
+        "mag": { "type": "integer", "description": "The unit's Magic ability when ascended. Affects the unit's magic damage and heal amount." },
+        "combinationSkills": { "type": "array", "items": { "$ref": "#CombinationSkill" } }
+      },
+      "required": ["hp", "mp", "str", "end", "dex", "agi", "mag"],
+      "additionalProperties": false
     },
 
     "AdventurerUnit": {
+      "$id": "#AdventurerUnit",
       "type": "object",
       "description": "An Adventurer unit.",
       "properties": {
+        "$file": { "type": "string" },
         "id": { "type": "string" },
         "new": { "type": "boolean" },
-        "kind": { "const": "adventurer", "description": "The kind of unit." },
+        "kind": { "type": "string", "const": "adventurer", "enum": ["adventurer"], "description": "The kind of unit." },
         "title": { "type": "string", "description": "The unit's title (unique between different units with the same name)." },
         "name": { "type": "string", "description": "The unit's character name." },
-        "type": { "enum": ["p.attack", "m.attack", "balance", "defense", "healer"], "description": "Indicates the fighting style of the adventurer." },
+        "type": { "$ref": "#AdventurerType" },
         "limited": { "type": "boolean", "default": true, "description": "(optional) When 'true', indicates that this unit was Time-Limited." },
-        "rarity": { "$ref": "#/definitions/Rarity" },
+        "rarity": { "$ref": "#Rarity" },
         "hp": { "type": "integer", "description": "The unit's HP. When this reaches 0 during battle, this unit will be knocked out." },
         "mp": { "type": "integer", "description": "The unit's MP. You will need this when using the unit's Combat Skills." },
         "str": { "type": "integer", "description": "The unit's Strength. Affects the unit's physical attack and penetration rate." },
@@ -165,25 +209,22 @@
         "dex": { "type": "integer", "description": "The unit's Dexterity. Affects the unit's critical rate, penetration rate, and counter rate." },
         "agi": { "type": "integer", "description": "The unit's Agility. Affects the unit's action order, critical rate, guard rate, and counter rate." },
         "mag": { "type": "integer", "description": "The unit's Magic ability. Affects the unit's magic damage and heal amount." },
-        "ascension": {
-          "type": "object",
-          "description": "(optional) Indicates that this unit supports Hero Ascension and the ascended stats.",
-          "properties": {
-            "hp": { "type": "integer", "description": "The unit's HP when ascended. When this reaches 0 during battle, this unit will be knocked out." },
-            "mp": { "type": "integer", "description": "The unit's MP when ascended. You will need this when using the unit's Combat Skills." },
-            "str": { "type": "integer", "description": "The unit's Strength when ascended. Affects the unit's physical attack and penetration rate." },
-            "end": { "type": "integer", "description": "The unit's Endurance when ascended. Affects the unit's guard rate and damage dealt by enemies." },
-            "dex": { "type": "integer", "description": "The unit's Dexterity when ascended. Affects the unit's critical rate, penetration rate, and counter rate." },
-            "agi": { "type": "integer", "description": "The unit's Agility when ascended. Affects the unit's action order, critical rate, guard rate, and counter rate." },
-            "mag": { "type": "integer", "description": "The unit's Magic ability when ascended. Affects the unit's magic damage and heal amount." }
-          },
-          "required": ["hp", "mp", "str", "end", "dex", "agi", "mag"]
+        "ascension": { "$ref": "#AscensionStats" },
+        "combatSkills": {
+          "type": "array",
+          "items": { "$ref": "#CombatSkill" },
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "The unit's combat skills."
         },
-        "combatSkills": { "type": "array", "items": { "$ref": "#/definitions/CombatSkill" }, "minItems": 4, "maxItems": 4, "description": "The unit's combat skills." },
-        "passiveSkills": { "type": "array", "items": { "$ref": "#/definitions/PassiveSkill" }, "description": "The unit's Skills/Development Abilities" },
+        "passiveSkills": {
+          "type": "array",
+          "items": { "$ref": "#PassiveSkill" },
+          "description": "The unit's Skills/Development Abilities"
+        },
         "image": { "type": "string" },
         "thumbnail": { "type": "string" },
-        "alias": { "item": { "type": "string" }, "uniqueItems": true, "default": [] },
+        "alias": { "type": "array", "items": { "type": "string" }, "uniqueItems": true, "default": [] },
         "banner": {
           "oneOf": [
             { "type": "string" },
@@ -197,16 +238,18 @@
     },
 
     "AssistUnit": {
+      "$id": "#AssistUnit",
       "type": "object",
       "description": "An Assist unit",
       "properties": {
+        "$file": { "type": "string" },
         "id": { "type": "string" },
         "new": { "type": "boolean" },
-        "kind": { "const": "assist" },
+        "kind": { "type": "string", "const": "assist", "enum": ["assist"] },
         "title": { "type": "string", "description": "The unit's title (unique between different units with the same name)." },
         "name": { "type": "string", "description": "The unit's character name." },
         "limited": { "type": "boolean", "default": true, "description": "(optional) When 'true', indicates that this unit was Time-Limited." },
-        "rarity": { "$ref": "#/definitions/Rarity" },
+        "rarity": { "$ref": "#Rarity" },
         "hp": { "type": "integer", "description": "The unit's HP. When this reaches 0 during battle, this unit will be knocked out." },
         "mp": { "type": "integer", "description": "The unit's MP. You will need this when using the unit's Combat Skills." },
         "str": { "type": "integer", "description": "The unit's Strength. Affects the unit's physical attack and penetration rate." },
@@ -214,10 +257,10 @@
         "dex": { "type": "integer", "description": "The unit's Dexterity. Affects the unit's critical rate, penetration rate, and counter rate." },
         "agi": { "type": "integer", "description": "The unit's Agility. Affects the unit's action order, critical rate, guard rate, and counter rate." },
         "mag": { "type": "integer", "description": "The unit's Magic ability. Affects the unit's magic damage and heal amount." },
-        "skill": { "$ref": "#/definitions/AssistSkill" },
+        "skill": { "$ref": "#AssistSkill" },
         "image": { "type": "string" },
         "thumbnail": { "type": "string" },
-        "alias": { "item": { "type": "string" }, "uniqueItems": true },
+        "alias": { "type": "array", "items": { "type": "string" }, "uniqueItems": true, "default": [] },
         "banner": {
           "oneOf": [
             { "type": "string" },
@@ -230,25 +273,39 @@
       "additionalProperties": false
     },
 
+    "CombinationSkill": {
+      "$id": "#CombinationSkill",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "The name of the Combination Attack Skill" },
+        "description": { "type": "string" },
+        "tags": { "type": "array", "items": { "$ref": "#Tag" } }
+      },
+      "required": ["name", "description"],
+      "additionalProperties": false
+    },
+
     "CombatSkill": {
+      "$id": "#CombatSkill",
       "type": "object",
       "properties": {
         "specialArts": { "type": "boolean", "default": true, "description": "A value indicating whether the Combat Skill is a Special Arts." },
-        "mp": { "type": "integer", "description": "The MP cost of the skill." },
         "name": { "type": "string", "description": "The name of the Combat Skill." },
         "description": { "type": "string" },
-        "tags": { "items": { "$ref": "#/definitions/Tag" } }
+        "mp": { "type": "number" },
+        "tags": { "items": { "$ref": "#Tag" } }
       },
       "required": ["name", "description"],
       "additionalProperties": false
     },
 
     "PassiveSkill": {
+      "$id": "#PassiveSkill",
       "type": "object",
       "properties": {
         "name": { "type": "string" },
         "description": { "type": "string" },
-        "tags": { "items": { "$ref": "#/definitions/TagPassive" } },
+        "tags": { "items": { "$ref": "#TagPassive" } },
         "nemesis": { "type": "string" }
       },
       "required": ["name", "description"],
@@ -256,11 +313,12 @@
     },
 
     "AssistSkill": {
+      "$id": "#AssistSkill",
       "type": "object",
       "properties": {
         "name": { "type": "string" },
         "descriptions": { "type": "array", "items": { "type": "string" }, "minItems": 2, "maxItems": 2 },
-        "tags": { "items": { "$ref": "#/definitions/Tag" } }
+        "tags": { "items": { "$ref": "#Tag" } }
       },
       "required": ["name", "descriptions"],
       "additionalProperties": false

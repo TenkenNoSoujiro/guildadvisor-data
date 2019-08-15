@@ -1,0 +1,24 @@
+{ "id": "naza.ersuisu-cyan",
+  "banner": "Secret Game: Joker",
+  "title": "Cyan",
+  "name": "Naza Ersuisu",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 838,
+  "mp": 194,
+  "str": 209,
+  "end": 233,
+  "dex": 392,
+  "agi": 302,
+  "mag": 636,
+  "skill": {
+    "name": "Cyan Drop",
+    "descriptions": [
+      "[Allies] 15% HP Regen & Heal and Counter Rate+8%",
+      "[Allies] 20% HP Regen & Heal and Counter Rate+10%"
+    ]
+  },
+  "thumbnail": "naza.ersuisu-cyan-thumb.png",
+  "image": "naza.ersuisu-cyan-full.png"
+}

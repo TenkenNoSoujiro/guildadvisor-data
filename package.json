@@ -4,15 +4,26 @@
     "create": "node scripts/unit",
     "start": "node scripts/unit",
     "new": "node scripts/newUnits",
-    "validate": "node scripts/validate"
+    "validate": "node scripts/validate",
+    "scrape": "ts-node --project tsconfig.json scripts/scrape.ts"
   },
   "devDependencies": {
     "@types/ajv": "^1.0.0",
     "@types/handlebars": "^4.0.40",
+    "@types/jsdom": "^12.2.4",
     "@types/node": "^10.12.18",
+    "@types/progress": "^2.0.3",
     "@types/prompts": "^1.2.0",
+    "@types/request": "^2.48.2",
+    "@types/yargs": "^13.0.2",
     "ajv": "^6.6.2",
     "handlebars": "^4.0.12",
-    "prompts": "^2.0.0"
+    "jsdom": "^15.1.1",
+    "progress": "^2.0.3",
+    "prompts": "^2.0.0",
+    "request": "^2.88.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
+    "yargs": "^13.3.0"
   }
 }

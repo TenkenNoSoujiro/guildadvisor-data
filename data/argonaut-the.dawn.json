@@ -1,0 +1,45 @@
+{ "id": "argonaut-the.dawn",
+  "new": false,
+  "title": "The Dawn",
+  "name": "Argonaut",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2542,
+  "mp": 226,
+  "str": 1618,
+  "end": 507,
+  "dex": 608,
+  "agi": 965,
+  "mag": 318,
+  "ascension": {
+    "hp": 3717,
+    "mp": 296,
+    "str": 1968,
+    "end": 687,
+    "dex": 683,
+    "agi": 1048,
+    "mag": 368,
+    "combinationSkills": [
+      { "name": "Pound", "description": "[Foes] Non-Elem. P.Attack activates aft. S.A Combos by 2+ Ascension-unlocked Units w/same Comb. Attack. ※ Can be Units of same character." },
+      { "name": "Ancient Bond", "description": "[Foes] Non-Elem. P.Attack activates aft. S.A Combos by 2+ Ascension upgraded(x3+) Units w/same Comb. Attack. ※ Cannot be Units of same character." }
+    ]
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Dear Argonaut", "description": "[Foes] Ultra Fire P.Attack w/temp Str. Boost & Dmg. received (Attack Type: All Targets) increases by 30%/1 turn" },
+    { "name": "Hero Rising", "description": "[Foes] Fast Lo Fire P.Attack & [Self] Str. and Fire Attack Dmg.+50%/4 turns" },
+    { "name": "Awakening Spirits", "description": "[Foes] Super Fire P.Attack w/Ultra Uncounter Rate & [Allies] 25% HP Regen/1 turn" },
+    { "name": "Spiral Strike", "description": "[Foe] Hi Fire P.Attack w/temp Str. Boost & Status Debuff+1 turn" }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Fire", "description": "When countering and attacking, regular P.Attack a Foe with Fire Element." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Wind Resistance", "description": "Wind Resist+35%" },
+    { "name": "Combat Skill", "description": "Str. & End. & Agi. & Dex.+25%" },
+    { "name": "Ox Slayer", "description": "Ability Pt.+100% towards Ox", "nemesis": "Ox" }
+  ],
+  "thumbnail": "argonaut-the.dawn-thumb.png",
+  "image": "argonaut-the.dawn-full.png"
+}

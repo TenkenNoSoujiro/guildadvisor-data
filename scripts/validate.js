@@ -1,7 +1,22 @@
 const path = require("path");
 const fs = require("fs");
 const ajv = require("ajv");
-const schema = require("../data/schema/schema.json");
+const schema = (() => {
+  try {
+    try {
+      // try built version from the bot first
+      return require("../../guildAdvisor/lib/api/schema/unit.json");
+    }
+    catch {
+      // try dev version from the bot second
+      return require("../../guildAdvisor/src/api/schema/unit.json");
+    }
+  }
+  catch {
+    // try local version last
+    return require("../data/schema/schema.json");
+  }
+})();
 const kleur = require("kleur");
 const validator = ajv();
 const dataDir = process.argv.length > 2 ? path.resolve(process.argv[2]) : path.resolve(__dirname, "../data");

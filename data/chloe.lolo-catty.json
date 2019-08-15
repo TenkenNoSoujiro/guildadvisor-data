@@ -1,0 +1,41 @@
+{ "id": "chloe.lolo-catty",
+  "banner": "Secret Game: Joker",
+  "title": "Catty",
+  "name": "Chloe Lolo",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2590,
+  "mp": 214,
+  "str": 1557,
+  "end": 376,
+  "dex": 693,
+  "agi": 978,
+  "mag": 318,
+  "ascension": {
+    "hp": 3765,
+    "mp": 284,
+    "str": 1907,
+    "end": 556,
+    "dex": 768,
+    "agi": 1061,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Grand Showdown", "description": "[Foes] Ultra Light P.Attack w/temp Str. Boost & Light Resist-50%/1 turn" },
+    { "name": "Draw Card", "description": "[Foes] Lo Light P.Attack & [Self] Str.+80%/5 turns" },
+    { "name": "Cheating Hands", "description": "[Foe] Hi Light P.Attack w/temp Str. Boost & Ultra Unguard Rate" },
+    { "name": "Flash Trick", "description": "[Foes] Fast Mid Light P.Attack & [Allies] 50% Null P.Attack x1 exc. Special Arts" }
+  ],
+  "passiveSkills": [
+    { "name": "Bravery", "description": "When countering, regular attack a Foe & HP Heal 50% of Dmg." },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Aqua Killer", "description": "Ability Pt.+50% toward Aqua", "nemesis": "Aqua" }
+  ],
+  "thumbnail": "chloe.lolo-catty-thumb.png",
+  "image": "chloe.lolo-catty-full.png"
+}

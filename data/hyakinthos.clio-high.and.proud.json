@@ -1,0 +1,41 @@
+{ "id": "hyakinthos.clio-high.and.proud",
+  "banner": "Anime",
+  "title": "High and Proud",
+  "name": "Hyakinthos Clio",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2710,
+  "mp": 184,
+  "str": 1546,
+  "end": 504,
+  "dex": 626,
+  "agi": 874,
+  "mag": 318,
+  "ascension": {
+    "hp": 3885,
+    "mp": 254,
+    "str": 1896,
+    "end": 684,
+    "dex": 701,
+    "agi": 957,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Aro Zephyros", "description": "[Foes] Ultra Fire P.Attack w/temp Str. Boost & Ultra Unguard Rate" },
+    { "name": "Zeal", "description": "[Foes] Lo Fire P.Attack & [Self] Str. and Fire Attack Dmg.+40%/5 turns" },
+    { "name": "Sol Bland", "description": "[Foes] Fast Mid Fire P.Attack & removes Str. and Mag. Buffs exc. Assist Skills" },
+    { "name": "Zealot", "description": "[Foe] Hi Fire P.Attack w/temp Str. Boost & Hi Critical Rate" }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Fire", "description": "When countering and attacking, regular P.Attack a Foe with Fire Element." },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Wind Resistance: I", "description": "Wind Resist+35%" },
+    { "name": "Martial Arts", "description": "Str. & End. & Agi. & Dex.+20%" },
+    { "name": "Healing Power", "description": "8% HP Regen/turn" }
+  ],
+  "thumbnail": "hyakinthos.clio-high.and.proud-thumb.png",
+  "image": "hyakinthos.clio-high.and.proud-full.png"
+}

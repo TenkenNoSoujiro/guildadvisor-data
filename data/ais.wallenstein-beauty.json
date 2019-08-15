@@ -1,0 +1,45 @@
+{ "id": "ais.wallenstein-beauty",
+  "banner": "Secret Game: Ace",
+  "title": "Beauty",
+  "name": "Ais Wallenstein",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2406,
+  "mp": 249,
+  "str": 903,
+  "end": 347,
+  "dex": 601,
+  "agi": 1124,
+  "mag": 1286,
+  "ascension": {
+    "hp": 3556,
+    "mp": 349,
+    "str": 1040,
+    "end": 515,
+    "dex": 696,
+    "agi": 1149,
+    "mag": 1596,
+    "combinationSkills": [
+      { "name": "Magic Spell", "description": "[Foes] Non-Elem. M.Attack activates aft.S.A Combos by 2+ Ascension-unlocked Units w/same Comb. Attack. ※ Can be Units of same character." },
+      { "name": "Top Familia Executives", "description": "[Foes] Non-Elem. P.Attack activates aft. S.A Combos by 2+ Ascension upgraded(x3+) Units w/same Comb. Attack. ※ Cannot be Units of same character." }
+    ]
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Dancing Lil Rafaga", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost & 50% Sleep" },
+    { "name": "Ravage Dance", "description": "[Foes] Super Water M.Attack w/temp Mag. Boost & Ultra Penetration Rate" },
+    { "name": "Kaleidoscopic Dance", "description": "[Allies] Remove increase in Dmg. received (All Targets) & P.Resist Debuff exc. Assist Skill" },
+    { "name": "Alluring Steps", "description": "[Allies] 25% HP Regen & P.Resist and Heal+25%/5 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Agitation", "description": "When countering, instead of attacking regularly, 75% Taunt a Foe." },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Forestall", "description": "Mag. & Agi.+40%" },
+    { "name": "Aqua Killer", "description": "Ability Pt.+50% toward Aqua", "nemesis": "Aqua" }
+  ],
+  "thumbnail": "ais.wallenstein-beauty-thumb.png",
+  "image": "ais.wallenstein-beauty-full.png"
+}

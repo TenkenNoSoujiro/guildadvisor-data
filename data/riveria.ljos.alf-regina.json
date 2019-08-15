@@ -1,0 +1,45 @@
+{ "id": "riveria.ljos.alf-regina",
+  "banner": "Secret Game: Joker",
+  "title": "Regina",
+  "name": "Riveria Ljos Alf",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2550,
+  "mp": 304,
+  "str": 336,
+  "end": 329,
+  "dex": 733,
+  "agi": 832,
+  "mag": 1541,
+  "ascension": {
+    "hp": 3675,
+    "mp": 384,
+    "str": 387,
+    "end": 490,
+    "dex": 812,
+    "agi": 911,
+    "mag": 1876,
+    "combinationSkills": [
+      { "name": "Magic Blast", "description": "[Foes] Non-Elem. M.Attack activates aft. S.A Combos by 2+ Ascension-unlocked Units w/same Comb. Attack. ※ Can be Units of same character." },
+      { "name": "Top Familia Executives", "description": "[Foes] Non-Elem. P.Attack activates aft. S.A Combos by 2+ Ascension upgraded(x3+) Units w/same Comb. Attack. ※ Cannot be Units of same character." }
+    ]
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Flowing Currency", "description": "[Foe] Ultra Water M.Attack Dmg.+60% per each [Self] Mag. Buff Skill" },
+    { "name": "Water Cloak", "description": "[Foe] Lo Water M.Attack & [Allies] Mag. and Water Attack Dmg.+40%/3 turns" },
+    { "name": "Whelming Water", "description": "[Foe] Hi Water M.Attack w/Hi Penetration Rate & removes Str. Buff exc. Assist Skills" },
+    { "name": "Swelling Wave", "description": "[Foe] Super Water M.Attack w/Hi Unguard Rate & Dmg. received (Attack Type: Single Target)+20%/3 turns" }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Water", "description": "When countering and attacking, regular M.Attack a Foe with Water Element." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Aqua Killer", "description": "Ability Pt.+50% toward Aqua", "nemesis": "Aqua" }
+  ],
+  "thumbnail": "riveria.ljos.alf-regina-thumb.png",
+  "image": "riveria.ljos.alf-regina-full.png"
+}

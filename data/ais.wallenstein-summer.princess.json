@@ -8,23 +8,32 @@
   "rarity": 4,
   "hp": 2648,
   "mp": 187,
-  "str": 1480,
-  "end": 438,
-  "dex": 541,
-  "agi": 794,
+  "str": 1544,
+  "end": 478,
+  "dex": 590,
+  "agi": 866,
   "mag": 328,
+  "ascension": {
+    "hp": 3823,
+    "mp": 257,
+    "str": 1894,
+    "end": 658,
+    "dex": 665,
+    "agi": 949,
+    "mag": 378
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Tidal Lil Rafaga", "description": "[Foes] Ultra Water P.Attack w/temp Str. Boost" },
     { "name": "Aqua Blade", "description": "[Foes] Mid Water P.Attack & removes all Str. Buffs exc Assist Skills", "mp": 25 },
     { "name": "Cobalt Edge", "description": "[Foes] Hi Water P.Attack w/temp Str. Boost & [Foes] Status Buff -1 turn", "mp": 34 },
-    { "name": "Aqua Bite", "description": "[Foes] Mid Water P.Attack w/temp Str. Boost & [Foes] P.Resist-15%/3 turns", "mp": 27 }
+    { "name": "Aqua Bite", "description": "[Foes] Mid Water P.Attack w/temp Str. Boost & [Foes] P.Resist-25%/2 turns", "mp": 25 }
   ],
   "passiveSkills": [
-    { "name": "Sword Fighter", "description": "Str.+15%" },
+    { "name": "Will of Water", "description": "When countering and attacking, regular P.Attack a Foe with Water Element." },
     { "name": "Strike", "description": "Critical Damage+10%" },
     { "name": "Fire Resistance", "description": "Fire Resist+35%" },
-    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Martial Arts", "description": "Str. & End. & Agi. & Dex.+20%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
   "thumbnail": "ais.wallenstein-summer.princess-thumb.png",

@@ -8,22 +8,31 @@
   "hp": 2472,
   "mp": 220,
   "str": 903,
-  "end": 410,
-  "dex": 680,
-  "agi": 497,
-  "mag": 1173,
+  "end": 447,
+  "dex": 742,
+  "agi": 542,
+  "mag": 1275,
+  "ascension": {
+    "hp": 3622,
+    "mp": 320,
+    "str": 1040,
+    "end": 615,
+    "dex": 837,
+    "agi": 567,
+    "mag": 1585
+  },
   "combatSkills": [
     { "specialArts": true,
-      "name": "Shining Halation", "description": "[Allies] Hi Heal & Ailment Cure" },
-    { "name": "Flooding Water", "description": "[Foes] Mid Water M.Attack w/Water Resist & Agi.-30%/3 turns", "mp": 44 },
-    { "name": "Clear Water Potion", "description": "[Allies] 15% HP Regen/3 turns & Water Attack+35%/3 turns", "mp": 38 },
-    { "name": "Cure Stream Potion", "description": "[Allies] Mid Heal & Remove Curse", "mp": 35 }
+      "name": "Shining Halation", "description": "[Allies] Hi HP Heal & Ailment Cure w/Water Attack Dmg.+65%/1 turn" },
+    { "name": "Flooding Water", "description": "[Foes] Mid Water M.Attack w/Water Resist & Agi.-30%/3 turns", "mp": 29 },
+    { "name": "Clear Water Potion", "description": "[Allies] 25% HP Regen/3 turns & Water Attack Dmg.+35%/3 turns", "mp": 23 },
+    { "name": "Cure Stream Potion", "description": "[Allies] Mid HP Heal & Remove Curse", "mp": 27 }
   ],
   "passiveSkills": [
-    { "name": "Mind's Eye", "description": "Mag.+15%" },
+    { "name": "Mind's Eye", "description": "Mag.+25%" },
     { "name": "Strike", "description": "Critical Damage+10%" },
     { "name": "Fire Resistance", "description": "Fire Resist+35%" },
-    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+20%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
   "thumbnail": "amid.teasanare-beach.saint-thumb.png",

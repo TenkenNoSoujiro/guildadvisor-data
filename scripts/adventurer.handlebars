@@ -20,7 +20,10 @@
     "end": {{end_ascended}},
     "dex": {{dex_ascended}},
     "agi": {{agi_ascended}},
-    "mag": {{mag_ascended}}
+    "mag": {{mag_ascended}}{{#if combinationSkills}},
+    "combinationSkills": [{{#each combinationSkills}}
+      { "name": "{{name}}", "description": "{{description}}" }{{#unless @last}},{{/unless}}{{/each}}
+    ]{{/if}}
   },{{/if}}
   "combatSkills": [
     { "specialArts": true,

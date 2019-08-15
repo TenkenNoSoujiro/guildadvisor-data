@@ -1,5 +1,4 @@
 { "id": "argonaut-clown",
-  "new": true,
   "title": "Clown",
   "name": "Argonaut",
   "kind": "adventurer",
@@ -20,7 +19,11 @@
     "end": 519,
     "dex": 569,
     "agi": 877,
-    "mag": 316
+    "mag": 316,
+    "combinationSkills": [
+      { "name": "Pound", "description": "[Foes] Non-Elem. P.Attack activates aft. S.A Combos by 2+ Ascension-unlocked Units w/same Comb. Attack. ※ Can be Units of same character." },
+      { "name": "Ancient Bond", "description": "[Foes] Non-Elem. P.Attack activates aft. S.A Combos by 2+ Ascension upgraded(x3+) Units w/same Comb. Attack. ※ Cannot be Units of same character." }
+    ]
   },
   "combatSkills": [
     { "specialArts": true,

@@ -1,0 +1,44 @@
+{ "id": "yamato.mikoto-kunoichi",
+  "banner": "Secret Game: Ace",
+  "title": "Kunoichi",
+  "name": "Yamato Mikoto",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2566,
+  "mp": 300,
+  "str": 336,
+  "end": 330,
+  "dex": 660,
+  "agi": 931,
+  "mag": 1515,
+  "ascension": {
+    "hp": 3691,
+    "mp": 380,
+    "str": 387,
+    "end": 491,
+    "dex": 739,
+    "agi": 1010,
+    "mag": 1850,
+    "combinationSkills": [
+      { "name": "Magic Blast", "description": "[Foes] Non-Elem. M.Attack activates aft. S.A Combos by 2+ Ascension-unlocked Units w/same Comb. Attack. ※ Can be Units of same character." }
+    ]
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Counter Water Strike", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost & [Allies] Null P.Attack x1 exc. Special Arts" },
+    { "name": "Misty Moon", "description": "[Foes] Lo Water M.Attack w/Hi Uncounter Rate & [Self] Mag.+80%/5 turns" },
+    { "name": "Verdant Gale", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost & Ultra Critical Rate" },
+    { "name": "Seven Siege", "description": "[Foes] Super Water M.Attack w/Hi Uncounter Rate & [Self] Null P.Attack x1 exc. Special Arts" }
+  ],
+  "passiveSkills": [
+    { "name": "Bravery", "description": "When countering, regular attack a Foe & HP Heal 50% of Dmg." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Aqua Killer", "description": "Ability Pt.+50% toward Aqua", "nemesis": "Aqua" }
+  ],
+  "thumbnail": "yamato.mikoto-kunoichi-thumb.png",
+  "image": "yamato.mikoto-kunoichi-full.png"
+}
