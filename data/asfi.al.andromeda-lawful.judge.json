@@ -1,0 +1,24 @@
+{ "id": "asfi.al.andromeda-lawful.judge",
+  "banner": "Dungeon Rogue Town: Thief",
+  "title": "Lawful Judge",
+  "name": "Asfi Al Andromeda",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1124,
+  "mp": 158,
+  "str": 405,
+  "end": 381,
+  "dex": 334,
+  "agi": 214,
+  "mag": 405,
+  "skill": {
+    "name": "Secrets of Trading",
+    "descriptions": [
+      "[Allies] Str. & Mag. & Agi. & Dex.+8% w/Stun Resist+75%",
+      "[Allies] Str. & Mag. & Agi. & Dex.+10% w/Stun Resist+100%"
+    ]
+  },
+  "thumbnail": "asfi.al.andromeda-lawful.judge-thumb.png",
+  "image": "asfi.al.andromeda-lawful.judge-full.png"
+}
