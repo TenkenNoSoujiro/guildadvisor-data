@@ -1,0 +1,41 @@
+{ "id": "amid.teasanare-temporary.healer",
+  "banner": "Dungeon Rogue Town: Rogue",
+  "title": "Temporary Healer",
+  "name": "Amid Teasanare",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2342,
+  "mp": 265,
+  "str": 903,
+  "end": 377,
+  "dex": 602,
+  "agi": 988,
+  "mag": 1379,
+  "ascension": {
+    "hp": 3492,
+    "mp": 365,
+    "str": 1040,
+    "end": 545,
+    "dex": 697,
+    "agi": 1013,
+    "mag": 1689
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Purifying Storm", "description": "[Foes] Ultra Wind M.Attack w/temp Mag. Boost & M.Resist and Wind Resist-35%/1 turn" },
+    { "name": "Sibilant Growth ", "description": "[Foe] Slow Hi Wind M.Attack & [Allies] Remove Curse & Ailment Cure", "mp": 34 },
+    { "name": "Vivify ", "description": "[Allies] 30% HP Regen & P.Resist and M.Resist+30%/3 turns", "mp": 28 },
+    { "name": "Torpor Wind ", "description": "[Foes] Fast Lo Wind M.Attack w/Str. & Mag. & Agi.-30%/2 turns", "mp": 34 }
+  ],
+  "passiveSkills": [
+    { "name": "Encouragement", "description": "When countering, instead of attacking regularly, it (Lo) Heals an Ally. Prioritizes an Ally with lower percentage HP." },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Earth Resistance", "description": "Earth Resist+35%" },
+    { "name": "Forestall", "description": "Mag. & Agi.+40%" },
+    { "name": "Status Resist", "description": "Ailment Resist+30%" }
+  ],
+  "thumbnail": "amid.teasanare-temporary.healer-thumb.png",
+  "image": "amid.teasanare-temporary.healer-full.png"
+}
