@@ -1,0 +1,24 @@
+{ "id": "lunor.faust-dungeon.waitress",
+  "banner": "Dungeon Rogue Town: Rogue",
+  "title": "Dungeon Waitress",
+  "name": "Lunor Faust",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 826,
+  "mp": 197,
+  "str": 377,
+  "end": 233,
+  "dex": 500,
+  "agi": 343,
+  "mag": 377,
+  "skill": {
+    "name": "Drinks of Orario",
+    "descriptions": [
+      "[Foes] 35% Stun x2 Chances",
+      "[Foes] 45% Stun x2 Chances"
+    ]
+  },
+  "thumbnail": "lunor.faust-dungeon.waitress-thumb.png",
+  "image": "lunor.faust-dungeon.waitress-full.png"
+}
