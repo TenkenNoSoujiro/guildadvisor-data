@@ -1,0 +1,41 @@
+{ "id": "samira-crushing.fighter",
+  "banner": "Anime",
+  "title": "Crushing Fighter",
+  "name": "Samira",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2714,
+  "mp": 183,
+  "str": 1561,
+  "end": 386,
+  "dex": 731,
+  "agi": 925,
+  "mag": 318,
+  "ascension": {
+    "hp": 3889,
+    "mp": 253,
+    "str": 1911,
+    "end": 566,
+    "dex": 806,
+    "agi": 1008,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Critical Savaging", "description": "[Foes] Ultra Thunder P.Attack w/temp Str. Boost & Hi Critical Rate" },
+    { "name": "Feral Bash", "description": "[Foes] Mid Thunder P.Attack & 25% Seal", "mp": 20 },
+    { "name": "Battle Trance", "description": "[Foes] Fast Hi Thunder P.Attack & [Allies] Str.+25%/3 turns", "mp": 29 },
+    { "name": "Wild Strike", "description": "[Foes] Fast Lo Thunder P.Attack & P.Resist-25%/3 turns", "mp": 22 }
+  ],
+  "passiveSkills": [
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Healing Power", "description": "8% HP Regen/turn" }
+  ],
+  "thumbnail": "samira-crushing.fighter-thumb.png",
+  "image": "samira-crushing.fighter-full.png"
+}
