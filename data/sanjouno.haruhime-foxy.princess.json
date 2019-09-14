@@ -1,0 +1,41 @@
+{ "id": "sanjouno.haruhime-foxy.princess",
+  "banner": "Anime",
+  "title": "Foxy Princess",
+  "name": "Sanjouno Haruhime",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2290,
+  "mp": 278,
+  "str": 903,
+  "end": 346,
+  "dex": 753,
+  "agi": 813,
+  "mag": 1337,
+  "ascension": {
+    "hp": 3440,
+    "mp": 378,
+    "str": 1040,
+    "end": 514,
+    "dex": 848,
+    "agi": 838,
+    "mag": 1647
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Uchide no Kozuchi", "description": "[Allies] Ultra HP Heal w/40% HP Regen & Str. and Mag.+100%/3 turns" },
+    { "name": "Akane", "description": "[Foes] Fast Mid Fire M.Attack & Str. and Mag.-40%/3 turns", "mp": 34 },
+    { "name": "Shiika", "description": "[Self] 15% MP Heal & [Allies] Counter Rate and Penetration Rate+30%/3 turns", "mp": 12 },
+    { "name": "Yosuga", "description": "[Allies] 30% HP Heal & [Allies] Status Buff and [Foes] Status Debuff+2 turns", "mp": 141 }
+  ],
+  "passiveSkills": [
+    { "name": "Encouragement", "description": "When countering, instead of attacking regularly, it (Lo) Heals an Ally. Prioritizes an Ally with lower percentage HP." },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Wind Resistance: I", "description": "Wind Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Bloom", "description": "4% HP & MP Regen/turn" }
+  ],
+  "thumbnail": "sanjouno.haruhime-foxy.princess-thumb.png",
+  "image": "sanjouno.haruhime-foxy.princess-full.png"
+}
