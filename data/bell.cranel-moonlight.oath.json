@@ -8,24 +8,33 @@
   "rarity": 4,
   "hp": 2516,
   "mp": 194,
-  "str": 1542,
-  "end": 421,
-  "dex": 534,
-  "agi": 820,
-  "mag": 360,
+  "str": 1606,
+  "end": 440,
+  "dex": 558,
+  "agi": 857,
+  "mag": 377,
+  "ascension": {
+    "hp": 3691,
+    "mp": 264,
+    "str": 1956,
+    "end": 620,
+    "dex": 633,
+    "agi": 940,
+    "mag": 427
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Sworn Strike", "description": "[Foes] Ultra Light P.Attack w/temp Str. Boost & Ultra Unguard Rate" },
-    { "name": "True Strike", "description": "[Foe] Fast Hi Light P.Attack w/Ultra Penetration Rate" },
-    { "name": "Glorious Aim", "description": "[Foes] Hi Light P.Attack w/temp Str. Boost & 20% Stun" },
-    { "name": "Bright Fatality", "description": "[Foes] Mid Light P.Attack w/temp Str. Boost & [Allies] M.Resist+20%/3 turns" }
+    { "name": "True Strike", "description": "[Foe] Fast Hi Light P.Attack w/Ultra Penetration Rate", "mp": 27 },
+    { "name": "Glorious Aim", "description": "[Foes] Hi Light P.Attack w/temp Str. Boost & 20% Stun", "mp": 29 },
+    { "name": "Bright Fatality", "description": "[Foes] Mid Light P.Attack w/temp Str. Boost & [Allies] P.Resist and M.Resist+20%/3 turns", "mp": 38 }
   ],
   "passiveSkills": [
     { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },
     { "name": "Courageous", "description": "Str.+10%" },
     { "name": "Dark Resistance", "description": "Dark Resist+35%" },
     { "name": "Ox Slayer", "description": "Ability Pt.+100% towards Ox", "nemesis": "Ox" },
-    { "name": "Luck", "description": "All Status+10%" }
+    { "name": "Luck", "description": "All Status+15%" }
   ],
   "thumbnail": "bell.cranel-moonlight.oath-thumb.png",
   "image": "bell.cranel-moonlight.oath-full.png"

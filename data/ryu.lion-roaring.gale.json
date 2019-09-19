@@ -13,12 +13,21 @@
   "dex": 692,
   "agi": 550,
   "mag": 981,
+  "ascension": {
+    "hp": 3652,
+    "mp": 315,
+    "str": 1426,
+    "end": 515,
+    "dex": 787,
+    "agi": 575,
+    "mag": 1130
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Zephyrus Dawnbringer", "description": "[Foes] Ultra Light P.Attack w/30% Seal" },
-    { "name": "Flashing", "description": "[Foes] Fast Lo Light P.Attack w/Str. & Mag.-35%/2 turns" },
-    { "name": "Oppression", "description": "[Foes] Hi Light P.Attack & Status Debuff +1 turns" },
-    { "name": "Against Bane", "description": "[Foe] Hi Light P.Attack w/temp Str. Boost" }
+    { "name": "Flashing", "description": "[Foes] Fast Lo Light P.Attack w/Str. & Mag.-35%/2 turns", "mp": 37 },
+    { "name": "Oppression", "description": "[Foes] Hi Light P.Attack & Status Debuff +1 turns", "mp": 29 },
+    { "name": "Against Bane", "description": "[Foe] Hi Light P.Attack w/temp Str. Boost", "mp": 24 }
   ],
   "passiveSkills": [
     { "name": "Transcendence", "description": "When countering, instead of attacking regularly, it decreases Foe's Str. & Mag. by 45% for 2 turns." },

@@ -7,23 +7,32 @@
   "rarity": 4,
   "hp": 2612,
   "mp": 196,
-  "str": 1580,
+  "str": 1643,
   "end": 377,
-  "dex": 700,
+  "dex": 728,
   "agi": 699,
   "mag": 328,
+  "ascension": {
+    "hp": 3787,
+    "mp": 266,
+    "str": 1993,
+    "end": 557,
+    "dex": 803,
+    "agi": 782,
+    "mag": 378
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Lightning Strike", "description": "[Foes] Ultra Thunder P.Attack w/temp Str. Boost & 35% Stun" },
-    { "name": "Slash of Light", "description": "[Foes] Super Thunder P.Attack w/Ultra Unguard Rate & 25% Taunt" },
-    { "name": "Tumultuous Zoom", "description": "[Foes] Lo Thunder P.Attack & removes all HP Regen & Dmg. Reduction(Attack: All Targets) exc. Assist Skills" },
-    { "name": "Bolt of Destruction", "description": "[Foe] Hi Thunder P.Attack w/temp Str. Boost & Ultra Unguard Rate " }
+    { "name": "Slash of Light", "description": "[Foes] Super Thunder P.Attack w/Ultra Unguard Rate & 25% Taunt", "mp": 44 },
+    { "name": "Tumultuous Zoom", "description": "[Foes] Hi Thunder P.Attack & removes all HP Regen & Dmg. Reduction (Attack Type: All Targets) exc. Assist Skills", "mp": 39 },
+    { "name": "Bolt of Destruction", "description": "[Foe] Hi Thunder P.Attack w/temp Str. Boost & Ultra Unguard Rate", "mp": 27 }
   ],
   "passiveSkills": [
     { "name": "Resilience", "description": "When countering, regular attack a Foe with Ultra Unguard Rate" },
     { "name": "Counter-attack", "description": "Counter Damage+50%" },
     { "name": "Water Resistance", "description": "Water Resist+35%" },
-    { "name": "Battle Arts", "description": "Str. & Dex.+25%" },
+    { "name": "Battle Arts", "description": "Str. & Dex.+30%" },
     { "name": "Insect Killer", "description": "Ability Pt.+50% towards Insects", "nemesis": "Insects" }
   ],
   "thumbnail": "ottarl-mighty.king-thumb.png",

@@ -7,23 +7,32 @@
   "rarity": 4,
   "hp": 2468,
   "mp": 221,
-  "str": 1101,
+  "str": 1193,
   "end": 354,
   "dex": 702,
-  "agi": 603,
+  "agi": 653,
   "mag": 981,
+  "ascension": {
+    "hp": 3668,
+    "mp": 311,
+    "str": 1518,
+    "end": 522,
+    "dex": 797,
+    "agi": 678,
+    "mag": 1130
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Ascending Knives", "description": "[Foes] Ultra Thunder P.Attack w/P.Resist & M.Resist-25%/2 turns" },
-    { "name": "Magnetic Maze", "description": "[Foes] Mid Thunder P.Attack w/Counter Rate & Heal-35%/3 turns" },
-    { "name": "Phase Shift", "description": "[Foes] Hi Thunder P.Attack w/Hi Uncounter Rate & [Allies] 35% Chance Null M.Attack x1 exc. Special Arts" },
+    { "name": "Magnetic Maze", "description": "[Foes] Mid Thunder P.Attack w/Counter Rate & Heal-35%/3 turns", "mp": 27 },
+    { "name": "Phase Shift", "description": "[Foes] Hi Thunder P.Attack w/Hi Uncounter Rate & [Allies] 50% Chance Null M.Attack x1 exc. Special Arts", "mp": 41 },
     { "name": "Thunder Crash", "description": "[Foe] Mid Thunder P.Attack Dmg.+60% per each Target's Heal Reduction Skill" }
   ],
   "passiveSkills": [
     { "name": "Mystery", "description": "Dex.+15%" },
     { "name": "Solid", "description": "Guard+30%" },
     { "name": "Water Resistance", "description": "Water Resist+35%" },
-    { "name": "Nimble", "description": "Str. & Agi.+20%" },
+    { "name": "Nimble", "description": "Str. & Agi.+30%" },
     { "name": "Insect Killer", "description": "Ability Pt.+50% towards Insects", "nemesis": "Insects" }
   ],
   "thumbnail": "asfi.al.andromeda-thunderous.perseus-thumb.png",

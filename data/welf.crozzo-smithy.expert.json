@@ -11,17 +11,26 @@
   "str": 903,
   "end": 360,
   "dex": 624,
-  "agi": 558,
-  "mag": 1218,
+  "agi": 581,
+  "mag": 1268,
+  "ascension": {
+    "hp": 3582,
+    "mp": 330,
+    "str": 1040,
+    "end": 528,
+    "dex": 719,
+    "agi": 606,
+    "mag": 1578
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Thousand Flames", "description": "[Foes] Ultra Fire M.Attack w/temp. Mag. Boost" },
-    { "name": "Name of the Flame", "description": "[Allies] Guard Rate+40%/2 turns & [Foes] Penetration Rate-40%/2 turns" },
-    { "name": "The art of Forging", "description": "[Allies] Avoids K.O. x1 only when HP≥10% (removed when HP<10%)" },
-    { "name": "Spark Hammer", "description": "[Foes] Hi Fire M.Attack w/temp Mag. Boost" }
+    { "name": "Name of the Flame", "description": "[Allies] Guard Rate+40%/2 turns & [Foes] Penetration Rate-40%/2 turns", "mp": 36 },
+    { "name": "The Art of Forging", "description": "[Allies] Avoids K.O. x1 only when HP≥10% (removed when HP<10%)" },
+    { "name": "Spark Hammer", "description": "[Foes] Hi Fire M.Attack w/temp Mag. Boost", "mp": 29 }
   ],
   "passiveSkills": [
-    { "name": "Forestall", "description": "Mag. & Agi.+20%" },
+    { "name": "Forestall", "description": "Mag. & Agi.+25%" },
     { "name": "Solid", "description": "Guard+30%" },
     { "name": "Wind Resistance", "description": "Wind Resist+35%" },
     { "name": "Spirit Healing", "description": "5% MP Regen/turn" },

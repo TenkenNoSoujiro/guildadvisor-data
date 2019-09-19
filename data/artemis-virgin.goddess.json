@@ -8,23 +8,32 @@
   "rarity": 4,
   "hp": 2516,
   "mp": 209,
-  "str": 1135,
+  "str": 1182,
   "end": 353,
-  "dex": 735,
+  "dex": 766,
   "agi": 545,
   "mag": 981,
+  "ascension": {
+    "hp": 3716,
+    "mp": 299,
+    "str": 1507,
+    "end": 521,
+    "dex": 861,
+    "agi": 570,
+    "mag": 1130
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Cascading Glint Arrow", "description": "[Foes] Ultra Light P.Attack w/Ultra Penetration Rate" },
-    { "name": "Lighting Fletcher", "description": "[Foes] Hi Light P.Attack w/temp Str. Boost & Ultra Unguard Rate" },
+    { "name": "Lighting Fletcher", "description": "[Foes] Hi Light P.Attack w/temp Str. Boost & Ultra Unguard Rate", "mp": 29 },
     { "name": "Stoicism", "description": "[Foes] Fast Lo Light P.Attack & Removes all Mag. Buffs exc. Assist Skills" },
-    { "name": "Pristine Presence", "description": "[Allies] Str.+35% & Counter Rate+20%/4 turns" }
+    { "name": "Pristine Presence", "description": "[Allies] Str.+35% & Counter Rate+20%/4 turns", "mp": 31 }
   ],
   "passiveSkills": [
     { "name": "Hunter", "description": "Agi.+15%" },
     { "name": "Strike", "description": "Critical Damage+10%" },
     { "name": "Dark Resistance", "description": "Dark Resist+35%" },
-    { "name": "Battle Arts", "description": "Str. & Dex.+20%" },
+    { "name": "Battle Arts", "description": "Str. & Dex.+25%" },
     { "name": "Insect Killer", "description": "Ability Pt.+50% towards Insects", "nemesis": "Insects" }
   ],
   "thumbnail": "artemis-virgin.goddess-thumb.png",

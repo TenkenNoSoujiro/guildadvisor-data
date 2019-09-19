@@ -13,18 +13,27 @@
   "dex": 587,
   "agi": 807,
   "mag": 328,
+  "ascension": {
+    "hp": 3799,
+    "mp": 263,
+    "str": 1828,
+    "end": 581,
+    "dex": 662,
+    "agi": 890,
+    "mag": 378
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Lightning Arcbolt", "description": "[Foe] Ultra Thunder P.Attack w/temp. Str. Boost & Ultra Penetration Rate" },
-    { "name": "Conductivity", "description": "[Foe] Hi Thunder P.Attack w/temp Str. Boost & Dmg. received (Attack Type: Single Target)+15%/4 turns" },
-    { "name": "Enhanced Lightning", "description": "[Foe] Hi Thunder P.Attack w/temp Str. Boost & [Allies] Thunder Attack Dmg.+20%/3 turns" },
-    { "name": "Loaded Lightning", "description": "[Foe] Lo Thunder P.Attack & [Self] Str.+75%/4 turns" }
+    { "name": "Conductivity", "description": "[Foe] Hi Thunder P.Attack w/temp Str. Boost & Dmg. received (Attack Type: Single Target)+15%/4 turns", "mp": 27 },
+    { "name": "Enhanced Lightning", "description": "[Foe] Hi Thunder P.Attack w/temp Str. Boost & [Allies] Thunder Attack Dmg.+20%/3 turns", "mp": 37 },
+    { "name": "Loaded Lightning", "description": "[Foe] Lo Thunder P.Attack & [Self] Str.+80%/4 turns", "mp": 25 }
   ],
   "passiveSkills": [
-    { "name": "Courageous", "description": "Str.+15%" },
+    { "name": "Will of Thunder", "description": "When countering and attacking, regular P.Attack a Foe with Thunder Element." },
     { "name": "Strike", "description": "Critical Damage+20%" },
     { "name": "Water Resistance", "description": "Water Resist+35%" },
-    { "name": "Concentrate", "description": "Agi. & Dex.+15%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+15%" },
     { "name": "Worm Killer", "description": "Ability Pt.+50% toward Worm", "nemesis": "Worm" }
   ],
   "thumbnail": "liliruca.arde-echoing.arrow-thumb.png",

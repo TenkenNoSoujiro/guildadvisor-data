@@ -15,8 +15,8 @@
   "skill": {
     "name": "Holy Bowstring",
     "descriptions": [
-      "[Self] Str.+15% & [Allies] Str.+10% (effect does not apply to [Self])",
-      "[Self] Str.+20% & [Allies] Str.+15% (effect does not apply to [Self])"
+      "[Self] Str. and M.Resist+15% & [Allies] Str.+10% (effect does not apply to [Self])",
+      "[Self] Str. and M.Resist+20% & [Allies] Str.+15% (effect does not apply to [Self])"
     ]
   },
   "thumbnail": "artemis-innocent.goddess-thumb.png",
