@@ -1,0 +1,41 @@
+{ "id": "bell.cranel-the.enlightened",
+  "banner": "Nightmare Academia: Dream",
+  "title": "The Enlightened",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2394,
+  "mp": 237,
+  "str": 420,
+  "end": 412,
+  "dex": 622,
+  "agi": 968,
+  "mag": 1515,
+  "ascension": {
+    "hp": 3519,
+    "mp": 317,
+    "str": 471,
+    "end": 573,
+    "dex": 701,
+    "agi": 1047,
+    "mag": 1850
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Meteorite", "description": "[Foes] Ultra Dark M.Attack w/temp Mag. Boost & Dark Resist-50%/1 turn" },
+    { "name": "Split Shadow", "description": "[Foes] Lo Dark M.Attack w/Ultra Uncounter Rate & [Self] Mag. And Dark Attack Dmg.+60%/3 turns", "mp": 39 },
+    { "name": "Flight Void", "description": "[Foes] Fast Hi Dark M.Attack & [Allies]  50% Null P.Attack x1 exc. Special Arts", "mp": 49 },
+    { "name": "Dark Stinger", "description": "[Foe] Hi Dark M.Attack w/Ultra Unguard Rate w/temp Mag. Boost", "mp": 31 }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm." },
+    { "name": "Will of Darkness", "description": "When countering and attacking, regular M.Attack a Foe with Dark Element" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Luck", "description": "All Status+25%" },
+    { "name": "Fantasma Killer", "description": "Ability Pt.+50% toward ghost", "nemesis": "ghost" }
+  ],
+  "thumbnail": "bell.cranel-the.enlightened-thumb.png",
+  "image": "bell.cranel-the.enlightened-full.png"
+}
