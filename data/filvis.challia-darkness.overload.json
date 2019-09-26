@@ -1,0 +1,41 @@
+{ "id": "filvis.challia-darkness.overload",
+  "banner": "Nightmare Academia: Fantasy",
+  "title": "Darkness Overload",
+  "name": "Filvis Challia",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2422,
+  "mp": 336,
+  "str": 336,
+  "end": 333,
+  "dex": 677,
+  "agi": 830,
+  "mag": 1595,
+  "ascension": {
+    "hp": 3547,
+    "mp": 416,
+    "str": 387,
+    "end": 494,
+    "dex": 756,
+    "agi": 909,
+    "mag": 1930
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Reality Distortion", "description": "[Foe] Ultra Dark M.Attack w/Ultra Critical Rate+80% per each [Self] Mag. Buff Skill" },
+    { "name": "Insanity Genesis", "description": "[Foe] Mid Dark M.Attack & [Self] Mag. And Dark Attack Dmg.+60%/3 turns", "mp": 35 },
+    { "name": "Coarse Gaze", "description": "[Foe] Hi Dark M.Attack w/Hi Penetration Rate & Dmg. Received (Attack Type: Single Target)+20%/3 turns", "mp": 28 },
+    { "name": "Vile Intimation", "description": "[Foe] Super Dark M.Attack w/Hi Critical Rate+40% per each [Self] Mag. Buff Skill", "mp": 182 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Darkness", "description": "When countering and attacking, regular M.Attack a Foe with Dark Element" },
+    { "name": "Spirit Healing", "description": "10% MP Regen/turn" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Fantasma Killer", "description": "Ability Pt.+50% toward ghost", "nemesis": "ghost" }
+  ],
+  "thumbnail": "filvis.challia-darkness.overload-thumb.png",
+  "image": "filvis.challia-darkness.overload-full.png"
+}
