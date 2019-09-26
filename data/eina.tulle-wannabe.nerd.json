@@ -1,0 +1,24 @@
+{ "id": "eina.tulle-wannabe.nerd",
+  "banner": "Nightmare Academia: Fantasy",
+  "title": "Wannabe Nerd",
+  "name": "Eina Tulle",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 838,
+  "mp": 194,
+  "str": 208,
+  "end": 213,
+  "dex": 402,
+  "agi": 326,
+  "mag": 623,
+  "skill": {
+    "name": "Elitist",
+    "descriptions": [
+      "[Foes] Str., Mag., Counter Rate and Heal-10%",
+      "[Foes] Str., Mag., Counter Rate and Heal-15%"
+    ]
+  },
+  "thumbnail": "eina.tulle-wannabe.nerd-thumb.png",
+  "image": "eina.tulle-wannabe.nerd-full.png"
+}

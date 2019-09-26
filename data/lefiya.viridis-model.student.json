@@ -1,0 +1,41 @@
+{ "id": "lefiya.viridis-model.student",
+  "banner": "Nightmare Academia: Fantasy",
+  "title": "Model Student",
+  "name": "Lefiya Viridis",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2502,
+  "mp": 316,
+  "str": 336,
+  "end": 330,
+  "dex": 623,
+  "agi": 886,
+  "mag": 1596,
+  "ascension": {
+    "hp": 3627,
+    "mp": 396,
+    "str": 387,
+    "end": 491,
+    "dex": 702,
+    "agi": 965,
+    "mag": 1931
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Dazzling Cluster", "description": "[Foes] Ultra Earth M.Attack w/temp Mag. Boost & Earth Resist-50%/1 turn" },
+    { "name": "Stone Rage", "description": "[Foes] Lo Earth M.Attack & [Self] Mag. And Earth Attack Dmg.+60%/3 turns", "mp": 34 },
+    { "name": "Sediment Impact", "description": "[Foes] Fast Mid Earth M.Attack w/Ultra Critical Rate & [Allies] Status Debuff-2 turns", "mp": 39 },
+    { "name": "Fissure Heart", "description": "[Foe] Hi Earth M.Attack w/temp Mag. Boost & Ultra Critical Rate", "mp": 31 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Earth", "description": "When countering and attacking, regular M.Attack a Foe with Earth Element" },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Thunder Resistance", "description": "Thunder Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Fantasma Killer", "description": "Ability Pt.+50% toward ghost", "nemesis": "ghost" }
+  ],
+  "thumbnail": "lefiya.viridis-model.student-thumb.png",
+  "image": "lefiya.viridis-model.student-full.png"
+}
