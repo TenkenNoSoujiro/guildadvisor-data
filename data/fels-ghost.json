@@ -1,0 +1,24 @@
+{ "id": "fels-ghost",
+  "banner": "Nightmare Academia: Dream",
+  "title": "Ghost",
+  "name": "Fels",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 854,
+  "mp": 190,
+  "str": 208,
+  "end": 210,
+  "dex": 341,
+  "agi": 362,
+  "mag": 651,
+  "skill": {
+    "name": "Ghost's Guidance",
+    "descriptions": [
+      "[Allies] Mag.+15% w/Dark & Earth Attack Damage+10%",
+      "[Allies] Mag.+20% w/Dark & Earth Attack Damage+15%"
+    ]
+  },
+  "thumbnail": "fels-ghost-thumb.png",
+  "image": "fels-ghost-full.png"
+}

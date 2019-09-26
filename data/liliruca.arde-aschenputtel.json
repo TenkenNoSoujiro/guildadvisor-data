@@ -1,0 +1,41 @@
+{ "id": "liliruca.arde-aschenputtel",
+  "banner": "Nightmare Academia: Dream",
+  "title": "Aschenputtel",
+  "name": "Liliruca Arde",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2506,
+  "mp": 315,
+  "str": 336,
+  "end": 330,
+  "dex": 626,
+  "agi": 1008,
+  "mag": 1471,
+  "ascension": {
+    "hp": 3631,
+    "mp": 395,
+    "str": 387,
+    "end": 491,
+    "dex": 705,
+    "agi": 1087,
+    "mag": 1806
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Crystal Barrage", "description": "[Foes] Ultra Earth M.Attack w/temp Mag. Boost & Agi. And Dex.-50%/1 turn" },
+    { "name": "Cloven Chain", "description": "[Foes] Fast Lo Earth M.Attack & [Allies] Mag. And Earth Attack Dmg.+30%/3 turns", "mp": 37 },
+    { "name": "Fragment Release", "description": "[Foes] Mid Earth M.Attack w/Ultra Penetration Rate & Status Buff-2 turns", "mp": 34 },
+    { "name": "Division Spike", "description": "[Foe] Hi Earth M.Attack w/temp Mag. Boost & Ultra Penetration Rate", "mp": 31 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Earth", "description": "When countering and attacking, regular M.Attack a Foe with Earth Element" },
+    { "name": "Piercing Strike", "description": "Damage+10% upon Penetration" },
+    { "name": "Thunder Resistance", "description": "Thunder Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Fantasma Killer", "description": "Ability Pt.+50% toward ghost", "nemesis": "ghost" }
+  ],
+  "thumbnail": "liliruca.arde-aschenputtel-thumb.png",
+  "image": "liliruca.arde-aschenputtel-full.png"
+}
