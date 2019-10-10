@@ -1,0 +1,41 @@
+{ "id": "ais.wallenstein-jade.princess",
+  "banner": "Bell Main Story Release",
+  "title": "Jade Princess",
+  "name": "Ais Wallenstein",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2514,
+  "mp": 233,
+  "str": 1556,
+  "end": 383,
+  "dex": 645,
+  "agi": 1020,
+  "mag": 318,
+  "ascension": {
+    "hp": 3689,
+    "mp": 303,
+    "str": 1906,
+    "end": 563,
+    "dex": 720,
+    "agi": 1103,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Celestial Steps", "description": "[Foes] Ultra Wind P.Attack w/temp Str. Boost and Ultra Unguard Rate & [Allies] Wind Attack Dmg.+65%/1 turn" },
+    { "name": "Zephyr", "description": "[Foes] Fast Mid Wind P.Attack & [Allies] Str. and Wind Attack Dmg.+25%/4 turns", "mp": 38 },
+    { "name": "Slashing Wind", "description": "[Foes] Fast Lo Wind P.Attack w/Ultra Uncounter Rate & [Allies] Removes Str. Debuffs exc. Assist Skills", "mp": 27 },
+    { "name": "Gust Charge", "description": "[Foe] Hi Wind P.Attack Dmg.+35% per each [Self] Str. Buff Skill & Hi Unguard Rate", "mp": 27 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Wind", "description": "When countering and attacking, regular P.Attack a Foe with Wind Element." },
+    { "name": "Bloom", "description": "4% HP & MP Regen/turn" },
+    { "name": "Earth Resistance", "description": "Earth Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" }
+  ],
+  "thumbnail": "ais.wallenstein-jade.princess-thumb.png",
+  "image": "ais.wallenstein-jade.princess-full.png"
+}

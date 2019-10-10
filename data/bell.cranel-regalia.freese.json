@@ -1,0 +1,41 @@
+{ "id": "bell.cranel-regalia.freese",
+  "banner": "Bell Main Story Release",
+  "title": "Regalia Freese",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2410,
+  "mp": 233,
+  "str": 1583,
+  "end": 475,
+  "dex": 652,
+  "agi": 988,
+  "mag": 397,
+  "ascension": {
+    "hp": 3585,
+    "mp": 303,
+    "str": 1933,
+    "end": 655,
+    "dex": 727,
+    "agi": 1071,
+    "mag": 447
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Storm Sprinter", "description": "[Foes] Ultra Wind P.Attack w/temp Str. Boost and Ultra Unguard Rate & Wind Resist-50%/1 turn" },
+    { "name": "Mirage Dagger", "description": "[Foes] Fast Hi Wind P.Attack & P.Resist and Wind Resist-25%/4 turns", "mp": 42 },
+    { "name": "Quick Stab", "description": "[Foes] Fast Lo Wind P.Attack w/Ultra Uncounter Rate & removes P.Resist Buffs exc. Assist Skills", "mp": 27 },
+    { "name": "Flanking Strike", "description": "[Foe] Hi Wind P.Attack Dmg.+35% per each Target's P.Resist Reduction Skill & Hi Penetration Rate", "mp": 27 }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm." },
+    { "name": "Will of Wind", "description": "When countering and attacking, regular P.Attack a Foe with Wind Element." },
+    { "name": "Earth Resistance", "description": "Earth Resist+35%" },
+    { "name": "Luck", "description": "All Status+25%" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" }
+  ],
+  "thumbnail": "bell.cranel-regalia.freese-thumb.png",
+  "image": "bell.cranel-regalia.freese-full.png"
+}
