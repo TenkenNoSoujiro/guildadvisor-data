@@ -5,7 +5,8 @@
     "start": "node scripts/unit",
     "new": "node scripts/newUnits",
     "validate": "node scripts/validate",
-    "scrape": "ts-node --project tsconfig.json scripts/scrape.ts"
+    "scrape": "ts-node --project tsconfig.json scripts/scrape.ts",
+    "build-units": "node scripts/build"
   },
   "devDependencies": {
     "@types/ajv": "^1.0.0",
