@@ -1,0 +1,24 @@
+{ "id": "ais.wallenstein-backstage.princess",
+  "banner": "New Generation Pop Stars: Elfettes",
+  "title": "Backstage Princess",
+  "name": "Ais Wallenstein",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1050,
+  "mp": 141,
+  "str": 343,
+  "end": 215,
+  "dex": 354,
+  "agi": 595,
+  "mag": 343,
+  "skill": {
+    "name": "End of the Queue",
+    "descriptions": [
+      "[Self] Str., Mag., P.Resist and M.Resist+8% & [Foes] Status Buff-2 turn",
+      "[Self] Str., Mag., P.Resist and M.Resist+10% & [Foes] Status Buff-3 turn"
+    ]
+  },
+  "thumbnail": "ais.wallenstein-backstage.princess-thumb.png",
+  "image": "ais.wallenstein-backstage.princess-full.png"
+}
