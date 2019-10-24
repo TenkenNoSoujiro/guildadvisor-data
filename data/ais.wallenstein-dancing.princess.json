@@ -1,0 +1,41 @@
+{ "id": "ais.wallenstein-dancing.princess",
+  "banner": "New Generation Pop Stars: Twilight Sisters",
+  "title": "Dancing Princess",
+  "name": "Ais Wallenstein",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2566,
+  "mp": 220,
+  "str": 1646,
+  "end": 378,
+  "dex": 701,
+  "agi": 880,
+  "mag": 318,
+  "ascension": {
+    "hp": 3741,
+    "mp": 290,
+    "str": 1996,
+    "end": 558,
+    "dex": 776,
+    "agi": 963,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Tempest On Air", "description": "[Foe] Ultra Fire P.Attack Dmg.+60% per each [Self] Str. Buff & Increase S.A Gauge Charge gain by 100%/5 turn" },
+    { "name": "Hot Wallop", "description": "[Foe] Mid Fire P.Attack & P.Resist and Fire Resist-30%/4 turns ", "mp": 24 },
+    { "name": "Tap Floor", "description": "[Foe] Hi Fire P.Attack w/Hi Unguard Rate & [Allies] P.Resist and M.Resist+30%/3 turns", "mp": 37 },
+    { "name": "Fencer Cadenza", "description": "[Foe] Super Fire P.Attack w/Hi Penetration Rate & [Allies] Str. and Fire Attack Dmg.+30%/2 turns", "mp": 44 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Fire", "description": "When countering and attacking, regular P.Attack a Foe with Fire Element." },
+    { "name": "Piercing Strike", "description": "Dmg.+20% Upon Penetration" },
+    { "name": "Wind Resistance: I", "description": "Wind Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Insect Killer", "description": "Ability Pt.+50% toward Insects", "nemesis": "Insects" }
+  ],
+  "thumbnail": "ais.wallenstein-dancing.princess-thumb.png",
+  "image": "ais.wallenstein-dancing.princess-full.png"
+}

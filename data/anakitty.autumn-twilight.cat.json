@@ -1,0 +1,41 @@
+{ "id": "anakitty.autumn-twilight.cat",
+  "banner": "New Generation Pop Stars: Twilight Sisters",
+  "title": "Twilight Cat",
+  "name": "Anakitty Autumn",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2474,
+  "mp": 243,
+  "str": 1556,
+  "end": 374,
+  "dex": 632,
+  "agi": 1043,
+  "mag": 318,
+  "ascension": {
+    "hp": 3649,
+    "mp": 313,
+    "str": 1906,
+    "end": 554,
+    "dex": 707,
+    "agi": 1126,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Finest Hour!", "description": "[Foes] Ultra Light P.Attack w/temp Str. Boost and Ultra Unguard Rate & [Allies] Critical Rate and Penetration Rate+50%/1 turn" },
+    { "name": "Spectacular", "description": "[Foes] Fast Mid Light P.Attack w/Ultra Uncounter Rate & Dmg. received (Attack Type: All and Single Targets)+20%/4 turns", "mp": 35 },
+    { "name": "Blade Rondo", "description": "[Foes] Super Light P.Attack w/Ultra Penetration Rate & [Self] Str. and Light Attack Dmg.+40%/4 turns", "mp": 57 },
+    { "name": "Edge of Celerity", "description": "[Foe] Hi Light P.Attack Dmg.+40% per each Target's skill effect that increases Dmg. received (Attack Type: Single Target)", "mp": 25 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Light", "description": "When countering and attacking, regular P.Attack a Foe with Light Element." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Insect Killer", "description": "Ability Pt.+50% toward Insects", "nemesis": "Insects" }
+  ],
+  "thumbnail": "anakitty.autumn-twilight.cat-thumb.png",
+  "image": "anakitty.autumn-twilight.cat-full.png"
+}
