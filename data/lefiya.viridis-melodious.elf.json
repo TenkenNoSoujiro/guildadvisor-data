@@ -1,0 +1,41 @@
+{ "id": "lefiya.viridis-melodious.elf",
+  "banner": "New Generation Pop Stars: Elfettes",
+  "title": "Melodious Elf",
+  "name": "Lefiya Viridis",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2438,
+  "mp": 332,
+  "str": 337,
+  "end": 330,
+  "dex": 623,
+  "agi": 925,
+  "mag": 1556,
+  "ascension": {
+    "hp": 3563,
+    "mp": 412,
+    "str": 388,
+    "end": 491,
+    "dex": 702,
+    "agi": 1004,
+    "mag": 1891
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Links Heart", "description": "[Foes] Ultra Fire M.Attack w/temp Mag. Boost and Ultra Unguard Rate & [Allies] Fire Attack Dmg.+65%/1 turn" },
+    { "name": "Burn Up!", "description": "[Foes] Fast Mid Fire M.Attack & [Allies] Mag., Agi. and Fire Attack Dmg.+25%/3 turns", "mp": 49 },
+    { "name": "Glittering Fire", "description": "[Foes] Super Fire M.Attack w/temp Mag. Boost and Ultra Penetration Rate & 30% Taunt", "mp": 53 },
+    { "name": "Star's Wink", "description": "[Foe] Hi Fire M.Attack w/temp Mag. Boost and Ultra Unguard Rate & 60% Taunt", "mp": 36 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Fire", "description": "When countering and attacking, regular M.Attack a Foe with Fire Element." },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" },
+    { "name": "Wind Resistance: I", "description": "Wind Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Insect Killer", "description": "Ability Pt.+50% toward Insects", "nemesis": "Insects" }
+  ],
+  "thumbnail": "lefiya.viridis-melodious.elf-thumb.png",
+  "image": "lefiya.viridis-melodious.elf-full.png"
+}
