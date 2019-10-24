@@ -1,0 +1,41 @@
+{ "id": "filvis.challia-dazzling.elf",
+  "banner": "New Generation Pop Stars: Elfettes",
+  "title": "Dazzling Elf",
+  "name": "Filvis Challia",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2506,
+  "mp": 315,
+  "str": 337,
+  "end": 340,
+  "dex": 623,
+  "agi": 935,
+  "mag": 1533,
+  "ascension": {
+    "hp": 3631,
+    "mp": 395,
+    "str": 388,
+    "end": 501,
+    "dex": 702,
+    "agi": 1014,
+    "mag": 1868
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Passion Banshee", "description": "[Foes] Ultra Fire M.Attack w/temp Mag. Boost and Ultra Unguard Rate & Fire Resist-50%/1 turn" },
+    { "name": "Rejection", "description": "[Foes] Fast Mid Fire M.Attack & Agi., M.Resist and Fire Resist-25%/3 turns", "mp": 39 },
+    { "name": "Prime Comet", "description": "[Foes] Super Fire M.Attack w/temp Mag. Boost and Ultra Unguard Rate & 25% Seal", "mp": 53 },
+    { "name": "Secret Passion", "description": "[Foe] Hi Fire M.Attack w/temp Mag. Boost and Ultra Penetration Rate & 50% Seal", "mp": 31 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Fire", "description": "When countering and attacking, regular M.Attack a Foe with Fire Element." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Wind Resistance: I", "description": "Wind Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Insect Killer", "description": "Ability Pt.+50% toward Insects", "nemesis": "Insects" }
+  ],
+  "thumbnail": "filvis.challia-dazzling.elf-thumb.png",
+  "image": "filvis.challia-dazzling.elf-full.png"
+}
