@@ -1,0 +1,41 @@
+{ "id": "line.arshe-twilight.supporter",
+  "banner": "New Generation Pop Stars: Twilight Sisters",
+  "title": "Twilight Supporter",
+  "name": "Line Arshe",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2310,
+  "mp": 273,
+  "str": 904,
+  "end": 347,
+  "dex": 644,
+  "agi": 1085,
+  "mag": 1264,
+  "ascension": {
+    "hp": 3510,
+    "mp": 363,
+    "str": 1229,
+    "end": 515,
+    "dex": 739,
+    "agi": 1110,
+    "mag": 1413
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Wish as One", "description": "[Allies] Avoids K.O x1 only when HP≧1% (removed when HP<1%) & 75% HP Regen/3 turns" },
+    { "name": "Star Pulse", "description": "[Foes] Slow Super Light P.Attack w/Ultra Uncounter Rate & removes Str. and Mag. Buffs and HP Regen Skills exc. Assist Skills", "mp": 59 },
+    { "name": "Spotlight", "description": "[Allies] Fast Increase S.A Gauge Charge gain by 33% & Counter Rate, Critical Rate and Penetration Rate+20%/4 turns", "mp": 45 },
+    { "name": "Glaring Force", "description": "[Foe] Hi Light P.Attack Dmg.+40% per each [Self] Increased Critical Rate", "mp": 25 }
+  ],
+  "passiveSkills": [
+    { "name": "Blessing", "description": "When countering, instead of attacking regularly, it extends Status Buff for Allies for 1 turn." },
+    { "name": "Bloom", "description": "4% HP & MP Regen/turn" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Forestall", "description": "Mag. & Agi.+40%" },
+    { "name": "Insect Killer", "description": "Ability Pt.+50% toward Insects", "nemesis": "Insects" }
+  ],
+  "thumbnail": "line.arshe-twilight.supporter-thumb.png",
+  "image": "line.arshe-twilight.supporter-full.png"
+}
