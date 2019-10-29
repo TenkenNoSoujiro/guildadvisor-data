@@ -18,7 +18,7 @@
     "@types/request": "^2.48.2",
     "@types/yargs": "^13.0.2",
     "ajv": "^6.6.2",
-    "handlebars": "^4.0.12",
+    "handlebars": "^4.1.2",
     "jsdom": "^15.1.1",
     "progress": "^2.0.3",
     "prompts": "^2.0.0",
