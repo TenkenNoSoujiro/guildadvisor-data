@@ -7,23 +7,32 @@
   "rarity": 4,
   "hp": 2472,
   "mp": 220,
-  "str": 1089,
-  "end": 409,
-  "dex": 687,
-  "agi": 486,
+  "str": 1231,
+  "end": 483,
+  "dex": 812,
+  "agi": 574,
   "mag": 981,
+  "ascension": {
+    "hp": 3672,
+    "mp": 310,
+    "str": 1556,
+    "end": 651,
+    "dex": 907,
+    "agi": 599,
+    "mag": 1130
+  },
   "combatSkills": [
     { "specialArts": true,
-      "name": "Splashing Barrage", "description": "[Foes] Ultra Water P.Attack w/30% Seal" },
-    { "name": "Breezy Blade", "description": "[Foes] Mid Water P.Attack w/Str. & Mag.-35%/3 turns", "mp": 40 },
-    { "name": "Sword Stream", "description": "[Foes] Hi Water P.Attack w/temp Str. Boost", "mp": 28 },
-    { "name": "Water Spike", "description": "[Foe] Hi Water P.Attack w/temp Str. Boost", "mp": 25 }
+      "name": "Splashing Barrage", "description": "[Foes] Ultra Water P.Attack w/temp Str. Boost & 35% Seal" },
+    { "name": "Breezy Blade", "description": "[Foes] Mid Water P.Attack w/Str., Mag., and Agi.-35%/5 turns", "mp": 30 },
+    { "name": "Sword Stream", "description": "[Foes] Hi Water P.Attack w/temp Str. Boost & 20% Seal", "mp": 29 },
+    { "name": "Water Spike", "description": "[Foe] Hi Water P.Attack w/temp Str. Boost & Ultra Critical Rate", "mp": 27 }
   ],
   "passiveSkills": [
-    { "name": "Crush", "description": "Str.+15%" },
+    { "name": "Shear Force", "description": "When countering, regular attack a Foe. Damage+80% only when a target is Sealed." },
     { "name": "Strike", "description": "Critical Damage+10%" },
     { "name": "Fire Resistance", "description": "Fire Resist+35%" },
-    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
+    { "name": "Martial Arts", "description": "Str. & End. & Agi. & Dex.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
   "thumbnail": "anakitty.autumn-white.flash-thumb.png",

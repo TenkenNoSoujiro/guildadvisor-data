@@ -8,24 +8,33 @@
   "rarity": 4,
   "hp": 2652,
   "mp": 186,
-  "str": 1482,
-  "end": 435,
-  "dex": 526,
-  "agi": 809,
+  "str": 1611,
+  "end": 495,
+  "dex": 598,
+  "agi": 920,
   "mag": 328,
+  "ascension": {
+    "hp": 3827,
+    "mp": 256,
+    "str": 1961,
+    "end": 675,
+    "dex": 673,
+    "agi": 1003,
+    "mag": 378
+  },
   "combatSkills": [
     { "specialArts": true,
-      "name": "Furore Impaler", "description": "[Foe] Ultra Wind P.Attack w/temp Str. Boost" },
-    { "name": "Velocity", "description": "[Foe] Lo Wind P.Attack & [Self] Str.+75%/4 turns" },
+      "name": "Furore Impaler", "description": "[Foe] Ultra Wind P.Attack w/temp Str. Boost & Ultra Penetration Rate" },
+    { "name": "Velocity", "description": "[Foe] Mid Wind P.Attack & [Self] Str.+80%/4 turns", "mp": 29 },
     { "name": "Cyclocity", "description": "[Foe] Mid Wind P.Attack & [Self] Wind Attack Dmg.+60%/4 turns" },
-    { "name": "Windfury", "description": "[Foe] Hi Wind P.Attack & P.Resist-20%/4 turns" }
+    { "name": "Windfury", "description": "[Foe] Hi Wind P.Attack & P.Resist and Guard Rate-25%/4 turns", "mp": 27 }
   ],
   "passiveSkills": [
-    { "name": "Crush", "description": "Str.+15%" },
+    { "name": "Will of Wind", "description": "When countering and attacking, regular P.Attack a Foe with Wind Element." },
     { "name": "Strike", "description": "Critical Damage+20%" },
     { "name": "Earth Resistance", "description": "Earth Resist+35%" },
     { "name": "Dragon Killer", "description": "Ability Pt.+50% toward Dragons", "nemesis": "Dragons" },
-    { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" }
+    { "name": "Martial Arts", "description": "Str. & End. & Agi. & Dex.+10%" }
   ],
   "thumbnail": "ryu.lion-knight.elf-thumb.png",
   "image": "ryu.lion-knight.elf-full.png"

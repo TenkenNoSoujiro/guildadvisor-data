@@ -8,23 +8,32 @@
   "hp": 2251,
   "mp": 239,
   "str": 432,
-  "end": 307,
-  "dex": 715,
-  "agi": 601,
-  "mag": 1138,
+  "end": 368,
+  "dex": 858,
+  "agi": 721,
+  "mag": 1188,
+  "ascension": {
+    "hp": 3401,
+    "mp": 339,
+    "str": 569,
+    "end": 536,
+    "dex": 953,
+    "agi": 746,
+    "mag": 1498
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Verite Amour", "description": "[Allies] Hi Heal & Removes all Debuffs exc Assist Skills" },
-    { "name": "Hekma Irada", "description": "[Allies] Mid Heal & Ailment Cure", "mp": 35 },
-    { "name": "Nadam Reruabado", "description": "[Foes] Hi Thunder M.Attack", "mp": 36 },
-    { "name": "God's Theorem", "description": "[Allies] P.Resist & Ailment Resist+20%/4 turns", "mp": 40 }
+    { "name": "Hekma Irada", "description": "[Allies] Fast Mid Heal & Ailment Cure", "mp": 25 },
+    { "name": "Nadam Reruabado", "description": "[Foes] Hi Thunder M.Attack & P.Resist and M.Resist-20%/3 turns", "mp": 34 },
+    { "name": "God's Theorem", "description": "[Allies] P.Resist, Water Resist and Ailment Resist+25%/4 turns", "mp": 40 }
   ],
   "passiveSkills": [
-    { "name": "Mage", "description": "Mag.+7.5%" },
-    { "name": "Enlightenment", "description": "Mag.+7.5%" },
-    { "name": "Status Resist", "description": "Ailment Resist+15%" },
-    { "name": "Magic Resistance", "description": "M.Resist+8%" },
-    { "name": "Defense", "description": "P.Resist+8%" }
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+10%" },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
+    { "name": "Hex", "description": "Mag. & End. & Agi. & Dex.+20%" },
+    { "name": "Status Resist", "description": "Ailment Resist+15%" }
   ],
   "thumbnail": "fels-the.shadow-thumb.png",
   "image": "fels-the.shadow-full.png"
