@@ -1,0 +1,41 @@
+{ "id": "yamato.mikoto-power.of.change",
+  "banner": "Bell Main Story Release",
+  "title": "Power of Change",
+  "name": "Yamato Mikoto",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2626,
+  "mp": 205,
+  "str": 1565,
+  "end": 390,
+  "dex": 645,
+  "agi": 1002,
+  "mag": 318,
+  "ascension": {
+    "hp": 3801,
+    "mp": 275,
+    "str": 1915,
+    "end": 570,
+    "dex": 720,
+    "agi": 1085,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Sealing Futsunomitama", "description": "[Foes] Ultra Dark P.Attack Dmg.+80% against a slowed target & Slow and Ultra Unguard Rate" },
+    { "name": "Crossing Lilies", "description": "[Foes] Fast Lo Dark P.Attack w/Ultra Uncounter Rate & [Allies] Str., Agi. and Dex.+25%/3 turns", "mp": 47 },
+    { "name": "Wild Boar", "description": "[Foes] Super Dark P.Attack w/temp Str. Boost & Ultra Uncounter Rate and 50% Slow", "mp": 49 },
+    { "name": "Bonecrusher", "description": "[Foe] Hi Dark P.Attack w/temp Str. Boost & Ultra Unguard Rate and Slow", "mp": 34 }
+  ],
+  "passiveSkills": [
+    { "name": "Avenge", "description": "When countering, regular attack a Foe. Damage+80% only when a target is Slow." },
+    { "name": "Bloom", "description": "4% HP & MP Regen/turn" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" }
+  ],
+  "thumbnail": "yamato.mikoto-power.of.change-thumb.png",
+  "image": "yamato.mikoto-power.of.change-full.png"
+}
