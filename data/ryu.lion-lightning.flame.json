@@ -1,0 +1,41 @@
+{ "id": "ryu.lion-lightning.flame",
+  "banner": "Bell Main Story Release",
+  "title": "Lightning Flame",
+  "name": "Ryu Lion",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2562,
+  "mp": 221,
+  "str": 1556,
+  "end": 380,
+  "dex": 660,
+  "agi": 1008,
+  "mag": 318,
+  "ascension": {
+    "hp": 3737,
+    "mp": 291,
+    "str": 1906,
+    "end": 560,
+    "dex": 735,
+    "agi": 1091,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Game Changer", "description": "[Foes] Ultra Thunder P.Attack w/temp Str. Boost w/Hi Unguard Rate and Agi.-40%/1 turn & [Allies] Agi.+40%" },
+    { "name": "Havoc Assault", "description": "[Foes] Fast Lo Thunder P.Attack w/Hi Critical Rate & Str., Mag. and P.Resist-25%/3 turns", "mp": 34 },
+    { "name": "Fallen Bastion", "description": "[Foes] Slow Super Thunder P.Attack w/temp Str. Boost & removes Dmg. Reduction Skill (Attack Type: All and Single Targets) exc. Assist Skills", "mp": 64 },
+    { "name": "Arc Sweep", "description": "[Foe] Slow Hi Thunder P.Attack w/temp Str. Boost & removes Dmg. Reduction Skill (Attack Type: All and Single Targets) exc. Assist Skills", "mp": 49 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Thunder", "description": "When countering and attacking, regular P.Attack a Foe with Thunder Element." },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Bloom", "description": "4% HP & MP Regen/turn" }
+  ],
+  "thumbnail": "ryu.lion-lightning.flame-thumb.png",
+  "image": "ryu.lion-lightning.flame-full.png"
+}
