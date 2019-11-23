@@ -1,0 +1,24 @@
+{ "id": "ryu.lion-elegant.vanguard",
+  "banner": "Winter Reverie I: Pretty",
+  "title": "Elegant Vanguard",
+  "name": "Ryu Lion",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 842,
+  "mp": 193,
+  "str": 302,
+  "end": 233,
+  "dex": 500,
+  "agi": 493,
+  "mag": 302,
+  "skill": {
+    "name": "Velvet Dress",
+    "descriptions": [
+      "[Allies] Dmg. received (Attack Type: All and Single Targets)-10% & Fire Resist+10%",
+      "[Allies] Dmg. received (Attack Type: All and Single Targets)-15% & Fire Resist+15%"
+    ]
+  },
+  "thumbnail": "ryu.lion-elegant.vanguard-thumb.png",
+  "image": "ryu.lion-elegant.vanguard-full.png"
+}

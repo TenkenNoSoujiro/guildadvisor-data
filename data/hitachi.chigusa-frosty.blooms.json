@@ -1,0 +1,41 @@
+{ "id": "hitachi.chigusa-frosty.blooms",
+  "banner": "Winter Reverie I: Pretty",
+  "title": "Frosty Blooms",
+  "name": "Hitachi Chigusa",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2458,
+  "mp": 247,
+  "str": 1578,
+  "end": 396,
+  "dex": 668,
+  "agi": 957,
+  "mag": 318,
+  "ascension": {
+    "hp": 3633,
+    "mp": 317,
+    "str": 1928,
+    "end": 576,
+    "dex": 743,
+    "agi": 1040,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Snow Shadow", "description": "[Foes] Ultra Water P.Attack Dmg.+25% per each [Self] Agi. & Dex. Buffs & Ultra Unguard Rate" },
+    { "name": "Frozen Wing", "description": "[Self] Fast Increase S.A Gauge Charge gain by 100% & Agi. and Dex.+75%/5 turns", "mp": 35 },
+    { "name": "Ice Blade", "description": "[Foes] Super Water P.Attack w/temp Str. Boost and Ultra Uncounter Rate & [Self] removes Status Debuffs exc. Assist Skills", "mp": 54 },
+    { "name": "White Crane", "description": "[Foe] Hi Water P.Attack Dmg.+25% per each [Self] Dex. Buff & Ultra Penetration Rate", "mp": 33 }
+  ],
+  "passiveSkills": [
+    { "name": "Bravery", "description": "When countering, regular attack a Foe & HP Heal 50% of Dmg." },
+    { "name": "Abnormal Resistance", "description": "Ailment Resist+40%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Worm Killer", "description": "Ability Pt. +50% toward Worm", "nemesis": "Worm" }
+  ],
+  "thumbnail": "hitachi.chigusa-frosty.blooms-thumb.png",
+  "image": "hitachi.chigusa-frosty.blooms-full.png"
+}
