@@ -1,0 +1,41 @@
+{ "id": "sanjouno.haruhime-silver.fox",
+  "banner": "Winter Reverie I: Pretty",
+  "title": "Silver Fox",
+  "name": "Sanjouno Haruhime",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2294,
+  "mp": 277,
+  "str": 903,
+  "end": 347,
+  "dex": 603,
+  "agi": 1085,
+  "mag": 1323,
+  "ascension": {
+    "hp": 3444,
+    "mp": 377,
+    "str": 1040,
+    "end": 515,
+    "dex": 698,
+    "agi": 1110,
+    "mag": 1633
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Winter Sakura", "description": "[Allies] Ultra HP Heal & removes [Allies] Status Debuffs and [Foes] Status Buffs exc. Assist Skills" },
+    { "name": "Snow Illusion", "description": "[Foes] Fast Mid Water M.Attack w/Ultra Uncounter Rate & [Allies] P.Resist & M.Resist+35%/3 turns", "mp": 34 },
+    { "name": "Snow Silver", "description": "[Allies] 10% MP Heal & Str., Mag. and Water Attack Dmg.+20%/4 turns", "mp": 25 },
+    { "name": "Dancing Snow", "description": "[Allies] 30% HP Heal & [Allies] Status Debuffs and [Foes] Status Buff-2 turns", "mp": 141 }
+  ],
+  "passiveSkills": [
+    { "name": "Encouragement", "description": "When countering, instead of attacking regularly, it (Lo) Heals an Ally. Prioritizes an Ally with lower percentage HP." },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Forestall", "description": "Mag. & Agi.+40%" },
+    { "name": "Bloom", "description": "8% HP & MP Regen/turn" }
+  ],
+  "thumbnail": "sanjouno.haruhime-silver.fox-thumb.png",
+  "image": "sanjouno.haruhime-silver.fox-full.png"
+}
