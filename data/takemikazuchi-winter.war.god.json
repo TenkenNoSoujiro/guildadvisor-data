@@ -1,0 +1,24 @@
+{ "id": "takemikazuchi-winter.war.god",
+  "banner": "Winter Reverie I: Ceremonial",
+  "title": "Winter War God",
+  "name": "Takemikazuchi",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 902,
+  "mp": 178,
+  "str": 603,
+  "end": 318,
+  "dex": 322,
+  "agi": 418,
+  "mag": 212,
+  "skill": {
+    "name": "Snow in Hand",
+    "descriptions": [
+      "[Self] Ailment Resist+75% & Str., End., Agi. and Dex.+15%",
+      "[Self] Ailment Resist+100% & Str., End., Agi. and Dex.+20%"
+    ]
+  },
+  "thumbnail": "takemikazuchi-winter.war.god-thumb.png",
+  "image": "takemikazuchi-winter.war.god-full.png"
+}
