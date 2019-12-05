@@ -1,0 +1,41 @@
+{ "id": "tsubaki.collbrande-invincible.master",
+  "banner": "Winter Reverie II: Crimson",
+  "title": "Invincible Master",
+  "name": "Tsubaki Collbrande",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2550,
+  "mp": 224,
+  "str": 1611,
+  "end": 373,
+  "dex": 626,
+  "agi": 996,
+  "mag": 318,
+  "ascension": {
+    "hp": 3725,
+    "mp": 294,
+    "str": 1961,
+    "end": 553,
+    "dex": 701,
+    "agi": 1079,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Bloom in Winter", "description": "[Foes] Ultra Water P.Attack w/temp Str. Boost and Ultra Critical Rate & [Allies] Null M.Attack x1 exc. Special Arts" },
+    { "name": "Blooming Slash", "description": "[Foes] Mid Water P.Attack w/Ultra Penetration Rate & P.Resist and Water Resist-30%/3 turns", "mp": 30 },
+    { "name": "Glacial Stroke", "description": "[Foes] Fast Hi Water P.Attack w/Ultra Uncounter Rate & [Allies] 50% Null M.Attack x1 exc. Special Arts", "mp": 49 },
+    { "name": "Preeminent Blade", "description": "[Foe] Hi Water P.Attack Dmg.+35% per each Target's P.Resist Reduction Skill & Ultra Unguard Rate", "mp": 30 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Water", "description": "When countering and attacking, regular P.Attack a Foe with Water Element." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Worm Killer", "description": "Ability Pt. +50% toward Worm", "nemesis": "Worm" }
+  ],
+  "thumbnail": "tsubaki.collbrande-invincible.master-thumb.png",
+  "image": "tsubaki.collbrande-invincible.master-full.png"
+}
