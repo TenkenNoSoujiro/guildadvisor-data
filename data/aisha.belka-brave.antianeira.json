@@ -1,0 +1,41 @@
+{ "id": "aisha.belka-brave.antianeira",
+  "banner": "Winter Reverie II: Gleam",
+  "title": "Brave Antianeira",
+  "name": "Aisha Belka",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2470,
+  "mp": 244,
+  "str": 1991,
+  "end": 381,
+  "dex": 730,
+  "agi": 887,
+  "mag": 318,
+  "ascension": {
+    "hp": 3645,
+    "mp": 314,
+    "str": 2341,
+    "end": 561,
+    "dex": 805,
+    "agi": 970,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Terrain Devastator", "description": "[Foe] Ultra Earth P.Attack Dmg.+80% per each [Self] Str. Buff & Dmg. received (Attack Type: Single Target)+25%/1 turn" },
+    { "name": "Seismic Assault", "description": "[Foe] Slow Lo Earth P.Attack w/Hi Unguard Rate & [Self] Str. and Earth Attack Dmg.+70%/2 turns", "mp": 32 },
+    { "name": "Rock Biter", "description": "[Foe] Fast Mid Earth P.Attack w/Hi Penetration Rate & removes Str. Buffs exc. Assist Skills", "mp": 27 },
+    { "name": "Geo Surge", "description": "[Foe] Slow Super Earth P.Attack Dmg.+80% per each [Self] Str. Buff. Str. Buff exc. Assist Skills will be removed afterward", "mp": 102 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Earth", "description": "When countering and attacking, regular attack a Foe with Earth Element." },
+    { "name": "Courageous L.Sword", "description": "Str.+30% when equipped with L.Sword" },
+    { "name": "Thunder Resistance", "description": "Thunder Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Worm Killer", "description": "Ability Pt. +50% toward Worm", "nemesis": "Worm" }
+  ],
+  "thumbnail": "aisha.belka-brave.antianeira-thumb.png",
+  "image": "aisha.belka-brave.antianeira-full.png"
+}

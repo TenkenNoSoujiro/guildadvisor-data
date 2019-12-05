@@ -1,0 +1,41 @@
+{ "id": "bell.cranel-sword.unleashed",
+  "banner": "Winter Reverie II: Gleam",
+  "title": "Sword Unleashed",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2350,
+  "mp": 248,
+  "str": 1620,
+  "end": 468,
+  "dex": 590,
+  "agi": 1021,
+  "mag": 397,
+  "ascension": {
+    "hp": 3525,
+    "mp": 318,
+    "str": 1970,
+    "end": 648,
+    "dex": 665,
+    "agi": 1104,
+    "mag": 447
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Argonaut Liberation", "description": "[Foes] Ultra Water P.Attack w/temp Str. Boost and Ultra Unguard Rate & [Self] Str., Agi. and Water Attack Dmg.+85%/3 turns" },
+    { "name": "Heat Wipe", "description": "[Foes] Fast Lo Water P.Attack w/Ultra Uncounter Rate & Str., Mag., and Agi.-30%/2 turns", "mp": 37 },
+    { "name": "Cold Rush", "description": "[Foes] Super Water P.Attack w/temp Str. Boost and Ultra Unguard Rate & removes Str. and Mag. Buffs exc. Assist Skills", "mp": 59 },
+    { "name": "Sleet Whelm", "description": "[Foe] Hi Water P.Attack w/temp Str. Boost and Ultra Penetration Rate & [Allies] Ailment Cure", "mp": 32 }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm." },
+    { "name": "Will of Water", "description": "When countering and attacking, regular P.Attack a Foe with Water Element." },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Luck", "description": "All Status+25%" },
+    { "name": "Worm Killer", "description": "Ability Pt. +50% toward Worm", "nemesis": "Worm" }
+  ],
+  "thumbnail": "bell.cranel-sword.unleashed-thumb.png",
+  "image": "bell.cranel-sword.unleashed-full.png"
+}
