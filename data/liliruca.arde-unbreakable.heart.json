@@ -1,0 +1,41 @@
+{ "id": "liliruca.arde-unbreakable.heart",
+  "banner": "Bell Main Story Release",
+  "title": "Unbreakable Heart",
+  "name": "Liliruca Arde",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2502,
+  "mp": 225,
+  "str": 1128,
+  "end": 346,
+  "dex": 837,
+  "agi": 938,
+  "mag": 903,
+  "ascension": {
+    "hp": 3702,
+    "mp": 315,
+    "str": 1453,
+    "end": 514,
+    "dex": 932,
+    "agi": 963,
+    "mag": 1052
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Whirlpool Piercer", "description": "[Foes] Ultra Water P.Attack w/temp Str. Boost and Ultra Unguard Rate & Water Resist-50%/1 turn" },
+    { "name": "Morphing", "description": "[Foes] Fast Agi. and Dex.-25% & [Allies] Guard Rate & Counter Rate+25%/4 turns", "mp": 38 },
+    { "name": "Flux Rumbler", "description": "[Foes] Fast Lo Water P.Attack w/Ultra Uncounter Rate & Removes Fire, Earth, and Wind Attack Dmg. Buffs exc. Assist Skills", "mp": 40 },
+    { "name": "Water Harpoon", "description": "[Foes] Super Water P.Attack w/Ultra Uncounter Rate & Max HP 25% Dmg. Poison/1 turn", "mp": 44 }
+  ],
+  "passiveSkills": [
+    { "name": "Instant", "description": "When countering, regular attack a Foe & Remove Agi. Buffs exc. Assist Skills." },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" }
+  ],
+  "thumbnail": "liliruca.arde-unbreakable.heart-thumb.png",
+  "image": "liliruca.arde-unbreakable.heart-full.png"
+}
