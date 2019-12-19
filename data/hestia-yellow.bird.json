@@ -1,0 +1,24 @@
+{ "id": "hestia-yellow.bird",
+  "banner": "Bell Main Story Release",
+  "title": "Yellow Bird",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 838,
+  "mp": 194,
+  "str": 579,
+  "end": 277,
+  "dex": 304,
+  "agi": 501,
+  "mag": 212,
+  "skill": {
+    "name": "Chick March",
+    "descriptions": [
+      "[Allies] Str.+10% & [Foes] Water and Wind Resist-10%",
+      "[Allies] Str.+15% & [Foes] Water and Wind Resist-15%"
+    ]
+  },
+  "thumbnail": "hestia-yellow.bird-thumb.png",
+  "image": "hestia-yellow.bird-full.png"
+}
