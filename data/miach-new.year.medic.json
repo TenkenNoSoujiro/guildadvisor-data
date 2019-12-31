@@ -1,0 +1,24 @@
+{ "id": "miach-new.year.medic",
+  "banner": "The Werewolf Comes",
+  "title": "New Year Medic",
+  "name": "Miach",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 822,
+  "mp": 198,
+  "str": 208,
+  "end": 212,
+  "dex": 346,
+  "agi": 380,
+  "mag": 626,
+  "skill": {
+    "name": "Year Plan",
+    "descriptions": [
+      "[Allies] Mag.+10% [Foes] Critical Rate and Penetration Rate-20%",
+      "[Allies] Mag.+15% [Foes] Critical Rate and Penetration Rate-25%"
+    ]
+  },
+  "thumbnail": "miach-new.year.medic-thumb.png",
+  "image": "miach-new.year.medic-full.png"
+}
