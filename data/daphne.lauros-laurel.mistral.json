@@ -1,0 +1,41 @@
+{ "id": "daphne.lauros-laurel.mistral",
+  "banner": "The Werewolf Comes",
+  "title": "Laurel Mistral",
+  "name": "Daphne Lauros",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2398,
+  "mp": 251,
+  "str": 1150,
+  "end": 370,
+  "dex": 906,
+  "agi": 917,
+  "mag": 903,
+  "ascension": {
+    "hp": 3598,
+    "mp": 341,
+    "str": 1475,
+    "end": 538,
+    "dex": 1001,
+    "agi": 942,
+    "mag": 1052
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Bloom Thrower", "description": "[Foes] Ultra Wind P.Attack w/temp Str. Boost & Ultra Unguard Rate and P.Resist & M.Resist-40%/1 turn" },
+    { "name": "Sharp Slicer", "description": "[Foes] Fast Hi Wind P.Attack w/Hi Uncounter Rate", "mp": 26 },
+    { "name": "Diffuse Aura", "description": "[Allies] Fast 20% HP Heal w/20% HP Regen & [Foes] Str. Agi. and P.Resist-25%/3 turns", "mp": 44 },
+    { "name": "Wind Walker", "description": "[Allies] Slow Str. and Wind Attack Dmg.+30%/3 turns  & removes Str. Debuffs exc. Assist Skills", "mp": 35 }
+  ],
+  "passiveSkills": [
+    { "name": "Elios Passion", "description": "Agi.+40%" },
+    { "name": "Will of Wind", "description": "When countering and attacking, regular P.Attack a Foe with Wind Element." },
+    { "name": "Earth Resistance", "description": "Earth Resist+35%" },
+    { "name": "Battle Arts", "description": "Str. & Dex. +25%" },
+    { "name": "Beast Killer", "description": "Ability Pt. +50% toward Beasts", "nemesis": "Beasts" }
+  ],
+  "thumbnail": "daphne.lauros-laurel.mistral-thumb.png",
+  "image": "daphne.lauros-laurel.mistral-full.png"
+}

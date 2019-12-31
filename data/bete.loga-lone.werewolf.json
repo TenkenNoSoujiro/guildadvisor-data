@@ -1,0 +1,41 @@
+{ "id": "bete.loga-lone.werewolf",
+  "banner": "The Werewolf Comes",
+  "title": "Lone Werewolf",
+  "name": "Bete Loga",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2602,
+  "mp": 211,
+  "str": 1562,
+  "end": 375,
+  "dex": 613,
+  "agi": 1055,
+  "mag": 318,
+  "ascension": {
+    "hp": 3777,
+    "mp": 281,
+    "str": 1912,
+    "end": 555,
+    "dex": 688,
+    "agi": 1138,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "The Last Ronin", "description": "[Foes] Ultra Light P.Attack Dmg.+35% per each [Self] Str. Buff Skill & Ultra Unguard Rate w/Heal 10% of Dmg." },
+    { "name": "Rough Slash", "description": "[Foes] Lo Light P.Attack & [Self] Str. And Light Attack Dmg.+70%/3 turns", "mp": 30 },
+    { "name": "Wrath Bringer", "description": "[Foes] Super Light P.Attack w/Hi Penetration Rate & [Self] Status Buffs+3 turns", "mp": 46 },
+    { "name": "Wild Cutting", "description": "[Foe] Hi Light P.Attack w/Ultra Critical Rate+35% per each [Self] Str. Buff Skill", "mp": 30 }
+  ],
+  "passiveSkills": [
+    { "name": "Bravery", "description": "When countering, regular attack a Foe & HP Heal 50% of Dmg." },
+    { "name": "Piercing Strike", "description": "Dmg.+10% Upon Penetration" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Beast Killer", "description": "Ability Pt. +50% toward Beasts", "nemesis": "Beasts" }
+  ],
+  "thumbnail": "bete.loga-lone.werewolf-thumb.png",
+  "image": "bete.loga-lone.werewolf-full.png"
+}
