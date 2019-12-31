@@ -1,0 +1,41 @@
+{ "id": "riveria.ljos.alf-festive.royale",
+  "banner": "The Werewolf Comes",
+  "title": "Festive Royale",
+  "name": "Riveria Ljos Alf",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2458,
+  "mp": 327,
+  "str": 336,
+  "end": 330,
+  "dex": 623,
+  "agi": 1006,
+  "mag": 1476,
+  "ascension": {
+    "hp": 3583,
+    "mp": 407,
+    "str": 387,
+    "end": 491,
+    "dex": 702,
+    "agi": 1085,
+    "mag": 1811
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Transcendent Garden", "description": "[Foes] Ultra Light M.Attack Dmg.+30% per each [Self] Mag. Buff Skill w/Ultra Unguard Rate & 40% Seal" },
+    { "name": "Savant ", "description": "[Foes] Fast Lo Light M.Attack w/Ultra Uncounter Rate & [Allies] Mag. Agi. and Light Attack Dmg.+25%/3 turns", "mp": 49 },
+    { "name": "Runic Intellect", "description": "[Foes] Super Light M.Attack w/temp Mag. Boost and Ultra Unguard Rate & Agi.-40%/2 turns", "mp": 48 },
+    { "name": "Prism Bolt", "description": "[Foe] Hi Light M.Attack Dmg.+35% per each [Self] Mag. Buff Skill w/Ultra Penetration Rate", "mp": 34 }
+  ],
+  "passiveSkills": [
+    { "name": "Encroachment", "description": "When countering, regular attack a Foe & Heal-25% for 4 turns." },
+    { "name": "Bloom", "description": "4% HP & MP Regen/turn" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Beast Killer", "description": "Ability Pt. +50% toward Beasts", "nemesis": "Beasts" }
+  ],
+  "thumbnail": "riveria.ljos.alf-festive.royale-thumb.png",
+  "image": "riveria.ljos.alf-festive.royale-full.png"
+}

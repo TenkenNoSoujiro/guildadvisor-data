@@ -1,0 +1,41 @@
+{ "id": "anya.fromel-sneaky.cat",
+  "banner": "The Werewolf Comes",
+  "title": "Sneaky Cat",
+  "name": "Anya Fromel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2426,
+  "mp": 255,
+  "str": 1642,
+  "end": 373,
+  "dex": 672,
+  "agi": 918,
+  "mag": 318,
+  "ascension": {
+    "hp": 3601,
+    "mp": 325,
+    "str": 1992,
+    "end": 553,
+    "dex": 747,
+    "agi": 1001,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Shinobi Star Attack ", "description": "[Foe] Ultra Light P.Attack Dmg.+60% per each [Self] Str. Buff Skill & [Self] Str. and Light Attack Dmg.+90%/3 turns" },
+    { "name": "White Shadow", "description": "[Allies] 30% HP Regen & [Self] Str. and Light Attack Dmg.+60%/4 turns", "mp": 28 },
+    { "name": "Nimble Fighter", "description": "[Foe] Mid Light P.Attack w/Hi Unguard Rate & P.Resist and Light Resist-30%/4 turns", "mp": 26 },
+    { "name": "Shinobi Strike", "description": "[Foe] Super Light P.Attack w/Hi Critical Rate & removes Str. and Mag. Buffs exc. Assist Skills", "mp": 36 }
+  ],
+  "passiveSkills": [
+    { "name": "Light Manifestation", "description": "Dark Resist+25%. When countering and attacking, regular P.Attack a Foe with Light Element." },
+    { "name": "Piercing Strike", "description": "Dmg.+20% Upon Penetration" },
+    { "name": "Strike", "description": "Critical Damage+20%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Beast Killer", "description": "Ability Pt. +50% toward Beasts", "nemesis": "Beasts" }
+  ],
+  "thumbnail": "anya.fromel-sneaky.cat-thumb.png",
+  "image": "anya.fromel-sneaky.cat-full.png"
+}
