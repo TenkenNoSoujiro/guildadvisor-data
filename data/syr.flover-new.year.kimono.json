@@ -1,0 +1,24 @@
+{ "id": "syr.flover-new.year.kimono",
+  "banner": "The Werewolf Comes",
+  "title": "New Year Kimono",
+  "name": "Syr Flover",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 922,
+  "mp": 173,
+  "str": 355,
+  "end": 216,
+  "dex": 355,
+  "agi": 575,
+  "mag": 349,
+  "skill": {
+    "name": "New Year Circle",
+    "descriptions": [
+      "[Self] Agi., Dex., P.Resist and M.Resist+8% & [Allies] Status Debuff-2 turns",
+      "[Self] Agi., Dex., P.Resist and M.Resist+10% & [Allies] Status Debuff-3 turns"
+    ]
+  },
+  "thumbnail": "syr.flover-new.year.kimono-thumb.png",
+  "image": "syr.flover-new.year.kimono-full.png"
+}
