@@ -1,0 +1,24 @@
+{ "id": "hestia-swimsuit.contest",
+  "banner": "DanMachi S2 OVA Release",
+  "title": "Swimsuit Contest",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 826,
+  "mp": 197,
+  "str": 377,
+  "end": 221,
+  "dex": 360,
+  "agi": 515,
+  "mag": 377,
+  "skill": {
+    "name": "Swimsuit Competition",
+    "descriptions": [
+      "[Allies] Str. and Mag.+10% & [Foes] End., Agi. and Dex.-8%",
+      "[Allies] Str. and Mag.+15% & [Foes] End., Agi. and Dex.-10%"
+    ]
+  },
+  "thumbnail": "hestia-swimsuit.contest-thumb.png",
+  "image": "hestia-swimsuit.contest-full.png"
+}
