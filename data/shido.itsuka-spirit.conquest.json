@@ -1,0 +1,41 @@
+{ "id": "shido.itsuka-spirit.conquest",
+  "banner": "Ais Catastrophe",
+  "title": "Spirit Conquest",
+  "name": "Shido Itsuka",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2594,
+  "mp": 213,
+  "str": 1573,
+  "end": 383,
+  "dex": 595,
+  "agi": 1052,
+  "mag": 318,
+  "ascension": {
+    "hp": 3769,
+    "mp": 283,
+    "str": 1923,
+    "end": 563,
+    "dex": 670,
+    "agi": 1135,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Sword of the End", "description": "[Foes] Ultra Light P.Attack w/temp Str. Boost and Ultra Unguard Rate & 40% Seal" },
+    { "name": "Shido Style Spirit Extinction Blow", "description": "[Foes] Fast Mid Light P.Attack w/Hi Uncounter Rate & P.Resist & M.Resist-25%/4 turns", "mp": 32 },
+    { "name": "Shido Style Aerial Glint", "description": "[Foe] Hi Light P.Attack w/temp Str. Boost and Hi Penetration Rate & Seal", "mp": 36 },
+    { "name": "Shido Style Sword Force", "description": "[Foes] Fast Lo Light P.Attack & [Allies] Str., Agi., Light Attack Dmg.+25%/3 turns", "mp": 42 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Light", "description": "When countering and attacking, regular P.Attack a Foe with Light Element." },
+    { "name": "Bloom", "description": "10% HP & MP Regen/turn" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Beast Killer", "description": "Ability Pt. +50% toward Beasts", "nemesis": "Beasts" }
+  ],
+  "thumbnail": "shido.itsuka-spirit.conquest-thumb.png",
+  "image": "shido.itsuka-spirit.conquest-full.png"
+}
