@@ -1,0 +1,41 @@
+{ "id": "kotori.itsuka-blast.fire",
+  "banner": "Ais Catastrophe",
+  "title": "Blast Fire",
+  "name": "Kotori Itsuka",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2434,
+  "mp": 253,
+  "str": 1670,
+  "end": 374,
+  "dex": 686,
+  "agi": 876,
+  "mag": 318,
+  "ascension": {
+    "hp": 3609,
+    "mp": 323,
+    "str": 2020,
+    "end": 554,
+    "dex": 761,
+    "agi": 959,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Camael - Megiddo", "description": "[Foe] Ultra Fire P.Attack Dmg.+80% per each [Self] Str. Buff Skill & [Self] 20% MP Heal" },
+    { "name": "Flame Healer", "description": "[Self] 30% HP Regen & Str., Heal and Fire Attack Dmg.+60%/4 turns", "mp": 25 },
+    { "name": "Camael - Providence", "description": "[Allies] Avoids K.O x1 only when HP≧10% (removed when HP<10%) & [Self] 30% MP Heal", "mp": 219 },
+    { "name": "Camael", "description": "[Foe] Super Fire P.Attack Dmg.+50% per each [Self] Str. Buff & Dmg. received (Attack Type: Single Target)+20%/4 turns", "mp": 196 }
+  ],
+  "passiveSkills": [
+    { "name": "Fire Manifestation", "description": "Wind Resist+25%. When countering and attacking, regular P.Attack a Foe with Fire Element." },
+    { "name": "Bloom", "description": "10% HP & MP Regen/turn" },
+    { "name": "Piercing Strike", "description": "Dmg.+20% Upon Penetration" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Beast Killer", "description": "Ability Pt. +50% toward Beasts", "nemesis": "Beasts" }
+  ],
+  "thumbnail": "kotori.itsuka-blast.fire-thumb.png",
+  "image": "kotori.itsuka-blast.fire-full.png"
+}
