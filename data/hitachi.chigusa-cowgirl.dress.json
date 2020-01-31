@@ -1,0 +1,24 @@
+{ "id": "hitachi.chigusa-cowgirl.dress",
+  "banner": "Dungeon & Goblins",
+  "title": "Cowgirl Dress",
+  "name": "Hitachi Chigusa",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 858,
+  "mp": 189,
+  "str": 365,
+  "end": 225,
+  "dex": 367,
+  "agi": 528,
+  "mag": 365,
+  "skill": {
+    "name": "Sweet Frustration",
+    "descriptions": [
+      "[Allies] End., Agi. and Dex.+8% & [Foes] 60% Slow",
+      "[Allies] End., Agi. and Dex.+10% & [Foes] 80% Slow"
+    ]
+  },
+  "thumbnail": "hitachi.chigusa-cowgirl.dress-thumb.png",
+  "image": "hitachi.chigusa-cowgirl.dress-full.png"
+}
