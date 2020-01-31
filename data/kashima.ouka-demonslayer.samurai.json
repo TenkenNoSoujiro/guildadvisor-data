@@ -1,0 +1,41 @@
+{ "id": "kashima.ouka-demonslayer.samurai",
+  "banner": "Dungeon & Goblins",
+  "title": "Demonslayer Samurai",
+  "name": "Kashima Ouka",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2610,
+  "mp": 209,
+  "str": 1652,
+  "end": 420,
+  "dex": 647,
+  "agi": 875,
+  "mag": 318,
+  "ascension": {
+    "hp": 3785,
+    "mp": 279,
+    "str": 2002,
+    "end": 600,
+    "dex": 722,
+    "agi": 958,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Successive Slay", "description": "[Foes] Ultra Dark P.Attack Dmg +50% per each [Self] Dex. Buff Skill & Ultra Unguard Rate" },
+    { "name": "Lethal Weapon", "description": "[Self] Fast Dex., Dark Attack Dmg., Guard Rate and Counter Rate+40%/5 turns", "mp": 30 },
+    { "name": "Extreme Smasher", "description": "[Foes] Hi Dark P.Attack w/temp Str. Boost & Hi Penetration Rate and [Self] Status Buff +2 turns & Heal 10% of Dmg.", "mp": 36 },
+    { "name": "Ultimate Slasher", "description": "[Foe] Hi Dark P.Attack w/temp Str. Boost and Ultra Critical Rate & Taunt", "mp": 32 }
+  ],
+  "passiveSkills": [
+    { "name": "Feint", "description": "[Foe] Regular attack when countering w/60% Taunt" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Ogre Killer", "description": "Ability Pt.+50% toward Ogre", "nemesis": "Ogre" }
+  ],
+  "thumbnail": "kashima.ouka-demonslayer.samurai-thumb.png",
+  "image": "kashima.ouka-demonslayer.samurai-full.png"
+}
