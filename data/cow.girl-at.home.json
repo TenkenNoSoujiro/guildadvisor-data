@@ -1,0 +1,24 @@
+{ "id": "cow.girl-at.home",
+  "banner": "Dungeon & Goblins",
+  "title": "At Home",
+  "name": "Cow Girl",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 870,
+  "mp": 186,
+  "str": 345,
+  "end": 234,
+  "dex": 504,
+  "agi": 402,
+  "mag": 345,
+  "skill": {
+    "name": "Neighbor's Recipe",
+    "descriptions": [
+      "[Allies] Str. and Mag.+10% & 10% HP Regen/turn",
+      "[Allies] Str. and Mag.+15% & 15% HP Regen/turn"
+    ]
+  },
+  "thumbnail": "cow.girl-at.home-thumb.png",
+  "image": "cow.girl-at.home-full.png"
+}

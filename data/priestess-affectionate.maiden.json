@@ -1,0 +1,41 @@
+{ "id": "priestess-affectionate.maiden",
+  "banner": "Dungeon & Goblins",
+  "title": "Affectionate Maiden",
+  "name": "Priestess",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2294,
+  "mp": 277,
+  "str": 903,
+  "end": 347,
+  "dex": 805,
+  "agi": 891,
+  "mag": 1207,
+  "ascension": {
+    "hp": 3444,
+    "mp": 377,
+    "str": 1040,
+    "end": 515,
+    "dex": 900,
+    "agi": 916,
+    "mag": 1517
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Protection", "description": "[Foe] Ultra Thunder M.Attack w/temp Mag. Boost and Ultra Unguard Rate & [Allies] Str. and Mag.+80%/3 turns" },
+    { "name": "Minor Heal", "description": "[Foes] Str. and Mag.-35% & [Allies] 35% HP Regen/3 turns", "mp": 40 },
+    { "name": "Holy Light", "description": "[Allies] Fast Increase S.A Gauge Charge gain by 33%/4 turns & [Foes] Lo Thunder M.Attack w/Ultra Uncounter Rate", "mp": 29 },
+    { "name": "Sounding Staff", "description": "[Foe] Super Thunder M.Attack w/temp Mag. Boost & Status Debuff and [Allies] Status Buffs +2 turns", "mp": 122 }
+  ],
+  "passiveSkills": [
+    { "name": "Encouragement", "description": "When countering, instead of attacking regularly, it (Lo) Heals an Ally. Prioritizes an Ally with lower percentage HP." },
+    { "name": "Bloom", "description": "8% HP & MP Regen/turn" },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" }
+  ],
+  "thumbnail": "priestess-affectionate.maiden-thumb.png",
+  "image": "priestess-affectionate.maiden-full.png"
+}
