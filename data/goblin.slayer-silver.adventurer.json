@@ -1,0 +1,41 @@
+{ "id": "goblin.slayer-silver.adventurer",
+  "banner": "Dungeon & Goblins",
+  "title": "Silver Adventurer",
+  "name": "Goblin Slayer",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2422,
+  "mp": 256,
+  "str": 1642,
+  "end": 375,
+  "dex": 638,
+  "agi": 950,
+  "mag": 318,
+  "ascension": {
+    "hp": 3597,
+    "mp": 326,
+    "str": 1992,
+    "end": 555,
+    "dex": 713,
+    "agi": 1033,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Torrential", "description": "[Foe] Ultra Dark P.Attack Dmg +60% per each [Self] Str. Buff Skill & [Self] Str. and Dark Attack Dmg.+90%/3 turns" },
+    { "name": "Command Lead", "description": "[Foes] Critical Rate, Penetration Rate, P.Resist and Dark Resist-30%/4 turns", "mp": 45 },
+    { "name": "Sweeping Swath", "description": "[Foes] Mid Dark P.Attack w/Ultra Unguard Rate & Dmg. received (Attack Type: All Targets & Single Target)+20%/4 turns", "mp": 32 },
+    { "name": "Smash", "description": "[Foe] Super Dark P.Attack w/temp Str. Boost & Hi Penetration Rate and [Self] Str. and Dark Attack Dmg.+40%/3 turns", "mp": 50 }
+  ],
+  "passiveSkills": [
+    { "name": "Dark Manifestation", "description": "Light Resist+25% & When countering and attacking, regular P.Attack a Foe with Dark Element." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Ogre Killer", "description": "Ability Pt.+50% toward Ogre", "nemesis": "Ogre" }
+  ],
+  "thumbnail": "goblin.slayer-silver.adventurer-thumb.png",
+  "image": "goblin.slayer-silver.adventurer-full.png"
+}

@@ -1,0 +1,41 @@
+{ "id": "high.elf.archer-stellar.wind",
+  "banner": "Dungeon & Goblins",
+  "title": "Stellar Wind",
+  "name": "High Elf Archer",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2450,
+  "mp": 249,
+  "str": 1561,
+  "end": 373,
+  "dex": 726,
+  "agi": 946,
+  "mag": 318,
+  "ascension": {
+    "hp": 3625,
+    "mp": 319,
+    "str": 1911,
+    "end": 553,
+    "dex": 801,
+    "agi": 1029,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Multi-Shot", "description": "[Foes] Ultra Thunder P.Attack w/temp Str. Boost & Ultra Unguard Rate & P.Resist and Thunder Resist-30%/3 turns" },
+    { "name": "Archer's Art", "description": "[Self] Fast Dex. and Thunder Attack Dmg.+60% & [Allies] Dex. and Thunder Attack Dmg.+30%/5 turns", "mp": 41 },
+    { "name": "Strumming Strings", "description": "[Foes] Slow Super Thunder P.Attack Dmg.+60% only when a target is inflicted with Stun w/Ultra Penetration Rate and [Self] Str.+60%/2 turns", "mp": 64 },
+    { "name": "Marksmanship", "description": "[Foe] Hi Thunder P.Attack Dmg.+30% per each [Self] Dex. Buff Skill & Ultra Critical Rate", "mp": 30 }
+  ],
+  "passiveSkills": [
+    { "name": "Quick Strike", "description": "[Foe] Regular attack when countering w/90% Stun" },
+    { "name": "Piercing Strike", "description": "Dmg.+10% Upon Penetration" },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Ogre Killer", "description": "Ability Pt.+50% toward Ogre", "nemesis": "Ogre" }
+  ],
+  "thumbnail": "high.elf.archer-stellar.wind-thumb.png",
+  "image": "high.elf.archer-stellar.wind-full.png"
+}
