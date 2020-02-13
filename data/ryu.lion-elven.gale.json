@@ -1,0 +1,41 @@
+{ "id": "ryu.lion-elven.gale",
+  "banner": "Dungeon ＆ Goblins Part II",
+  "title": "Elven Gale",
+  "name": "Ryu Lion",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2538,
+  "mp": 307,
+  "str": 336,
+  "end": 330,
+  "dex": 706,
+  "agi": 886,
+  "mag": 1513,
+  "ascension": {
+    "hp": 3663,
+    "mp": 387,
+    "str": 387,
+    "end": 491,
+    "dex": 785,
+    "agi": 965,
+    "mag": 1848
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Nocturne Vortex", "description": "[Foes] Ultra Dark M.Attack Dmg.+50% per each [Self] Agi. Buff Skill & Ultra Unguard Rate" },
+    { "name": "Evening Star", "description": "[Foes] Fast Mag., Agi. and M.Resist-25% & [Self] Mag., Agi. and M.Resist+50%/4 turns", "mp": 48 },
+    { "name": "New Moon", "description": "[Foes] Super Dark M.Attack w/Ultra Penetration Rate w/temp Mag. Boost & [Self] Dark Attack Dmg.+50%/3 turns", "mp": 63 },
+    { "name": "Phantom Razor", "description": "[Foe] Hi Dark M.Attack Dmg.+40% per each [Self] Agi. Buff Skill & Ultra Critical Rate", "mp": 34 }
+  ],
+  "passiveSkills": [
+    { "name": "Anti Magic", "description": "[Foe] Regular attack when countering & removes Mag. Buffs exc. Assist Skills" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Ogre Killer", "description": "Ability Pt.+50% toward Ogre", "nemesis": "Ogre" }
+  ],
+  "thumbnail": "ryu.lion-elven.gale-thumb.png",
+  "image": "ryu.lion-elven.gale-full.png"
+}

@@ -1,0 +1,24 @@
+{ "id": "sword.maiden-hero.of.six",
+  "banner": "Dungeon ＆ Goblins Part II",
+  "title": "Hero of Six",
+  "name": "Sword Maiden",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 834,
+  "mp": 195,
+  "str": 372,
+  "end": 236,
+  "dex": 503,
+  "agi": 347,
+  "mag": 372,
+  "skill": {
+    "name": "All-Stars",
+    "descriptions": [
+      "[Foes] Str., Mag. and Dark Resist-10% & [Allies] Thunder Attack Dmg.+10%",
+      "[Foes] Str., Mag. and Dark Resist-15% & [Allies] Thunder Attack Dmg.+15%"
+    ]
+  },
+  "thumbnail": "sword.maiden-hero.of.six-thumb.png",
+  "image": "sword.maiden-hero.of.six-full.png"
+}

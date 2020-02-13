@@ -1,0 +1,41 @@
+{ "id": "amid.teasanare-priestess.image",
+  "banner": "Dungeon ＆ Goblins Part II",
+  "title": "Priestess Image",
+  "name": "Amid Teasanare",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2314,
+  "mp": 272,
+  "str": 903,
+  "end": 347,
+  "dex": 752,
+  "agi": 921,
+  "mag": 1230,
+  "ascension": {
+    "hp": 3464,
+    "mp": 372,
+    "str": 1040,
+    "end": 515,
+    "dex": 847,
+    "agi": 946,
+    "mag": 1540
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Hope Restoration", "description": "[Allies] Ultra HP Heal & [Self] Increase S.A Gauge Charge gain by 100% and [Allies] Increase S.A Gauge Charge gain by 33%/3 turns" },
+    { "name": "Dusk Shroud", "description": "[Allies] Fast 20% HP Heal & 20% HP Regen w/Str., Mag. and Dark Attack Dmg.+25%/3 turns", "mp": 44 },
+    { "name": "Shadow Coil", "description": "[Foes] Slow Super Dark M.Attack w/temp Mag. Boost and Hi Uncounter Rate & [Allies] removes Str. & Mag. debuffs exc. Assist Skills", "mp": 62 },
+    { "name": "Sanity Frey", "description": "[Foe] Mid Dark M.Attack w/temp Mag. Boost and Hi Unguard Rate & [Allies] Remove Curse & Ailment Cure", "mp": 32 }
+  ],
+  "passiveSkills": [
+    { "name": "Anti Strength", "description": "[Foe] Regular attack when countering & removes Str. Buffs exc. Assist Skills" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Ogre Killer", "description": "Ability Pt.+50% toward Ogre", "nemesis": "Ogre" }
+  ],
+  "thumbnail": "amid.teasanare-priestess.image-thumb.png",
+  "image": "amid.teasanare-priestess.image-full.png"
+}
