@@ -1,0 +1,41 @@
+{ "id": "lefiya.viridis-arcanic.cascade",
+  "banner": "Under Resort Crossing",
+  "title": "Arcanic Cascade",
+  "name": "Lefiya Viridis",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2414,
+  "mp": 338,
+  "str": 336,
+  "end": 332,
+  "dex": 691,
+  "agi": 837,
+  "mag": 1575,
+  "ascension": {
+    "hp": 3539,
+    "mp": 418,
+    "str": 387,
+    "end": 493,
+    "dex": 770,
+    "agi": 916,
+    "mag": 1910
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Disthermal Ray", "description": "[Foe] Ultra Water M.Attack Dmg.+70% per each [Self] Mag. Buff & Water Resist-50%/2 turns" },
+    { "name": "Icy Vein", "description": "[Self] 20% MP Heal & Mag., Dex. and Water Attack Dmg.+60%, Agi.-30%/4 turns", "mp": 24 },
+    { "name": "Frozen Solid", "description": "[Foe] Fast Hi Water M.Attack & M.Resist and Water Resist -30%/3 turns", "mp": 36 },
+    { "name": "Shatter Solid", "description": "[Foe] Super Water M.Attack Dmg.+60% per each [Self] Mag. Buff Skill & Water Attack Dmg. Buffs exc. Assist Skills will be removed afterward", "mp": 201 }
+  ],
+  "passiveSkills": [
+    { "name": "Water Manifestation", "description": "Fire Resist+25%. When countering and attacking, regular M.Attack a Foe with Water Element." },
+    { "name": "Strike", "description": "Critical Damage+20%" },
+    { "name": "Piercing Strike", "description": "Dmg.+20% Upon Penetration" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Plant Killer", "description": "Ability Pt.+50% toward Plants", "nemesis": "Plants" }
+  ],
+  "thumbnail": "lefiya.viridis-arcanic.cascade-thumb.png",
+  "image": "lefiya.viridis-arcanic.cascade-full.png"
+}
