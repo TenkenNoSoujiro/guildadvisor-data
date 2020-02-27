@@ -1,0 +1,41 @@
+{ "id": "alicia.forestlight-dueling.caster",
+  "banner": "Under Resort Crossing",
+  "title": "Dueling Caster",
+  "name": "Alicia Forestlight",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2310,
+  "mp": 273,
+  "str": 903,
+  "end": 347,
+  "dex": 785,
+  "agi": 921,
+  "mag": 1197,
+  "ascension": {
+    "hp": 3460,
+    "mp": 373,
+    "str": 1040,
+    "end": 515,
+    "dex": 880,
+    "agi": 946,
+    "mag": 1507
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Sagittarius Grace", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost and Hi Penetration Rate & [Foes] removes Status Buffs exc. Assist Skills" },
+    { "name": "Ripple Targe", "description": "[Self] Fast Mag., Agi., Water Attack Dmg.+30% & [Allies] Dmg. received (Attack Type: All and Single Targets)-30%/5 turns", "mp": 46 },
+    { "name": "Azure Carve", "description": "[Foes] Fast Hi Water M.Attack w/Ultra Uncounter Rate & removes Str. and Mag. Buffs exc. Assist Skills", "mp": 49 },
+    { "name": "Sapphire Droplet", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost and Ultra Unguard Rate", "mp": 31 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Water", "description": "When countering and attacking, regular M.Attack a Foe with Water Element." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" }
+  ],
+  "thumbnail": "alicia.forestlight-dueling.caster-thumb.png",
+  "image": "alicia.forestlight-dueling.caster-full.png"
+}
