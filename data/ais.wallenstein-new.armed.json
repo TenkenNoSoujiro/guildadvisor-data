@@ -1,0 +1,41 @@
+{ "id": "ais.wallenstein-new.armed",
+  "banner": "Under Resort Crossing",
+  "title": "New Armed",
+  "name": "Ais Wallenstein",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2482,
+  "mp": 241,
+  "str": 1656,
+  "end": 380,
+  "dex": 688,
+  "agi": 880,
+  "mag": 318,
+  "ascension": {
+    "hp": 3657,
+    "mp": 311,
+    "str": 2006,
+    "end": 560,
+    "dex": 763,
+    "agi": 963,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Cold Steel Rush", "description": "[Foes] Ultra Water P.Attack w/temp Str. Boost and Hi Penetration & [Self] Str., Agi. and Water Attack Dmg.+80%/4 turns" },
+    { "name": "Water Enhanced", "description": "[Self] Slow Str., Agi and Water Attack Dmg.+60% & [Foes] Agi.-30%/4 turns", "mp": 47 },
+    { "name": "Mirrored Steel", "description": "[Foes] Fast Hi Water P.Attack w/Ultra Uncounter Rate & removes Agi. and Dex. Buffs exc. Assist Skills", "mp": 44 },
+    { "name": "Sword Spike", "description": "[Foe] Super Water P.Attack w/temp Str. Boost and Ultra Unguard Rate", "mp": 34 }
+  ],
+  "passiveSkills": [
+    { "name": "Uncouple P.Resist", "description": "Regular attack a Foe when countering. Removes P.Resist Buffs exc. Assist Skills" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" }
+  ],
+  "thumbnail": "ais.wallenstein-new.armed-thumb.png",
+  "image": "ais.wallenstein-new.armed-full.png"
+}
