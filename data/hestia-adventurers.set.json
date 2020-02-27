@@ -1,0 +1,24 @@
+{ "id": "hestia-adventurers.set",
+  "banner": "Under Resort Crossing",
+  "title": "Adventurer's Set",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 818,
+  "mp": 199,
+  "str": 303,
+  "end": 234,
+  "dex": 550,
+  "agi": 440,
+  "mag": 303,
+  "skill": {
+    "name": "Labyrinth Journal",
+    "descriptions": [
+      "[Allies] Critical Rate, Penetration Rate and Counter Rate+8% & [Self] 60MP Regen/turn",
+      "[Allies] Critical Rate, Penetration Rate and Counter Rate+10% & [Self] 80MP Regen/turn"
+    ]
+  },
+  "thumbnail": "hestia-adventurers.set-thumb.png",
+  "image": "hestia-adventurers.set-full.png"
+}
