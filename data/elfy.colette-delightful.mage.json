@@ -1,0 +1,41 @@
+{ "id": "elfy.colette-delightful.mage",
+  "banner": "Under Resort Crossing",
+  "title": "Delightful Mage",
+  "name": "Elfy Colette",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2470,
+  "mp": 324,
+  "str": 341,
+  "end": 333,
+  "dex": 623,
+  "agi": 952,
+  "mag": 1520,
+  "ascension": {
+    "hp": 3595,
+    "mp": 404,
+    "str": 392,
+    "end": 494,
+    "dex": 702,
+    "agi": 1031,
+    "mag": 1855
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Femme Rivière", "description": "[Foes] Ultra Fire M.Attack w/temp Mag. Boost and Ultra Unguard Rate & [Allies] removes Status Debuffs exc. Assist Skills" },
+    { "name": "Inner Fire", "description": "[Allies] Avoids K.O x1 only when HP≧10% (removed when HP<10%) & Str., Mag. and Fire Attack Dmg.+25%/4 turns", "mp": 225 },
+    { "name": "Blaze Bringer", "description": "[Foes] Super Fire M.Attack w/temp Mag. Boost and Ultra Penetration rate & [Foes] 20% MP Drain", "mp": 55 },
+    { "name": "Flame Lift", "description": "[Foe] Hi Fire M.Attack w/temp Mag. Boost and Ultra Unguard Rate & [Foe] 15% MP Drain", "mp": 41 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Fire", "description": "When countering and attacking, regular M.Attack a Foe with Fire Element." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Wind Resistance: I", "description": "Wind Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Plant Killer", "description": "Ability Pt.+50% toward Plants", "nemesis": "Plants" }
+  ],
+  "thumbnail": "elfy.colette-delightful.mage-thumb.png",
+  "image": "elfy.colette-delightful.mage-full.png"
+}
