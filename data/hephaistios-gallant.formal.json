@@ -1,0 +1,24 @@
+{ "id": "hephaistios-gallant.formal",
+  "banner": "Under Resort Crossing",
+  "title": "Gallant Formal",
+  "name": "Hephaistios",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 830,
+  "mp": 196,
+  "str": 208,
+  "end": 211,
+  "dex": 383,
+  "agi": 343,
+  "mag": 627,
+  "skill": {
+    "name": "Naming Gown",
+    "descriptions": [
+      "[Allies] Mag.+15% & Fire and Water Attack Dmg.+10%",
+      "[Allies] Mag.+20% & Fire and Water Attack Dmg.+15%"
+    ]
+  },
+  "thumbnail": "hephaistios-gallant.formal-thumb.png",
+  "image": "hephaistios-gallant.formal-full.png"
+}
