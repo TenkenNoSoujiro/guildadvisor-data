@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Heaven's Catastrophe", "description": "[Foes] Ultra Dark P.Attack w/temp Str. Boost & Status Buff -2 turns" },
-    { "name": "Devilish Malevolence", "description": "[Foes] Lo Dark P.Attack & [Allies] Dark Attack Dmg.+25%/3 turns" },
-    { "name": "Disintegrate", "description": "[Foes] Hi Dark P.Attack w/temp Str. Boost & Max HP 25% Dmg. Poison/1 turn" },
-    { "name": "Ruthless Sword", "description": "[Foe] Hi Dark P.Attack w/temp Str. Boost" }
+    { "name": "Devilish Malevolence", "description": "[Foes] Lo Dark P.Attack & [Allies] Dark Attack Dmg.+25%/3 turns", "mp": 27 },
+    { "name": "Disintegrate", "description": "[Foes] Hi Dark P.Attack w/temp Str. Boost & Max HP 25% Dmg. Poison/1 turn", "mp": 30 },
+    { "name": "Ruthless Sword", "description": "[Foe] Hi Dark P.Attack w/temp Str. Boost", "mp": 25 }
   ],
   "passiveSkills": [
     { "name": "Sword Fighter", "description": "Str.+15%" },

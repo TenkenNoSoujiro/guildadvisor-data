@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Geiravor Dens", "description": "[Foe] Ultra P.Attack w/Ultra Penetration Rate & temp Str. Boost" },
-    { "name": "Cat Spike", "description": "[Foes] Mid P.Attack & P.Resist-10%/2 turns" },
-    { "name": "Quick Revenge", "description": "[Self] Fast/Avoids K.O. x1 only when HP≥20% (removed when HP<20%)" },
-    { "name": "Charge Growl", "description": "[Foe] Hi P.Attack w/temp Str. Boost & P.Resist-20%/2 turns" }
+    { "name": "Cat Spike", "description": "[Foes] Mid P.Attack & P.Resist-10%/2 turns", "mp": 22 },
+    { "name": "Quick Revenge", "description": "[Self] Fast/Avoids K.O. x1 only when HP≥20% (removed when HP<20%)", "mp": 72 },
+    { "name": "Charge Growl", "description": "[Foe] Hi P.Attack w/temp Str. Boost & P.Resist-20%/2 turns", "mp": 30 }
   ],
   "passiveSkills": [
     { "name": "Nimble", "description": "Str. & Agi.+10%" },

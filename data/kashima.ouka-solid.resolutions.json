@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Ouka Issen", "description": "[Foes] Hi P.Attack" },
-    { "name": "Shielding Stance", "description": "Scapegoat during turn" },
-    { "name": "Kenpu-Renzan", "description": "[Foe] Lo P.Attack" },
-    { "name": "Heart of Perseverance", "description": "[Self] Avoids K.O x1 only when HP≥40% (removed when HP<40%)" }
+    { "name": "Shielding Stance", "description": "Scapegoat during turn", "mp": 10 },
+    { "name": "Kenpu-Renzan", "description": "[Foe] Lo P.Attack", "mp": 8 },
+    { "name": "Heart of Perseverance", "description": "[Self] Avoids K.O x1 only when HP≥40% (removed when HP<40%)", "mp": 24 }
   ],
   "passiveSkills": [
     { "name": "Strong Defense", "description": "End.+2%" },

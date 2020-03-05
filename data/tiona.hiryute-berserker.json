@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Amazon Berserk", "description": "[Foes] Hi P.Attack" },
-    { "name": "Pololokka Rodirro", "description": "[Foe] Lo P.Attack w/30% Stun" },
-    { "name": "Amazoness Ira", "description": "[Self] Str.+75% & P.Resist-15%/4 turns" },
-    { "name": "Decremensis Resa", "description": "[Foe] P.Resist-5%/4 turns" }
+    { "name": "Pololokka Rodirro", "description": "[Foe] Lo P.Attack w/30% Stun", "mp": 16 },
+    { "name": "Amazoness Ira", "description": "[Self] Str.+75% & P.Resist-15%/4 turns", "mp": 20 },
+    { "name": "Decremensis Resa", "description": "[Foe] P.Resist-5%/4 turns", "mp": 25 }
   ],
   "passiveSkills": [
     { "name": "Hunter", "description": "Agi.+7.5%" },

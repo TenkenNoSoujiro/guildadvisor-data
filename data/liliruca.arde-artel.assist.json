@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Raining Arrows", "description": "[Foes] Hi P.Attack" },
-    { "name": "Cure Potion", "description": "[Allies] Lo Heal" },
-    { "name": "Detoxification", "description": "[Allies] Ailment Cure" },
-    { "name": "Hypnotic Arrow", "description": "[Foe] Lo P.Attack w/30% Sleep" }
+    { "name": "Cure Potion", "description": "[Allies] Lo Heal", "mp": 10 },
+    { "name": "Detoxification", "description": "[Allies] Ailment Cure", "mp": 8 },
+    { "name": "Hypnotic Arrow", "description": "[Foe] Lo P.Attack w/30% Sleep", "mp": 20 }
   ],
   "passiveSkills": [
     { "name": "Supporter's Strength", "description": "Str.+4.5%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Canon Shot", "description": "[Foe] Hi P.Attack" },
-    { "name": "Persuader", "description": "[Foe] Hi P.Attack" },
-    { "name": "First Chance", "description": "[Foe] Mid P.Attack & P.Resist-20%/2 turns" },
-    { "name": "Stance Square", "description": "[Self] Str.+50%/4 turns" }
+    { "name": "Persuader", "description": "[Foe] Hi P.Attack", "mp": 20 },
+    { "name": "First Chance", "description": "[Foe] Mid P.Attack & P.Resist-20%/2 turns", "mp": 19 },
+    { "name": "Stance Square", "description": "[Self] Str.+50%/4 turns", "mp": 18 }
   ],
   "passiveSkills": [
     { "name": "Saboteur", "description": "Dex.+8%" },

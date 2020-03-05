@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Mal Amour", "description": "[Foe] Ultra Light M.Attack w/temp Mag. Boost" },
-    { "name": "Heart Breaker", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & removes Mag. Buffs exc. Assist Skills" },
-    { "name": "Pure Glittering Edge", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & [Allies] Light Attack Dmg.+20%/4 turns" },
-    { "name": "Passion Coordination", "description": "[Foe] Lo Light M.Attack & [Self] Mag.+75%/4 turns" }
+    { "name": "Heart Breaker", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & removes Mag. Buffs exc. Assist Skills", "mp": 41 },
+    { "name": "Pure Glittering Edge", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & [Allies] Light Attack Dmg.+20%/4 turns", "mp": 44 },
+    { "name": "Passion Coordination", "description": "[Foe] Lo Light M.Attack & [Self] Mag.+75%/4 turns", "mp": 27 }
   ],
   "passiveSkills": [
     { "name": "Enlightenment", "description": "Mag.+15%" },

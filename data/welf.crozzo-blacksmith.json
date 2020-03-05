@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Firemoon", "description": "[Foes] Hi Fire M.Attack indexed to End. & Mag." },
-    { "name": "Zangetsu", "description": "[Foe] Lo P.Attack" },
-    { "name": "Will o' Wisp", "description": "[Self] Reflects M.Attack x1 exc. Special Arts" },
-    { "name": "Starkhaut", "description": "[Foe] 50% Taunt" }
+    { "name": "Zangetsu", "description": "[Foe] Lo P.Attack", "mp": 8 },
+    { "name": "Will o' Wisp", "description": "[Self] Reflects M.Attack x1 exc. Special Arts", "mp": 18 },
+    { "name": "Starkhaut", "description": "[Foe] 50% Taunt", "mp": 21 }
   ],
   "passiveSkills": [
     { "name": "Blacksmith", "description": "End.+1.5%" },

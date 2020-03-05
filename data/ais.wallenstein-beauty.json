@@ -29,9 +29,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Dancing Lil Rafaga", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost & 50% Sleep" },
-    { "name": "Ravage Dance", "description": "[Foes] Super Water M.Attack w/temp Mag. Boost & Ultra Penetration Rate" },
-    { "name": "Kaleidoscopic Dance", "description": "[Allies] Remove increase in Dmg. received (All Targets) & P.Resist Debuff exc. Assist Skill" },
-    { "name": "Alluring Steps", "description": "[Allies] 25% HP Regen & P.Resist and Heal+25%/5 turns" }
+    { "name": "Ravage Dance", "description": "[Foes] Super Water M.Attack w/temp Mag. Boost & Ultra Penetration Rate", "mp": 43 },
+    { "name": "Kaleidoscopic Dance", "description": "[Allies] Remove increase in Dmg. received (All Targets) & P.Resist Debuff exc. Assist Skill", "mp": 32 },
+    { "name": "Alluring Steps", "description": "[Allies] 25% HP Regen & P.Resist and Heal+25%/5 turns", "mp": 31 }
   ],
   "passiveSkills": [
     { "name": "Agitation", "description": "When countering, instead of attacking regularly, 75% Taunt a Foe." },

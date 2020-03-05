@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Furin-kazan", "description": "[Foes] Ultra Wind P.Attack w/temp Str. Boost" },
-    { "name": "Catalpa Katana", "description": "[Foes] Hi Wind P.Attack w/temp Str. Boost" },
-    { "name": "Kekkai-jin Sanshiki", "description": "[Foes] Mid Wind P.Attack w/P.Resist & Guard Rate-25%/3 turns" },
-    { "name": "Ichino-gata Gekishin", "description": "[Foe] Hi Wind P.Attack w/temp Str. Boost" }
+    { "name": "Catalpa Katana", "description": "[Foes] Hi Wind P.Attack w/temp Str. Boost", "mp": 28 },
+    { "name": "Kekkai-jin Sanshiki", "description": "[Foes] Mid Wind P.Attack w/P.Resist & Guard Rate-25%/3 turns", "mp": 28 },
+    { "name": "Ichino-gata Gekishin", "description": "[Foe] Hi Wind P.Attack w/temp Str. Boost", "mp": 25 }
   ],
   "passiveSkills": [
     { "name": "Status Resist", "description": "Ailment Resist+15%" },

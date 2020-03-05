@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Mighty Sunrise", "description": "[Allies] Avoids K.O x1 only when HP≥1% (removed when HP<1%)" },
-    { "name": "Strong Defense", "description": "[Foes] Fast 75% Taunt & Penetration Rate-30%/4 turns" },
-    { "name": "Attack Fortress", "description": "[Self] Counter & Guard Rate+50%/4 turns" },
-    { "name": "Scintillate Ax", "description": "[Foes] Hi P.Attack w/temp Str. Boost & Heal 25% of Dmg." }
+    { "name": "Strong Defense", "description": "[Foes] Fast 75% Taunt & Penetration Rate-30%/4 turns", "mp": 25 },
+    { "name": "Attack Fortress", "description": "[Self] Counter & Guard Rate+50%/4 turns", "mp": 30 },
+    { "name": "Scintillate Ax", "description": "[Foes] Hi P.Attack w/temp Str. Boost & Heal 25% of Dmg.", "mp": 38 }
   ],
   "passiveSkills": [
     { "name": "Fist Strike", "description": "Str.+10%" },

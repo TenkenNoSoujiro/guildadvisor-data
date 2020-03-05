@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Salvaging Aeriel", "description": "[Foes] Ultra Light P.Attack" },
-    { "name": "Complete Angelic Power", "description": "[Self] Str.+70% & P.Resist+10%/4 turns" },
-    { "name": "Piko Hammer Slash", "description": "[Foe] Hi Light P.Attack" },
-    { "name": "Angelic Cut", "description": "[Foes] Mid Light P.Attack" }
+    { "name": "Complete Angelic Power", "description": "[Self] Str.+70% & P.Resist+10%/4 turns", "mp": 23 },
+    { "name": "Piko Hammer Slash", "description": "[Foe] Hi Light P.Attack", "mp": 20 },
+    { "name": "Angelic Cut", "description": "[Foes] Mid Light P.Attack", "mp": 16 }
   ],
   "passiveSkills": [
     { "name": "Crush", "description": "Str.+5%" },

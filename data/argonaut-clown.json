@@ -28,9 +28,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Heroic Tale: Prelude", "description": "[Foes] Ultra Fire P.Attack w/temp Str. Boost & Hi Unguard Rate" },
-    { "name": "Hero Diary", "description": "[Foes] Lo Fire P.Attack & [Self] Str.+75%/4 turns" },
-    { "name": "Heartless Monsters!", "description": "[Foes] Hi Fire P.Attack w/temp Str. Boost & Hi Critical Rate" },
-    { "name": "Strike of a Hero?", "description": "[Foe] Hi Fire P.Attack w/temp Str. Boost" }
+    { "name": "Hero Diary", "description": "[Foes] Lo Fire P.Attack & [Self] Str.+75%/4 turns", "mp": 27 },
+    { "name": "Heartless Monsters!", "description": "[Foes] Hi Fire P.Attack w/temp Str. Boost & Hi Critical Rate", "mp": 31 },
+    { "name": "Strike of a Hero?", "description": "[Foe] Hi Fire P.Attack w/temp Str. Boost", "mp": 27 }
   ],
   "passiveSkills": [
     { "name": "Nimble", "description": "Str. & Agi.+15%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Darkest Doom's Edge", "description": "[Foes] Ultra Dark P.Attack" },
-    { "name": "Slashing Atonement", "description": "[Foes] Hi Dark P.Attack" },
-    { "name": "Blackest Aura", "description": "[Foes] Hi Dark M.Attack" },
-    { "name": "Forbidden Left Arm", "description": "[Self] Str. & Mag.+70%/4 turns" }
+    { "name": "Slashing Atonement", "description": "[Foes] Hi Dark P.Attack", "mp": 24 },
+    { "name": "Blackest Aura", "description": "[Foes] Hi Dark M.Attack", "mp": 28 },
+    { "name": "Forbidden Left Arm", "description": "[Self] Str. & Mag.+70%/4 turns", "mp": 23 }
   ],
   "passiveSkills": [
     { "name": "Crush", "description": "Str.+5%" },

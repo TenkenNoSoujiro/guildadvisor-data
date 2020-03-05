@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Firebolt Fireworks", "description": "[Foes] Ultra Fire M.Attack w/temp Mag. boost" },
-    { "name": "Firebolt", "description": "[Foe] Fast Hi Fire M.Attack w/temp Mag. boost" },
-    { "name": "Rapid Firebolt", "description": "[Foes] Mid Fire M.Attack" },
-    { "name": "Preperation", "description": "[Foes] Lo Fire M.Attack & [Self] Mag.+50%/4 turns" }
+    { "name": "Firebolt", "description": "[Foe] Fast Hi Fire M.Attack w/temp Mag. boost", "mp": 43 },
+    { "name": "Rapid Firebolt", "description": "[Foes] Mid Fire M.Attack", "mp": 24 },
+    { "name": "Preperation", "description": "[Foes] Lo Fire M.Attack & [Self] Mag.+50%/4 turns", "mp": 29 }
   ],
   "passiveSkills": [
     { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },

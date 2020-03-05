@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Dvergr Enhance", "description": "[Foes] Hi Earth M.Attack indexed to Str." },
-    { "name": "Banishing Ax", "description": "[Foe] Mid P.Attack" },
-    { "name": "Sidewinder", "description": "[Foes] Mid P.Attack" },
-    { "name": "Ardigalea", "description": "[Allies] P.Resist+10%/4 turns" }
+    { "name": "Banishing Ax", "description": "[Foe] Mid P.Attack", "mp": 13 },
+    { "name": "Sidewinder", "description": "[Foes] Mid P.Attack", "mp": 20 },
+    { "name": "Ardigalea", "description": "[Allies] P.Resist+10%/4 turns", "mp": 30 }
   ],
   "passiveSkills": [
     { "name": "Fist Strike", "description": "Str.+4%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Burst Oil", "description": "[Foes] Hi Fire M.Attack" },
-    { "name": "Poison Bullet", "description": "[Foe] Lo P.Attack w/Max HP 10% Dmg. Poison" },
-    { "name": "Melta Physica", "description": "[Foes] P.Resist-15%/4 turns" },
-    { "name": "Fall Menta", "description": "[Foes] M.Resist-15%/4 turns" }
+    { "name": "Poison Bullet", "description": "[Foe] Lo P.Attack w/Max HP 10% Dmg. Poison", "mp": 23 },
+    { "name": "Melta Physica", "description": "[Foes] P.Resist-15%/4 turns", "mp": 25 },
+    { "name": "Fall Menta", "description": "[Foes] M.Resist-15%/4 turns", "mp": 25 }
   ],
   "passiveSkills": [
     { "name": "Mystery", "description": "Dex.+4%" },

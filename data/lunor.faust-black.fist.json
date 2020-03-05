@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Assault Strike", "description": "[Foes] Ultra Dark P.Attack w/temp Str. Boost & Ultra Unguard Rate" },
-    { "name": "Danger Detection", "description": "[Foes] Lo Dark P.Attack & removes all Str. Buffs exc. Assist Skills" },
-    { "name": "Thorough Destruction", "description": "[Foes] Hi Dark P.Attack w/temp Str. Boost & Agi.-20%/4 turns" },
-    { "name": "Black Fist Crush", "description": "[Foes] Mid Dark P.Attack w/temp Str. Boost & P.Resist-15%/3 turns" }
+    { "name": "Danger Detection", "description": "[Foes] Lo Dark P.Attack & removes all Str. Buffs exc. Assist Skills", "mp": 18 },
+    { "name": "Thorough Destruction", "description": "[Foes] Hi Dark P.Attack w/temp Str. Boost & Agi.-20%/4 turns", "mp": 35 },
+    { "name": "Black Fist Crush", "description": "[Foes] Mid Dark P.Attack w/temp Str. Boost & P.Resist-15%/3 turns", "mp": 27 }
   ],
   "passiveSkills": [
     { "name": "Crush", "description": "Str.+15%" },

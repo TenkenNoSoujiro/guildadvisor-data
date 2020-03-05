@@ -28,9 +28,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Counter Water Strike", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost & [Allies] Null P.Attack x1 exc. Special Arts" },
-    { "name": "Misty Moon", "description": "[Foes] Lo Water M.Attack w/Hi Uncounter Rate & [Self] Mag.+80%/5 turns" },
-    { "name": "Verdant Gale", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost & Ultra Critical Rate" },
-    { "name": "Seven Siege", "description": "[Foes] Super Water M.Attack w/Hi Uncounter Rate & [Self] Null P.Attack x1 exc. Special Arts" }
+    { "name": "Misty Moon", "description": "[Foes] Lo Water M.Attack w/Hi Uncounter Rate & [Self] Mag.+80%/5 turns", "mp": 31 },
+    { "name": "Verdant Gale", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost & Ultra Critical Rate", "mp": 34 },
+    { "name": "Seven Siege", "description": "[Foes] Super Water M.Attack w/Hi Uncounter Rate & [Self] Null P.Attack x1 exc. Special Arts", "mp": 50 }
   ],
   "passiveSkills": [
     { "name": "Bravery", "description": "When countering, regular attack a Foe & HP Heal 50% of Dmg." },

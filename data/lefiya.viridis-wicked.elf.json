@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Spikey Avalanche", "description": "[Foes] Ultra Dark M.Attack w/temp Mag. Boost" },
-    { "name": "Black Brand", "description": "[Foes] Lo Dark M.Attack & [Self] Dark Attack Dmg.+60%/4 turns" },
-    { "name": "Amplify Agony", "description": "[Foes] Mid Dark M.Attack w/temp Mag. Boost & M.Resist-15%/3 turns" },
-    { "name": "Shadow Feeder", "description": "[Foes] Hi Dark M.Attack w/temp Mag. Boost & Counter Rate-25%/3 turns" }
+    { "name": "Black Brand", "description": "[Foes] Lo Dark M.Attack & [Self] Dark Attack Dmg.+60%/4 turns", "mp": 34 },
+    { "name": "Amplify Agony", "description": "[Foes] Mid Dark M.Attack w/temp Mag. Boost & M.Resist-15%/3 turns", "mp": 34 },
+    { "name": "Shadow Feeder", "description": "[Foes] Hi Dark M.Attack w/temp Mag. Boost & Counter Rate-25%/3 turns", "mp": 53 }
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+15%" },

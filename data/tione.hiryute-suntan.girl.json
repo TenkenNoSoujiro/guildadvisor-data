@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Backdraft", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
-    { "name": "Gritar Amor", "description": "[Foe] Hi P.Attack w/30% Seal" },
-    { "name": "Amor Rampage", "description": "[Foes] Mid P.Attack w/temp Str. Boost & Ailment Resist-40%/2 turns" },
-    { "name": "Lindo Pastel", "description": "[Foes] Mid P.Attack w/50% Taunt & [Self] End.+40%/4 turns" }
+    { "name": "Gritar Amor", "description": "[Foe] Hi P.Attack w/30% Seal", "mp": 26 },
+    { "name": "Amor Rampage", "description": "[Foes] Mid P.Attack w/temp Str. Boost & Ailment Resist-40%/2 turns", "mp": 27 },
+    { "name": "Lindo Pastel", "description": "[Foes] Mid P.Attack w/50% Taunt & [Self] End.+40%/4 turns", "mp": 28 }
   ],
   "passiveSkills": [
     { "name": "Fist Strike", "description": "Str.+25%" },

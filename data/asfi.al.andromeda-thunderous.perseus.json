@@ -26,7 +26,7 @@
       "name": "Ascending Knives", "description": "[Foes] Ultra Thunder P.Attack w/P.Resist & M.Resist-25%/2 turns" },
     { "name": "Magnetic Maze", "description": "[Foes] Mid Thunder P.Attack w/Counter Rate & Heal-35%/3 turns", "mp": 27 },
     { "name": "Phase Shift", "description": "[Foes] Hi Thunder P.Attack w/Hi Uncounter Rate & [Allies] 50% Chance Null M.Attack x1 exc. Special Arts", "mp": 41 },
-    { "name": "Thunder Crash", "description": "[Foe] Mid Thunder P.Attack Dmg.+60% per each Target's Heal Reduction Skill" }
+    { "name": "Thunder Crash", "description": "[Foe] Mid Thunder P.Attack Dmg.+60% per each Target's Heal Reduction Skill", "mp": 22 }
   ],
   "passiveSkills": [
     { "name": "Mystery", "description": "Dex.+15%" },

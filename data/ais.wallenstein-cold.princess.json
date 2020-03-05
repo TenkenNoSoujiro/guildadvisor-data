@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Pikopiko Aerial", "description": "[Foes] Hi P.Attack" },
-    { "name": "Ariel?", "description": "[Self] Str.+50% & M.Resist+5%/4 turns" },
-    { "name": "Tres Piercer?", "description": "[Foe] Lo P.Attack" },
-    { "name": "Veter Mech?", "description": "[Foes] Lo P.Attack" }
+    { "name": "Ariel?", "description": "[Self] Str.+50% & M.Resist+5%/4 turns", "mp": 10 },
+    { "name": "Tres Piercer?", "description": "[Foe] Lo P.Attack", "mp": 9 },
+    { "name": "Veter Mech?", "description": "[Foes] Lo P.Attack", "mp": 20 }
   ],
   "passiveSkills": [
     { "name": "Saboteur", "description": "Dex.+5%" },

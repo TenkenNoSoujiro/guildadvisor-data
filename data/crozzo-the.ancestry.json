@@ -29,9 +29,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Fiery Protector", "description": "[Foes] Ultra Fire P.Attack w/temp Str. Boost & P.Resist and Fire Resist-35%/1 turn" },
-    { "name": "Jolts", "description": "[Foes] Fast Lo Fire P.Attack & Str., Mag. and Agi.-30%/2 turns" },
-    { "name": "Pure Casting", "description": "[Foes] Super Fire P.Attack w/Ultra Unguard Rate & P.Resist and Fire Resist-25%/2 turns" },
-    { "name": "Vortex of Flames", "description": "[Foe] Hi Fire P.Attack w/temp Str. Boost & [Allies] Status Buff+1 turn" }
+    { "name": "Jolts", "description": "[Foes] Fast Lo Fire P.Attack & Str., Mag. and Agi.-30%/2 turns", "mp": 32 },
+    { "name": "Pure Casting", "description": "[Foes] Super Fire P.Attack w/Ultra Unguard Rate & P.Resist and Fire Resist-25%/2 turns", "mp": 49 },
+    { "name": "Vortex of Flames", "description": "[Foe] Hi Fire P.Attack w/temp Str. Boost & [Allies] Status Buff+1 turn", "mp": 39 }
   ],
   "passiveSkills": [
     { "name": "Will of Fire", "description": "When countering and attacking, regular P.Attack a Foe with Fire Element." },

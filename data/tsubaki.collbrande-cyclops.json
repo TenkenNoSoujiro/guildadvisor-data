@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Lepida Cyclops", "description": "[Foes] Hi P.Attack & P.Resist-40%/1 turn" },
-    { "name": "Kakitsubata", "description": "[Foe] Lo P.Attack w/30% Stun" },
-    { "name": "Rindo", "description": "[Self] Str.+50%/4 turns" },
-    { "name": "Housenka", "description": "[Foe] Removes Mag. buffs exc Assist Skills" }
+    { "name": "Kakitsubata", "description": "[Foe] Lo P.Attack w/30% Stun", "mp": 12 },
+    { "name": "Rindo", "description": "[Self] Str.+50%/4 turns", "mp": 18 },
+    { "name": "Housenka", "description": "[Foe] Removes Mag. buffs exc Assist Skills", "mp": 20 }
   ],
   "passiveSkills": [
     { "name": "Tough", "description": "End.+5%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Icechunk Impact", "description": "[Foes] Ultra Water M.Attack" },
-    { "name": "Sleet Fall", "description": "[Allies] Dmg. received (Attack Type: All Targets)-20%/4 turns" },
-    { "name": "Crushing Deluge", "description": "[Foe] Mid Water M.Attack w/Hi Unguard Rate" },
-    { "name": "Soothing Mist", "description": "[Allies] Lo HP Heal & Mag.+25%/3 turns" }
+    { "name": "Sleet Fall", "description": "[Allies] Dmg. received (Attack Type: All Targets)-20%/4 turns", "mp": 30 },
+    { "name": "Crushing Deluge", "description": "[Foe] Mid Water M.Attack w/Hi Unguard Rate", "mp": 17 },
+    { "name": "Soothing Mist", "description": "[Allies] Lo HP Heal & Mag.+25%/3 turns", "mp": 22 }
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+15%" },

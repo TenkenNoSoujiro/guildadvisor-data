@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Chigusa Senbu", "description": "[Foes] Hi P.Attack" },
-    { "name": "Loyal Knife", "description": "[Foe] Lo P.Attack" },
-    { "name": "Breath of Spring", "description": "[Allies] Lo Heal" },
-    { "name": "Anti-Katana Circle", "description": "[Allies] P.Resist+10%/4 turns" }
+    { "name": "Loyal Knife", "description": "[Foe] Lo P.Attack", "mp": 8 },
+    { "name": "Breath of Spring", "description": "[Allies] Lo Heal", "mp": 9 },
+    { "name": "Anti-Katana Circle", "description": "[Allies] P.Resist+10%/4 turns", "mp": 18 }
   ],
   "passiveSkills": [
     { "name": "Abnormal Resistance", "description": "Ailment Resist+5%" },

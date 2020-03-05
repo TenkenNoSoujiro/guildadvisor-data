@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "One-Bladed Bisection", "description": "[Foe] Ultra P.Attack w/temp Str. Boost" },
-    { "name": "Headwind", "description": "[Foe] Hi P.Attack w/temp Str. Boost" },
-    { "name": "Artisan Sword", "description": "[Foe] Mid P.Attack & removes all P.Resist Buffs exc. Assist Skills" },
-    { "name": "Concentration", "description": "[Self] Critical Rate+50%/4 turns" }
+    { "name": "Headwind", "description": "[Foe] Hi P.Attack w/temp Str. Boost", "mp": 25 },
+    { "name": "Artisan Sword", "description": "[Foe] Mid P.Attack & removes all P.Resist Buffs exc. Assist Skills", "mp": 33 },
+    { "name": "Concentration", "description": "[Self] Critical Rate+50%/4 turns", "mp": 15 }
   ],
   "passiveSkills": [
     { "name": "Saboteur", "description": "Dex.+10%" },

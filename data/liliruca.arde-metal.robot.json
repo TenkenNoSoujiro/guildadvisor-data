@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Pallum Satellite Cannon", "description": "[Foes] Ultra Thunder M.Attack" },
-    { "name": "Emergency Maintenance", "description": "[Allies] Lo HP Heal & Ailment Cure" },
-    { "name": "Caustic Smog", "description": "[Foe] Lo Thunder M.Attack & Max HP 10% Dmg. Poison" },
-    { "name": "Robot Punch", "description": "[Foes] Mid Thunder M.Attack" }
+    { "name": "Emergency Maintenance", "description": "[Allies] Lo HP Heal & Ailment Cure", "mp": 21 },
+    { "name": "Caustic Smog", "description": "[Foe] Lo Thunder M.Attack & Max HP 10% Dmg. Poison", "mp": 18 },
+    { "name": "Robot Punch", "description": "[Foes] Mid Thunder M.Attack", "mp": 19 }
   ],
   "passiveSkills": [
     { "name": "Enlightenment", "description": "Mag.+5%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Vanargand Solmani", "description": "[Foes] Hi P.Attack" },
-    { "name": "Wolfskehl", "description": "[Foe] Lo P.Attack" },
-    { "name": "Wolfen Roar", "description": "[Self] Str.+50%/4 turns" },
-    { "name": "Fenris Wolf", "description": "[Self] Agi.+50%/4 turns" }
+    { "name": "Wolfskehl", "description": "[Foe] Lo P.Attack", "mp": 8 },
+    { "name": "Wolfen Roar", "description": "[Self] Str.+50%/4 turns", "mp": 18 },
+    { "name": "Fenris Wolf", "description": "[Self] Agi.+50%/4 turns", "mp": 12 }
   ],
   "passiveSkills": [
     { "name": "Insane Speed", "description": "Agi.+4%" },

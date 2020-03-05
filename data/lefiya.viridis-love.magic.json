@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Galactica Magica", "description": "[Foes] Ultra Water M.Attack" },
-    { "name": "Shining Wizard", "description": "[Foe] Mid Light P.Attack" },
-    { "name": "Keep it a secret!", "description": "[Foes] Mid Water M.Attack w/5% Seal" },
-    { "name": "Magic Attack", "description": "[Foes] Mid Water M.Attack & M.Resist-5%/4 turns" }
+    { "name": "Shining Wizard", "description": "[Foe] Mid Light P.Attack", "mp": 14 },
+    { "name": "Keep it a secret!", "description": "[Foes] Mid Water M.Attack w/5% Seal", "mp": 22 },
+    { "name": "Magic Attack", "description": "[Foes] Mid Water M.Attack & M.Resist-5%/4 turns", "mp": 22 }
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+5%" },

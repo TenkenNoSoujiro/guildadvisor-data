@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Crystal Deluge", "description": "[Allies] Guard Rate & P.Resist+40%/4 turns" },
-    { "name": "Blanc Glace", "description": "[Foe] Hi Water M.Attack & Water Resist-35%/4 turns" },
-    { "name": "Avalanche Neige", "description": "[Foes] Mid Water M.Attack" },
-    { "name": "Elle Glace", "description": "[Allies] Mag.+45%/4 turns" }
+    { "name": "Blanc Glace", "description": "[Foe] Hi Water M.Attack & Water Resist-35%/4 turns", "mp": 30 },
+    { "name": "Avalanche Neige", "description": "[Foes] Mid Water M.Attack", "mp": 19 },
+    { "name": "Elle Glace", "description": "[Allies] Mag.+45%/4 turns", "mp": 30 }
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+30%" },

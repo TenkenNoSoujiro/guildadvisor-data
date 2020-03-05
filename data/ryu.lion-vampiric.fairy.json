@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Vampiric Drain", "description": "[Foes] Ultra Dark M.Attack indexed to End. w/Heal 20% of Dmg." },
-    { "name": "Insite Wind", "description": "[Foes] 50% Taunt & [Self] End.+40%/4 turns" },
-    { "name": "Fairy Vamp", "description": "[Foe] Hi Dark M.Attack indexed to End. w/Heal 50% of Dmg." },
-    { "name": "Vind Chaos", "description": "[Foes] Hi Dark M.Attack indexed to End. w/temp End. Boost" }
+    { "name": "Insite Wind", "description": "[Foes] 50% Taunt & [Self] End.+40%/4 turns", "mp": 35 },
+    { "name": "Fairy Vamp", "description": "[Foe] Hi Dark M.Attack indexed to End. w/Heal 50% of Dmg.", "mp": 42 },
+    { "name": "Vind Chaos", "description": "[Foes] Hi Dark M.Attack indexed to End. w/temp End. Boost", "mp": 44 }
   ],
   "passiveSkills": [
     { "name": "Magic Resistance", "description": "M.Resist+10%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Gamine Prune", "description": "[Foes] Ultra Thunder P.Attack w/50% Stun" },
-    { "name": "Gardien Tonnerre", "description": "[Allies] P.Resist & M.Resist+35%/2 turns" },
-    { "name": "Temerite Innocence", "description": "[Allies] Agi. & End.+30%/3 turns" },
-    { "name": "Foudre Neige", "description": "[Foe] Delayed Mid Thunder P.Attack & put targets to Sleep" }
+    { "name": "Gardien Tonnerre", "description": "[Allies] P.Resist & M.Resist+35%/2 turns", "mp": 26 },
+    { "name": "Temerite Innocence", "description": "[Allies] Agi. & End.+30%/3 turns", "mp": 26 },
+    { "name": "Foudre Neige", "description": "[Foe] Delayed Mid Thunder P.Attack & put targets to Sleep", "mp": 29 }
   ],
   "passiveSkills": [
     { "name": "Blessing", "description": "When countering, instead of attacking regularly, it extends Buff for Allies for 1 turn" },

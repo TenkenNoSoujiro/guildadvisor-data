@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Intense Heat", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
-    { "name": "Tres Rodirro", "description": "[Foe] Hi P.Attack w/temp Str. Boost" },
-    { "name": "Audaz Gusto", "description": "[Self] Str.+75%/4 turns" },
-    { "name": "Puro Rodirro", "description": "[Foes] Hi P.Attack w/temp Str. Boost & 15% Stun" }
+    { "name": "Tres Rodirro", "description": "[Foe] Hi P.Attack w/temp Str. Boost", "mp": 25 },
+    { "name": "Audaz Gusto", "description": "[Self] Str.+75%/4 turns", "mp": 15 },
+    { "name": "Puro Rodirro", "description": "[Foes] Hi P.Attack w/temp Str. Boost & 15% Stun", "mp": 34 }
   ],
   "passiveSkills": [
     { "name": "Vigor", "description": "Str. & End.+10%" },

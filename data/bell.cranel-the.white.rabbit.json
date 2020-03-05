@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Luna Traviesa", "description": "[Foes] Ultra Light M.Attack w/30% Sleep" },
-    { "name": "Reverie Reps", "description": "[Foes] Lo Light M.Attack w/15% Sleep" },
-    { "name": "Fortis Spes", "description": "[Self] Mag. & Agi.+75%/4 turns" },
-    { "name": "Pierce Firebolt", "description": "[Foe] Fast Hi Fire M.Attack w/Ultra Penetration Rate" }
+    { "name": "Reverie Reps", "description": "[Foes] Lo Light M.Attack w/15% Sleep", "mp": 20 },
+    { "name": "Fortis Spes", "description": "[Self] Mag. & Agi.+75%/4 turns", "mp": 18 },
+    { "name": "Pierce Firebolt", "description": "[Foe] Fast Hi Fire M.Attack w/Ultra Penetration Rate", "mp": 30 }
   ],
   "passiveSkills": [
     { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },

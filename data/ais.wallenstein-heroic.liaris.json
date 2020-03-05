@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Tempest Lil Rafaga", "description": "[Foes] Ultra Wind M.Attack indexed to Str." },
-    { "name": "Ariel", "description": "[Self] Str.+75% & P.Resist+10%/4 turns" },
-    { "name": "Tres Piercer", "description": "[Foe] Hi P.Attack" },
-    { "name": "Veter Mech", "description": "[Foes] Hi P.Attack" }
+    { "name": "Ariel", "description": "[Self] Str.+75% & P.Resist+10%/4 turns", "mp": 20 },
+    { "name": "Tres Piercer", "description": "[Foe] Hi P.Attack", "mp": 20 },
+    { "name": "Veter Mech", "description": "[Foes] Hi P.Attack", "mp": 30 }
   ],
   "passiveSkills": [
     { "name": "Insect Killer", "description": "Ability Pt.+50% towards Insects", "nemesis": "Insect" },

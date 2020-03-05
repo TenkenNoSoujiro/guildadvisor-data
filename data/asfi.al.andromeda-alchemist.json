@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Burst Oil", "description": "[Foes] Hi Fire M.Attack" },
-    { "name": "Poison Bullet", "description": "[Foe] Lo P.Attack w/Max HP 8% Dmg. Poison" },
-    { "name": "Hypno Ash", "description": "[Foe] 30% Sleep" },
-    { "name": "Melta Physica", "description": "[Foes] P.Resist-10%/4 turns" }
+    { "name": "Poison Bullet", "description": "[Foe] Lo P.Attack w/Max HP 8% Dmg. Poison", "mp": 18 },
+    { "name": "Hypno Ash", "description": "[Foe] 30% Sleep", "mp": 19 },
+    { "name": "Melta Physica", "description": "[Foes] P.Resist-10%/4 turns", "mp": 25 }
   ],
   "passiveSkills": [
     { "name": "Mystery", "description": "Dex.+3%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Blizzard Rain", "description": "[Foes] Hi Water M.Attack" },
-    { "name": "Icicle Arrow", "description": "[Foe] Lo Water M.Attack" },
-    { "name": "Mana Stock", "description": "[Self] Mag.+50%/4 turns" },
-    { "name": "Reforce Cancel", "description": "[Self] Null P.Attack x1 exc. Special Arts" }
+    { "name": "Icicle Arrow", "description": "[Foe] Lo Water M.Attack", "mp": 12 },
+    { "name": "Mana Stock", "description": "[Self] Mag.+50%/4 turns", "mp": 18 },
+    { "name": "Reforce Cancel", "description": "[Self] Null P.Attack x1 exc. Special Arts", "mp": 54 }
   ],
   "passiveSkills": [
     { "name": "Enlightenment", "description": "Mag.+4%" },

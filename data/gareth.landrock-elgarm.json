@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Dvergr Enhance", "description": "[Foes] Hi Earth M.Attack indexed to Str." },
-    { "name": "Heavy Ax", "description": "[Foe] Lo P.Attack" },
-    { "name": "Sidewinder", "description": "[Foes] Lo P.Attack" },
-    { "name": "Ardigalea", "description": "[Allies] P.Resist+10%/4 turns" }
+    { "name": "Heavy Ax", "description": "[Foe] Lo P.Attack", "mp": 8 },
+    { "name": "Sidewinder", "description": "[Foes] Lo P.Attack", "mp": 14 },
+    { "name": "Ardigalea", "description": "[Allies] P.Resist+10%/4 turns", "mp": 30 }
   ],
   "passiveSkills": [
     { "name": "Fist Strike", "description": "Str.+3%" },

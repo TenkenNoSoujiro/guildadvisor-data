@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Aspara Illusion", "description": "[Foes] Hi P.Attack indexed to Mag." },
-    { "name": "Arcs Ray?", "description": "[Foe] Lo Light M.Attack" },
-    { "name": "Ether Charge?", "description": "[Self] Mag.+50%/4 turns" },
-    { "name": "Magias Decremento?", "description": "[Foes] P.Resist-7.5%/4 turns" }
+    { "name": "Arcs Ray?", "description": "[Foe] Lo Light M.Attack", "mp": 20 },
+    { "name": "Ether Charge?", "description": "[Self] Mag.+50%/4 turns", "mp": 25 },
+    { "name": "Magias Decremento?", "description": "[Foes] P.Resist-7.5%/4 turns", "mp": 28 }
   ],
   "passiveSkills": [
     { "name": "Saboteur", "description": "Dex.+5%" },

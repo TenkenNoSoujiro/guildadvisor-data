@@ -25,9 +25,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Soul Light", "description": "[Allies] Ultra HP Heal & Null M.Attack x2 exc. Special Arts" },
-    { "name": "Ice Touch", "description": "[Foes] Hi Water M.Attack w/Ultra Uncounter Rate & Counter Rate-45%/3 turns" },
-    { "name": "Cure Ephialtes", "description": "[Allies] Remove Curse and Ailment Cure & Heal and Counter Rate+30%/5 turns" },
-    { "name": "Reverie Droplet", "description": "[Allies] Slow 40% HP Heal & [Foes] 40% Sleep" }
+    { "name": "Ice Touch", "description": "[Foes] Hi Water M.Attack w/Ultra Uncounter Rate & Counter Rate-45%/3 turns", "mp": 34 },
+    { "name": "Cure Ephialtes", "description": "[Allies] Remove Curse and Ailment Cure & Heal and Counter Rate+30%/5 turns", "mp": 29 },
+    { "name": "Reverie Droplet", "description": "[Allies] Slow 40% HP Heal & [Foes] 40% Sleep", "mp": 86 }
   ],
   "passiveSkills": [
     { "name": "Five Dimension Troia", "description": "When countering, instead of attacking regularly, it Nulls a Magic Attack one time for Self. (exc. Special Arts)" },

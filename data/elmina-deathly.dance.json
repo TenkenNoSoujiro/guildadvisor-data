@@ -27,9 +27,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Fleur de Sinclair", "description": "[Foe] Ultra Dark P.Attack Dmg.+60% against a poisoned target & Ultra Critical Rate" },
-    { "name": "Slip in Fresh", "description": "[Foe] Hi Dark P.Attack w/temp Str. Boost & Ultra Penetration Rate" },
-    { "name": "Hemorrhage", "description": "[Foes] Super Dark P.Attack w/temp Str. Boost & Max HP 15% Dmg. Poison" },
-    { "name": "Mutilate", "description": "[Foes] Fast Hi Dark P.Attack & Dmg. received (Attack: All Targets) increases by 30%/3 turns" }
+    { "name": "Slip in Fresh", "description": "[Foe] Hi Dark P.Attack w/temp Str. Boost & Ultra Penetration Rate", "mp": 37 },
+    { "name": "Hemorrhage", "description": "[Foes] Super Dark P.Attack w/temp Str. Boost & Max HP 15% Dmg. Poison", "mp": 53 },
+    { "name": "Mutilate", "description": "[Foes] Fast Hi Dark P.Attack & Dmg. received (Attack: All Targets) increases by 30%/3 turns", "mp": 35 }
   ],
   "passiveSkills": [
     { "name": "Will of Darkness", "description": "When countering and attacking, regular attack a Foe with Dark Element." },

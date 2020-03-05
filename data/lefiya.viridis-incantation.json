@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Elf Ring", "description": "[Foes] Ultra Water M.Attack" },
-    { "name": "Arcs Ray", "description": "[Foe] Mid Light M.Attack" },
-    { "name": "Lux Maleficium", "description": "[Foes] Mid Light M.Attack & Light Resist-10%/4 turns" },
-    { "name": "Anemos Fotia", "description": "[Foes] Mid Fire M.Attack & M.Resist-10%/4 turns" }
+    { "name": "Arcs Ray", "description": "[Foe] Mid Light M.Attack", "mp": 24 },
+    { "name": "Lux Maleficium", "description": "[Foes] Mid Light M.Attack & Light Resist-10%/4 turns", "mp": 32 },
+    { "name": "Anemos Fotia", "description": "[Foes] Mid Fire M.Attack & M.Resist-10%/4 turns", "mp": 32 }
   ],
   "passiveSkills": [
     { "name": "Material Killer", "description": "Ability Pt.+50% toward Material", "nemesis": "Material" },

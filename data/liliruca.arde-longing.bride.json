@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Bubble Bloom", "description": "[Foes] Ultra Water M.Attack w/Ultra Penetration Rate & 30% Seal" },
-    { "name": "Bubble Rush", "description": "[Foes] Mid Water M.Attack w/Ultra Uncounter Rate & [Allies] Status Debuff-1 turn" },
-    { "name": "Wipe Away", "description": "[Foes] Fast Lo Water M.Attack & removes all Guard Rate and Heal Buffs exc. Assist Skills" },
-    { "name": "Hydro Blast", "description": "[Foes] Hi Water M.Attack & [Allies] Mag. and Water Attack Dmg.+30%/2 turns" }
+    { "name": "Bubble Rush", "description": "[Foes] Mid Water M.Attack w/Ultra Uncounter Rate & [Allies] Status Debuff-1 turn", "mp": 46 },
+    { "name": "Wipe Away", "description": "[Foes] Fast Lo Water M.Attack & removes all Guard Rate and Heal Buffs exc. Assist Skills", "mp": 67 },
+    { "name": "Hydro Blast", "description": "[Foes] Hi Water M.Attack & [Allies] Mag. and Water Attack Dmg.+30%/2 turns", "mp": 53 }
   ],
   "passiveSkills": [
     { "name": "Forestall", "description": "Mag. & Agi.+15%" },

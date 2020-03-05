@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Blinkedge Tornado", "description": "[Foes] Ultra Wind M.Attack w/50% Stun" },
-    { "name": "Windforce", "description": "[Allies] Water & Wind Attack Dmg.+35%/4 turns & Ailment Cure" },
-    { "name": "Sonic Wind", "description": "[Foe] Mid Wind M.Attack w/temp Mag. Boost" },
-    { "name": "Vitalize", "description": "[Allies] Mid HP Heal & removes all Mag. Debuffs exc. Assist Skills" }
+    { "name": "Windforce", "description": "[Allies] Water & Wind Attack Dmg.+35%/4 turns & Ailment Cure", "mp": 43 },
+    { "name": "Sonic Wind", "description": "[Foe] Mid Wind M.Attack w/temp Mag. Boost", "mp": 20 },
+    { "name": "Vitalize", "description": "[Allies] Mid HP Heal & removes all Mag. Debuffs exc. Assist Skills", "mp": 40 }
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+15%" },

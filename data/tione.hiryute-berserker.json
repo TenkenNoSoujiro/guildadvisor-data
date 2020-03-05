@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Jormungandr Berserk", "description": "[Foes] Hi P.Attack" },
-    { "name": "Furious Espada", "description": "[Foes] Lo P.Attack" },
-    { "name": "Amazoness Ira", "description": "[Self] Str.+75% & P.Resist-15%/4 turns" },
-    { "name": "Rampage Grans", "description": "[Foes] Lo P.Attack w/50% Taunt" }
+    { "name": "Furious Espada", "description": "[Foes] Lo P.Attack", "mp": 8 },
+    { "name": "Amazoness Ira", "description": "[Self] Str.+75% & P.Resist-15%/4 turns", "mp": 20 },
+    { "name": "Rampage Grans", "description": "[Foes] Lo P.Attack w/50% Taunt", "mp": 16 }
   ],
   "passiveSkills": [
     { "name": "Fist Strike", "description": "Str.+7.5%" },

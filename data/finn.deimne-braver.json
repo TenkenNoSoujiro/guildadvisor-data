@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Braver Assault", "description": "[Foes] Hi P.Attack" },
-    { "name": "Rush Spear", "description": "[Foe] Fast Lo P.Attack" },
-    { "name": "Braver Order", "description": "[Allies] Critical Rate+20%/4 turns" },
-    { "name": "Trample Lance", "description": "[Foe] Mid P.Attack w/temp Str. Boost & Ultra Penetration Rate" }
+    { "name": "Rush Spear", "description": "[Foe] Fast Lo P.Attack", "mp": 8 },
+    { "name": "Braver Order", "description": "[Allies] Critical Rate+20%/4 turns", "mp": 20 },
+    { "name": "Trample Lance", "description": "[Foe] Mid P.Attack w/temp Str. Boost & Ultra Penetration Rate", "mp": 25 }
   ],
   "passiveSkills": [
     { "name": "Sword Fighter", "description": "Str.+4%" },

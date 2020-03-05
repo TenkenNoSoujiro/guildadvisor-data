@@ -5,6 +5,8 @@
     "start": "node scripts/unit",
     "new": "node scripts/newUnits",
     "validate": "node scripts/validate",
+    "validate-summary": "node scripts/validate --summary",
+    "validate-watch": "node scripts/validate --watch",
     "scrape": "ts-node --project tsconfig.json scripts/scrape.ts",
     "build-units": "node scripts/build"
   },

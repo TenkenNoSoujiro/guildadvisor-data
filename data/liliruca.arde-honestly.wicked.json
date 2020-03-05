@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Tumbling!", "description": "[Foes] Hi P.Attack" },
-    { "name": "Cure Potion?", "description": "[Allies] Lo Heal" },
-    { "name": "Detoxification?", "description": "[Allies] Ailment Cure" },
-    { "name": "Poison Arrow?", "description": "[Foe] Lo P.Attack w/Max HP 10% Dmg. Poison" }
+    { "name": "Cure Potion?", "description": "[Allies] Lo Heal", "mp": 10 },
+    { "name": "Detoxification?", "description": "[Allies] Ailment Cure", "mp": 8 },
+    { "name": "Poison Arrow?", "description": "[Foe] Lo P.Attack w/Max HP 10% Dmg. Poison", "mp": 20 }
   ],
   "passiveSkills": [
     { "name": "Saboteur", "description": "Dex.+5%" },

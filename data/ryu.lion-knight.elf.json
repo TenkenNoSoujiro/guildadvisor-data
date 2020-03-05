@@ -26,7 +26,7 @@
     { "specialArts": true,
       "name": "Furore Impaler", "description": "[Foe] Ultra Wind P.Attack w/temp Str. Boost & Ultra Penetration Rate" },
     { "name": "Velocity", "description": "[Foe] Mid Wind P.Attack & [Self] Str.+80%/4 turns", "mp": 29 },
-    { "name": "Cyclocity", "description": "[Foe] Mid Wind P.Attack & [Self] Wind Attack Dmg.+60%/4 turns" },
+    { "name": "Cyclocity", "description": "[Foe] Mid Wind P.Attack & [Self] Wind Attack Dmg.+60%/4 turns", "mp": 29 },
     { "name": "Windfury", "description": "[Foe] Hi Wind P.Attack & P.Resist and Guard Rate-25%/4 turns", "mp": 27 }
   ],
   "passiveSkills": [

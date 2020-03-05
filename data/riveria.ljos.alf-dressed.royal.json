@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Diamond Trail", "description": "[Foes] Ultra Water M.Attack w/temp Mag. Boost" },
-    { "name": "Frost Nova", "description": "[Foes] Mid Water M.Attack w/Hi Uncounter Rate & Water Resist-25%/3 turns" },
-    { "name": "Chilling Blast", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost" },
-    { "name": "Winter's Grasp", "description": "[Foes] Hi Water M.Attack w/temp Mag. Boost & Ultra Unguard Rate" }
+    { "name": "Frost Nova", "description": "[Foes] Mid Water M.Attack w/Hi Uncounter Rate & Water Resist-25%/3 turns", "mp": 27 },
+    { "name": "Chilling Blast", "description": "[Foe] Hi Water M.Attack w/temp Mag. Boost", "mp": 29 },
+    { "name": "Winter's Grasp", "description": "[Foes] Hi Water M.Attack w/temp Mag. Boost & Ultra Unguard Rate", "mp": 38 }
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+20%" },

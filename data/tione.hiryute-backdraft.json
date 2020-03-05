@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Jormungandr Berserk", "description": "[Foes] Hi P.Attack" },
-    { "name": "Furious Espada", "description": "[Foes] Lo P.Attack" },
-    { "name": "List Iorum", "description": "[Foe] 30% Seal" },
-    { "name": "The Last Stand", "description": "[Allies] End.+10%/4 turns" }
+    { "name": "Furious Espada", "description": "[Foes] Lo P.Attack", "mp": 8 },
+    { "name": "List Iorum", "description": "[Foe] 30% Seal", "mp": 20 },
+    { "name": "The Last Stand", "description": "[Allies] End.+10%/4 turns", "mp": 20 }
   ],
   "passiveSkills": [
     { "name": "Fist Strike", "description": "Str.+7.5%" },

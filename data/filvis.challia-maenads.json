@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Dio Thyrsos", "description": "[Foes] Hi Thunder M.Attack" },
-    { "name": "Xeno Lightning", "description": "[Foe] Mid Thunder M.Attack" },
-    { "name": "Grandis Luster", "description": "[Foes] Lo Light M.Attack" },
-    { "name": "Dio Grail", "description": "[Allies] P.Resist+10%/4 turns" }
+    { "name": "Xeno Lightning", "description": "[Foe] Mid Thunder M.Attack", "mp": 20 },
+    { "name": "Grandis Luster", "description": "[Foes] Lo Light M.Attack", "mp": 24 },
+    { "name": "Dio Grail", "description": "[Allies] P.Resist+10%/4 turns", "mp": 24 }
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+5%" },

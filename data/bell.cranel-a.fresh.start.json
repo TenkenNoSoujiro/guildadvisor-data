@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "New Year's Strike", "description": "[Foes] Ultra P.Attack w/30% Seal" },
-    { "name": "Blast Gleam", "description": "[Foe] Mid P.Attack w/Ultra Critical Rate" },
-    { "name": "Rapid Flash", "description": "[Foes] Fast Mid P.Attack w/15% Seal & temp Str. Boost" },
-    { "name": "Double Defense", "description": "[Self] Null P.Attack x2 exc. Special Arts" }
+    { "name": "Blast Gleam", "description": "[Foe] Mid P.Attack w/Ultra Critical Rate", "mp": 19 },
+    { "name": "Rapid Flash", "description": "[Foes] Fast Mid P.Attack w/15% Seal & temp Str. Boost", "mp": 42 },
+    { "name": "Double Defense", "description": "[Self] Null P.Attack x2 exc. Special Arts", "mp": 108 }
   ],
   "passiveSkills": [
     { "name": "Liaris Freese", "description": "Fast growth. Null Charm" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Vertilgen Wolf", "description": "[Foes] Ultra Fire P.Attack w/temp Str. Boost & [Self] 50% HP Regen/1 turn" },
-    { "name": "Lethality", "description": "[Foes] Lo Fire P.Attack & [Self] Fire Attack Dmg.+60%/4 turns" },
-    { "name": "Bloodboil", "description": "[Foes] Mid Fire P.Attack w/temp Str. Boost & [Self] Counter Rate+50%/4 turns" },
-    { "name": "Eternal Thirst", "description": "[Foes] Hi Fire P.Attack w/Heal 10% of the Attack Dmg. & [Self] Status Buff +1 turn" }
+    { "name": "Lethality", "description": "[Foes] Lo Fire P.Attack & [Self] Fire Attack Dmg.+60%/4 turns", "mp": 30 },
+    { "name": "Bloodboil", "description": "[Foes] Mid Fire P.Attack w/temp Str. Boost & [Self] Counter Rate+50%/4 turns", "mp": 26 },
+    { "name": "Eternal Thirst", "description": "[Foes] Hi Fire P.Attack w/Heal 10% of the Attack Dmg. & [Self] Status Buff +1 turn", "mp": 35 }
   ],
   "passiveSkills": [
     { "name": "Fist Strike", "description": "Str.+15%" },

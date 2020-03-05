@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Confession D'amour", "description": "[Foes] Ultra Earth P.Attack w/temp Str. Boost" },
-    { "name": "Orange Veil", "description": "[Foes] Mid Earth P.Attack w/temp Str. Boost & P.Resist, Earth Resist-15%/3 turns" },
-    { "name": "Chagrin Chanter", "description": "[Foes] Hi Earth P.Attack w/temp Str. Boost" },
-    { "name": "Gloire Tyffon", "description": "[Foes] Mid Earth P.Attack w/temp Str. Boost & [Allies] removes Str. Debuffs exc. Assist Skills" }
+    { "name": "Orange Veil", "description": "[Foes] Mid Earth P.Attack w/temp Str. Boost & P.Resist, Earth Resist-15%/3 turns", "mp": 33 },
+    { "name": "Chagrin Chanter", "description": "[Foes] Hi Earth P.Attack w/temp Str. Boost", "mp": 29 },
+    { "name": "Gloire Tyffon", "description": "[Foes] Mid Earth P.Attack w/temp Str. Boost & [Allies] removes Str. Debuffs exc. Assist Skills", "mp": 45 }
   ],
   "passiveSkills": [
     { "name": "Battle Arts", "description": "Str. & Dex.+15%" },

@@ -29,9 +29,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Flowing Currency", "description": "[Foe] Ultra Water M.Attack Dmg.+60% per each [Self] Mag. Buff Skill" },
-    { "name": "Water Cloak", "description": "[Foe] Lo Water M.Attack & [Allies] Mag. and Water Attack Dmg.+40%/3 turns" },
-    { "name": "Whelming Water", "description": "[Foe] Hi Water M.Attack w/Hi Penetration Rate & removes Str. Buff exc. Assist Skills" },
-    { "name": "Swelling Wave", "description": "[Foe] Super Water M.Attack w/Hi Unguard Rate & Dmg. received (Attack Type: Single Target)+20%/3 turns" }
+    { "name": "Water Cloak", "description": "[Foe] Lo Water M.Attack & [Allies] Mag. and Water Attack Dmg.+40%/3 turns", "mp": 30 },
+    { "name": "Whelming Water", "description": "[Foe] Hi Water M.Attack w/Hi Penetration Rate & removes Str. Buff exc. Assist Skills", "mp": 32 },
+    { "name": "Swelling Wave", "description": "[Foe] Super Water M.Attack w/Hi Unguard Rate & Dmg. received (Attack Type: Single Target)+20%/3 turns", "mp": 35 }
   ],
   "passiveSkills": [
     { "name": "Will of Water", "description": "When countering and attacking, regular M.Attack a Foe with Water Element." },

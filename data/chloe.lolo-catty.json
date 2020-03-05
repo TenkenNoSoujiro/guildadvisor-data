@@ -25,9 +25,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Grand Showdown", "description": "[Foes] Ultra Light P.Attack w/temp Str. Boost & Light Resist-50%/1 turn" },
-    { "name": "Draw Card", "description": "[Foes] Lo Light P.Attack & [Self] Str.+80%/5 turns" },
-    { "name": "Cheating Hands", "description": "[Foe] Hi Light P.Attack w/temp Str. Boost & Ultra Unguard Rate" },
-    { "name": "Flash Trick", "description": "[Foes] Fast Mid Light P.Attack & [Allies] 50% Null P.Attack x1 exc. Special Arts" }
+    { "name": "Draw Card", "description": "[Foes] Lo Light P.Attack & [Self] Str.+80%/5 turns", "mp": 27 },
+    { "name": "Cheating Hands", "description": "[Foe] Hi Light P.Attack w/temp Str. Boost & Ultra Unguard Rate", "mp": 30 },
+    { "name": "Flash Trick", "description": "[Foes] Fast Mid Light P.Attack & [Allies] 50% Null P.Attack x1 exc. Special Arts", "mp": 41 }
   ],
   "passiveSkills": [
     { "name": "Bravery", "description": "When countering, regular attack a Foe & HP Heal 50% of Dmg." },

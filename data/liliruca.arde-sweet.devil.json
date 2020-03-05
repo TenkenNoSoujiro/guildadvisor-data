@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Trick or Sweet", "description": "[Allies] Ultra Heal & 20% HP Regen/4 turns" },
-    { "name": "Sweet Prank", "description": "[Foes] 10% MP Drain w/30% Sleep" },
-    { "name": "Magical Wand", "description": "[Foes] Hi Dark M.Attack & Status Debuff +1 turn" },
-    { "name": "Bad Trick", "description": "[Foes] Hi Dark M.Attack & End.-30%/3 turns" }
+    { "name": "Sweet Prank", "description": "[Foes] 10% MP Drain w/30% Sleep", "mp": 14 },
+    { "name": "Magical Wand", "description": "[Foes] Hi Dark M.Attack & Status Debuff +1 turn", "mp": 45 },
+    { "name": "Bad Trick", "description": "[Foes] Hi Dark M.Attack & End.-30%/3 turns", "mp": 45 }
   ],
   "passiveSkills": [
     { "name": "Enlightenment", "description": "Mag.+10%" },

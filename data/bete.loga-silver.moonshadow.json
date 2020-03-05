@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Ulfheoinn", "description": "[Foes] Ultra Fire M.Attack indexed to Str." },
-    { "name": "Wolfskehl", "description": "[Foe] Lo P.Attack" },
-    { "name": "Ulfr Rogi", "description": "[Foes] Mid Fire M.Attack indexed to Str." },
-    { "name": "Fenris Wolf", "description": "[Self] Agi. & Str.+75%/4 turns" }
+    { "name": "Wolfskehl", "description": "[Foe] Lo P.Attack", "mp": 20 },
+    { "name": "Ulfr Rogi", "description": "[Foes] Mid Fire M.Attack indexed to Str.", "mp": 27 },
+    { "name": "Fenris Wolf", "description": "[Self] Agi. & Str.+75%/4 turns", "mp": 18 }
   ],
   "passiveSkills": [
     { "name": "Beast Killer", "description": "Ability Pt.+50% toward Beasts", "nemesis": "Beasts" },

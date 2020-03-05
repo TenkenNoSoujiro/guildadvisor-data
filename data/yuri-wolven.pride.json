@@ -27,9 +27,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Wolven Incarnation", "description": "[Foe] Ultra Earth P.Attack w/temp Str. Boost & P.Resist-50%/1 turn" },
-    { "name": "Instinct", "description": "[Foe] Mid Earth P.Attack & [Self] Str. & Earth Attack Dmg.+50%/4 turns" },
-    { "name": "Wolven Lore", "description": "[Foe] Hi Earth P.Attack & Earth Resist and Guard Rate-40%/4 turns" },
-    { "name": "Tribe Alpha", "description": "[Foe] Super Earth P.Attack w/Ultra Critical Rate & removes Mag. Buff exc. Assist Skills" }
+    { "name": "Instinct", "description": "[Foe] Mid Earth P.Attack & [Self] Str. & Earth Attack Dmg.+50%/4 turns", "mp": 34 },
+    { "name": "Wolven Lore", "description": "[Foe] Hi Earth P.Attack & Earth Resist and Guard Rate-40%/4 turns", "mp": 40 },
+    { "name": "Tribe Alpha", "description": "[Foe] Super Earth P.Attack w/Ultra Critical Rate & removes Mag. Buff exc. Assist Skills", "mp": 41 }
   ],
   "passiveSkills": [
     { "name": "Will of Earth", "description": "When countering and attacking, regular attack a Foe with Earth Element." },

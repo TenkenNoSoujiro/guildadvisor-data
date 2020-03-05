@@ -29,9 +29,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Dear Argonaut", "description": "[Foes] Ultra Fire P.Attack w/temp Str. Boost & Dmg. received (Attack Type: All Targets) increases by 30%/1 turn" },
-    { "name": "Hero Rising", "description": "[Foes] Fast Lo Fire P.Attack & [Self] Str. and Fire Attack Dmg.+50%/4 turns" },
-    { "name": "Awakening Spirits", "description": "[Foes] Super Fire P.Attack w/Ultra Uncounter Rate & [Allies] 25% HP Regen/1 turn" },
-    { "name": "Spiral Strike", "description": "[Foe] Hi Fire P.Attack w/temp Str. Boost & Status Debuff+1 turn" }
+    { "name": "Hero Rising", "description": "[Foes] Fast Lo Fire P.Attack & [Self] Str. and Fire Attack Dmg.+50%/4 turns", "mp": 37 },
+    { "name": "Awakening Spirits", "description": "[Foes] Super Fire P.Attack w/Ultra Uncounter Rate & [Allies] 25% HP Regen/1 turn", "mp": 49 },
+    { "name": "Spiral Strike", "description": "[Foe] Hi Fire P.Attack w/temp Str. Boost & Status Debuff+1 turn", "mp": 32 }
   ],
   "passiveSkills": [
     { "name": "Will of Fire", "description": "When countering and attacking, regular P.Attack a Foe with Fire Element." },

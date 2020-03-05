@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Light Pillar", "description": "[Foes] Ultra Light M.Attack" },
-    { "name": "Sacred Scourge", "description": "[Foes] Mid Light M.Attack w/15% Stun" },
-    { "name": "Force Field", "description": "[Self] Avoids K.O x1 only when HP≥20% (removed when HP<20%)" },
-    { "name": "Sol Illuminate", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost" }
+    { "name": "Sacred Scourge", "description": "[Foes] Mid Light M.Attack w/15% Stun", "mp": 30 },
+    { "name": "Force Field", "description": "[Self] Avoids K.O x1 only when HP≥20% (removed when HP<20%)", "mp": 72 },
+    { "name": "Sol Illuminate", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost", "mp": 38 }
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+13%" },

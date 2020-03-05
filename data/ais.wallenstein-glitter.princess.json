@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Gorgeous Lil Rafaga", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
-    { "name": "Fortune Strike", "description": "[Foe] Mid P.Attack w/temp Str. Boost" },
-    { "name": "Fortune Chain", "description": "[Foes] Hi P.Attack w/temp Str. Boost" },
-    { "name": "Streak", "description": "[Self] 15% MP Heal & Ailment Resist+60%/4 turns" }
+    { "name": "Lucky Strike", "description": "[Foe] Mid P.Attack w/temp Str. Boost", "mp": 18 },
+    { "name": "Lucky Chain", "description": "[Foes] Hi P.Attack w/temp Str. Boost", "mp": 28 },
+    { "name": "Good Luck", "description": "[Self] 15% MP Heal & Ailment Resist+60%/4 turns", "mp": 10 }
   ],
   "passiveSkills": [
     { "name": "Saboteur", "description": "Dex.+5%" },

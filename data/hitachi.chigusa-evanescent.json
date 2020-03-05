@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Chigusa Senbu", "description": "[Foes] Hi P.Attack" },
-    { "name": "Breath of Spring", "description": "[Allies] Lo Heal" },
-    { "name": "Purifying Water", "description": "[Allies] Ailment Cure" },
-    { "name": "Anti-Spell Circle", "description": "[Allies] M.Resist+10%/4 turns" }
+    { "name": "Breath of Spring", "description": "[Allies] Lo Heal", "mp": 9 },
+    { "name": "Purifying Water", "description": "[Allies] Ailment Cure", "mp": 8 },
+    { "name": "Anti-Spell Circle", "description": "[Allies] M.Resist+10%/4 turns", "mp": 18 }
   ],
   "passiveSkills": [
     { "name": "Abnormal Resistance", "description": "Ailment Resist+10%" },

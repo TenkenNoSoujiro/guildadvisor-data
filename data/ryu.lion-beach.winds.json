@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Milenas Wind", "description": "[Foes] Hi Wind M.Attack indexed to Str." },
-    { "name": "Shockwave Tempest", "description": "[Foe] Mid P.Attack" },
-    { "name": "Tempest Reverberato", "description": "[Foes] Lo P.Attack" },
-    { "name": "Elven Protection", "description": "[Allies] Penetration Rate+20%/4 turns" }
+    { "name": "Shockwave Tempest", "description": "[Foe] Mid P.Attack", "mp": 20 },
+    { "name": "Tempest Reverberato", "description": "[Foes] Lo P.Attack", "mp": 24 },
+    { "name": "Elven Protection", "description": "[Allies] Penetration Rate+20%/4 turns", "mp": 18 }
   ],
   "passiveSkills": [
     { "name": "Magic Resistance", "description": "M.Resist+8%" },

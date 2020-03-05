@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Futsunomitama", "description": "[Foes] Hi Dark M.Attack" },
-    { "name": "Samidare-Giri", "description": "[Foes] Lo P.Attack" },
-    { "name": "Kagenui Nishiki", "description": "[Foes] Agi.-15%/4 turns" },
-    { "name": "Jubaku-jin Nishiki", "description": "[Foes] Str.-15%/4 turns" }
+    { "name": "Samidare-Giri", "description": "[Foes] Lo P.Attack", "mp": 18 },
+    { "name": "Kagenui Nishiki", "description": "[Foes] Agi.-15%/4 turns", "mp": 26 },
+    { "name": "Jubaku-jin Nishiki", "description": "[Foes] Str.-15%/4 turns", "mp": 28 }
   ],
   "passiveSkills": [
     { "name": "Status Resist", "description": "Ailment Resist+10%" },

@@ -27,9 +27,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Gale Blast", "description": "[Foes] Ultra Wind M.Attack w/temp Mag. Boost & 50% Stun" },
-    { "name": "Air Bender", "description": "[Foes] Fast Mid Wind M.Attack & [Self] Mag. & Wind Attack Dmg.+50%/4 turns" },
-    { "name": "Focused Storm", "description": "[Foes] Super Wind M.Attack w/Ultra Penetration Rate & [Self] Status Buff+2 turns" },
-    { "name": "Vedanta Strike", "description": "[Foe] Hi Wind M.Attack w/temp Mag. Boost & Wind Resist-30%/4 turns" }
+    { "name": "Air Bender", "description": "[Foes] Fast Mid Wind M.Attack & [Self] Mag. & Wind Attack Dmg.+50%/4 turns", "mp": 44 },
+    { "name": "Focused Storm", "description": "[Foes] Super Wind M.Attack w/Ultra Penetration Rate & [Self] Status Buff+2 turns", "mp": 60 },
+    { "name": "Vedanta Strike", "description": "[Foe] Hi Wind M.Attack w/temp Mag. Boost & Wind Resist-30%/4 turns", "mp": 35 }
   ],
   "passiveSkills": [
     { "name": "Encouragement", "description": "When countering, instead of attacking regularly, it (Lo) Heals an Ally. Prioritizes an Ally with lower percentage HP." },

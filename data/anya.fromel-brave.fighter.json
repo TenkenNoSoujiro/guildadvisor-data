@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Ruling Rift", "description": "[Foes] Ultra Earth P.Attack w/50% Stun" },
-    { "name": "Lancer Inspiration", "description": "[Allies] Guard Rate+35% & M.Resist+35%/3 turns" },
-    { "name": "Riddle", "description": "[Foes] Mid Earth P.Attack w/Mag. & Critical Rate-35%/3 turns" },
-    { "name": "Dismantle", "description": "[Foes] Hi Earth P.Attack & removes all HP Regen exc. Assist Skills" }
+    { "name": "Lancer Inspiration", "description": "[Allies] Guard Rate+35% & M.Resist+35%/3 turns", "mp": 42 },
+    { "name": "Riddle", "description": "[Foes] Mid Earth P.Attack w/Mag. & Critical Rate-35%/3 turns", "mp": 40 },
+    { "name": "Dismantle", "description": "[Foes] Hi Earth P.Attack & removes all HP Regen exc. Assist Skills", "mp": 48 }
   ],
   "passiveSkills": [
     { "name": "Protection", "description": "P.Resist & M.Resist+10%" },

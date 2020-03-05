@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Shimenawanomitama", "description": "[Foes] Ultra Light M.Attack" },
-    { "name": "Tora-giri", "description": "[Foe] Mid Light M.Attack & Light Resist-35%/4 turns" },
-    { "name": "Shining Katana", "description": "[Foes] Fast Mid Light M.Attack w/15% Slow" },
-    { "name": "Kourin-jin", "description": "[Allies] Mag.+45%/4 turns" }
+    { "name": "Tora-giri", "description": "[Foe] Mid Light M.Attack & Light Resist-35%/4 turns", "mp": 35 },
+    { "name": "Shining Katana", "description": "[Foes] Fast Mid Light M.Attack w/15% Slow", "mp": 35 },
+    { "name": "Kourin-jin", "description": "[Allies] Mag.+45%/4 turns", "mp": 30 }
   ],
   "passiveSkills": [
     { "name": "Status Resist", "description": "Ailment Resist+15%" },

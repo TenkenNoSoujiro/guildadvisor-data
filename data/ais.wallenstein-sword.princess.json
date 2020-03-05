@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Lil Rafaga", "description": "[Foes] Hi Wind M.Attack indexed to Str." },
-    { "name": "Ariel", "description": "[Self] Str.+50% & P.Resist+5%/4 turns" },
-    { "name": "Tres Piercer", "description": "[Foe] Lo P.Attack" },
-    { "name": "Veter Mech", "description": "[Foes] Lo P.Attack" }
+    { "name": "Ariel", "description": "[Self] Str.+50% & P.Resist+5%/4 turns", "mp": 10 },
+    { "name": "Tres Piercer", "description": "[Foe] Lo P.Attack", "mp": 9 },
+    { "name": "Veter Mech", "description": "[Foes] Lo P.Attack", "mp": 20 }
   ],
   "passiveSkills": [
     { "name": "Hunter", "description": "Agi.+7.5%" },

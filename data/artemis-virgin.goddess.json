@@ -26,7 +26,7 @@
     { "specialArts": true,
       "name": "Cascading Glint Arrow", "description": "[Foes] Ultra Light P.Attack w/Ultra Penetration Rate" },
     { "name": "Lighting Fletcher", "description": "[Foes] Hi Light P.Attack w/temp Str. Boost & Ultra Unguard Rate", "mp": 29 },
-    { "name": "Stoicism", "description": "[Foes] Fast Lo Light P.Attack & Removes all Mag. Buffs exc. Assist Skills" },
+    { "name": "Stoicism", "description": "[Foes] Fast Lo Light P.Attack & Removes all Mag. Buffs exc. Assist Skills", "mp": 23 },
     { "name": "Pristine Presence", "description": "[Allies] Str.+35% & Counter Rate+20%/4 turns", "mp": 31 }
   ],
   "passiveSkills": [

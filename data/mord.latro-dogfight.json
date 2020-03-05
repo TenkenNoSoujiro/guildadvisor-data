@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Invisible Slayer", "description": "[Foes] Hi P.Attack" },
-    { "name": "Short Ripper", "description": "[Foe] Lo P.Attack w/30% Taunt" },
-    { "name": "Massive Force", "description": "[Self] Str.+75%/4 turns" },
-    { "name": "Wide Slash", "description": "[Foes] Mid P.Attack" }
+    { "name": "Short Ripper", "description": "[Foe] Lo P.Attack w/30% Taunt", "mp": 8 },
+    { "name": "Massive Force", "description": "[Self] Str.+75%/4 turns", "mp": 15 },
+    { "name": "Wide Slash", "description": "[Foes] Mid P.Attack", "mp": 20 }
   ],
   "passiveSkills": [
     { "name": "Defense", "description": "P.Resist+8%" },

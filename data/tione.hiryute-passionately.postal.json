@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Unrequited Rhapsody", "description": "[Foe] Ultra Water P.Attack Dmg.+50% per each [Self] Str. Buff Skill" },
-    { "name": "Rumble Dance", "description": "[Foe] Mid Water P.Attack & [Self] Str. & Water Attack Dmg.+50%/4 turns" },
-    { "name": "Bridal Path Dash", "description": "[Foe] Lo Water P.Attack & [Allies] Dmg. received (Attack Type: All Targets)-25%/2 turns" },
-    { "name": "Single-Minded Lover", "description": "[Foe] Hi Water P.Attack & removes all Str. Buffs exc. Assist Skills" }
+    { "name": "Rumble Dance", "description": "[Foe] Mid Water P.Attack & [Self] Str. & Water Attack Dmg.+50%/4 turns", "mp": 44 },
+    { "name": "Bridal Path Dash", "description": "[Foe] Lo Water P.Attack & [Allies] Dmg. received (Attack Type: All Targets)-25%/2 turns", "mp": 25 },
+    { "name": "Single-Minded Lover", "description": "[Foe] Hi Water P.Attack & removes all Str. Buffs exc. Assist Skills", "mp": 32 }
   ],
   "passiveSkills": [
     { "name": "Fist Strike", "description": "Str.+20%" },

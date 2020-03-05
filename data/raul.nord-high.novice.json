@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Lethal Weapon", "description": "[Foes] Hi P.Attack" },
-    { "name": "Heavy Smash", "description": "[Foe] Mid P.Attack & Guard Rate-45%/3 turns" },
-    { "name": "Full Swing", "description": "[Foe] Hi P.Attack w/temp Str. Boost" },
-    { "name": "Ordinary Plan", "description": "[Allies] End.+15% & Guard Rate+20%/3 turns" }
+    { "name": "Heavy Smash", "description": "[Foe] Mid P.Attack & Guard Rate-45%/3 turns", "mp": 19 },
+    { "name": "Full Swing", "description": "[Foe] Hi P.Attack w/temp Str. Boost", "mp": 25 },
+    { "name": "Ordinary Plan", "description": "[Allies] End.+15% & Guard Rate+20%/3 turns", "mp": 36 }
   ],
   "passiveSkills": [
     { "name": "Saboteur", "description": "Dex.+8%" },

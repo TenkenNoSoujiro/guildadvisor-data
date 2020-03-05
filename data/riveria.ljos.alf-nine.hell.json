@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Wynn Fimbulvetr", "description": "[Foes] Hi Water M.Attack" },
-    { "name": "Triple Impaler", "description": "[Foe] Lo P.Attack" },
-    { "name": "Luna Aldis", "description": "[Allies] Mid Heal" },
-    { "name": "Liv Illusio", "description": "[Self] P.Resist+10%/4 turns" }
+    { "name": "Triple Impaler", "description": "[Foe] Lo P.Attack", "mp": 7 },
+    { "name": "Luna Aldis", "description": "[Allies] Mid Heal", "mp": 30 },
+    { "name": "Liv Illusio", "description": "[Self] P.Resist+10%/4 turns", "mp": 24 }
   ],
   "passiveSkills": [
     { "name": "Magic Resistance", "description": "M.Resist+8%" },

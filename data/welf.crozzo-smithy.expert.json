@@ -26,7 +26,7 @@
     { "specialArts": true,
       "name": "Thousand Flames", "description": "[Foes] Ultra Fire M.Attack w/temp. Mag. Boost" },
     { "name": "Name of the Flame", "description": "[Allies] Guard Rate+40%/2 turns & [Foes] Penetration Rate-40%/2 turns", "mp": 36 },
-    { "name": "The Art of Forging", "description": "[Allies] Avoids K.O. x1 only when HP≥10% (removed when HP<10%)" },
+    { "name": "The Art of Forging", "description": "[Allies] Avoids K.O. x1 only when HP≥10% (removed when HP<10%)", "mp": 216 },
     { "name": "Spark Hammer", "description": "[Foes] Hi Fire M.Attack w/temp Mag. Boost", "mp": 29 }
   ],
   "passiveSkills": [

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Tiger Fire", "description": "[Foes] Ultra Earth M.Attack w/temp Mag. Boost" },
-    { "name": "Tetsusaisen", "description": "[Foes] Mid Earth M.Attack w/temp Mag. Boost" },
-    { "name": "Chisouba", "description": "[Foe] Hi Earth M.Attack" },
-    { "name": "Butei Tenshin", "description": "[Foes] Lo Earth M.Attack & [Self] Mag.+65%/4 turns" }
+    { "name": "Tetsusaisen", "description": "[Foes] Mid Earth M.Attack w/temp Mag. Boost", "mp": 24 },
+    { "name": "Chisouba", "description": "[Foe] Hi Earth M.Attack", "mp": 24 },
+    { "name": "Butei Tenshin", "description": "[Foes] Lo Earth M.Attack & [Self] Mag.+65%/4 turns", "mp": 29 }
   ],
   "passiveSkills": [
     { "name": "Mind's Eye", "description": "Mag.+15%" },

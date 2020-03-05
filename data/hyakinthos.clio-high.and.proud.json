@@ -25,9 +25,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Aro Zephyros", "description": "[Foes] Ultra Fire P.Attack w/temp Str. Boost & Ultra Unguard Rate" },
-    { "name": "Zeal", "description": "[Foes] Lo Fire P.Attack & [Self] Str. and Fire Attack Dmg.+40%/5 turns" },
-    { "name": "Sol Bland", "description": "[Foes] Fast Mid Fire P.Attack & removes Str. and Mag. Buffs exc. Assist Skills" },
-    { "name": "Zealot", "description": "[Foe] Hi Fire P.Attack w/temp Str. Boost & Hi Critical Rate" }
+    { "name": "Zeal", "description": "[Foes] Lo Fire P.Attack & [Self] Str. and Fire Attack Dmg.+40%/5 turns", "mp": 27 },
+    { "name": "Sol Bland", "description": "[Foes] Fast Mid Fire P.Attack & removes Str. and Mag. Buffs exc. Assist Skills", "mp": 41 },
+    { "name": "Zealot", "description": "[Foe] Hi Fire P.Attack w/temp Str. Boost & Hi Critical Rate", "mp": 27 }
   ],
   "passiveSkills": [
     { "name": "Will of Fire", "description": "When countering and attacking, regular P.Attack a Foe with Fire Element." },

@@ -15,9 +15,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Ouka Issen", "description": "[Foes] Hi P.Attack" },
-    { "name": "Kenpu-Renzan", "description": "[Foe] Lo P.Attack" },
-    { "name": "Shielding Stance", "description": "Scapegoat during turn" },
-    { "name": "Spirited Stance", "description": "[Foe] Str.-10%/4 turns" }
+    { "name": "Kenpu-Renzan", "description": "[Foe] Lo P.Attack", "mp": 8 },
+    { "name": "Shielding Stance", "description": "Scapegoat during turn", "mp": 10 },
+    { "name": "Spirited Stance", "description": "[Foe] Str.-10%/4 turns", "mp": 16 }
   ],
   "passiveSkills": [
     { "name": "Strong Defense", "description": "End.+1.5%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Eighth Bullet", "description": "[Foes] Ultra Dark P.Attack w/temp Str. Boost" },
-    { "name": "Second Bullet", "description": "[Foes] Lo Dark P.Attack w/Dark Resist & Agi.-35%/3 turns" },
-    { "name": "Fourth Bullet", "description": "[Allies] 15% HP Heal & 35% HP Regen/1 turn" },
-    { "name": "Seventh Bullet", "description": "[Foe] Fast Mid Dark P.Attack w/Stun & Ultra Penetration Rate" }
+    { "name": "Second Bullet", "description": "[Foes] Lo Dark P.Attack w/Dark Resist & Agi.-35%/3 turns", "mp": 26 },
+    { "name": "Fourth Bullet", "description": "[Allies] 15% HP Heal & 35% HP Regen/1 turn", "mp": 16 },
+    { "name": "Seventh Bullet", "description": "[Foe] Fast Mid Dark P.Attack w/Stun & Ultra Penetration Rate", "mp": 29 }
   ],
   "passiveSkills": [
     { "name": "First Bullet", "description": "Agi.+35%" },

@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Fusillade Fallarica", "description": "[Foes] Hi Fire M.Attack" },
-    { "name": "Arcs Ray", "description": "[Foe] Lo Light M.Attack" },
-    { "name": "Ether Charge", "description": "[Self] Mag.+50%/4 turns" },
-    { "name": "Magias Decremento", "description": "[Foes] M.Resist-7.5%/4 turns" }
+    { "name": "Arcs Ray", "description": "[Foe] Lo Light M.Attack", "mp": 20 },
+    { "name": "Ether Charge", "description": "[Self] Mag.+50%/4 turns", "mp": 25 },
+    { "name": "Magias Decremento", "description": "[Foes] M.Resist-7.5%/4 turns", "mp": 28 }
   ],
   "passiveSkills": [
     { "name": "Mage", "description": "Mag.+1.5%" },

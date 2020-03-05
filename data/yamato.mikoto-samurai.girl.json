@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Futsunomitama", "description": "[Foes] Hi Dark M.Attack" },
-    { "name": "Brutal Slash", "description": "[Foe] Lo P.Attack" },
-    { "name": "Kagenui Ichishiki", "description": "[Foes] Agi.-10%/4 turns" },
-    { "name": "Jubaku-jin Ichishiki", "description": "[Foes] Str.-10%/4 turns" }
+    { "name": "Brutal Slash", "description": "[Foe] Lo P.Attack", "mp": 8 },
+    { "name": "Kagenui Ichishiki", "description": "[Foes] Agi.-10%/4 turns", "mp": 23 },
+    { "name": "Jubaku-jin Ichishiki", "description": "[Foes] Str.-10%/4 turns", "mp": 25 }
   ],
   "passiveSkills": [
     { "name": "Status Resist", "description": "Ailment Resist+5%" },

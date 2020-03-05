@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Muthee Sagrama", "description": "[Foes] Hi P.Attack" },
-    { "name": "Visana", "description": "[Foes] Hi P.Attack w/temp Str. Boost" },
-    { "name": "Udayati", "description": "[Self] Str.+50%/4 turns" },
-    { "name": "Dharana", "description": "[Self] 30% MP Heal" }
+    { "name": "Visana", "description": "[Foes] Hi P.Attack w/temp Str. Boost", "mp": 56 },
+    { "name": "Udayati", "description": "[Self] Str.+50%/4 turns", "mp": 18 },
+    { "name": "Dharana", "description": "[Self] 30% MP Heal", "mp": 5 }
   ],
   "passiveSkills": [
     { "name": "Crafter", "description": "Dex.+8%" },

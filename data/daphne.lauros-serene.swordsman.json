@@ -25,9 +25,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Shrapnel Lights Tact", "description": "[Foes] Ultra Light P.Attack Dmg.+40% per each [Self] Agi. Buff Skill & Ultra Unguard Rate" },
-    { "name": "Touche", "description": "[Foe] Hi Light P.Attack & [Allies] Dmg. received (Attack Type: All and Single Targets)-20%/2 turns" },
-    { "name": "Fente", "description": "[Foes] Hi Light P.Attack & [Allies] Dmg. received (Attack Type: All and Single Targets)-20%/2 turns" },
-    { "name": "Raumure", "description": "[Allies] Str. & End. & Agi.+30%/4 turns" }
+    { "name": "Touche", "description": "[Foe] Hi Light P.Attack & [Allies] Dmg. received (Attack Type: All and Single Targets)-20%/2 turns", "mp": 32 },
+    { "name": "Fente", "description": "[Foes] Hi Light P.Attack & [Allies] Dmg. received (Attack Type: All and Single Targets)-20%/2 turns", "mp": 34 },
+    { "name": "Raumure", "description": "[Allies] Str. & End. & Agi.+30%/4 turns", "mp": 28 }
   ],
   "passiveSkills": [
     { "name": "Elios Passion", "description": "Agi.+50%" },
