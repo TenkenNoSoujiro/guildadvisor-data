@@ -18,7 +18,7 @@
     { "specialArts": true,
       "name": "Radiant Lily", "description": "[Foes] Ultra Light M.Attack & make targets Slow" },
     { "name": "Clear Simmer", "description": "[Foes] Lo Light M.Attack & [Self] Light Attack Dmg.+75%/4 turns", "mp": 32 },
-    { "name": "Dispell Aureole", "description": "[Foes] Mid Light M.Attack & [Self] Mag.+60^/4 turns", "mp": 34 },
+    { "name": "Dispell Aureole", "description": "[Foes] Mid Light M.Attack & [Self] Mag.+60%/4 turns", "mp": 34 },
     { "name": "Horoscope Ray", "description": "[Foes] Hi Light M.Attack w/40% Slow", "mp": 43 }
   ],
   "passiveSkills": [

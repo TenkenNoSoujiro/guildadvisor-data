@@ -21,7 +21,7 @@
   ],
   "passiveSkills": [
     { "name": "Crush", "description": "Str.+15%" },
-    { "name": "Protection", "description": "P.Resist & M.Resist.+10%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+10%" },
     { "name": "Dark Resistance", "description": "Dark Resist+20%" },
     { "name": "Climb", "description": "End. & Agi.+10%" },
     { "name": "Status Resist", "description": "Ailment Resist+15%" }

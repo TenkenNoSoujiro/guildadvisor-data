@@ -15,10 +15,10 @@
   "mag": 328,
   "combatSkills": [
     { "specialArts": true,
-      "name": "Galvanic Ravager", "description": "[Foes] Ultra Thunder P.Attack & Dmg.+15% per 1 [Self] Regen/Str. Buff Skill" },
+      "name": "Galvanic Ravager", "description": "[Foes] Ultra Thunder P.Attack & Dmg.+15% per each [Self] Regen/Str. Buff Skill" },
     { "name": "Roll of Thunder", "description": "[Foes] Lo Thunder P.Attack & [Self] Str.+75%/4 turns", "mp": 24 },
     { "name": "Volt Charge", "description": "[Foes] Mid Thunder P.Attack & [Self] 25% HP Regen/4 turns", "mp": 22 },
-    { "name": "Unstable Thunder", "description": "[Foes] Hi Thunder P.Attack & Dmg.+25% per 1 [Self] Regen/Str. Buff Skill", "mp": 31 }
+    { "name": "Unstable Thunder", "description": "[Foes] Hi Thunder P.Attack & Dmg.+25% per each [Self] Regen/Str. Buff Skill", "mp": 31 }
   ],
   "passiveSkills": [
     { "name": "Fist Strike", "description": "Str.+15%" },

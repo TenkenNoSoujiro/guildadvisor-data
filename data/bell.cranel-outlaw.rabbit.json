@@ -25,9 +25,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Argonaut Rogue Thunder", "description": "[Foe] Ultra Thunder M.Attack w/temp Mag. Boost & M.Resist-50%/1 turn" },
-    { "name": "Spark Starter ", "description": "[Foe] Mid Thunder M.Attack & [Self] Mag. & Thunder Attack Dmg.+50%/4 turns", "mp": 30 },
-    { "name": "Shocking Paralyze ", "description": "[Foe] Hi Thunder M.Attack & removes Str. & Mag. Buff exc. Assist Skills", "mp": 36 },
-    { "name": "Thunder Fulmination ", "description": "[Foe] Super Thunder M.Attack w/Hi Penetration Rate & M.Resist and Thunder Resist-30%/4 turns", "mp": 40 }
+    { "name": "Spark Starter", "description": "[Foe] Mid Thunder M.Attack & [Self] Mag. & Thunder Attack Dmg.+50%/4 turns", "mp": 30 },
+    { "name": "Shocking Paralyze", "description": "[Foe] Hi Thunder M.Attack & removes Str. & Mag. Buff exc. Assist Skills", "mp": 36 },
+    { "name": "Thunder Fulmination", "description": "[Foe] Super Thunder M.Attack w/Hi Penetration Rate & M.Resist and Thunder Resist-30%/4 turns", "mp": 40 }
   ],
   "passiveSkills": [
     { "name": "Liaris Freese", "description": "Fast growth. Null Charm." },

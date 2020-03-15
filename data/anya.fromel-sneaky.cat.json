@@ -24,7 +24,7 @@
   },
   "combatSkills": [
     { "specialArts": true,
-      "name": "Shinobi Star Attack ", "description": "[Foe] Ultra Light P.Attack Dmg.+60% per each [Self] Str. Buff Skill & [Self] Str. and Light Attack Dmg.+90%/3 turns" },
+      "name": "Shinobi Star Attack", "description": "[Foe] Ultra Light P.Attack Dmg.+60% per each [Self] Str. Buff Skill & [Self] Str. and Light Attack Dmg.+90%/3 turns" },
     { "name": "White Shadow", "description": "[Allies] 30% HP Regen & [Self] Str. and Light Attack Dmg.+60%/4 turns", "mp": 28 },
     { "name": "Nimble Fighter", "description": "[Foe] Mid Light P.Attack w/Hi Unguard Rate & P.Resist and Light Resist-30%/4 turns", "mp": 26 },
     { "name": "Shinobi Strike", "description": "[Foe] Super Light P.Attack w/Hi Critical Rate & removes Str. and Mag. Buffs exc. Assist Skills", "mp": 36 }

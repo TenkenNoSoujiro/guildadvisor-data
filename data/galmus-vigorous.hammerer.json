@@ -27,8 +27,8 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Techtonik Breaker", "description": "[Foes] Ultra Earth P.Attack w/temp Str. Boost & Slow & Ultra Unguard Rate" },
-    { "name": "Earthshaker", "description": "[Allies] Fast Dmg. received (Attack Type: All and Single Tarets)-35%/3 turns", "mp": 47 },
-    { "name": "Force Crush", "description": "[Foe] Hi Earth P.Attack w/temp Str.  Boost & Ultra Penetration Rate", "mp": 30 },
+    { "name": "Earthshaker", "description": "[Allies] Fast Dmg. received (Attack Type: All and Single Targets)-35%/3 turns", "mp": 47 },
+    { "name": "Force Crush", "description": "[Foe] Hi Earth P.Attack w/temp Str. Boost & Ultra Penetration Rate", "mp": 30 },
     { "name": "Bandar Bash", "description": "[Foes] Super Earth P.Attack w/temp Str. Boost & Status Buff-1 turn", "mp": 69 }
   ],
   "passiveSkills": [
