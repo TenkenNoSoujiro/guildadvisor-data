@@ -16,9 +16,9 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Sacred Peony", "description": "[Foe] Ultra Light M.Attack w/temp Mag. Boost" },
-    { "name": "Flash Perfume", "description": "[Foe] Lo Light M.Attack & [Self] Light Attack Dmg.+75%/4 turns", "mp": 27 },
+    { "name": "Flash Perfume", "description": "[Foe] Lo Light M.Attack & [Self] Light Attack Dmg.+75%/4 turns", "mp": 25 },
     { "name": "Rampage Beat", "description": "[Self] Increase S.A. Gauge Charge gain by 100%/4 turns & [Foe] Lo Light M.Attack", "mp": 32 },
-    { "name": "Heavenly Blow", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & Light Resist-25%/3 turns", "mp": 35 }
+    { "name": "Heavenly Blow", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & Light Resist-25%/3 turns", "mp": 32 }
   ],
   "passiveSkills": [
     { "name": "Enlightenment", "description": "Mag.+15%" },
