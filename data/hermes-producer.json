@@ -1,0 +1,24 @@
+{ "id": "hermes-producer",
+  "new": false,
+  "title": "Producer",
+  "name": "Hermes",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 1124,
+  "mp": 158,
+  "str": 387,
+  "end": 319,
+  "dex": 292,
+  "agi": 183,
+  "mag": 387,
+  "skill": {
+    "name": "Top Producer",
+    "descriptions": [
+      "[Allies] Fire Attack Dmg., Light Attack Dmg. and Critical Rate+8%",
+      "[Allies] Fire Attack Dmg., Light Attack Dmg. and Critical Rate+10%"
+    ]
+  },
+  "thumbnail": "hermes-producer-thumb.png",
+  "image": "hermes-producer-full.png"
+}

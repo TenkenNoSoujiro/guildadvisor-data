@@ -1,0 +1,24 @@
+{ "id": "orna-in.the.end",
+  "new": false,
+  "title": "In The End",
+  "name": "Orna",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 902,
+  "mp": 178,
+  "str": 340,
+  "end": 214,
+  "dex": 353,
+  "agi": 603,
+  "mag": 340,
+  "skill": {
+    "name": "Misfortune Teller",
+    "descriptions": [
+      "[Foes] P.Resist and M.Resist-10% & [Self] Counter and Guard Rate+20%",
+      "[Foes] P.Resist and M.Resist-15% & [Self] Counter and Guard Rate+30%"
+    ]
+  },
+  "thumbnail": "orna-in.the.end-thumb.png",
+  "image": "orna-in.the.end-full.png"
+}

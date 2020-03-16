@@ -1,0 +1,24 @@
+{ "id": "ares-god.of.war",
+  "new": false,
+  "title": "God of War",
+  "name": "Ares",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1018,
+  "mp": 149,
+  "str": 540,
+  "end": 279,
+  "dex": 302,
+  "agi": 540,
+  "mag": 212,
+  "skill": {
+    "name": "Attack! Forward!",
+    "descriptions": [
+      "[Foes] P.Resist & Penetration Rate & Critical Rate-15%",
+      "[Foes] P.Resist & Penetration Rate & Critical Rate-20%"
+    ]
+  },
+  "thumbnail": "ares-god.of.war-thumb.png",
+  "image": "ares-god.of.war-full.png"
+}

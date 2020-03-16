@@ -1,0 +1,24 @@
+{ "id": "soma-sacred.cup",
+  "new": false,
+  "title": "Sacred Cup",
+  "name": "Soma",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 938,
+  "mp": 169,
+  "str": 213,
+  "end": 211,
+  "dex": 400,
+  "agi": 336,
+  "mag": 612,
+  "skill": {
+    "name": "Holy Drop",
+    "descriptions": [
+      "[Foes] Penetration Rate-20% & [Allies] 10% HP Regen",
+      "[Foes] Penetration Rate-30% & [Allies] 15% HP Regen"
+    ]
+  },
+  "thumbnail": "soma-sacred.cup-thumb.png",
+  "image": "soma-sacred.cup-full.png"
+}
