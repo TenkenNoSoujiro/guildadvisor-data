@@ -1,0 +1,24 @@
+{ "id": "apollo-god.of.light",
+  "new": false,
+  "title": "God of Light",
+  "name": "Apollo",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1022,
+  "mp": 148,
+  "str": 601,
+  "end": 275,
+  "dex": 327,
+  "agi": 454,
+  "mag": 216,
+  "skill": {
+    "name": "Power of Light",
+    "descriptions": [
+      "[Foes] Fire and Light Resist-10% & [Allies] Str.+10%",
+      "[Foes] Fire and Light Resist-15% & [Allies] Str.+15%"
+    ]
+  },
+  "thumbnail": "apollo-god.of.light-thumb.png",
+  "image": "apollo-god.of.light-full.png"
+}
