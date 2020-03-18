@@ -1,5 +1,5 @@
 { "id": "shizu.riku-wondering.man",
-  "new": false,
+  "banner": "Travelers and the Labyrinth Country",
   "title": "Wondering Man",
   "name": "Shizu & Riku",
   "kind": "adventurer",
@@ -8,24 +8,33 @@
   "rarity": 4,
   "hp": 2660,
   "mp": 184,
-  "str": 1414,
-  "end": 422,
-  "dex": 556,
-  "agi": 812,
+  "str": 1607,
+  "end": 480,
+  "dex": 632,
+  "agi": 923,
   "mag": 313,
+  "ascension": {
+    "hp": 3835,
+    "mp": 254,
+    "str": 1957,
+    "end": 660,
+    "dex": 707,
+    "agi": 1006,
+    "mag": 363
+  },
   "combatSkills": [
     { "specialArts": true,
-      "name": "One-Bladed Bisection", "description": "[Foe] Ultra P.Attack w/temp Str. Boost" },
-    { "name": "Headwind", "description": "[Foe] Hi P.Attack w/temp Str. Boost", "mp": 25 },
-    { "name": "Artisan Sword", "description": "[Foe] Mid P.Attack & removes all P.Resist Buffs exc. Assist Skills", "mp": 33 },
-    { "name": "Concentration", "description": "[Self] Critical Rate+50%/4 turns", "mp": 15 }
+      "name": "One-Bladed Bisection", "description": "[Foe] Ultra Earth P.Attack Dmg.+30% per each [Self] Str. and Critical Rate Buff Skill & Earth Resist-50%/2 turns" },
+    { "name": "Headwind", "description": "[Foe] Super Earth P.Attack Dmg.+15% per each [Self] Str. and Critical Rate Buff Skill", "mp": 32 },
+    { "name": "Artisan Sword", "description": "[Foe] Hi Earth P.Attack w/temp Str. Boost & removes P.Resist Buff exc. Assist Skills", "mp": 28 },
+    { "name": "Concentration", "description": "[Self] Str. & Critical Rate & Earth Attack Dmg.+50%/4 turns", "mp": 19 }
   ],
   "passiveSkills": [
-    { "name": "Saboteur", "description": "Dex.+10%" },
-    { "name": "Acceleration", "description": "Agi.+10%" },
-    { "name": "Unbreakable", "description": "End.+10%" },
-    { "name": "Sword Fighter", "description": "Str.+10%" },
-    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+    { "name": "Earth Manifestation", "description": "Thunder Resist+25%. When countering and attacking, regular P.Attack a Foe with Earth Element." },
+    { "name": "Strike", "description": "Critical Damage+20%" },
+    { "name": "Martial Arts", "description": "Str. & End. & Agi. & Dex.+25%" },
+    { "name": "Status Resist", "description": "Ailment Resist+35%" },
+    { "name": "Plant Killer", "description": "Ability Pt.+50% toward Plants", "nemesis": "Plants" }
   ],
   "thumbnail": "shizu.riku-wondering.man-thumb.png",
   "image": "shizu.riku-wondering.man-full.png"

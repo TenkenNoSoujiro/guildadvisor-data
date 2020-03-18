@@ -77,8 +77,15 @@ interface AscensionStats {
   }[];
 }
 
+interface SpecialArts {
+  specialArts: true;
+  name: string;
+  description: string;
+  tags?: string[];
+}
+
 interface CombatSkill {
-  specialArts?: boolean;
+  specialArts?: false;
   name: string;
   description: string;
   mp?: number;
@@ -96,7 +103,7 @@ interface AdventurerUnit extends BaseUnit {
   kind: "adventurer";
   type: "p.attack" | "m.attack" | "balance" | "healer" | "defense";
   ascension?: AscensionStats,
-  combatSkills: CombatSkill[];
+  combatSkills: [SpecialArts, CombatSkill, CombatSkill, CombatSkill];
   passiveSkills: PassiveSkill[];
 }
 
@@ -127,16 +134,16 @@ function parseUnitType(text: string) {
 
   const type = match[1].toLowerCase();
   switch (type) {
-    case "p. attack": return "p.attack";
-    case "m. attack": return "m.attack";
-    case "p.attack":
-    case "m.attack":
-    case "balance":
-    case "healer":
-    case "defense":
-      return type;
-    default:
-      return failParse(`Unhandled unit type: '${type}'`);
+      case "p. attack": return "p.attack";
+      case "m. attack": return "m.attack";
+      case "p.attack":
+      case "m.attack":
+      case "balance":
+      case "healer":
+      case "defense":
+          return type;
+      default:
+          return failParse(`Unhandled unit type: '${type}'`);
   }
 }
 
@@ -151,7 +158,7 @@ function parseStatsCells(cells: NodeListOf<HTMLTableCellElement> | null) {
   const agi = parseInt(cells[5].textContent!, 10);
   const mag = parseInt(cells[6].textContent!, 10);
   if (isNaN(hp) || isNaN(mp) || isNaN(str) || isNaN(end) || isNaN(dex) || isNaN(agi) || isNaN(mag)) {
-    return;
+      return;
   }
   return { hp, mp, str, end, dex, agi, mag };
 }
@@ -169,13 +176,28 @@ function parseSkill(row: HTMLTableRowElement) {
 }
 
 function parseCombatSkill(row: HTMLTableRowElement, specialArts: boolean) {
-  const skill = parseSkill(row) as CombatSkill | undefined;
-  if (!skill) return;
+  const cells = row.querySelectorAll("td");
+  if (cells.length < 2 || cells.length > 3) return;
+  const name = cells[0].textContent;
+  const description = cells[1].textContent;
+  if (!name || !description) return;
+
+  const mpText = cells.length === 3 ? cells[2].textContent : undefined;
+  const mp = mpText ? parseInt(mpText, 10) : undefined;
+  if (cells.length === 3 && mp === undefined) return;
 
   if (specialArts) {
-    skill.specialArts = true;
+      const skill: SpecialArts = { specialArts: true, name, description };
+      skill.specialArts = true;
+      return skill;
   }
-  return skill;
+  else {
+      const skill: CombatSkill = { name, description };
+      if (mp !== undefined) {
+          skill.mp = mp;
+      }
+      return skill;
+  }
 }
 
 function parsePassiveSkill(row: HTMLTableRowElement): PassiveSkill | undefined {
@@ -184,7 +206,7 @@ function parsePassiveSkill(row: HTMLTableRowElement): PassiveSkill | undefined {
 
   const match = nemesisRegExp.exec(skill.description);
   if (match) {
-    skill.nemesis = match[1];
+      skill.nemesis = match[1];
   }
   return skill;
 }
@@ -203,48 +225,54 @@ function parseAdventurer(characterTable: HTMLTableElement, nextTable: () => HTML
   if (!specialArtsTable) return failParse("Could not find MHA Stats or Special Arts <table>");
 
   if (specialArtsTable.classList.contains("status-table")) {
-    const mhaStatsTable = specialArtsTable;
-    specialArtsTable = nextTable();
-    if (!specialArtsTable) return failParse("Could not find Special Arts <table>");
+      const mhaStatsTable = specialArtsTable;
+      specialArtsTable = nextTable();
+      if (!specialArtsTable) return failParse("Could not find Special Arts <table>");
 
-    const stats = parseStatsCells(mhaStatsTable.querySelectorAll<HTMLTableCellElement>("tbody > tr > td"));
-    if (!stats) return failParse("Could not parse MHA stats");
+      const stats = parseStatsCells(mhaStatsTable.querySelectorAll<HTMLTableCellElement>("tbody > tr > td"));
+      if (!stats) return failParse("Could not parse MHA stats");
 
-    unit.ascension = stats as AscensionStats;
+      unit.ascension = stats as AscensionStats;
   }
 
-  unit.combatSkills = [];
+  const combatSkills = [];
   const specialArts = specialArtsTable.rows[1] && parseCombatSkill(specialArtsTable.rows[1], true);
   if (!specialArts) return failParse("Could not parse Special Arts skill");
 
-  unit.combatSkills.push(specialArts);
+  combatSkills.push(specialArts);
 
   const combatSkillsTable = nextTable();
   if (!combatSkillsTable) return failParse("Could not find Combat Skills <table>");
 
   const combatSkillsRows = [...combatSkillsTable.rows].slice(1);
   for (const row of combatSkillsRows) {
-    const combatSkill = parseCombatSkill(row, false);
-    if (!combatSkill) return failParse("Could not parse Combat Skill");
+      const combatSkill = parseCombatSkill(row, false);
+      if (!combatSkill) return failParse("Could not parse Combat Skill");
 
-    unit.combatSkills.push(combatSkill);
+      combatSkills.push(combatSkill);
   }
 
-  if (unit.combatSkills.length !== 4) return failParse("Incorrect number of combat skills");
+  if (combatSkills.length !== 4) return failParse("Incorrect number of combat skills");
+  if (!combatSkills[0].specialArts) return failParse("First combat skill was not a special arts");
+  if (combatSkills[1].specialArts) return failParse("Second combat skill was a special arts");
+  if (combatSkills[2].specialArts) return failParse("Third combat skill was a special arts");
+  if (combatSkills[3].specialArts) return failParse("Fourth combat skill was a special arts");
+  unit.combatSkills = combatSkills as AdventurerUnit["combatSkills"];
 
   const skillsTable = nextTable();
   if (!skillsTable) return failParse("Could not find Skill/Development Abilities <table>");
 
-  unit.passiveSkills = [];
+  const passiveSkills = [];
   const skillsRows = [...skillsTable.rows].slice(1);
   for (const row of skillsRows) {
-    const skill = parsePassiveSkill(row);
-    if (!skill) return failParse("Could not parse Passive Skill");
+      const skill = parsePassiveSkill(row);
+      if (!skill) return failParse("Could not parse Passive Skill");
 
-    unit.passiveSkills.push(skill);
+      passiveSkills.push(skill);
   }
 
-  if (unit.passiveSkills.length !== 5) return failParse("Incorrect number of passive skills.");
+  if (passiveSkills.length !== 5) return failParse("Incorrect number of passive skills.");
+  unit.passiveSkills = passiveSkills as AdventurerUnit["passiveSkills"];
   if (nextTable()) return failParse("Unexpected content");
 
   return unit;
@@ -264,10 +292,10 @@ function parseAssist(nextTable: () => HTMLTableElement | undefined, unit: Assist
   unit.skill.name = firstSkill.name;
   unit.skill.descriptions = [];
   for (const row of skillRows) {
-    const skill = parseSkill(row);
-    if (!skill) return failParse("Could not parse Assist Skill");
+      const skill = parseSkill(row);
+      if (!skill) return failParse("Could not parse Assist Skill");
 
-    unit.skill.descriptions.push(skill.description);
+      unit.skill.descriptions.push(skill.description);
   }
 
   if (unit.skill.descriptions.length !== 2) return failParse("Incorrect number of assist skill descriptions");
@@ -283,13 +311,13 @@ function parseUnit(div: HTMLDivElement, limited: boolean, banner: string | undef
   unit.limited = limited;
 
   if (banner) {
-    unit.banner = banner;
+      unit.banner = banner;
   }
 
   const tables = div.querySelectorAll<HTMLTableElement>("table.argo-table.heading");
 
   function nextTable(): HTMLTableElement | undefined {
-    return tables[i++];
+      return tables[i++];
   }
 
   const characterTable = nextTable();
@@ -315,7 +343,7 @@ function parseUnit(div: HTMLDivElement, limited: boolean, banner: string | undef
 
   const unitImage = characterTable.querySelector<HTMLImageElement>("img");
   if (unitImage && unitImage.src) {
-    unit.image = unitImage.src;
+      unit.image = unitImage.src;
   }
 
   const mlbStatsTable = nextTable();
@@ -327,28 +355,20 @@ function parseUnit(div: HTMLDivElement, limited: boolean, banner: string | undef
   Object.assign(unit, stats);
 
   return unit.kind === "adventurer"
-    ? parseAdventurer(characterTable, nextTable, unit)
-    : parseAssist(nextTable, unit);
+      ? parseAdventurer(characterTable, nextTable, unit)
+      : parseAssist(nextTable, unit);
 
   function normalize(text: string) {
-    return text
-      .toLowerCase()
-      .replace(/[^a-z\s]/ig, "")
-      .replace(/\s+/g, ".");
+      return text
+          .toLowerCase()
+          .replace(/[^a-z\s]/ig, "")
+          .replace(/\s+/g, ".");
   }
 }
 
-function failParse(...args: any[]) {
-  console.error(...args);
-  return undefined;
-}
-
-async function saveUnit(unitFile: string, unit: Unit) {
-  await saveImage(unit);
-  switch (unit.kind) {
-    case "adventurer": return saveAdventurerUnit(unitFile, unit);
-    case "assist": return saveAssistUnit(unitFile, unit);
-  }
+function failParse(message: string): never {
+  console.error(message);
+  return undefined!;
 }
 
 function responded(request: coreRequest.Request) {
@@ -383,43 +403,53 @@ function finished(stream: Readable | Writable | Stream, { readable = (<Readable>
   });
 }
 
+
+
+async function saveUnit(unitFile: string, unit: Unit) {
+  await saveImage(unit);
+  switch (unit.kind) {
+    case "adventurer": return saveAdventurerUnit(unitFile, unit);
+    case "assist": return saveAssistUnit(unitFile, unit);
+  }
+}
+
 async function saveImage(unit: Unit) {
   const image = unit.image;
   unit.image = `${unit.id}-full.png`;
   unit.thumbnail = `${unit.id}-thumb.png`;
 
-  if (image) {
-    const imagePath = path.resolve(resDir, unit.id + "-full.png");
-    if (fs.existsSync(imagePath)) {
-      console.log(`'${unit.image}' already exists, skipping.`);
-      return;
-    }
+  // if (image) {
+  //   const imagePath = path.resolve(resDir, unit.id + "-full.png");
+  //   if (fs.existsSync(imagePath)) {
+  //     console.log(`'${unit.image}' already exists, skipping.`);
+  //     return;
+  //   }
 
-    const tmp = imagePath + '.downloading';
-    try { fs.unlinkSync(tmp); } catch {}
+  //   const tmp = imagePath + '.downloading';
+  //   try { fs.unlinkSync(tmp); } catch {}
 
-    let req = request(image);
-    req.pause();
+  //   let req = request(image);
+  //   req.pause();
 
-    let response = await responded(req);
-    if (response.statusCode < 200 || response.statusCode >= 300) {
-      console.error(`Failed to download video: ${response.statusCode} ${response.statusMessage}`);
-      return;
-    }
+  //   let response = await responded(req);
+  //   if (response.statusCode < 200 || response.statusCode >= 300) {
+  //     console.error(`Failed to download video: ${response.statusCode} ${response.statusMessage}`);
+  //     return;
+  //   }
 
-    const stream = fs.createWriteStream(tmp, { autoClose: true });
-    try {
-      response.pipe(stream, { end: true });
-      if (response.isPaused()) response.resume();
-      await finished(stream);
-    }
-    catch {
-      stream.close();
-    }
+  //   const stream = fs.createWriteStream(tmp, { autoClose: true });
+  //   try {
+  //     response.pipe(stream, { end: true });
+  //     if (response.isPaused()) response.resume();
+  //     await finished(stream);
+  //   }
+  //   catch {
+  //     stream.close();
+  //   }
 
-    fs.renameSync(tmp, imagePath);
-    console.log(`'${unit.image}' saved.`);
-  }
+  //   fs.renameSync(tmp, imagePath);
+  //   console.log(`'${unit.image}' saved.`);
+  // }
 }
 
 function saveAdventurerUnit(unitFile: string, unit: Unit) {
@@ -435,7 +465,7 @@ function saveAssistUnit(unitFile: string, unit: Unit) {
 }
 
 async function main() {
-  const url = argv.url || (argv.id && `https://api-danmemo-us.wrightflyer.net/asset/notice/view/${argv.id}?`);
+  const url = argv.url || (argv.id && `https://api-danmemo-us.wrightflyer.net/asset/notice/lottery/view?lotteryId=${argv.id}&l=us&`);
   if (!url) {
     args.help();
     return process.exit(-1);

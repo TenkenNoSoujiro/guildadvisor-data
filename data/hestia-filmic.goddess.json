@@ -1,4 +1,5 @@
 { "id": "hestia-filmic.goddess",
+  "banner": "Travelers and the Labyrinth Country",
   "title": "Filmic Goddess",
   "name": "Hestia",
   "kind": "assist",
@@ -14,8 +15,8 @@
   "skill": {
     "name": "Sparkling Smile",
     "descriptions": [
-      "[Allies] P.Resist & Guard Rate+8%",
-      "[Allies] P.Resist & Guard Rate+10%"
+      "[Allies] P.Resist and M.Resist+8% & Guard Rate+15%",
+      "[Allies] P.Resist and M.Resist+10% & Guard Rate+20%"
     ]
   },
   "thumbnail": "hestia-filmic.goddess-thumb.png",

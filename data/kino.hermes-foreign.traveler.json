@@ -1,5 +1,5 @@
 { "id": "kino.hermes-foreign.traveler",
-  "new": false,
+  "banner": "Travelers and the Labyrinth Country",
   "title": "Foreign Traveler",
   "name": "Kino & Hermes",
   "kind": "adventurer",
@@ -8,24 +8,33 @@
   "rarity": 4,
   "hp": 2600,
   "mp": 199,
-  "str": 1417,
-  "end": 421,
-  "dex": 557,
-  "agi": 809,
+  "str": 1611,
+  "end": 478,
+  "dex": 633,
+  "agi": 920,
   "mag": 313,
+  "ascension": {
+    "hp": 3775,
+    "mp": 269,
+    "str": 1961,
+    "end": 658,
+    "dex": 708,
+    "agi": 1003,
+    "mag": 363
+  },
   "combatSkills": [
     { "specialArts": true,
-      "name": "Flute Shot", "description": "[Foes] Ultra P.Attack w/temp Str. Boost" },
-    { "name": "Projected Trajectory Shot", "description": "[Foe] Hi P.Attack w/Ultra Critical Rate", "mp": 25 },
-    { "name": "Bolting Assault Shot", "description": "[Foes] Mid P.Attack w/Str. & Mag.-20%/4 turns", "mp": 28 },
-    { "name": "Target-Focused Shot", "description": "[Foes] Mid P.Attack w/15% Seal", "mp": 22 }
+      "name": "Flute Shot", "description": "[Foes] Ultra Earth P.Attack w/temp Str. Boost and Ultra Unguard Rate & P.Resist and Earth Resist-35%/2 turns" },
+    { "name": "Projected Trajectory Shot", "description": "[Foe] Hi Earth P.Attack w/temp Str. Boost and Ultra Critical Rate & Seal", "mp": 32 },
+    { "name": "Bolting Assault Shot", "description": "[Foes] Fast Mid Earth P.Attack w/Ultra Uncounter Rate & Str. and Mag.-35%/4 turns", "mp": 35 },
+    { "name": "Target-Focused Shot", "description": "[Foes] Super Earth P.Attack w/temp Str. Boost & 15% Seal", "mp": 44 }
   ],
   "passiveSkills": [
-    { "name": "Saboteur", "description": "Dex.+10%" },
-    { "name": "Acceleration", "description": "Agi.+10%" },
-    { "name": "Unbreakable", "description": "End.+10%" },
-    { "name": "Crush", "description": "Str.+10%" },
-    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+    { "name": "Will of Earth", "description": "When countering and attacking, regular P.Attack a Foe with Earth Element." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Thunder Resistance", "description": "Thunder Resist+35%" },
+    { "name": "Martial Arts", "description": "Str. & End. & Agi. & Dex.+25%" },
+    { "name": "Status Resist", "description": "Ailment Resist+35%" }
   ],
   "thumbnail": "kino.hermes-foreign.traveler-thumb.png",
   "image": "kino.hermes-foreign.traveler-full.png"

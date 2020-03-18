@@ -1,5 +1,5 @@
 { "id": "ti-explosive.girl",
-  "new": false,
+  "banner": "Travelers and the Labyrinth Country",
   "title": "Explosive Girl",
   "name": "Ti",
   "kind": "assist",
@@ -15,8 +15,8 @@
   "skill": {
     "name": "It's Alright Now",
     "descriptions": [
-      "[Allies] Str. & Critical Rate+8%",
-      "[Allies] Str. & Critical Rate+10%"
+      "[Allies] Str.+10% & Critical Rate, Fire and Earth Attack Dmg.+8%",
+      "[Allies] Str.+15% & Critical Rate, Fire and Earth Attack Dmg.+10%"
     ]
   },
   "thumbnail": "ti-explosive.girl-thumb.png",

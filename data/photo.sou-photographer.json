@@ -1,5 +1,5 @@
 { "id": "photo.sou-photographer",
-  "new": false,
+  "banner": "Travelers and the Labyrinth Country",
   "title": "Photographer",
   "name": "Photo & Sou",
   "kind": "adventurer",
@@ -9,23 +9,32 @@
   "hp": 2317,
   "mp": 260,
   "str": 425,
-  "end": 346,
-  "dex": 786,
-  "agi": 722,
-  "mag": 1085,
+  "end": 393,
+  "dex": 893,
+  "agi": 821,
+  "mag": 1233,
+  "ascension": {
+    "hp": 3467,
+    "mp": 360,
+    "str": 562,
+    "end": 561,
+    "dex": 988,
+    "agi": 846,
+    "mag": 1543
+  },
   "combatSkills": [
     { "specialArts": true,
-      "name": "Strobe Light", "description": "[Foes] P.Resist & M.Resist-30%/4 turns" },
-    { "name": "Full throttle", "description": "[Foe] Hi P.Attack indexed to Mag.", "mp": 20 },
-    { "name": "Pharmacy", "description": "[Allies] Mid Heal & Guard Rate+30%/2 turns", "mp": 39 },
-    { "name": "Voice of Poplar Street", "description": "[Allies] Heal+20%/4 turns", "mp": 27 }
+      "name": "Strobe Light", "description": "[Foes] P.Resist and M.Resist-35% & Dmg. received (Attack Type: All Targets & Single Target)+35%/5 turns" },
+    { "name": "Full Throttle", "description": "[Foe] Super Fire P.Attack Dmg. indexed to Mag.+40% per each [Self] Mag. Buff Skill w/Hi Penetration Rate", "mp": 34 },
+    { "name": "Pharmacy", "description": "[Allies] Fast Mid HP Heal & 30% HP Regen and Guard Rate+30%/2 turns", "mp": 30 },
+    { "name": "Voice of Poplar Street", "description": "[Allies] Str. & Mag. & Counter Rate & Heal+25%/5 turns", "mp": 28 }
   ],
   "passiveSkills": [
-    { "name": "Crafter", "description": "Dex.+10%" },
-    { "name": "Acceleration", "description": "Agi.+10%" },
-    { "name": "Unbreakable", "description": "End.+10%" },
-    { "name": "Mind's Eye", "description": "Mag.+10%" },
-    { "name": "Status Resist", "description": "Ailment Resist+15%" }
+    { "name": "Encouragement", "description": "When countering, instead of attacking regularly, it (Lo) Heals an Ally. Prioritizes an Ally with lower percentage HP." },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" },
+    { "name": "Wind Resistance: I", "description": "Wind Resist+35%" },
+    { "name": "Hex", "description": "Mag. & End. & Agi. & Dex.+25%" },
+    { "name": "Status Resist", "description": "Ailment Resist+35%" }
   ],
   "thumbnail": "photo.sou-photographer-thumb.png",
   "image": "photo.sou-photographer-full.png"
