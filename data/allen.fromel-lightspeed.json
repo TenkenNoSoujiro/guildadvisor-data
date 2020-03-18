@@ -1,0 +1,41 @@
+{ "id": "allen.fromel-lightspeed",
+  "banner": "Bell Main Story Release",
+  "title": "Lightspeed",
+  "name": "Allen Fromel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2606,
+  "mp": 210,
+  "str": 1586,
+  "end": 373,
+  "dex": 673,
+  "agi": 1168,
+  "mag": 318,
+  "ascension": {
+    "hp": 3781,
+    "mp": 280,
+    "str": 1936,
+    "end": 553,
+    "dex": 748,
+    "agi": 1251,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Rushing Termination", "description": "[Foes] Ultra Earth P.Attack w/temp Str. Boost and Hi Penetration Rate & [Self] Str., Agi., Dex. and Earth Attack Dmg.+60%/5 turns" },
+    { "name": "Split Second", "description": "[Foes] Fast Hi Earth P.Attack w/Ultra Uncounter Rate & [Allies] removes Str. and Agi. debuff exc. Assist Skills", "mp": 44 },
+    { "name": "Aggressive Act", "description": "[Foes] Fast Mid Earth P.Attack w/Ultra Uncounter Rate & [Self] Str., Agi., Dex. and Earth Attack Dmg.+25%/4 turns", "mp": 53 },
+    { "name": "Spear Jolt", "description": "[Foe] Fast Hi Earth P.Attack Dmg.+40% per each [Self] Agi. Buff Skill and Ultra Critical Rate", "mp": 35 }
+  ],
+  "passiveSkills": [
+    { "name": "Bravery", "description": "When countering, regular attack a Foe & HP Heal 50% of Dmg." },
+    { "name": "Acceleration", "description": "Agi.+25%" },
+    { "name": "Thunder Resistance", "description": "Thunder Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Solid", "description": "Guard+30%" }
+  ],
+  "thumbnail": "allen.fromel-lightspeed-thumb.png",
+  "image": "allen.fromel-lightspeed-full.png"
+}
