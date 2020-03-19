@@ -1,0 +1,45 @@
+{ "id": "bell.cranel-ready.for.act",
+  "new": false,
+  "title": "Ready for Act",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2378,
+  "mp": 241,
+  "str": 316,
+  "end": 342,
+  "dex": 604,
+  "agi": 653,
+  "mag": 1214,
+  "ascension": {
+    "hp": 3318,
+    "mp": 305,
+    "str": 356,
+    "end": 470,
+    "dex": 667,
+    "agi": 716,
+    "mag": 1472,
+    "combinationSkills": [
+      { "name": "Magic Blast", "description": "[Foes] Non-Elem. M.Attack activates aft. S.A Combos by 2+ Ascension-unlocked Units w/same Comb. Attack. ※ Can be Units of same character." },
+      { "name": "Holy Rage", "description": "[Foes] Non-Elem. M.Attack activates aft. S.A Combos by 2+ Ascension upgraded(x3+) Units w/same Comb. Attack. ※ Cannot be Units of same character." }
+    ]
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Crater Hellion", "description": "[Foe] Ultra Fire M.Attack w/temp. Mag. Boost and Hi Unguard Rate & Dmg. (Attack Type: Single Target)+20%/4 turns" },
+    { "name": "Heart Fire", "description": "[Foe] Lo Fire M.Attack & [Self] Mag. and Fire Attack Dmg.+40%/4 turns", "mp": 27 },
+    { "name": "Courage", "description": "[Foe] Mid Fire M.Attack & [Allies] P.Resist and M.Resist+20%/4 turns", "mp": 30 },
+    { "name": "Scorch", "description": "[Foe] Hi Fire M.Attack & [Foe] P.Resist, M.Resist and Fire Resist-20%/4 turns", "mp": 36 }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm." },
+    { "name": "Fire Manifestation", "description": "Wind Resist+25%. When countering and attacking, regular M.Attack a Foe with Fire Element." },
+    { "name": "Enlightenment L.Sword", "description": "Mag.+25% when equipped with L.Sword" },
+    { "name": "Luck", "description": "All Status+15%" },
+    { "name": "Plant Killer", "description": "Ability Pt.+50% toward Plants", "nemesis": "Plants" }
+  ],
+  "thumbnail": "bell.cranel-ready.for.act-thumb.png",
+  "image": "bell.cranel-ready.for.act-full.png"
+}
