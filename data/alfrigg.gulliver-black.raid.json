@@ -1,0 +1,41 @@
+{ "id": "alfrigg.gulliver-black.raid",
+  "banner": "Bell Main Story Release",
+  "title": "Black Raid",
+  "name": "Alfrigg Gulliver",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2562,
+  "mp": 221,
+  "str": 1570,
+  "end": 373,
+  "dex": 688,
+  "agi": 975,
+  "mag": 318,
+  "ascension": {
+    "hp": 3737,
+    "mp": 291,
+    "str": 1920,
+    "end": 553,
+    "dex": 763,
+    "agi": 1058,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Wrecking Assault", "description": "[Foe] Ultra Earth P.Attack Dmg.+80% per each [Self] Dex. Buff Skill & Increase S.A Gauge Charge gain by 100%/5 turns" },
+    { "name": "Raiding Party", "description": "[Foe] Super Earth P.Attack w/Hi Critical Rate & [Allies] Str., Dex and Earth Attack Dmg.+30%/2 turns", "mp": 51 },
+    { "name": "Crash Through", "description": "[Foe] Hi Earth P.Attack w/Hi Unguard Rate & P.Resist and Earth Resist-20% & Dmg. (Attack Type: Single Target)+20%/4 turns", "mp": 51 },
+    { "name": "Nimble Tactics", "description": "[Foe] Mid Earth P.Attack w/Hi Penetration Rate & [Allies] Status Buffs and [Foe] Status Debuff+1 turn", "mp": 26 }
+  ],
+  "passiveSkills": [
+    { "name": "Earth Manifestation", "description": "Thunder Resist+25%. When countering and attacking, regular P.Attack a Foe with Earth Element." },
+    { "name": "Piercing Strike", "description": "Dmg.+20% Upon Penetration" },
+    { "name": "Strike", "description": "Critical Damage+20%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Plant Killer", "description": "Ability Pt.+50% toward Plants", "nemesis": "Plants" }
+  ],
+  "thumbnail": "alfrigg.gulliver-black.raid-thumb.png",
+  "image": "alfrigg.gulliver-black.raid-full.png"
+}

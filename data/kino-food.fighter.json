@@ -1,0 +1,41 @@
+{ "id": "kino-food.fighter",
+  "banner": "Visitor from the Academy -Battle Against the Nesting Monster",
+  "title": "Food Fighter",
+  "name": "Kino",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2514,
+  "mp": 233,
+  "str": 1592,
+  "end": 376,
+  "dex": 625,
+  "agi": 1012,
+  "mag": 318,
+  "ascension": {
+    "hp": 3689,
+    "mp": 303,
+    "str": 1942,
+    "end": 556,
+    "dex": 700,
+    "agi": 1095,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Monster Seal Warhead", "description": "[Foes] Ultra Earth P.Attack Dmg.+40% per each [Self] Critical Rate Buff Skill and Hi Penetration Rate & 40% Seal" },
+    { "name": "4D Pouch", "description": "[Self] Fast Critical Rate, Guard Rate, Counter Rate and Earth Attack Dmg.+40%/5 turns", "mp": 33 },
+    { "name": "Semi-auto Snipe", "description": "[Foes] Super Earth P.Attack Dmg.+30% per each [Self] Critical Rate Buff Skill and Ultra Unguard Rate", "mp": 47 },
+    { "name": "Revolver Shot", "description": "[Foe] Fast Hi Earth P.Attack Dmg.+30% per each [Self] Critical Rate Buff Skill and Ultra Critical Rate", "mp": 35 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Earth", "description": "When countering and attacking, regular P.Attack a Foe with Earth Element." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Thunder Resistance", "description": "Thunder Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" }
+  ],
+  "thumbnail": "kino-food.fighter-thumb.png",
+  "image": "kino-food.fighter-full.png"
+}
