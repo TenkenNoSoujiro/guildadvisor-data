@@ -1,0 +1,41 @@
+{ "id": "daphne.lauros-swimsuit.swordsman",
+  "banner": "Is It Wrong to Pick Herbs in a Desert Island?",
+  "title": "Swimsuit Swordsman",
+  "name": "Daphne Lauros",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2594,
+  "mp": 213,
+  "str": 1622,
+  "end": 420,
+  "dex": 678,
+  "agi": 908,
+  "mag": 318,
+  "ascension": {
+    "hp": 3769,
+    "mp": 283,
+    "str": 1972,
+    "end": 600,
+    "dex": 753,
+    "agi": 991,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Glorious Pierce", "description": "[Foes] Ultra Thunder P.Attack w/temp Str. Boost and Ultra Unguard Rate and P.Resist-50%/2 turns" },
+    { "name": "Grid Fleur", "description": "[Foe] Hi Thunder P.Attack Dmg.+25% per each [Self] Str. Buff Skill & Ultra Critical Rate", "mp": 30 },
+    { "name": "Seaside Screw", "description": "[Foes] Super Thunder P.Attack w/temp Str. Boost & Ultra Penetration Rate and [Allies] 50% Null M.Attack x1 exc. Special Arts", "mp": 60 },
+    { "name": "Sunrise Call", "description": "[Allies] Fast Str., Mag., Thunder Attack Dmg., P.Resist and M.Resist+25%/2 turns", "mp": 46 }
+  ],
+  "passiveSkills": [
+    { "name": "Elios Passion", "description": "Agi.+30%" },
+    { "name": "Will of Thunder", "description": "When countering and attacking, regular P.Attack a Foe with Thunder Element." },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
+    { "name": "Battle Arts", "description": "Str. & Dex. +25%" },
+    { "name": "Fantasma Killer", "description": "Ability Pt.+50% toward Ghost", "nemesis": "Ghost" }
+  ],
+  "thumbnail": "daphne.lauros-swimsuit.swordsman-thumb.png",
+  "image": "daphne.lauros-swimsuit.swordsman-full.png"
+}
