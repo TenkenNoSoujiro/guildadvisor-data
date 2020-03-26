@@ -1,0 +1,41 @@
+{ "id": "sanjouno.haruhime-an.ocean.of.virtue",
+  "banner": "Is It Wrong to Pick Herbs in a Desert Island?",
+  "title": "An Ocean of Virtue",
+  "name": "Sanjouno Haruhime",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2490,
+  "mp": 319,
+  "str": 341,
+  "end": 330,
+  "dex": 710,
+  "agi": 830,
+  "mag": 1560,
+  "ascension": {
+    "hp": 3615,
+    "mp": 399,
+    "str": 392,
+    "end": 491,
+    "dex": 789,
+    "agi": 909,
+    "mag": 1895
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Transforming Hammer", "description": "[Foe] Ultra Light M.Attack Dmg.+80% per each [Self] Mag. Buff Skill & [Allies] 40% HP Regen and Light Attack Dmg.+80%/3 turns" },
+    { "name": "Golden Sky Dash", "description": "[Self] Increase Mag., Dex. and Light Attack Dmg.+60% & [Allies] Mag., Dex. and Light Attack Dmg.+30%/4 turns", "mp": 52 },
+    { "name": "Cicada Shell", "description": "[Foe] Remove Str., Mag. and Agi Buffs exc. Assist Skills & Dmg. received (Attack Type: Single Target)+20%/4 turns", "mp": 20 },
+    { "name": "Mayfly", "description": "[Foe] Super Light M.Attack Dmg.+40% per each [Self] Mag. Buff Skill & [Allies] 20% HP Regen/1 turn", "mp": 136 }
+  ],
+  "passiveSkills": [
+    { "name": "Bloom", "description": "8% HP & MP Regen/turn" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Fantasma Killer", "description": "Ability Pt.+50% toward Ghost", "nemesis": "Ghost" }
+  ],
+  "thumbnail": "sanjouno.haruhime-an.ocean.of.virtue-thumb.png",
+  "image": "sanjouno.haruhime-an.ocean.of.virtue-full.png"
+}

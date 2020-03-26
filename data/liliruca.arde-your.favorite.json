@@ -1,0 +1,24 @@
+{ "id": "liliruca.arde-your.favorite",
+  "banner": "Is It Wrong to Pick Herbs in a Desert Island?",
+  "title": "Your Favorite",
+  "name": "Liliruca Arde",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 854,
+  "mp": 190,
+  "str": 595,
+  "end": 276,
+  "dex": 370,
+  "agi": 420,
+  "mag": 212,
+  "skill": {
+    "name": "Enchanting Gaze",
+    "descriptions": [
+      "[Foes] Heal, P.Resist, M.Resist and Thunder Resist-10%",
+      "[Foes] Heal, P.Resist, M.Resist and Thunder Resist-15%"
+    ]
+  },
+  "thumbnail": "liliruca.arde-your.favorite-thumb.png",
+  "image": "liliruca.arde-your.favorite-full.png"
+}
