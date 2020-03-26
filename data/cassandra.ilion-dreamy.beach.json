@@ -1,0 +1,41 @@
+{ "id": "cassandra.ilion-dreamy.beach",
+  "banner": "Is It Wrong to Pick Herbs in a Desert Island?",
+  "title": "Dreamy Beach",
+  "name": "Cassandra Ilion",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2422,
+  "mp": 245,
+  "str": 898,
+  "end": 351,
+  "dex": 756,
+  "agi": 938,
+  "mag": 1210,
+  "ascension": {
+    "hp": 3572,
+    "mp": 345,
+    "str": 1035,
+    "end": 519,
+    "dex": 851,
+    "agi": 963,
+    "mag": 1520
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Assembling Monsoon", "description": "[Foes] Ultra Thunder M.Attack w/temp Mag. Boost & Hi Penetration Rate and M.Resist-50%/2 turns" },
+    { "name": "Calamity Bolt", "description": "[Foe] Hi Thunder M.Attack Dmg.+25% per each Target's M.Resist Reduction Skill & Ultra Unguard Rate", "mp": 34 },
+    { "name": "Splash Ray", "description": "[Foes] Super Thunder M.Attack w/temp Mag. Boost & Ultra Uncounter Rate and [Allies] 50% Null P.Attack x1 exc. Special Arts", "mp": 64 },
+    { "name": "Sunset Slumber", "description": "[Foes] Fast Str., Mag., P.Resist, M.Resist, and Thunder Resist-25%/2 turns", "mp": 45 }
+  ],
+  "passiveSkills": [
+    { "name": "Five Dimension Troia", "description": "When countering, instead of attacking regularly, it Nulls a Magic Attack one time for Self. (exc. Special Arts)" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Solid", "description": "Guard+30%" }
+  ],
+  "thumbnail": "cassandra.ilion-dreamy.beach-thumb.png",
+  "image": "cassandra.ilion-dreamy.beach-full.png"
+}
