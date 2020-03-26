@@ -1,0 +1,24 @@
+{ "id": "yamato.mikoto-bathing.beauty",
+  "banner": "Is It Wrong to Pick Herbs in a Desert Island?",
+  "title": "Bathing Beauty",
+  "name": "Yamato Mikoto",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1124,
+  "mp": 158,
+  "str": 380,
+  "end": 433,
+  "dex": 331,
+  "agi": 215,
+  "mag": 380,
+  "skill": {
+    "name": "Eastern Beauty",
+    "descriptions": [
+      "[Allies] Guard Rate & Counter Rate+10% and Slow Resist+75%",
+      "[Allies] Guard Rate & Counter Rate+15% and Slow Resist+100%"
+    ]
+  },
+  "thumbnail": "yamato.mikoto-bathing.beauty-thumb.png",
+  "image": "yamato.mikoto-bathing.beauty-full.png"
+}
