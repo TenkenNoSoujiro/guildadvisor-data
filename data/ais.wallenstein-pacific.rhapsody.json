@@ -1,0 +1,41 @@
+{ "id": "ais.wallenstein-pacific.rhapsody",
+  "banner": "Is It Wrong to Pick Herbs in a Desert Island?",
+  "title": "Pacific Rhapsody",
+  "name": "Ais Wallenstein",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2570,
+  "mp": 219,
+  "str": 1567,
+  "end": 375,
+  "dex": 676,
+  "agi": 987,
+  "mag": 318,
+  "ascension": {
+    "hp": 3745,
+    "mp": 289,
+    "str": 1917,
+    "end": 555,
+    "dex": 751,
+    "agi": 1070,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Tropical Rhapsody", "description": "[Foes] Ultra Thunder P.Attack w/temp Str. Boost & Hi Penetration Rate and 70% Stun" },
+    { "name": "Jellyfish Pulse", "description": "[Foes] Fast Lo Thunder P.Attack w/Ultra Uncounter Rate & 35% Stun", "mp": 27 },
+    { "name": "Innocentlily", "description": "[Foe] Hi Thunder P.Attack Dmg.+40% per each Target's skill effect that increases Dmg. received (Attack Type: Single Target) & Ultra Unguard Rate", "mp": 30 },
+    { "name": "Sunny Oceanblue", "description": "[Foes] Super Thunder P.Attack w/temp Str. Boost & Ultra Critical Rate and Dmg. received (Attack Type: All Targets & Single Target)+20%/4 turns", "mp": 54 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Thunder", "description": "When countering and attacking, regular P.Attack a Foe with Thunder Element." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Water Resistance", "description": "Water Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Solid", "description": "Guard+30%" }
+  ],
+  "thumbnail": "ais.wallenstein-pacific.rhapsody-thumb.png",
+  "image": "ais.wallenstein-pacific.rhapsody-full.png"
+}
