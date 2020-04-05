@@ -1,0 +1,41 @@
+{ "id": "bell.cranel-pyonkichi.mkii",
+  "banner": "Ais Wars - Final Aerial",
+  "title": "Pyonkichi MK-II",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2460,
+  "mp": 232,
+  "str": 1080,
+  "end": 366,
+  "dex": 510,
+  "agi": 662,
+  "mag": 277,
+  "ascension": {
+    "hp": 3400,
+    "mp": 288,
+    "str": 1350,
+    "end": 510,
+    "dex": 570,
+    "agi": 728,
+    "mag": 317
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "16 Stranded Firebolt", "description": "[Foes] Ultra Fire M.Attack indexed to Str." },
+    { "name": "Space Argonaut", "description": "[Self] Str. and Fire Attack Dmg.+40%/4 turns", "mp": 15 },
+    { "name": "Fire Shot", "description": "[Foe] Mid Fire M.Attack indexed to Str.", "mp": 15 },
+    { "name": "Wide Fire Shot", "description": "[Foes] Hi Fire M.Attack indexed to Str.", "mp": 24 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Fire", "description": "When countering and attacking, regular P.Attack a Foe with Fire Element." },
+    { "name": "Hi Power Force", "description": "Str.+4%" },
+    { "name": "Advance Tech", "description": "Agi.+6%" },
+    { "name": "Space War", "description": "Dex.+4%" },
+    { "name": "Armor", "description": "End.+9%" }
+  ],
+  "thumbnail": "bell.cranel-pyonkichi.mkii-thumb.png",
+  "image": "bell.cranel-pyonkichi.mkii-full.png"
+}
