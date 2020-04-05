@@ -1,0 +1,24 @@
+{ "id": "hestia-space.ribbon",
+  "banner": "Ais Wars - Final Aerial",
+  "title": "Space Ribbon",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 1205,
+  "mp": 137,
+  "str": 340,
+  "end": 345,
+  "dex": 317,
+  "agi": 203,
+  "mag": 340,
+  "skill": {
+    "name": "Up Up Down Down Arcanum",
+    "descriptions": [
+      "[Allies] Str. and End.+8%",
+      "[Allies] Str. and End.+10%"
+    ]
+  },
+  "thumbnail": "hestia-space.ribbon-thumb.png",
+  "image": "hestia-space.ribbon-full.png"
+}
