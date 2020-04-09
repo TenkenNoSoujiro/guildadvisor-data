@@ -1,0 +1,24 @@
+{ "id": "freya-captivating.beauty",
+  "banner": "Bell Main Story Release",
+  "title": "Captivating Beauty",
+  "name": "Freya",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1312,
+  "mp": 111,
+  "str": 406,
+  "end": 383,
+  "dex": 330,
+  "agi": 214,
+  "mag": 406,
+  "skill": {
+    "name": "Witch of Ruin",
+    "descriptions": [
+      "[Self] Ailment Resist+75% and Str., Mag., P.Resist and M.Resist+15%",
+      "[Self] Ailment Resist+100% and Str., Mag., P.Resist and M.Resist+20%"
+    ]
+  },
+  "thumbnail": "freya-captivating.beauty-thumb.png",
+  "image": "freya-captivating.beauty-full.png"
+}
