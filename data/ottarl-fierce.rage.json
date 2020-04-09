@@ -1,0 +1,41 @@
+{ "id": "ottarl-fierce.rage",
+  "banner": "Bell Main Story Release",
+  "title": "Fierce Rage",
+  "name": "Ottarl",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2658,
+  "mp": 197,
+  "str": 1666,
+  "end": 518,
+  "dex": 641,
+  "agi": 873,
+  "mag": 318,
+  "ascension": {
+    "hp": 3833,
+    "mp": 267,
+    "str": 2016,
+    "end": 698,
+    "dex": 716,
+    "agi": 956,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Intense Rage", "description": "[Foes] Ultra Dark P.Attack w/temp Great Str. Boost and Ultra Unguard Rate & [Self] Str., Dark Attack Dmg., P.Resist and M.Resist+60%/5 turns" },
+    { "name": "Bone Crush", "description": "[Foe] Super Dark P.Attack Dmg.+40% per each [Self] Str. Buff Skill & Ultra Critical Rate", "mp": 37 },
+    { "name": "Fierce Roar", "description": "[Self] Fast Str., Dark Attack Dmg., P.Resist and M.Resist+50%/4 turns", "mp": 70 },
+    { "name": "Fury", "description": "[Foes] Super Dark P.Attack w/temp Str. Boost & Hi Penetration Rate and [Self] Str. and Dark Attack Dmg.+50%/4 turns", "mp": 96 }
+  ],
+  "passiveSkills": [
+    { "name": "I am War", "description": "8% HP & MP Regen/turn" },
+    { "name": "Will of Darkness", "description": "When countering and attacking, regular P.Attack a Foe with Dark Element." },
+    { "name": "Piercing Strike", "description": "Dmg.+10% Upon Penetration" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Martial Arts", "description": "Str. & End. & Agi. & Dex.+25%" }
+  ],
+  "thumbnail": "ottarl-fierce.rage-thumb.png",
+  "image": "ottarl-fierce.rage-full.png"
+}
