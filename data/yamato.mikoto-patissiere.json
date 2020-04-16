@@ -1,0 +1,41 @@
+{ "id": "yamato.mikoto-patissiere",
+  "banner": "Certain Gods and Familia Love Songs",
+  "title": "Patissiere",
+  "name": "Yamato Mikoto",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2414,
+  "mp": 247,
+  "str": 898,
+  "end": 346,
+  "dex": 652,
+  "agi": 910,
+  "mag": 1437,
+  "ascension": {
+    "hp": 3564,
+    "mp": 347,
+    "str": 1035,
+    "end": 514,
+    "dex": 747,
+    "agi": 935,
+    "mag": 1747
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Disciplinary Strike", "description": "[Foes] Ultra Fire M.Attack w/temp Mag. Boost & Hi Penetration Rate, and Guard Rate-50% & [Allies] Counter Rate+50%/2 turns" },
+    { "name": "Flare Knife", "description": "[Foe] Super Fire M.Attack Dmg.+35% per each Target's M.Resist Reduction Skill & Ultra Unguard Rate", "mp": 41 },
+    { "name": "Crimson Blade", "description": "[Foes] Fast Str., Mag., P.Resist, M.Resist, and Fire Resist-25%/2 turns", "mp": 45 },
+    { "name": "Fire-style Spirits", "description": "[Foes] Fast Hi Fire M.Attack w/Ultra Uncounter Rate & Status Debuff+3 turns", "mp": 44 }
+  ],
+  "passiveSkills": [
+    { "name": "Blessing", "description": "When countering, instead of attacking regularly, it extends Status Buff for Allies for 1 turn." },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Wind Resistance: I", "description": "Wind Resist+35%" },
+    { "name": "Forestall", "description": "Mag. & Agi.+40%" },
+    { "name": "Piercing Strike", "description": "Dmg.+10% Upon Penetration" }
+  ],
+  "thumbnail": "yamato.mikoto-patissiere-thumb.png",
+  "image": "yamato.mikoto-patissiere-full.png"
+}
