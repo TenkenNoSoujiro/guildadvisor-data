@@ -1,0 +1,41 @@
+{ "id": "welf.crozzo-determination",
+  "banner": "Certain Gods and Familia Love Songs",
+  "title": "Determination",
+  "name": "Welf Crozzo",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2622,
+  "mp": 286,
+  "str": 341,
+  "end": 337,
+  "dex": 695,
+  "agi": 831,
+  "mag": 1565,
+  "ascension": {
+    "hp": 3747,
+    "mp": 366,
+    "str": 392,
+    "end": 498,
+    "dex": 774,
+    "agi": 910,
+    "mag": 1900
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Cleaving Advance", "description": "[Foe] Ultra Fire M.Attack Dmg.+40% per each [Self] Mag. & Fire Attack Dmg. Buff Skill and [Foe] removes Str. & Mag. Buffs exc. Assist Skills" },
+    { "name": "Flare Hammer", "description": "[Allies] Increase S.A Gauge Charge gain by 33% & Mag., Dex., and Fire Attack Dmg.+30%/4 turns", "mp": 33 },
+    { "name": "Blade Flash", "description": "[Foes] Fast Hi Fire M.Attack & Dmg. received (Attack Type: All and Single Targets)+20%/3 turns", "mp": 39 },
+    { "name": "Extinguishment", "description": "[Foe] Super Fire M.Attack w/temp Mag. Boost & Hi Penetration Rate, and [Allies] 40% HP Regen/2 turns", "mp": 50 }
+  ],
+  "passiveSkills": [
+    { "name": "Fire Manifestation", "description": "Wind Resist+25%. When countering and attacking, regular M.Attack a Foe with Fire Element." },
+    { "name": "Piercing Strike", "description": "Dmg.+20% Upon Penetration" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Dragon Killer", "description": "Ability Pt.+50% toward Dragons", "nemesis": "Dragons" }
+  ],
+  "thumbnail": "welf.crozzo-determination-thumb.png",
+  "image": "welf.crozzo-determination-full.png"
+}
