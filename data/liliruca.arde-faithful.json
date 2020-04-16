@@ -1,0 +1,41 @@
+{ "id": "liliruca.arde-faithful",
+  "banner": "Certain Gods and Familia Love Songs",
+  "title": "Faithful",
+  "name": "Liliruca Arde",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2510,
+  "mp": 234,
+  "str": 1623,
+  "end": 380,
+  "dex": 632,
+  "agi": 908,
+  "mag": 318,
+  "ascension": {
+    "hp": 3685,
+    "mp": 304,
+    "str": 1973,
+    "end": 560,
+    "dex": 707,
+    "agi": 991,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Intention Charm", "description": "[Foes] Ultra Dark P.Attack w/temp Str. Boost & Hi Penetration Rate, and Dex.-50% & [Allies] Dex.+50%/2 turns" },
+    { "name": "Needle Thrower", "description": "[Foe] Hi Dark P.Attack w/temp Str. Boost & Ultra Critical Rate", "mp": 27 },
+    { "name": "Swarm Control", "description": "[Allies] Fast Dex.+30% & [Foes] Str., Mag., and Dex.-30%/4 turns", "mp": 38 },
+    { "name": "Porcupine", "description": "[Foes] Hi Dark P.Attack w/temp Str. Boost & Ultra Uncounter Rate and P.Resist, M.Resist, Fire/Water/Thunder/Earth/Wind/Light/Dark Resist Buff-3 turns", "mp": 39 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Darkness", "description": "When countering and attacking, regular P.Attack a Foe with Dark Element." },
+    { "name": "Protection", "description": "P.Resist & M.Resist+15%" },
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Nimble", "description": "Str. & Agi.+30%" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" }
+  ],
+  "thumbnail": "liliruca.arde-faithful-thumb.png",
+  "image": "liliruca.arde-faithful-full.png"
+}
