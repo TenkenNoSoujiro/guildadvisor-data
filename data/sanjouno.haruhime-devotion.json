@@ -1,0 +1,24 @@
+{ "id": "sanjouno.haruhime-devotion",
+  "banner": "Certain Gods and Familia Love Songs",
+  "title": "Devotion",
+  "name": "Sanjouno Haruhime",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 826,
+  "mp": 197,
+  "str": 320,
+  "end": 217,
+  "dex": 383,
+  "agi": 610,
+  "mag": 320,
+  "skill": {
+    "name": "Helping Renard",
+    "descriptions": [
+      "[Foes] Dmg. received (Attack Type: All and Single Targets)+10% & [Allies] 15 MP Heal/turn",
+      "[Foes] Dmg. received (Attack Type: All and Single Targets)+15% & [Allies] 20 MP Heal/turn"
+    ]
+  },
+  "thumbnail": "sanjouno.haruhime-devotion-thumb.png",
+  "image": "sanjouno.haruhime-devotion-full.png"
+}
