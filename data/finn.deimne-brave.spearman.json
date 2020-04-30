@@ -1,0 +1,41 @@
+{ "id": "finn.deimne-brave.spearman",
+  "banner": "Record Buster",
+  "title": "Brave Spearman",
+  "name": "Finn Deimne",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2458,
+  "mp": 247,
+  "str": 1638,
+  "end": 389,
+  "dex": 681,
+  "agi": 893,
+  "mag": 318,
+  "ascension": {
+    "hp": 3633,
+    "mp": 317,
+    "str": 1988,
+    "end": 569,
+    "dex": 756,
+    "agi": 976,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Hell Finegas Fall", "description": "[Foes] Ultra Light P.Attack Dmg.+40% per each [Self] Str. Buff Skill w/Ultra Unguard Rate & [Foes] 40% Seal" },
+    { "name": "Spear Sweep", "description": "[Foes] Fast Hi Light P.Attack w/Ultra Uncounter Rate & P.Resist and Light Resist-30%/2 turns", "mp": 39 },
+    { "name": "Tactical Insight", "description": "[Foes] Super Light P.Attack w/temp Str. Boost & Hi Penetration Rate and [Self] Str. and Light Attack Dmg.+60%/2 turns", "mp": 59 },
+    { "name": "Flashing Trident", "description": "[Foe] Hi Light P.Attack Dmg.+30% per each [Self] Str. Buff Skill & Ultra Critical Rate", "mp": 25 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Light", "description": "When countering and attacking, regular P.Attack a Foe with Light Element." },
+    { "name": "Piercing Strike", "description": "Dmg.+10% Upon Penetration" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Dragon Killer", "description": "Ability Pt.+50% toward Dragons", "nemesis": "Dragons" }
+  ],
+  "thumbnail": "finn.deimne-brave.spearman-thumb.png",
+  "image": "finn.deimne-brave.spearman-full.png"
+}
