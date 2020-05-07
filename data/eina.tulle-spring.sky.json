@@ -1,0 +1,24 @@
+{ "id": "eina.tulle-spring.sky",
+  "banner": "A Certain Goddess's Love Song",
+  "title": "Spring Sky",
+  "name": "Eina Tulle",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 838,
+  "mp": 194,
+  "str": 585,
+  "end": 277,
+  "dex": 364,
+  "agi": 416,
+  "mag": 231,
+  "skill": {
+    "name": "Floral Breeze",
+    "descriptions": [
+      "[Foes] Critical Rate & Penetration Rate-15% and [Allies] Dmg. received (Attack Type: All and Single Targets)-10%",
+      "[Foes] Critical Rate & Penetration Rate-20% and [Allies] Dmg. received (Attack Type: All and Single Targets)-15%"
+    ]
+  },
+  "thumbnail": "eina.tulle-spring.sky-thumb.png",
+  "image": "eina.tulle-spring.sky-full.png"
+}
