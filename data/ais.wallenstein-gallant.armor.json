@@ -1,0 +1,41 @@
+{ "id": "ais.wallenstein-gallant.armor",
+  "banner": "A Certain Goddess's Love Song",
+  "title": "Gallant Armor",
+  "name": "Ais Wallenstein",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2562,
+  "mp": 221,
+  "str": 1630,
+  "end": 377,
+  "dex": 641,
+  "agi": 957,
+  "mag": 318,
+  "ascension": {
+    "hp": 3737,
+    "mp": 291,
+    "str": 1980,
+    "end": 557,
+    "dex": 716,
+    "agi": 1040,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Shining Trail", "description": "[Foes] Ultra Light P.Attack w/temp Str. Boost & Ultra Penetration Rate and Dmg. received (Attack Type: All Targets)+40%/4 turns" },
+    { "name": "Luminescence", "description": "[Foes] Fast Hi Light P.Attack w/Ultra Unguard Rate & Guard Rate-30% and Dmg. received (Attack Type: All Targets)+30%/4 turns", "mp": 39 },
+    { "name": "Crystal Slasher", "description": "[Foes] Super Light P.Attack w/Ultra Uncounter Rate & removes P.Resist Buff and Dmg. Reduction (Attack Type: All Targets) exc. Assist Skills", "mp": 54 },
+    { "name": "Light Brandish", "description": "[Foe] Hi Light P.Attack Dmg.+35% per each [Self] Str. Buff Skill & Hi Penetration Rate", "mp": 37 }
+  ],
+  "passiveSkills": [
+    { "name": "Will of Light", "description": "When countering and attacking, regular P.Attack a Foe with Light Element." },
+    { "name": "Piercing Strike", "description": "Dmg.+10% Upon Penetration" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Beast Killer", "description": "Ability Pt. +50% toward Beasts", "nemesis": "Beasts" }
+  ],
+  "thumbnail": "ais.wallenstein-gallant.armor-thumb.png",
+  "image": "ais.wallenstein-gallant.armor-full.png"
+}
