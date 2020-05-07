@@ -1,0 +1,24 @@
+{ "id": "syr.flover-faithful.formal",
+  "banner": "A Certain Goddess's Love Song",
+  "title": "Faithful Formal",
+  "name": "Syr Flover",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 922,
+  "mp": 173,
+  "str": 354,
+  "end": 235,
+  "dex": 550,
+  "agi": 369,
+  "mag": 322,
+  "skill": {
+    "name": "Praying Maiden",
+    "descriptions": [
+      "[Allies] Light Attack Dmg.+15% and Str. & Mag.+10%",
+      "[Allies] Light Attack Dmg.+20% and Str. & Mag.+15%"
+    ]
+  },
+  "thumbnail": "syr.flover-faithful.formal-thumb.png",
+  "image": "syr.flover-faithful.formal-full.png"
+}
