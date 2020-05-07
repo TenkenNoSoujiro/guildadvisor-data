@@ -1,0 +1,41 @@
+{ "id": "bell.cranel-duel.strive",
+  "banner": "A Certain Goddess's Love Song",
+  "title": "Duel Strive",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2466,
+  "mp": 219,
+  "str": 1646,
+  "end": 477,
+  "dex": 616,
+  "agi": 960,
+  "mag": 397,
+  "ascension": {
+    "hp": 3641,
+    "mp": 289,
+    "str": 1996,
+    "end": 657,
+    "dex": 691,
+    "agi": 1043,
+    "mag": 447
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Final Verdict", "description": "[Foes] Ultra Light P.Attack w/temp Str. Boost and Ultra Unguard Rate & P.Resist-40%/4 turns" },
+    { "name": "Heroic Charge", "description": "[Foes] Mid Light P.Attack w/Hi Penetration Rate & [Allies] Str. and Light Attack Dmg.+35%/4 turns", "mp": 32 },
+    { "name": "Sacred Ground", "description": "[Foes] Fast Hi Light P.Attack w/Ultra Uncounter Rate & Removes Str., Agi., and Dark Attack Dmg. Buffs exc. Assist Skills", "mp": 47 },
+    { "name": "Flash Judge", "description": "[Foe] Super Light P.Attack Dmg.+40% per each [Self] Light Attack Dmg. Buff Skill & Ultra Unguard Rate", "mp": 34 }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm." },
+    { "name": "Light Manifestation", "description": "Dark Resist+25%. When countering and attacking, regular P.Attack a Foe with Light Element." },
+    { "name": "Strike", "description": "Critical Damage+10%" },
+    { "name": "Luck", "description": "All Status+25%" },
+    { "name": "Beast Killer", "description": "Ability Pt. +50% toward Beasts", "nemesis": "Beasts" }
+  ],
+  "thumbnail": "bell.cranel-duel.strive-thumb.png",
+  "image": "bell.cranel-duel.strive-full.png"
+}
