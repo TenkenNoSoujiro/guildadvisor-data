@@ -1,0 +1,41 @@
+{ "id": "argonaut-thunderous.blade",
+  "banner": "Reminiscence",
+  "title": "Thunderous Blade",
+  "name": "Argonaut",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2602,
+  "mp": 211,
+  "str": 1642,
+  "end": 477,
+  "dex": 631,
+  "agi": 948,
+  "mag": 318,
+  "ascension": {
+    "hp": 3777,
+    "mp": 281,
+    "str": 1992,
+    "end": 657,
+    "dex": 706,
+    "agi": 1031,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Argonaut Heavens Roar", "description": "[Foes] Ultra Thunder P.Attack w/temp Great Str. Boost & Hi Penetration Rate & [Allies] 60% HP Regen/3 turns" },
+    { "name": "Heroic Showdown", "description": "[Self] Fast Str., Agi and Thunder Attack Dmg.+40% & [Allies] P.Resist and M.Resist+30%/5 turns", "mp": 25 },
+    { "name": "Electric Slash", "description": "[Foes] Super Thunder P.Attack w/temp Str. Boost & Ultra Unguard Rate & P.Resist, M.Resist & Thunder Resist-30%/3 turns", "mp": 54 },
+    { "name": "Sparkling Edge", "description": "[Foe] Hi Thunder P.Attack w/temp Str. Boost & Ultra Critical Rate & Status Debuff+2 turns", "mp": 33 }
+  ],
+  "passiveSkills": [
+    { "name": "Thunder Manifestation", "description": "Water Resist+35%. When countering and attacking, regular P.Attack a Foe with Thunder Element." },
+    { "name": "Martial Skill", "description": "Str. & End. & Agi. & Dex.+25%" },
+    { "name": "Bloom", "description": "5% HP & MP Regen/turn" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Piercing Strike", "description": "Dmg.+10% Upon Penetration" }
+  ],
+  "thumbnail": "argonaut-thunderous.blade-thumb.png",
+  "image": "argonaut-thunderous.blade-full.png"
+}
