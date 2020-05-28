@@ -1,0 +1,24 @@
+{ "id": "hestia-pasture.goddess",
+  "banner": "Bell Main Story Release",
+  "title": "Pasture Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 822,
+  "mp": 198,
+  "str": 379,
+  "end": 219,
+  "dex": 358,
+  "agi": 525,
+  "mag": 369,
+  "skill": {
+    "name": "Country Moment",
+    "descriptions": [
+      "[Allies] P.Resist and M.Resist+10% & Str., Mag. and Dex.+8%",
+      "[Allies] P.Resist and M.Resist+15% & Str., Mag. and Dex.+10%"
+    ]
+  },
+  "thumbnail": "hestia-pasture.goddess-thumb.png",
+  "image": "hestia-pasture.goddess-full.png"
+}
