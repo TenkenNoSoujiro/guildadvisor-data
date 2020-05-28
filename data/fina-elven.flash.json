@@ -1,0 +1,41 @@
+{ "id": "fina-elven.flash",
+  "banner": "Reminiscence",
+  "title": "Elven Flash",
+  "name": "Fina",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2590,
+  "mp": 294,
+  "str": 336,
+  "end": 417,
+  "dex": 703,
+  "agi": 867,
+  "mag": 1530,
+  "ascension": {
+    "hp": 3715,
+    "mp": 374,
+    "str": 387,
+    "end": 578,
+    "dex": 782,
+    "agi": 946,
+    "mag": 1865
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "For Argonaut", "description": "[Foes] Ultra Thunder M.Attack Dmg +20% per each [Self] Mag. and Dex Buff Skill w/Ultra Unguard Rate & [Foes] 60% Stun" },
+    { "name": "Pulse Extension", "description": "[Self] Fast Mag., Dex. and Thunder Attack Dmg.+40% & [Allies] Dmg. received (Attack Type: All and Single Targets)-30%/5 turns", "mp": 25 },
+    { "name": "Torrential Thunder", "description": "[Foes] Super Thunder M.Attack w/temp Mag. Boost & Ultra Uncounter Rate & [Allies] Status Buff +2 turns", "mp": 58 },
+    { "name": "Blasting Bolt", "description": "[Foe] Hi Thunder M.Attack w/temp Mag. Boost & Ultra Critical Rate & removes Str. and Mag. Buffs exc. Assist Skills", "mp": 41 }
+  ],
+  "passiveSkills": [
+    { "name": "Thunder Manifestation", "description": "Water Resist+35%. When countering and attacking, regular M.Attack a Foe with Thunder Element." },
+    { "name": "Hex", "description": "Mag. & End. & Agi. & Dex.+25%" },
+    { "name": "Bloom", "description": "5% HP & MP Regen/turn" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Strike", "description": "Critical Damage+10%" }
+  ],
+  "thumbnail": "fina-elven.flash-thumb.png",
+  "image": "fina-elven.flash-full.png"
+}
