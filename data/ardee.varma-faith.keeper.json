@@ -1,0 +1,41 @@
+{ "id": "ardee.varma-faith.keeper",
+  "banner": "Astrea Record -The Rise of Evil-",
+  "title": "Faith Keeper",
+  "name": "Ardee Varma",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2368,
+  "mp": 271,
+  "str": 1172,
+  "end": 438,
+  "dex": 757,
+  "agi": 987,
+  "mag": 938,
+  "ascension": {
+    "hp": 3568,
+    "mp": 361,
+    "str": 1497,
+    "end": 606,
+    "dex": 852,
+    "agi": 1012,
+    "mag": 1087
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Oath Incarnation", "description": "[Allies] Dex. and Agi.+40% & 50% HP Regen/4 turns and Avoids K.O x1 only when HP≧1% (removed when HP<1%)" },
+    { "name": "Tranquilize", "description": "[Allies] Fast Avoids K.O x1 only when HP≧10% (removed when HP<10%) & P.Resist and M.Resist+30% & 35% HP Regen/4 turns", "mp": 241 },
+    { "name": "Energize", "description": "[Allies] 30% HP Regen & [Foes] P.Resist and M.Resist-30% & Critical Rate and Penetration Rate-40%/2 turns", "mp": 32 },
+    { "name": "Calming Strike", "description": "[Foe] Super Water P.Attack w/Ultra Critical Rate & removes Str. and Mag. Buffs exc. Assist Skills", "mp": 39 }
+  ],
+  "passiveSkills": [
+    { "name": "Encouragement", "description": "When countering, instead of attacking regularly, it (Lo) Heals an Ally. Prioritizes an Ally with lower percentage HP." },
+    { "name": "Martial Skill", "description": "Str. & End. & Agi. & Dex.+25%" },
+    { "name": "Solid", "description": "Guard+35%" },
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Bloom", "description": "5% HP & MP Regen/turn" }
+  ],
+  "thumbnail": "ardee.varma-faith.keeper-thumb.png",
+  "image": "ardee.varma-faith.keeper-full.png"
+}
