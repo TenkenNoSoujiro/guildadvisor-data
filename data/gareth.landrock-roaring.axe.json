@@ -1,0 +1,41 @@
+{ "id": "gareth.landrock-roaring.axe",
+  "banner": "Astrea Record -The Rise of Evil-",
+  "title": "Roaring Axe",
+  "name": "Gareth Landrock",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2640,
+  "mp": 214,
+  "str": 1673,
+  "end": 477,
+  "dex": 718,
+  "agi": 898,
+  "mag": 313,
+  "ascension": {
+    "hp": 3815,
+    "mp": 284,
+    "str": 2023,
+    "end": 657,
+    "dex": 793,
+    "agi": 981,
+    "mag": 363
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Grand Fall", "description": "[Foes] Ultra Earth P.Attack w/temp Str. Boost and Ultra Unguard Rate & [Allies] P.Resist and M.Resist+50%/4 turns" },
+    { "name": "Axe Howl", "description": "[Allies] Fast Earth Attack Dmg.+50%/5 turns & [Self] +3 Actions (75% Null P.Attack x1 for Allies exc. Special Arts)", "mp": 187 },
+    { "name": "Earthrend Crush", "description": "[Foes] Super Earth P.Attack w/temp Str. Boost and Ultra Unguard Rate & [Allies] removes Str. and Mag. debuff exc. Assist Skills", "mp": 54 },
+    { "name": "Shock Wave", "description": "[Foe] Hi Earth P.Attack Dmg.+50% per each [Self] Str. Buff Skill & Hi Penetration Rate", "mp": 27 }
+  ],
+  "passiveSkills": [
+    { "name": "Earth Manifestation", "description": "Thunder Resist+35%. When countering and attacking, regular P.Attack a Foe with Earth Element" },
+    { "name": "Martial Skill", "description": "Str. & End. & Agi. & Dex.+25%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+20%" },
+    { "name": "Piercing Strike", "description": "Damage+15% upon Penetration" },
+    { "name": "Worm Killer", "description": "Ability Pt. +50% toward Worm", "nemesis": "Worm" }
+  ],
+  "thumbnail": "gareth.landrock-roaring.axe-thumb.png",
+  "image": "gareth.landrock-roaring.axe-full.png"
+}
