@@ -1,0 +1,24 @@
+{ "id": "astrea-justice.guardian",
+  "banner": "Astrea Record -The Rise of Evil-",
+  "title": "Justice Guardian",
+  "name": "Astrea",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 912,
+  "mp": 188,
+  "str": 334,
+  "end": 224,
+  "dex": 373,
+  "agi": 644,
+  "mag": 325,
+  "skill": {
+    "name": "Justice Guardian",
+    "descriptions": [
+      "[Allies] 20% HP Regen/turn & Null P.Attack and M.Attack x1 exc. Special Arts",
+      "[Allies] 30% HP Regen/turn & Null P.Attack and M.Attack x1 exc. Special Arts"
+    ]
+  },
+  "thumbnail": "astrea-justice.guardian-thumb.png",
+  "image": "astrea-justice.guardian-full.png"
+}
