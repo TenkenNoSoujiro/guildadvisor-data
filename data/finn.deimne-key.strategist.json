@@ -1,0 +1,24 @@
+{ "id": "finn.deimne-key.strategist",
+  "banner": "Astrea Record -The Rise of Evil-",
+  "title": "Key Strategist",
+  "name": "Finn Deimne",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 892,
+  "mp": 193,
+  "str": 372,
+  "end": 243,
+  "dex": 570,
+  "agi": 355,
+  "mag": 340,
+  "skill": {
+    "name": "Supreme Commander",
+    "descriptions": [
+      "[Allies] Increase S.A Gauge Charge gain by 22% & Str., Mag., Agi., End. and Dex.+8%",
+      "[Allies] Increase S.A Gauge Charge gain by 33% & Str., Mag., Agi., End. and Dex.+10%"
+    ]
+  },
+  "thumbnail": "finn.deimne-key.strategist-thumb.png",
+  "image": "finn.deimne-key.strategist-full.png"
+}

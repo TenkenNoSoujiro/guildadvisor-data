@@ -1,0 +1,41 @@
+{ "id": "alise.lovell-flaming.blade",
+  "banner": "Astrea Record -The Rise of Evil-",
+  "title": "Flaming Blade",
+  "name": "Alise Lovell",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2540,
+  "mp": 239,
+  "str": 1721,
+  "end": 376,
+  "dex": 637,
+  "agi": 1066,
+  "mag": 318,
+  "ascension": {
+    "hp": 3715,
+    "mp": 309,
+    "str": 2071,
+    "end": 556,
+    "dex": 712,
+    "agi": 1149,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Fiery Justice", "description": "[Foes] Ultra Fire P.Attack w/temp Great Str. Boost and Ultra Critical Rate & [Allies] Str., Mag. and Fire Attack Dmg.+60%/3 turns" },
+    { "name": "Enflamement", "description": "[Foes] Fast Hi Fire P.Attack w/Ultra Uncounter Rate & [Self] Str. and Fire Attack Dmg.+60% & [Foes] Fire Resist-40%/5 turns", "mp": 52 },
+    { "name": "Flaming Charge", "description": "[Foes] Super Fire P.Attack w/temp Str. Boost and Ultra Critical Rate & [Allies] Critical Rate and Penetration Rate+30%/3 turns", "mp": 54 },
+    { "name": "Ember Phant", "description": "[Foe] Hi Fire P.Attack w/temp Great Str. Boost & Hi Penetration Rate", "mp": 31 }
+  ],
+  "passiveSkills": [
+    { "name": "Fire Manifestation", "description": "Wind Resist+35%. When countering and attacking, regular P.Attack a Foe with Fire Element" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+30%" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Strike", "description": "Critical Damage+15%" },
+    { "name": "Worm Killer", "description": "Ability Pt. +50% toward Worm", "nemesis": "Worm" }
+  ],
+  "thumbnail": "alise.lovell-flaming.blade-thumb.png",
+  "image": "alise.lovell-flaming.blade-full.png"
+}
