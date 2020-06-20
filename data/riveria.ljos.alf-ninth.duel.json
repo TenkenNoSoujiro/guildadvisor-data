@@ -1,0 +1,41 @@
+{ "id": "riveria.ljos.alf-ninth.duel",
+  "banner": "Astrea Record -The Rise of Evil-",
+  "title": "Ninth Duel",
+  "name": "Riveria Ljos Alf",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2476,
+  "mp": 335,
+  "str": 336,
+  "end": 329,
+  "dex": 751,
+  "agi": 869,
+  "mag": 1675,
+  "ascension": {
+    "hp": 3601,
+    "mp": 415,
+    "str": 387,
+    "end": 490,
+    "dex": 830,
+    "agi": 948,
+    "mag": 2010
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Frozen Ascendance", "description": "[Foe] Ultra Water M.Attack Dmg.+70% per each [Self] Water Attack Dmg. Buff Skill and [Foe] removes Str. & Mag. Buffs exc. Assist Skills" },
+    { "name": "Frozen Orb", "description": "[Self] Fast Increase S.A Gauge Charge Gain and Water Attack Dmg.+100%/4 turns & [Self] +3 Actions (Lo Water M.Attack a Foe)", "mp": 37 },
+    { "name": "Piercing Chill", "description": "[Foe] Slow Super Water M.Attack w/temp Mag. Boost and Hi Critical Rate & [Self] Critical Rate and Penetration Rate+50%/1 turn", "mp": 55 },
+    { "name": "Diamond Lance", "description": "[Foe] Hi Water M.Attack w/Hi Unguard Rate & [Self] Mag. and Dex.+50%/3 turns", "mp": 32 }
+  ],
+  "passiveSkills": [
+    { "name": "Water Manifestation", "description": "Fire Resist+35%. When countering and attacking, regular M.Attack a Foe with Water Element" },
+    { "name": "Strike", "description": "Critical Damage+25%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+30%" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Worm Killer", "description": "Ability Pt. +50% toward Worm", "nemesis": "Worm" }
+  ],
+  "thumbnail": "riveria.ljos.alf-ninth.duel-thumb.png",
+  "image": "riveria.ljos.alf-ninth.duel-full.png"
+}
