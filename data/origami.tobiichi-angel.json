@@ -12,16 +12,25 @@
   "end": 377,
   "dex": 573,
   "agi": 784,
-  "mag": 1339,
+  "mag": 1572,
+  "ascension": {
+    "hp": 3745,
+    "mp": 354,
+    "str": 387,
+    "end": 538,
+    "dex": 652,
+    "agi": 863,
+    "mag": 1907
+  },
   "combatSkills": [
     { "specialArts": true,
       "name": "Metatron", "description": "[Foe] Ultra Light M.Attack w/temp Mag. Boost & Ultra Penetration Rate" },
-    { "name": "Heavenly Wings", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & Light Resist-20%/4 turns", "mp": 34 },
-    { "name": "Sword of Light", "description": "[Foe] Mid Light M.Attack & [Self] Mag.+75%/4 turns", "mp": 30 },
+    { "name": "Heavenly Wings", "description": "[Foe] Hi Light M.Attack w/temp Mag. Boost & Light Resist-35%/4 turns", "mp": 34 },
+    { "name": "Sword of Light", "description": "[Foe] Mid Light M.Attack & [Self] Mag.+80%/4 turns", "mp": 30 },
     { "name": "The Sun", "description": "[Foes] Hi Light M.Attack w/temp Mag. Boost", "mp": 29 }
   ],
   "passiveSkills": [
-    { "name": "Enlightenment", "description": "Mag.+15%" },
+    { "name": "Enlightenment", "description": "Mag.+35%" },
     { "name": "Piercing Strike", "description": "Dmg.+20% Upon Penetration" },
     { "name": "Dark Resistance", "description": "Dark Resist+35%" },
     { "name": "Rigid", "description": "End. & Agi. & Dex.+10%" },
