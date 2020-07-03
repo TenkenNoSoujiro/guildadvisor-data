@@ -25,16 +25,16 @@
   "combatSkills": [
     { "specialArts": true,
       "name": "Furore Impaler", "description": "[Foe] Ultra Wind P.Attack w/temp Str. Boost & Ultra Penetration Rate" },
-    { "name": "Velocity", "description": "[Foe] Mid Wind P.Attack & [Self] Str.+80%/4 turns", "mp": 29 },
-    { "name": "Cyclocity", "description": "[Foe] Mid Wind P.Attack & [Self] Wind Attack Dmg.+60%/4 turns", "mp": 29 },
-    { "name": "Windfury", "description": "[Foe] Hi Wind P.Attack & P.Resist and Guard Rate-25%/4 turns", "mp": 27 }
+    { "name": "Velocity", "description": "[Foe] Mid Wind P.Attack & [Self] Str.+80% and Wind Attack Dmg.+60%/4 turns", "mp": 32 },
+    { "name": "Cyclocity", "description": "[Foe] Hi Wind P.Attack Dmg.+35% per each Terget's Guard Rate Reduction Skill & Ultra Critical Rate", "mp": 33 },
+    { "name": "Windfury", "description": "[Foe] Hi Wind P.Attack & P.Resist, Wind Resist and Guard Rate-25%/4 turns", "mp": 32 }
   ],
   "passiveSkills": [
     { "name": "Will of Wind", "description": "When countering and attacking, regular P.Attack a Foe with Wind Element." },
     { "name": "Strike", "description": "Critical Damage+20%" },
     { "name": "Earth Resistance", "description": "Earth Resist+35%" },
     { "name": "Dragon Killer", "description": "Ability Pt.+50% toward Dragons", "nemesis": "Dragons" },
-    { "name": "Martial Arts", "description": "Str. & End. & Agi. & Dex.+10%" }
+    { "name": "Martial Arts", "description": "Str. & End. & Agi. & Dex.+25%" }
   ],
   "thumbnail": "ryu.lion-knight.elf-thumb.png",
   "image": "ryu.lion-knight.elf-full.png"
