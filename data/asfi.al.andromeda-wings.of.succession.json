@@ -1,0 +1,24 @@
+{ "id": "asfi.al.andromeda-wings.of.succession",
+  "banner": "Astrea Record -Lost Justice-",
+  "title": "Wings of Succession",
+  "name": "Asfi Al Andromeda",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 868,
+  "mp": 199,
+  "str": 357,
+  "end": 248,
+  "dex": 565,
+  "agi": 385,
+  "mag": 325,
+  "skill": {
+    "name": "Judging Eye",
+    "descriptions": [
+      "[Foes] Dmg. received (Attack Type: Single Target) +15% & [Allies] Dex.+10%",
+      "[Foes] Dmg. received (Attack Type: Single Target) +20% & [Allies] Dex.+15%"
+    ]
+  },
+  "thumbnail": "asfi.al.andromeda-wings.of.succession-thumb.png",
+  "image": "asfi.al.andromeda-wings.of.succession-full.png"
+}
