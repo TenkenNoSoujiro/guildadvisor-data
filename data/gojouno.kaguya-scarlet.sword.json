@@ -1,0 +1,41 @@
+{ "id": "gojouno.kaguya-scarlet.sword",
+  "banner": "Astrea Record -Lost Justice-",
+  "title": "Scarlet Sword",
+  "name": "Gojouno Kaguya",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2540,
+  "mp": 239,
+  "str": 1636,
+  "end": 471,
+  "dex": 643,
+  "agi": 1011,
+  "mag": 318,
+  "ascension": {
+    "hp": 3715,
+    "mp": 309,
+    "str": 1986,
+    "end": 651,
+    "dex": 718,
+    "agi": 1094,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Five Arts of the Draw", "description": "[Foes] Ultra Fire P.Attack w/temp Str. Boost and Ultra Unguard Rate & P.Resist-60%/1 turn" },
+    { "name": "Bloom Red", "description": "[Foes] Hi Fire P.Attack w/temp Str. Boost and Ultra Uncounter Rate & [Self] +2 Actions (Lo Fire P.Attack Foes)", "mp": 29 },
+    { "name": "Scatter Stroke", "description": "[Foes] Fast Lo Fire P.Attack w/Ultra Unguard Rate & [Self] Str. and Dex.+60% and [Foes] P.Resist-35%/1 turn", "mp": 45 },
+    { "name": "Foul Strike", "description": "[Foe] Hi Fire P.Attack w/temp Great Str. Boost & Hi Penetration Rate", "mp": 31 }
+  ],
+  "passiveSkills": [
+    { "name": "Fire Manifestation", "description": "Wind Resist+35%. When countering and attacking, regular P.Attack a Foe with Fire Element" },
+    { "name": "Martial Skill", "description": "Str. & End. & Agi. & Dex.+25%" },
+    { "name": "Bloom", "description": "4% HP & MP Regen/turn" },
+    { "name": "Piercing Strike", "description": "Damage+15% upon Penetration" },
+    { "name": "Material Killer", "description": "Ability Pt.+50% toward Material", "nemesis": "Material" }
+  ],
+  "thumbnail": "gojouno.kaguya-scarlet.sword-thumb.png",
+  "image": "gojouno.kaguya-scarlet.sword-full.png"
+}

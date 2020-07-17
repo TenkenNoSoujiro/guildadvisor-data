@@ -1,0 +1,24 @@
+{ "id": "syr.flover-devoted.hand",
+  "banner": "Astrea Record -Lost Justice-",
+  "title": "Devoted Hand",
+  "name": "Syr Flover",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 896,
+  "mp": 192,
+  "str": 334,
+  "end": 229,
+  "dex": 423,
+  "agi": 589,
+  "mag": 325,
+  "skill": {
+    "name": "Dedication",
+    "descriptions": [
+      "[Foes] P.Resist and M.Resist-10% & [Allies] Null Ailments x2",
+      "[Foes] P.Resist and M.Resist-15% & [Allies] Null Ailments x3"
+    ]
+  },
+  "thumbnail": "syr.flover-devoted.hand-thumb.png",
+  "image": "syr.flover-devoted.hand-full.png"
+}
