@@ -1,0 +1,41 @@
+{ "id": "shakti.varma-city.guardian",
+  "banner": "Astrea Record -Lost Justice-",
+  "title": "City Guardian",
+  "name": "Shakti Varma",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2464,
+  "mp": 247,
+  "str": 898,
+  "end": 438,
+  "dex": 776,
+  "agi": 925,
+  "mag": 1266,
+  "ascension": {
+    "hp": 3614,
+    "mp": 347,
+    "str": 1035,
+    "end": 606,
+    "dex": 871,
+    "agi": 950,
+    "mag": 1576
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Varcha Paraca", "description": "[Foes] Ultra Wind M.Attack w/temp Mag. Boost and Hi Penetration Rate & Str. and Agi.-50%/3 turns" },
+    { "name": "Raksha Chakram", "description": "[Allies] Fast P.Resist+40% and Dmg. received (Attack Type: All Targets)-20%/5 turns & [Self] +3 Actions (30% HP Heal Allies)", "mp": 41 },
+    { "name": "Shula Samanta", "description": "[Foes] Super Wind M.Attack w/temp Mag. Boost and Ultra Uncounter Rate & [Foes] Str.-40% and [Allies] Heal+20%/3 turns", "mp": 68 },
+    { "name": "Balishta Tad", "description": "[Foe] Super Wind M.Attack w/temp Mag. Boost and Hi Penetration Rate & removes Str. Buffs exc. Assist Skills", "mp": 38 }
+  ],
+  "passiveSkills": [
+    { "name": "Encouragement", "description": "When countering, instead of attacking regularly, it (Lo) Heals an Ally. Prioritizes an Ally with lower percentage HP." },
+    { "name": "Hex", "description": "Mag. & End. & Agi. & Dex.+25%" },
+    { "name": "Solid", "description": "Guard+35%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+20%" },
+    { "name": "Material Killer", "description": "Ability Pt.+50% toward Material", "nemesis": "Material" }
+  ],
+  "thumbnail": "shakti.varma-city.guardian-thumb.png",
+  "image": "shakti.varma-city.guardian-full.png"
+}
