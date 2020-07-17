@@ -1,0 +1,41 @@
+{ "id": "lyra-conspired.hand",
+  "banner": "Astrea Record -Lost Justice-",
+  "title": "Conspired Hand",
+  "name": "Lyra",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2500,
+  "mp": 329,
+  "str": 341,
+  "end": 329,
+  "dex": 796,
+  "agi": 876,
+  "mag": 1617,
+  "ascension": {
+    "hp": 3625,
+    "mp": 409,
+    "str": 392,
+    "end": 490,
+    "dex": 875,
+    "agi": 955,
+    "mag": 1952
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Tactical Rotation", "description": "[Foes] Ultra Earth M.Attack w/temp Mag. Boost & Ultra Critical Rate and M.Resist-50%/2 turns w/Slow" },
+    { "name": "Quick Fist", "description": "[Foes] Fast M.Resist-35% and Agi.-30%/5 turns & [Self] +2 Actions (Lo Earth M.Attack Foes)", "mp": 29 },
+    { "name": "Acrobatic Strike", "description": "[Foes] Mid Earth M.Attack w/temp Mag. Boost and Ultra Uncounter Rate & [Self] Mag.+50% and [Foes] Earth Resist-40%/2 turns", "mp": 49 },
+    { "name": "Fan of Knives", "description": "[Foe] Hi Earth M.Attack Dmg.+35% per each Target's M.Resist Reduction Skill & Ultra Critical Rate", "mp": 37 }
+  ],
+  "passiveSkills": [
+    { "name": "Earth Manifestation", "description": "Thunder Resist+35%. When countering and attacking, regular M.Attack a Foe with Earth Element." },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+30%" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "True Strike", "description": "Damage+10% upon Critical and Penetration" },
+    { "name": "Material Killer", "description": "Ability Pt.+50% toward Material", "nemesis": "Material" }
+  ],
+  "thumbnail": "lyra-conspired.hand-thumb.png",
+  "image": "lyra-conspired.hand-full.png"
+}
