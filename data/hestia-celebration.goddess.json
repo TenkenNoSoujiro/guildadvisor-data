@@ -1,0 +1,24 @@
+{ "id": "hestia-celebration.goddess",
+  "banner": "(JP)3RD ANNIVERSARY",
+  "title": "Celebration Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 948,
+  "mp": 179,
+  "str": 324,
+  "end": 224,
+  "dex": 433,
+  "agi": 604,
+  "mag": 315,
+  "skill": {
+    "name": "Three Tales",
+    "descriptions": [
+      "[Foes] Str. and Mag.-15% & [Allies] Counter Rate+8%",
+      "[Foes] Str. and Mag.-20% & [Allies] Counter Rate+10%"
+    ]
+  },
+  "thumbnail": "hestia-celebration.goddess-thumb.png",
+  "image": "hestia-celebration.goddess-full.png"
+}
