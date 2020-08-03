@@ -1,0 +1,41 @@
+{ "id": "bell.cranel-fiesta.freese",
+  "banner": "(JP)3RD ANNIVERSARY",
+  "title": "Fiesta Freese",
+  "name": "Bell Cranel",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2456,
+  "mp": 234,
+  "str": 432,
+  "end": 423,
+  "dex": 660,
+  "agi": 892,
+  "mag": 1592,
+  "ascension": {
+    "hp": 3581,
+    "mp": 314,
+    "str": 483,
+    "end": 584,
+    "dex": 739,
+    "agi": 971,
+    "mag": 1927
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "La Gran Fiesta", "description": "[Foes] Ultra Light M.Attack Dmg.+25% per each Target's Str. and Mag. Reduction Skill & Hi Penetration Rate" },
+    { "name": "Rainbow Cascade", "description": "[Foes] Fast Mid Light M.Attack w/temp Mag. Boost and Ultra Critical Rate & Str. and Mag.-35%/3 turns & [Allies] Status Debuff-2 turns", "mp": 54 },
+    { "name": "Glitter Stroke", "description": "[Foes] Hi Light M.Attack w/Ultra Uncounter Rate & Status Buff-2 turns & [Self] +2 Actions (Lo Light M.Attack Foes)", "mp": 53 },
+    { "name": "Photon Bolt", "description": "[Foe] Hi Light M.Attack Dmg.+20% per each Target's Str. and Mag. Reduction Skill & Ultra Critical Rate", "mp": 34 }
+  ],
+  "passiveSkills": [
+    { "name": "Liaris Freese", "description": "Fast growth. Null Charm." },
+    { "name": "Light Manifestation", "description": "Dark Resist+35%. When countering and attacking, regular M.Attack a Foe with a Light Element." },
+    { "name": "Strike", "description": "Critical Damage+15%" },
+    { "name": "Luck", "description": "All Status+25%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+20%" }
+  ],
+  "thumbnail": "bell.cranel-fiesta.freese-thumb.png",
+  "image": "bell.cranel-fiesta.freese-full.png"
+}
