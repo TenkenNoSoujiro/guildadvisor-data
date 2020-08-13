@@ -1,0 +1,24 @@
+{ "id": "allen.fromel-bursting.chariot",
+  "banner": "Astrea Record -Ultimate Clash-",
+  "title": "Bursting Chariot",
+  "name": "Allen Fromel",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 968,
+  "mp": 174,
+  "str": 329,
+  "end": 224,
+  "dex": 378,
+  "agi": 649,
+  "mag": 320,
+  "skill": {
+    "name": "Rapid Roar",
+    "descriptions": [
+      "[Foes] Agi.-10% & [Self] Critical Rate and Penetration Rate+15%",
+      "[Foes] Agi.-15% & [Self] Critical Rate and Penetration Rate+20%"
+    ]
+  },
+  "thumbnail": "allen.fromel-bursting.chariot-thumb.png",
+  "image": "allen.fromel-bursting.chariot-full.png"
+}
