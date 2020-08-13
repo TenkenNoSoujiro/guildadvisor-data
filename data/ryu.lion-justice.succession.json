@@ -1,0 +1,41 @@
+{ "id": "ryu.lion-justice.succession",
+  "banner": "Astrea Record -Ultimate Clash-",
+  "title": "Justice Succession",
+  "name": "Ryu Lion",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2560,
+  "mp": 314,
+  "str": 341,
+  "end": 417,
+  "dex": 660,
+  "agi": 1017,
+  "mag": 1657,
+  "ascension": {
+    "hp": 3685,
+    "mp": 394,
+    "str": 392,
+    "end": 578,
+    "dex": 739,
+    "agi": 1096,
+    "mag": 1992
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Roaring Star Strike", "description": "[Foes] Ultra Wind M.Attack w/temp Great Mag. Boost and Ultra Unguard Rate & [Self] Wind Attack Dmg.+100%/2 turns" },
+    { "name": "Justice Moment", "description": "[Allies] Slow Mag. and Dex.+30% & [Self] Wind Attack Dmg.+70%/3 turns & +3 Actions (Lo Wind M.Attack Foes)", "mp": 49 },
+    { "name": "Twin Gale", "description": "[Foes] Fast Mid Wind M.Attack w/Hi Penetration Rate. Counter Rate and Guard Rate-30% & [Allies] Wind Attack Dmg.+35%/3 turns", "mp": 43 },
+    { "name": "Storm Order", "description": "[Foe] Hi Wind M.Attack w/temp Mag. Boost and Ultra Critical Rate & Status Debuff+2 turns", "mp": 32 }
+  ],
+  "passiveSkills": [
+    { "name": "Wind Manifestation", "description": "Earth Resist+35%. When countering and attacking, regular M.Attack a Foe with a Wind Element" },
+    { "name": "Hex", "description": "Mag. & End. & Agi. & Dex.+25%" },
+    { "name": "Enlightenment Stroke", "description": "Mag.+15% when equipped with Katana" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Dragon Killer", "description": "Ability Pt.+50% toward Dragons", "nemesis": "Dragons" }
+  ],
+  "thumbnail": "ryu.lion-justice.succession-thumb.png",
+  "image": "ryu.lion-justice.succession-full.png"
+}

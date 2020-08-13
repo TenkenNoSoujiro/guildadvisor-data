@@ -1,0 +1,41 @@
+{ "id": "ottarl-the.kings.war",
+  "banner": "Astrea Record -Ultimate Clash-",
+  "title": "The King's War",
+  "name": "Ottarl",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2660,
+  "mp": 209,
+  "str": 1821,
+  "end": 392,
+  "dex": 570,
+  "agi": 699,
+  "mag": 318,
+  "ascension": {
+    "hp": 3835,
+    "mp": 279,
+    "str": 2171,
+    "end": 572,
+    "dex": 645,
+    "agi": 782,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Supreme Zenith", "description": "[Foe] Ultra Earth P.Attack Dmg.+35% per each [Self] Str. and Earth Attack Dmg. Buff & [Self] Counter Rate+60%/1 turn" },
+    { "name": "Mountain Drill", "description": "[Self] Str. and Earth Attack Dmg.+75%/4 turns & +3 Actions (Lo Earth P.Attack Foe)", "mp": 34 },
+    { "name": "Obliterate", "description": "[Foe] Fast Hi Earth P.Attack & P.Resist and Earth Resist-35% & Guard Rate-50%/2 turns", "mp": 62 },
+    { "name": "Annihilation Rift", "description": "[Foe] Super Earth P.Attack w/temp Str. Boost and Hi Critical Rate & Str. and Mag.-45%/2 turns", "mp": 55 }
+  ],
+  "passiveSkills": [
+    { "name": "Earth Manifestation", "description": "Thunder Resist+35%. When countering and attacking, regular P.Attack a Foe with Earth Element" },
+    { "name": "Turn the Tide", "description": "[Self] The more HP decreases the more Counter Damage increases" },
+    { "name": "Sword Fighter", "description": "Str.+35%" },
+    { "name": "I am War", "description": "8% HP & MP Regen/turn" },
+    { "name": "Dragon Killer", "description": "Ability Pt.+50% toward Dragons", "nemesis": "Dragons" }
+  ],
+  "thumbnail": "ottarl-the.kings.war-thumb.png",
+  "image": "ottarl-the.kings.war-full.png"
+}
