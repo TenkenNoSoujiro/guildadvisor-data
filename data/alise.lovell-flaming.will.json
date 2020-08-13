@@ -1,0 +1,41 @@
+{ "id": "alise.lovell-flaming.will",
+  "banner": "Astrea Record -Ultimate Clash-",
+  "title": "Flaming Will",
+  "name": "Alise Lovell",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2660,
+  "mp": 289,
+  "str": 346,
+  "end": 339,
+  "dex": 673,
+  "agi": 941,
+  "mag": 1656,
+  "ascension": {
+    "hp": 3785,
+    "mp": 369,
+    "str": 397,
+    "end": 500,
+    "dex": 752,
+    "agi": 1020,
+    "mag": 1991
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Arvana Full Burst", "description": "[Foes] Ultra Fire M.Attack w/temp Great Mag. Boost and Ultra Critical Rate & [Self] Mag. and Fire Attack Dmg.+80%/2 turns" },
+    { "name": "Hot Steak", "description": "[Foes] Fast Dmg. received (Attack Type: All Targets)+30%/4 turns & [Self] +3 Actions (Lo Fire M.Attack Foes)", "mp": 39 },
+    { "name": "Flaming Edge", "description": "[Foes] Hi Fire M.Attack w/temp Mag. Boost and Ultra Critical Rate & [Self] Mag. and Fire Attack Dmg.+70%/3 turns", "mp": 52 },
+    { "name": "Crimson Libra", "description": "[Foe] Hi Fire M.Attack Dmg.+35% per each [Self] Mag. Buff Skill & Ultra Unguard Rate", "mp": 39 }
+  ],
+  "passiveSkills": [
+    { "name": "Fire Manifestation", "description": "Wind Resist+35%. When countering and attacking, regular M.Attack a Foe with a Fire Element" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+30%" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "True Strike", "description": "Damage+10% upon Critical and Penetration" },
+    { "name": "Dragon Killer", "description": "Ability Pt.+50% toward Dragons", "nemesis": "Dragons" }
+  ],
+  "thumbnail": "alise.lovell-flaming.will-thumb.png",
+  "image": "alise.lovell-flaming.will-full.png"
+}

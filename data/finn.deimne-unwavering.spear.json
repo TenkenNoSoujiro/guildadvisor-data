@@ -1,0 +1,41 @@
+{ "id": "finn.deimne-unwavering.spear",
+  "banner": "Astrea Record -Ultimate Clash-",
+  "title": "Unwavering Spear",
+  "name": "Finn Deimne",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2600,
+  "mp": 224,
+  "str": 1669,
+  "end": 477,
+  "dex": 775,
+  "agi": 898,
+  "mag": 323,
+  "ascension": {
+    "hp": 3775,
+    "mp": 294,
+    "str": 2019,
+    "end": 657,
+    "dex": 850,
+    "agi": 981,
+    "mag": 373
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Overed Hell Finegas", "description": "[Foes] Ultra Wind P.Attack w/temp Great Str. Boost and Hi Penetration Rate and [Allies] Str., Mag. and Wind Attack Dmg.+60%/3 turns" },
+    { "name": "Deadly Calm", "description": "[Foes] Fast Lo Wind P.Attack w/Ultra Critical Rate. Wind Resist-40% & [Allies] Str. and Agi.+30%/4 turns", "mp": 42 },
+    { "name": "Legion Slayer", "description": "[Foes] Super Wind P.Attack w/Ultra Uncounter Rate and P.Resist, M.Resist, Fire/Water/Thunder/Earth/Wind/Light/Dark Resist Buff-3 turns", "mp": 49 },
+    { "name": "Storm Javelin", "description": "[Foe] Hi Wind P.Attack Dmg.+35% per each [Self] Str. Buff Skill & Ultra Unguard Rate", "mp": 30 }
+  ],
+  "passiveSkills": [
+    { "name": "Wind Manifestation", "description": "Earth Resist+35%. When countering and attacking, regular P.Attack a Foe with a Wind Element." },
+    { "name": "Crush", "description": "Str.+30%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+25%" },
+    { "name": "Piercing Strike", "description": "Damage+15% upon Penetration" },
+    { "name": "Dragon Killer", "description": "Ability Pt.+50% toward Dragons", "nemesis": "Dragons" }
+  ],
+  "thumbnail": "finn.deimne-unwavering.spear-thumb.png",
+  "image": "finn.deimne-unwavering.spear-full.png"
+}

@@ -1,0 +1,24 @@
+{ "id": "freya-divine.gaze",
+  "banner": "Astrea Record -Ultimate Clash-",
+  "title": "Divine Gaze",
+  "name": "Freya",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 868,
+  "mp": 199,
+  "str": 377,
+  "end": 248,
+  "dex": 565,
+  "agi": 345,
+  "mag": 345,
+  "skill": {
+    "name": "Eternal Garden",
+    "descriptions": [
+      "[Allies] Counter Rate+15% & [Foes] Critical Rate, Penetration Rate, Guard Rate-8%",
+      "[Allies] Counter Rate+20% & [Foes] Critical Rate, Penetration Rate, Guard Rate-10%"
+    ]
+  },
+  "thumbnail": "freya-divine.gaze-thumb.png",
+  "image": "freya-divine.gaze-full.png"
+}
