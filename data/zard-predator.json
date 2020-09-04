@@ -1,0 +1,41 @@
+{ "id": "zard-predator",
+  "banner": "Astrea Record -Ultimate Clash-",
+  "title": "Predator",
+  "name": "Zard",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2800,
+  "mp": 174,
+  "str": 1748,
+  "end": 412,
+  "dex": 910,
+  "agi": 699,
+  "mag": 318,
+  "ascension": {
+    "hp": 3975,
+    "mp": 244,
+    "str": 2098,
+    "end": 592,
+    "dex": 985,
+    "agi": 782,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Unfathomable Overlord", "description": "[Foes] Ultra Light P.Attack Dmg.+50% per each [Self] Str. Buff Skill & Ultra Critical Rate and [Foes] P.Resist & M.Resist-50%/3 turns" },
+    { "name": "Carnophage", "description": "[Foes] Super Light P.Attack & 30% Taunt & [Self] +2 Actions (Lo Light P.Attack Foes w/HP Heal 20% of Dmg.)", "mp": 56 },
+    { "name": "Absolute Strange", "description": "[Foes] Hi Light P.Attack w/temp Str. Boost & Hi Penetration Rate. [Self] Str. and Dex.+70% & [Foes] P.Resist and M.Resist-30%/4 turns", "mp": 54 },
+    { "name": "Terminate", "description": "[Foe] Hi Light P.Attack Dmg.+40% per each [Self] Str. Buff Skill w/Ultra Critical Rate", "mp": 34 }
+  ],
+  "passiveSkills": [
+    { "name": "Bravery", "description": "When countering, regular attack a Foe & HP Heal 50% of Dmg." },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Strike", "description": "Critical Damage+15%" },
+    { "name": "Bloom", "description": "5% HP & MP Regen/turn" },
+    { "name": "Battle Arts", "description": "Str. & Dex.+40%" }
+  ],
+  "thumbnail": "zard-predator-thumb.png",
+  "image": "zard-predator-full.png"
+}

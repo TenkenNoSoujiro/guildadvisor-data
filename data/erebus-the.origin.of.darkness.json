@@ -1,0 +1,24 @@
+{ "id": "erebus-the.origin.of.darkness",
+  "banner": "Astrea Record -Ultimate Clash-",
+  "title": "the Origin of Darkness",
+  "name": "Erebus",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 756,
+  "mp": 227,
+  "str": 362,
+  "end": 243,
+  "dex": 570,
+  "agi": 355,
+  "mag": 350,
+  "skill": {
+    "name": "Ultimate Question",
+    "descriptions": [
+      "[Foes] Light Resist-15% & [Self] Str. and Mag.+15%",
+      "[Foes] Light Resist-20% & [Self] Str. and Mag.+20%"
+    ]
+  },
+  "thumbnail": "erebus-the.origin.of.darkness-thumb.png",
+  "image": "erebus-the.origin.of.darkness-full.png"
+}
