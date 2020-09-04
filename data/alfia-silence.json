@@ -1,0 +1,41 @@
+{ "id": "alfia-silence",
+  "banner": "Astrea Record -Ultimate Clash-",
+  "title": "Silence",
+  "name": "Alfia",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2460,
+  "mp": 339,
+  "str": 341,
+  "end": 329,
+  "dex": 523,
+  "agi": 1125,
+  "mag": 1685,
+  "ascension": {
+    "hp": 3585,
+    "mp": 419,
+    "str": 392,
+    "end": 490,
+    "dex": 602,
+    "agi": 1204,
+    "mag": 2020
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Satanas Valeon", "description": "[Foes] Ultra Light M.Attack Dmg.+50% per each [Self] Mag. Buff Skill & Hi Penetration Rate and [Allies] Null M.Attack x1 exc. Special Arts" },
+    { "name": "Silentium Eden", "description": "[Self] Mag. and Agi.+70%/4 turns & +3 Actions (75% Allies Null M.Attack x1 exc. Special Arts)", "mp": 172 },
+    { "name": "Rugio", "description": "[Foes] Fast Mid Light M.Attack w/temp Mag. Boost and [Allies] Light Attack Dmg.+35% & [Foes] Light Resist-40%/3 turns", "mp": 49 },
+    { "name": "Hymn", "description": "[Foe] Hi Light M.Attack Dmg.+40% per each [Self] Mag. Buff Skill w/Hi Penetration Rate", "mp": 31 }
+  ],
+  "passiveSkills": [
+    { "name": "Restraint", "description": "[Foe] Regular attack when countering & 50% Seal" },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Piercing Strike", "description": "Damage+15% upon Penetration" },
+    { "name": "Bloom", "description": "5% HP & MP Regen/turn" },
+    { "name": "Forestall", "description": "Mag. & Agi.+40%" }
+  ],
+  "thumbnail": "alfia-silence-thumb.png",
+  "image": "alfia-silence-full.png"
+}
