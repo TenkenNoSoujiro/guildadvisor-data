@@ -1,0 +1,24 @@
+{ "id": "syr.flover-summer.color",
+  "banner": "Sparkling Summer Carnival",
+  "title": "Summer Color",
+  "name": "Syr Flover",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 760,
+  "mp": 226,
+  "str": 213,
+  "end": 215,
+  "dex": 412,
+  "agi": 342,
+  "mag": 640,
+  "skill": {
+    "name": "Bouquet Color",
+    "descriptions": [
+      "[Allies] Mag.+15% and Light and Wind Attack Dmg.+10%",
+      "[Allies] Mag.+20% and Light and Wind Attack Dmg.+15%"
+    ]
+  },
+  "thumbnail": "syr.flover-summer.color-thumb.png",
+  "image": "syr.flover-summer.color-full.png"
+}
