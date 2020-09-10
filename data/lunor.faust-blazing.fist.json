@@ -1,0 +1,41 @@
+{ "id": "lunor.faust-blazing.fist",
+  "banner": "Sparkling Summer Carnival",
+  "title": "Blazing Fist",
+  "name": "Lunor Faust",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2720,
+  "mp": 194,
+  "str": 1673,
+  "end": 377,
+  "dex": 668,
+  "agi": 948,
+  "mag": 318,
+  "ascension": {
+    "hp": 3895,
+    "mp": 264,
+    "str": 2023,
+    "end": 557,
+    "dex": 743,
+    "agi": 1031,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Hundred Tide Upper", "description": "[Foes] Ultra Water P.Attack Dmg.+50% per each Target's P.Resist Reduction Skill & Ultra Unguard Rate" },
+    { "name": "Flexi", "description": "[Allies] Fast Counter Rate and Heal+30% and M.Resist+35%/5 turns & [Self] Str.+65%/5 turns", "mp": 56 },
+    { "name": "Knuckle Part", "description": "[Foes] Hi Water P.Attack w/temp Str. Boost and Ultra Uncounter Rate & P.Resist-30% and Counter Rate and Heal-35%/4 turns", "mp": 44 },
+    { "name": "Elbow Crush", "description": "[Foes] Hi Water P.Attack Dmg.+30% per each Target’s P.Resist Reduction Skill & Ultra Critical Rate", "mp": 35 }
+  ],
+  "passiveSkills": [
+    { "name": "Water Manifestation", "description": "Fire Resist+35%. When countering and attacking, regular P.Attack a Foe with a Water Element" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+25%" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "True Strike", "description": "Damage+10% upon Critical and Penetration" },
+    { "name": "Aqua Killer", "description": "Ability Pt.+50% toward Aqua", "nemesis": "Aqua" }
+  ],
+  "thumbnail": "lunor.faust-blazing.fist-thumb.png",
+  "image": "lunor.faust-blazing.fist-full.png"
+}
