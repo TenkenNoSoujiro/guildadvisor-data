@@ -1,0 +1,41 @@
+{ "id": "sanjouno.haruhime-foxy.yukata",
+  "banner": "Sparkling Summer Carnival",
+  "title": "Foxy Yukata",
+  "name": "Sanjouno Haruhime",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2620,
+  "mp": 219,
+  "str": 1662,
+  "end": 372,
+  "dex": 550,
+  "agi": 1051,
+  "mag": 318,
+  "ascension": {
+    "hp": 3795,
+    "mp": 289,
+    "str": 2012,
+    "end": 552,
+    "dex": 625,
+    "agi": 1134,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Cascade Fan", "description": "[Foes] Ultra Water P.Attack w/temp Str. Boost and Ultra Critical Rate & [Allies] Water Attack Dmg.+50%/3 turns" },
+    { "name": "Crested Waves", "description": "[Allies] Str.+30% and Water Attack Dmg.+35%/5 turns & [Self] +2 Actions (Lo Water P.Attack Foes)", "mp": 38 },
+    { "name": "Blissful Waves", "description": "[Foes] Super Water P.Attack w/temp Str. Boost and Ultra Uncounter Rate & [Allies] 20% HP Regen/2 turns", "mp": 44 },
+    { "name": "Shoreline Waves", "description": "[Foe] Hi Water P.Attack Dmg.+40% per each [Self] Water Attack Dmg. Buff and Hi Penetration Rate", "mp": 27 }
+  ],
+  "passiveSkills": [
+    { "name": "Water Manifestation", "description": "Fire Resist+35%. When countering and attacking, regular P.Attack a Foe with Water Element" },
+    { "name": "Nimble", "description": "Str. & Agi.+30%" },
+    { "name": "Bloom", "description": "8% HP & MP Regen/turn" },
+    { "name": "Piercing Strike", "description": "Damage+15% upon Penetration" },
+    { "name": "Aqua Killer", "description": "Ability Pt.+50% toward Aqua", "nemesis": "Aqua" }
+  ],
+  "thumbnail": "sanjouno.haruhime-foxy.yukata-thumb.png",
+  "image": "sanjouno.haruhime-foxy.yukata-full.png"
+}
