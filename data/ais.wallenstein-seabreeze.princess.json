@@ -1,0 +1,41 @@
+{ "id": "ais.wallenstein-seabreeze.princess",
+  "banner": "Sparkling Summer Carnival",
+  "title": "Seabreeze Princess",
+  "name": "Ais Wallenstein",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2740,
+  "mp": 189,
+  "str": 1669,
+  "end": 372,
+  "dex": 760,
+  "agi": 769,
+  "mag": 318,
+  "ascension": {
+    "hp": 3915,
+    "mp": 259,
+    "str": 2019,
+    "end": 552,
+    "dex": 835,
+    "agi": 852,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Tidal Lil Rafaga", "description": "[Foes] Ultra Water P.Attack w/temp Str. Boost and Hi Penetration Rate & Water Resist-50%/3 turns" },
+    { "name": "Sunshine Beach", "description": "[Foes] Water Resist-35% and Guard Rate-30%/5 turns & [Self] +2 Actions (Lo Water P.Attack Foes)", "mp": 32 },
+    { "name": "Splashing Sweep", "description": "[Foes] Fast Hi Water P.Attack & Dmg. received (Attack Type: All & Single Targets)+20%/4 turns", "mp": 34 },
+    { "name": "Parasol Smash", "description": "[Foe] Hi Water P.Attack Dmg.+40% per each Target's skill effect that increases Dmg. received (Attack Type: Single Target) & Ultra Critical Rate", "mp": 30 }
+  ],
+  "passiveSkills": [
+    { "name": "Water Manifestation", "description": "Fire Resist+35%. When countering and attacking, regular P.Attack a Foe with Water Element" },
+    { "name": "Battle Arts", "description": "Str. & Dex.+30%" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Strike", "description": "Critical Damage+15%" },
+    { "name": "Aqua Killer", "description": "Ability Pt.+50% toward Aqua", "nemesis": "Aqua" }
+  ],
+  "thumbnail": "ais.wallenstein-seabreeze.princess-thumb.png",
+  "image": "ais.wallenstein-seabreeze.princess-full.png"
+}
