@@ -1,0 +1,41 @@
+{ "id": "lena.tally-azure.bloom",
+  "banner": "Sparkling Summer Carnival",
+  "title": "Azure Bloom",
+  "name": "Lena Tally",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2520,
+  "mp": 324,
+  "str": 338,
+  "end": 334,
+  "dex": 751,
+  "agi": 874,
+  "mag": 1661,
+  "ascension": {
+    "hp": 3645,
+    "mp": 404,
+    "str": 389,
+    "end": 495,
+    "dex": 830,
+    "agi": 953,
+    "mag": 1996
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Seaside Love Story", "description": "[Foe] Ultra Light M.Attack Dmg.+80% per each [Self] Mag. Buff Skill & Light Resist-50%/2 turns" },
+    { "name": "Double Tap", "description": "[Self] Mag., Dex., and Light Attack Dmg.+60%/4 turns & [Self] +3 Actions (Lo Light M.Attack a Foe w/Hi Critical Rate)", "mp": 24 },
+    { "name": "One-way Straight", "description": "[Foe] Fast Hi Light M.Attack & M.Resist and Light Resist-35%/3 turns", "mp": 36 },
+    { "name": "Memorial Strike", "description": "[Foe] Slow Super Light M.Attack Dmg.+80% per each [Self] Mag. Buff Skill & Mag. Buff exc. Assist Skills will be removed afterward", "mp": 102 }
+  ],
+  "passiveSkills": [
+    { "name": "Light Manifestation", "description": "Dark Resist+35%. When countering and attacking, regular M.Attack a Foe with Light Element." },
+    { "name": "Strike", "description": "Critical Damage+20%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+30%" },
+    { "name": "Piercing Strike", "description": "Dmg.+20% Upon Penetration" },
+    { "name": "Aqua Killer", "description": "Ability Pt.+50% toward Aqua", "nemesis": "Aqua" }
+  ],
+  "thumbnail": "lena.tally-azure.bloom-thumb.png",
+  "image": "lena.tally-azure.bloom-full.png"
+}
