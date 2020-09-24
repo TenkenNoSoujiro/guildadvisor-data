@@ -1,0 +1,24 @@
+{ "id": "hestia-carnival.goddess",
+  "banner": "Sparkling Summer Carnival",
+  "title": "Carnival Goddess",
+  "name": "Hestia",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1028,
+  "mp": 159,
+  "str": 334,
+  "end": 219,
+  "dex": 428,
+  "agi": 594,
+  "mag": 325,
+  "skill": {
+    "name": "Perfect Yukatakini Day",
+    "descriptions": [
+      "[Allies] Str. & Mag.+10% and Water Attack Dmg.+15%",
+      "[Allies] Str. & Mag.+15% and Water Attack Dmg.+20%"
+    ]
+  },
+  "thumbnail": "hestia-carnival.goddess-thumb.png",
+  "image": "hestia-carnival.goddess-full.png"
+}
