@@ -1,0 +1,41 @@
+{ "id": "asfi.al.andromeda-operation.idol",
+  "banner": "New Generation Pop Stars",
+  "title": "Operation Idol",
+  "name": "Asfi Al Andromeda",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2676,
+  "mp": 194,
+  "str": 903,
+  "end": 346,
+  "dex": 606,
+  "agi": 1105,
+  "mag": 1193,
+  "ascension": {
+    "hp": 3826,
+    "mp": 294,
+    "str": 1040,
+    "end": 514,
+    "dex": 701,
+    "agi": 1130,
+    "mag": 1503
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Performer Perseus", "description": "[Foes] Ultra Earth M.Attack w/temp Great Mag. Boost and Ultra Critical Rate & [Allies] Dmg. received (Attack Type: All Targets)-50%/1 turn" },
+    { "name": "Live Engineering", "description": "[Allies] Fast Dmg. received (Attack Type: All Targets)-35%/4 turns & [Self] +3 Actions (30% HP Heal & Guard Rate+20% Allies/2 turns)", "mp": 40 },
+    { "name": "Snapping Echo", "description": "[Foes] Super Earth M.Attack w/temp Mag. Boost & Hi Penetration Rate and [Allies] Status Debuff -2 turns", "mp": 55 },
+    { "name": "Solid Voice", "description": "[Foe] Super Earth M.Attack Dmg.+40% per each [Self] Guard Rate Buff Skill & Ultra Critical Rate", "mp": 41 }
+  ],
+  "passiveSkills": [
+    { "name": "Earth Manifestation", "description": "Thunder Resist+35%. When countering and attacking, regular M.Attack a Foe with Earth Element." },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+20%" },
+    { "name": "Forestall", "description": "Mag. & Agi.+30%" },
+    { "name": "Insect Killer", "description": "Ability Pt.+50% toward Insects", "nemesis": "Insects" }
+  ],
+  "thumbnail": "asfi.al.andromeda-operation.idol-thumb.png",
+  "image": "asfi.al.andromeda-operation.idol-full.png"
+}

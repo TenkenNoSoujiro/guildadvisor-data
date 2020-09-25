@@ -1,0 +1,41 @@
+{ "id": "lulune.louie-muddle",
+  "banner": "New Generation Pop Stars",
+  "title": "Muddle",
+  "name": "Lulune Louie",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2620,
+  "mp": 299,
+  "str": 336,
+  "end": 334,
+  "dex": 647,
+  "agi": 923,
+  "mag": 1592,
+  "ascension": {
+    "hp": 3745,
+    "mp": 379,
+    "str": 387,
+    "end": 495,
+    "dex": 726,
+    "agi": 1002,
+    "mag": 1927
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "The Finisher", "description": "[Foes] Ultra Earth M.Attack w/temp Mag. Boost & Hi Penetration Rate and [Self] Mag., Agi. and Earth Attack Dmg.+60%/3 turns" },
+    { "name": "Dagger Negotiation", "description": "[Foes] Hi Earth M.Attack w/Ultra Uncounter Rate & [Self] +2 Actions (Lo Earth M.Attack Foes)", "mp": 38 },
+    { "name": "Multiple Stroke", "description": "[Foes] Fast Mid Earth M.Attack w/temp Mag. Boost & [Self] Mag and Earth Attack Dmg.+60%/2 turns", "mp": 47 },
+    { "name": "Heavy Stab", "description": "[Foe] Super Earth M.Attack w/temp Great Mag. Boost & Hi Penetration Rate", "mp": 42 }
+  ],
+  "passiveSkills": [
+    { "name": "Earth Manifestation", "description": "Thunder Resist+35%. When countering and attacking, regular M.Attack a Foe with Earth Element." },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+25%" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Piercing Strike", "description": "Damage+15% upon Penetration" },
+    { "name": "Insect Killer", "description": "Ability Pt.+50% toward Insects", "nemesis": "Insects" }
+  ],
+  "thumbnail": "lulune.louie-muddle-thumb.png",
+  "image": "lulune.louie-muddle-full.png"
+}
