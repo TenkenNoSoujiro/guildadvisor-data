@@ -1,0 +1,41 @@
+{ "id": "fear-crimson.feathers",
+  "banner": "DanMachi S3 Anime",
+  "title": "Crimson Feathers",
+  "name": "Fear",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2684,
+  "mp": 283,
+  "str": 336,
+  "end": 434,
+  "dex": 751,
+  "agi": 1012,
+  "mag": 1643,
+  "ascension": {
+    "hp": 3809,
+    "mp": 363,
+    "str": 387,
+    "end": 595,
+    "dex": 830,
+    "agi": 1091,
+    "mag": 1978
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Feather Barrage", "description": "[Foes] Ultra Wind M.Attack w/temp Mag. Boost and Ultra Unguard Rate and [Foes] Wind Resist-60%/1 turn" },
+    { "name": "Scattering Feather", "description": "[Allies] Slow Mag. & Agi.+30%/4 turns and removes Str. & Mag. Debuffs exc. Assist Skills", "mp": 43 },
+    { "name": "Primus Swift", "description": "[Foes] Fast Hi Wind M.Attack w/Ultra Uncounter Rate and M.Resist & Wind Resist-30%/4 turns", "mp": 44 },
+    { "name": "Feather Shot", "description": "[Foe] Super Wind M.Attack w/temp Great Mag. Boost & Ultra Unguard Rate", "mp": 40 }
+  ],
+  "passiveSkills": [
+    { "name": "Wind Manifestation", "description": "Earth Resist+35%. When countering and attacking, regular M.Attack a Foe with Wind Element" },
+    { "name": "Strike", "description": "Critical Damage+15%" },
+    { "name": "Rigid", "description": "End. & Agi. & Dex.+30%" },
+    { "name": "Mind's Eye", "description": "Mag.+40%" },
+    { "name": "Ogre Killer", "description": "Ability Pt.+50% toward Ogre", "nemesis": "Ogre" }
+  ],
+  "thumbnail": "fear-crimson.feathers-thumb.png",
+  "image": "fear-crimson.feathers-full.png"
+}
