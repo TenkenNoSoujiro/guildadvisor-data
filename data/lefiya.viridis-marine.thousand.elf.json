@@ -1,0 +1,41 @@
+{ "id": "lefiya.viridis-marine.thousand.elf",
+  "banner": "Turbulent Shore Rondo",
+  "title": "Marine Thousand Elf",
+  "name": "Lefiya Viridis",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2464,
+  "mp": 338,
+  "str": 336,
+  "end": 333,
+  "dex": 751,
+  "agi": 877,
+  "mag": 1662,
+  "ascension": {
+    "hp": 3589,
+    "mp": 418,
+    "str": 387,
+    "end": 494,
+    "dex": 830,
+    "agi": 956,
+    "mag": 1997
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Thousand Spark", "description": "[Foe] Ultra Thunder M.Attack Dmg.+80% per each [Self] Mag. Buff Skill w/Ultra Critical Rate" },
+    { "name": "Collateral Thunder", "description": "[Self] Mag.+90%/5 turns & [Self] +4 Actions (Lo Thunder M.Attack Foe)", "mp": 22 },
+    { "name": "Plasma Orbit", "description": "[Self] Thunder Attack Dmg. +75% and [Foe] Dmg. received (Attack Type: Single Target)+20%/4 turns", "mp": 15 },
+    { "name": "Crushing Pulse", "description": "[Foe] Super Thunder M.Attack Dmg.+40% per each [Self] Mag. Buff Skill w/Hi Critical Rate", "mp": 182 }
+  ],
+  "passiveSkills": [
+    { "name": "Thunder Manifestation", "description": "Water Resist+35%. When countering and attacking, regular M.Attack a Foe with Thunder Element." },
+    { "name": "True Strike", "description": "Dmg.+15% upon Critical and Penetration" },
+    { "name": "Spirit Healing", "description": "10% MP Regen/turn" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+30%" },
+    { "name": "Fantasma Killer", "description": "Ability Pt.+50% toward Ghost", "nemesis": "Ghost" }
+  ],
+  "thumbnail": "lefiya.viridis-marine.thousand.elf-thumb.png",
+  "image": "lefiya.viridis-marine.thousand.elf-full.png"
+}
