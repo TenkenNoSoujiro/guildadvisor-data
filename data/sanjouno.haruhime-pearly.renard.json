@@ -1,0 +1,41 @@
+{ "id": "sanjouno.haruhime-pearly.renard",
+  "banner": "[Paid] A Duo of Sun and Moon",
+  "title": "Pearly Renard",
+  "name": "Sanjouno Haruhime",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2468,
+  "mp": 337,
+  "str": 336,
+  "end": 331,
+  "dex": 754,
+  "agi": 880,
+  "mag": 1660,
+  "ascension": {
+    "hp": 3593,
+    "mp": 417,
+    "str": 387,
+    "end": 492,
+    "dex": 833,
+    "agi": 959,
+    "mag": 1995
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Heavenly Hammer", "description": "[Foe] Ultra Wind M.Attack+40% per each [Self] Mag. & Wind Attack Dmg. Buff Skill and [Foe] removes Str. & Mag. Buffs exc. Assist Skills" },
+    { "name": "White Vestige", "description": "[Self] Mag. & Wind Attack Dmg.+60% and [Allies] Counter Rate & Critical Rate+30%/4 turns", "mp": 40 },
+    { "name": "Windcaller", "description": "[Foe] Fast Hi Wind M.Attack w/ Hi Critical Rate and Dmg. received (Attack Type: Single Target)+20% and M.Resist & Wind Resist-35%/1 turn", "mp": 153 },
+    { "name": "Whirlwind", "description": "[Foe] Mid Wind M.Attack Dmg. increases the more [Self] MP decreases and [Self] 100% MP Heal", "mp": 10 }
+  ],
+  "passiveSkills": [
+    { "name": "Wind Manifestation", "description": "Earth Resist+35%. When countering and attacking, regular M.Attack a Foe with Wind Element" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "True Strike", "description": "Dmg.+15% upon Critical and Penetration" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+30%" },
+    { "name": "Ogre Killer", "description": "Ability Pt.+50% toward Ogre", "nemesis": "Ogre" }
+  ],
+  "thumbnail": "sanjouno.haruhime-pearly.renard-thumb.png",
+  "image": "sanjouno.haruhime-pearly.renard-full.png"
+}
