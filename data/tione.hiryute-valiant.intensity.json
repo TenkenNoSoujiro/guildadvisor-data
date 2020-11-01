@@ -1,0 +1,41 @@
+{ "id": "tione.hiryute-valiant.intensity",
+  "banner": "A Duo of Sun and Moon",
+  "title": "Valiant Intensity",
+  "name": "Tione Hiryute",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2760,
+  "mp": 184,
+  "str": 1682,
+  "end": 377,
+  "dex": 682,
+  "agi": 1058,
+  "mag": 318,
+  "ascension": {
+    "hp": 3935,
+    "mp": 254,
+    "str": 2032,
+    "end": 557,
+    "dex": 757,
+    "agi": 1141,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Hi Backdraft", "description": "[Foes] Ultra Dark P.Attack w/temp Great Str. Boost & Hi Penetration Rate and [Foes] removes Status Buffs exc. Assist Skills" },
+    { "name": "Armor Breaker", "description": "[Foes] Super Dark P.Attack & w/ Ultra Uncounter Rate and [Self] +2 Actions (Lo Dark P.Attack Foes & Status Buff-1 turn)", "mp": 61 },
+    { "name": "Dashing Beat", "description": "[Foes] Fast Hi Dark P.Attack w/ Ultra Critical Rate and [Allies] Str. & Dark Attack Dmg.+35%/3 turns", "mp": 41 },
+    { "name": "Shredding Fist", "description": "[Foe] Hi Dark P.Attack Dmg.+40% per each [Self] Str. Buff Skill w/Ultra Unguard Rate", "mp": 30 }
+  ],
+  "passiveSkills": [
+    { "name": "Light Resistance", "description": "Light Resist+35%" },
+    { "name": "Dark Ruin", "description": "When countering, regular Dark P.Attack a foe and Status Buff-1 turn" },
+    { "name": "Magic Resistance", "description": "M.Resist+20%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+30%" },
+    { "name": "Ogre Killer", "description": "Ability Pt.+50% toward Ogre", "nemesis": "Ogre" }
+  ],
+  "thumbnail": "tione.hiryute-valiant.intensity-thumb.png",
+  "image": "tione.hiryute-valiant.intensity-full.png"
+}
