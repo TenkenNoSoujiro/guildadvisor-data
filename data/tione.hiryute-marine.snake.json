@@ -1,0 +1,41 @@
+{ "id": "tione.hiryute-marine.snake",
+  "banner": "Turbulent Shore Rondo",
+  "title": "Marine Snake",
+  "name": "Tione Hiryute",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2736,
+  "mp": 190,
+  "str": 1662,
+  "end": 377,
+  "dex": 695,
+  "agi": 1064,
+  "mag": 318,
+  "ascension": {
+    "hp": 3911,
+    "mp": 260,
+    "str": 2012,
+    "end": 557,
+    "dex": 770,
+    "agi": 1147,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Thunder Trail Frenzy", "description": "[Foes] Ultra Thunder P.Attack w/temp Great Str. Boost and Ultra Unguard Rate & P.Resist-60%/1 turn" },
+    { "name": "Spark Laser", "description": "[Foes] Fast Hi Thunder P.Attack w/temp Str. Boost & Ultra Uncounter Rate and [Allies] removes Agi. & Dex. Debuffs exc. Assist Skills", "mp": 49 },
+    { "name": "Nova Strike", "description": "[Foes] Super Thunder P.Attack w/Hi Penetration Rate & P.Resist-30% and [Self] Str. & Thunder Attack Dmg.+60%/4 turns", "mp": 56 },
+    { "name": "Heavy Spike", "description": "[Foe] Hi Thunder P.Attack Dmg.+40% per each [Self] Thunder Attack Dmg. Buff Skill w/Ultra Critical Rate", "mp": 30 }
+  ],
+  "passiveSkills": [
+    { "name": "Thunder Manifestation", "description": "Water Resist+35%. When countering and attacking, regular P.Attack a Foe with Thunder Element." },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+30%" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Piercing Strike", "description": "Damage+15% upon Penetration" },
+    { "name": "Fantasma Killer", "description": "Ability Pt.+50% toward Ghost", "nemesis": "Ghost" }
+  ],
+  "thumbnail": "tione.hiryute-marine.snake-thumb.png",
+  "image": "tione.hiryute-marine.snake-full.png"
+}
