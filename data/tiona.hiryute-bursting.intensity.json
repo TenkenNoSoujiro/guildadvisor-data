@@ -1,0 +1,41 @@
+{ "id": "tiona.hiryute-bursting.intensity",
+  "banner": "A Duo of Sun and Moon",
+  "title": "Bursting Intensity",
+  "name": "Tiona Hiryute",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2780,
+  "mp": 179,
+  "str": 1675,
+  "end": 372,
+  "dex": 676,
+  "agi": 1077,
+  "mag": 318,
+  "ascension": {
+    "hp": 3955,
+    "mp": 249,
+    "str": 2025,
+    "end": 552,
+    "dex": 751,
+    "agi": 1160,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Hi Intense Heat", "description": "[Foes] Ultra Dark P.Attack w/temp Great Str. Boost & Ultra Critical Rate and [Foes] Guard & Counter Rate-60%/2 turns" },
+    { "name": "Breaking Crush", "description": "[Foes] Hi Dark P.Attack w/temp Str. Boost & Ultra Unguard Rate and Heal-30% & [Allies] Counter Rate+30%/3 turns", "mp": 49 },
+    { "name": "Hard Target", "description": "[Foes] Fast Str. & Mag.-40% and Dark Resist-35%/4 turns", "mp": 35 },
+    { "name": "Mooring Fist", "description": "[Foe] Hi Dark P.Attack Dmg.+20% per each Target's Str. & Mag. Reduction Skill & Hi Penetration Rate", "mp": 27 }
+  ],
+  "passiveSkills": [
+    { "name": "Dark Manifestation", "description": "Light Resist+35%. When countering and attacking, regular P.Attack a Foe with Dark Element" },
+    { "name": "Counter-attack", "description": "Counter Damage+60%" },
+    { "name": "Magic Resistance", "description": "M.Resist+20%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+30%" },
+    { "name": "Ogre Killer", "description": "Ability Pt.+50% toward Ogre", "nemesis": "Ogre" }
+  ],
+  "thumbnail": "tiona.hiryute-bursting.intensity-thumb.png",
+  "image": "tiona.hiryute-bursting.intensity-full.png"
+}
