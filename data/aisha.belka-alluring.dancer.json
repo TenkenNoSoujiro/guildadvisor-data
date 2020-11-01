@@ -1,0 +1,24 @@
+{ "id": "aisha.belka-alluring.dancer",
+  "banner": "[Paid] A Duo of Sun and Moon",
+  "title": "Alluring Dancer",
+  "name": "Aisha Belka",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1008,
+  "mp": 164,
+  "str": 615,
+  "end": 280,
+  "dex": 366,
+  "agi": 446,
+  "mag": 216,
+  "skill": {
+    "name": "Alluring Dance",
+    "descriptions": [
+      "[Self] Str. & Agi. & Dex.+15% and [Allies] Str. & Agi. & Dex.+8%",
+      "[Self] Str. & Agi. & Dex.+20% and [Allies] Str. & Agi. & Dex.+10%"
+    ]
+  },
+  "thumbnail": "aisha.belka-alluring.dancer-thumb.png",
+  "image": "aisha.belka-alluring.dancer-full.png"
+}
