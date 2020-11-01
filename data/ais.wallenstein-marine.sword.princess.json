@@ -1,0 +1,24 @@
+{ "id": "ais.wallenstein-marine.sword.princess",
+  "banner": "Turbulent Shore Rondo",
+  "title": "Marine Sword Princess",
+  "name": "Ais Wallenstein",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 1028,
+  "mp": 159,
+  "str": 600,
+  "end": 280,
+  "dex": 362,
+  "agi": 465,
+  "mag": 216,
+  "skill": {
+    "name": "Waterside Mishap",
+    "descriptions": [
+      "[Allies] Str. & Critical Rate+10% and Thunder Attack Dmg.+15%",
+      "[Allies] Str. & Critical Rate+15% and Thunder Attack Dmg.+20%"
+    ]
+  },
+  "thumbnail": "ais.wallenstein-marine.sword.princess-thumb.png",
+  "image": "ais.wallenstein-marine.sword.princess-full.png"
+}
