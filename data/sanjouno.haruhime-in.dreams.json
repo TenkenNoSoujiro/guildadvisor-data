@@ -1,0 +1,24 @@
+{ "id": "sanjouno.haruhime-in.dreams",
+  "banner": "DanMachi S3 Anime",
+  "title": "In Dreams",
+  "name": "Sanjouno Haruhime",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 892,
+  "mp": 193,
+  "str": 350,
+  "end": 219,
+  "dex": 370,
+  "agi": 611,
+  "mag": 350,
+  "skill": {
+    "name": "Moment of Respite",
+    "descriptions": [
+      "[Foes] Status Buff-2 turns and [Ally] 50% HP Heal. Prioritizes an Ally with lower percentage HP.",
+      "[Foes] Status Buff-3 turns and [Ally] 75% HP Heal. Prioritizes an Ally with lower percentage HP."
+    ]
+  },
+  "thumbnail": "sanjouno.haruhime-in.dreams-thumb.png",
+  "image": "sanjouno.haruhime-in.dreams-full.png"
+}
