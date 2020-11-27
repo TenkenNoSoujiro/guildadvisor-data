@@ -1,0 +1,41 @@
+{ "id": "raul.nord-glistening.knight",
+  "banner": "Holy Intoxicating Night",
+  "title": "Glistening Knight",
+  "name": "Raul Nord",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2720,
+  "mp": 194,
+  "str": 1675,
+  "end": 372,
+  "dex": 670,
+  "agi": 1082,
+  "mag": 318,
+  "ascension": {
+    "hp": 3895,
+    "mp": 264,
+    "str": 2025,
+    "end": 552,
+    "dex": 745,
+    "agi": 1165,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Reason to Shoulder", "description": "[Foes] Ultra Wind P.Attack w/temp Great Str. Boost & Ultra Critical Rate and [Allies] Wind Attack Dmg.+100%/1 turn" },
+    { "name": "Steady Strike", "description": "[Foes] Super Wind P.Attack w/temp Str. Boost & Ultra Uncounter Rate and [Self] +3 Actions (Lo Wind P.Attack Foes)", "mp": 56 },
+    { "name": "Doubtless Charge", "description": "[Foes] Fast Hi Wind P.Attack w/temp Str. Boost & Ultra Uncounter Rate and removes Dmg. Reduction (Attack Type: All Targets) & Guard Rate Buff Skills exc. Assist Skills", "mp": 39 },
+    { "name": "Warring Slicer", "description": "[Foe] Hi Wind P.Attack w/temp Great Str. Boost & Ultra Critical Rate", "mp": 34 }
+  ],
+  "passiveSkills": [
+    { "name": "Wind Manifestation", "description": "Earth Resist+35%. When countering and attacking, regular P.Attack a Foe with Wind Element." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Strike", "description": "Critical Damage+15%" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+30%" },
+    { "name": "Plant Killer", "description": "Ability Pt.+50% toward Plants", "nemesis": "Plants" }
+  ],
+  "thumbnail": "raul.nord-glistening.knight-thumb.png",
+  "image": "raul.nord-glistening.knight-full.png"
+}
