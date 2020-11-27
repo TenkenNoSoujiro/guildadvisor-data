@@ -1,0 +1,41 @@
+{ "id": "fels-forbidden.chant",
+  "banner": "DanMachi S3 Anime",
+  "title": "Forbidden Chant",
+  "name": "Fels",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2496,
+  "mp": 239,
+  "str": 903,
+  "end": 351,
+  "dex": 606,
+  "agi": 924,
+  "mag": 1544,
+  "ascension": {
+    "hp": 3646,
+    "mp": 339,
+    "str": 1040,
+    "end": 519,
+    "dex": 701,
+    "agi": 949,
+    "mag": 1854
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Dia Orpheus", "description": "[Allies] Str. & Mag.+80%/3 turns and 50% chance to grant Revive once, which will revive Adventurers at 50% of Max HP" },
+    { "name": "Bestow Light", "description": "[Allies] Fast Fire, Water, Thunder, Earth, Wind, Light, and Dark Resist+20% and 35% HP Regen/4 turns", "mp": 54 },
+    { "name": "Radiant Grace", "description": "[Allies] Hi HP Heal and Str. & Mag.+35% and Critical Rate, Penetration Rate, and Heal+30%/4 turns", "mp": 55 },
+    { "name": "Repentance", "description": "[Foes] Super Light M.Attack w/temp Mag. Boost & Hi Penetration Rate and [Allies] Ailment Cure", "mp": 50 }
+  ],
+  "passiveSkills": [
+    { "name": "Encouragement", "description": "When countering, instead of attacking regularly, it (Lo) Heals an Ally. Prioritizes an Ally with lower percentage HP." },
+    { "name": "Dark Resistance", "description": "Dark Resist+35%" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+20%" },
+    { "name": "Forestall", "description": "Mag. & Agi.+40%" }
+  ],
+  "thumbnail": "fels-forbidden.chant-thumb.png",
+  "image": "fels-forbidden.chant-full.png"
+}
