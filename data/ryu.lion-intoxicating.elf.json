@@ -1,0 +1,41 @@
+{ "id": "ryu.lion-intoxicating.elf",
+  "banner": "Holy Intoxicating Night",
+  "title": "Intoxicating Elf",
+  "name": "Ryu Lion",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2420,
+  "mp": 349,
+  "str": 336,
+  "end": 331,
+  "dex": 764,
+  "agi": 868,
+  "mag": 1661,
+  "ascension": {
+    "hp": 3545,
+    "mp": 429,
+    "str": 387,
+    "end": 492,
+    "dex": 843,
+    "agi": 947,
+    "mag": 1996
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Stomping Whiteout", "description": "[Foe] Ultra Water M.Attack w/Ultra Unguard Rate and Dmg. received (Attack Type: All and Single Targets)+25%/4 turns" },
+    { "name": "Gathering Sleet", "description": "[Foe] Fast Mid Water M.Attack w/Hi Critical Rate and [Self] Mag. & Water Attack Dmg.+60% and [Foe] Dmg. received (Attack Type: Single Target)+20%/4 turns", "mp": 45 },
+    { "name": "Azure Wind", "description": "[Foe] Super Water M.Attack w/temp Mag. Boost & Hi Unguard Rate and Str. & Mag.-45%/2 turns", "mp": 59 },
+    { "name": "Focus Avalanche", "description": "[Foe] Slow Hi Water M.Attack Dmg.+85% per each Target's skill effect that increases Dmg. received (Attack Type: Single Target) and Target's skill effect that increases Dmg. received (Attack Type: Single Target)-1 turn afterward", "mp": 72 }
+  ],
+  "passiveSkills": [
+    { "name": "Fire Resistance", "description": "Fire Resist+35%" },
+    { "name": "Watery Destruction", "description": "When countering, regular Water M.Attack a Foe Dmg.+35% per each Target's skill effect that increases Dmg. received (Attack Type: Single Target)" },
+    { "name": "Piercing Strike", "description": "Dmg.+25% Upon Penetration" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+30%" },
+    { "name": "Plant Killer", "description": "Ability Pt.+50% toward Plants", "nemesis": "Plants" }
+  ],
+  "thumbnail": "ryu.lion-intoxicating.elf-thumb.png",
+  "image": "ryu.lion-intoxicating.elf-full.png"
+}
