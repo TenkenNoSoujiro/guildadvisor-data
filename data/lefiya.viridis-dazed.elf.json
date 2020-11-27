@@ -1,0 +1,24 @@
+{ "id": "lefiya.viridis-dazed.elf",
+  "banner": "Holy Intoxicating Night",
+  "title": "Dazed Elf",
+  "name": "Lefiya Viridis",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 748,
+  "mp": 229,
+  "str": 359,
+  "end": 219,
+  "dex": 358,
+  "agi": 604,
+  "mag": 360,
+  "skill": {
+    "name": "Lisped Incantation",
+    "descriptions": [
+      "[Foes] 30% Sleep and End., Agi., & Dex.-8%",
+      "[Foes] 45% Sleep and End., Agi., & Dex.-10%"
+    ]
+  },
+  "thumbnail": "lefiya.viridis-dazed.elf-thumb.png",
+  "image": "lefiya.viridis-dazed.elf-full.png"
+}
