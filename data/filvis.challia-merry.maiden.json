@@ -1,0 +1,41 @@
+{ "id": "filvis.challia-merry.maiden",
+  "banner": "Holy Intoxicating Night",
+  "title": "Merry Maiden",
+  "name": "Filvis Challia",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2468,
+  "mp": 337,
+  "str": 336,
+  "end": 329,
+  "dex": 592,
+  "agi": 1069,
+  "mag": 1652,
+  "ascension": {
+    "hp": 3593,
+    "mp": 417,
+    "str": 387,
+    "end": 490,
+    "dex": 671,
+    "agi": 1148,
+    "mag": 1987
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Drunken Rampage", "description": "[Foes] Ultra Water M.Attack w/temp Great Mag. Boost & Hi Penetration Rate and M.Resist & Water Resist-50%/1turn" },
+    { "name": "Arcane Freeze", "description": "[Self] Mag., Agi., & Water Attack Dmg.+60% and [Foes] Dex. & End.-30%/3 turns and [Self] +3 Actions (Lo Water M.Attack Foes)", "mp": 34 },
+    { "name": "Howling Blizzard", "description": "[Foes] Fast Hi Water M.Attack w/Ultra Unguard Rate and P.Resist, M.Resist, & Water Resist-30%/3 turns", "mp": 49 },
+    { "name": "Cerulean Comet", "description": "[Foe] Hi Water M.Attack w/temp Great Mag. Boost & Ultra Critical Rate", "mp": 38 }
+  ],
+  "passiveSkills": [
+    { "name": "Water Manifestation", "description": "Fire Resist+35%. When countering and attacking, regular M.Attack a Foe with Water Element" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "True Strike", "description": "Damage+10% upon Critical and Penetration" },
+    { "name": "Forestall", "description": "Mag. & Agi.+40%" },
+    { "name": "Plant Killer", "description": "Ability Pt.+50% toward Plants", "nemesis": "Plants" }
+  ],
+  "thumbnail": "filvis.challia-merry.maiden-thumb.png",
+  "image": "filvis.challia-merry.maiden-full.png"
+}

@@ -1,0 +1,41 @@
+{ "id": "anakitty.autumn-tipsy.tabby",
+  "banner": "Holy Intoxicating Night",
+  "title": "Tipsy Tabby",
+  "name": "Anakitty Autumn",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": true,
+  "rarity": 4,
+  "hp": 2780,
+  "mp": 179,
+  "str": 1680,
+  "end": 490,
+  "dex": 641,
+  "agi": 699,
+  "mag": 318,
+  "ascension": {
+    "hp": 3955,
+    "mp": 249,
+    "str": 2030,
+    "end": 670,
+    "dex": 716,
+    "agi": 782,
+    "mag": 368
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Catspin Tornado", "description": "[Foes] Ultra Wind P.Attack w/temp Great Str. Boost & Ultra Unguard Rate and [Allies] removes Status Debuffs exc. Assist Skills" },
+    { "name": "Catlike Alacrity", "description": "[Allies] Slow Str. & Wind Attack Dmg.+35%/3 turns and [Foes] removes Str., Mag., and Agi. Buffs exc. Assist Skills", "mp": 43 },
+    { "name": "Sharpened Steel", "description": "[Foes] Super Wind P.Attack w/temp Str. Boost & Ultra Unguard Rate and P.Resist & Wind Resist-30% and Dex.-40%/2 turns", "mp": 59 },
+    { "name": "Gale Phant", "description": "[Foe] Hi Wind P.Attack w/Ultra Critical Rate Dmg.+40% per each [Self] Str. Buff Skill", "mp": 33 }
+  ],
+  "passiveSkills": [
+    { "name": "Wind Manifestation", "description": "Earth Resist+35%. When countering and attacking, regular P.Attack a Foe with Wind Element." },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Piercing Strike", "description": "Damage+15% upon Penetration" },
+    { "name": "Robust", "description": "Str. & End.+30%" },
+    { "name": "Plant Killer", "description": "Ability Pt.+50% toward Plants", "nemesis": "Plants" }
+  ],
+  "thumbnail": "anakitty.autumn-tipsy.tabby-thumb.png",
+  "image": "anakitty.autumn-tipsy.tabby-full.png"
+}
