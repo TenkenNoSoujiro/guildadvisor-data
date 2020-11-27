@@ -1,0 +1,24 @@
+{ "id": "soma-dazed.master",
+  "banner": "Holy Intoxicating Night",
+  "title": "Dazed Master",
+  "name": "Soma",
+  "kind": "assist",
+  "limited": true,
+  "rarity": 4,
+  "hp": 1016,
+  "mp": 162,
+  "str": 372,
+  "end": 238,
+  "dex": 556,
+  "agi": 345,
+  "mag": 369,
+  "skill": {
+    "name": "Masterful Brew",
+    "descriptions": [
+      "[Allies] Dmg. received (Attack Type: All and Single Targets)-10% and Water & Wind Attack Dmg.+10%",
+      "[Allies] Dmg. received (Attack Type: All and Single Targets)-15% and Water & Wind Attack Dmg.+15%"
+    ]
+  },
+  "thumbnail": "soma-dazed.master-thumb.png",
+  "image": "soma-dazed.master-full.png"
+}
