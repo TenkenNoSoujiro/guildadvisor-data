@@ -1,0 +1,24 @@
+{ "id": "sanjouno.haruhime-sweet.vixen",
+  "banner": "Xenos's Valentine",
+  "title": "Sweet Vixen",
+  "name": "Sanjouno Haruhime",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 728,
+  "mp": 234,
+  "str": 209,
+  "end": 228,
+  "dex": 390,
+  "agi": 331,
+  "mag": 654,
+  "skill": {
+    "name": "Vixen's Gift",
+    "descriptions": [
+      "[Foes] End.-25% & M.Resist-15%",
+      "[Foes] End.-30% & M.Resist-20%"
+    ]
+  },
+  "thumbnail": "sanjouno.haruhime-sweet.vixen-thumb.png",
+  "image": "sanjouno.haruhime-sweet.vixen-full.png"
+}
