@@ -1,0 +1,41 @@
+{ "id": "wiene-sweetheart.dragon",
+  "banner": "Xenos's Valentine",
+  "title": "Sweetheart Dragon",
+  "name": "Wiene",
+  "kind": "adventurer",
+  "type": "balance",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2628,
+  "mp": 206,
+  "str": 903,
+  "end": 357,
+  "dex": 645,
+  "agi": 1127,
+  "mag": 1278,
+  "ascension": {
+    "hp": 3778,
+    "mp": 306,
+    "str": 1040,
+    "end": 525,
+    "dex": 740,
+    "agi": 1152,
+    "mag": 1588
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Baking Time!", "description": "[Foes] Ultra Light M.Attack w/temp Mag. Boost & Ultra Unguard Rate and [Allies] Dmg. received (Attack Type: All and Single Targets)-40%/3 turns" },
+    { "name": "Handmade", "description": "[Foes] Str., Mag., & Dex.-35% & [Self] Mag., Agi., & Light Attack Dmg.+50%/3 turns and +3 Actions (Lo Light M.Attack Foes)", "mp": 47 },
+    { "name": "Sweet Fall", "description": "[Foes] Fast Mid Light M.Attack w/Ultra Uncounter Rate and removes P.Resist & M.Resist Buffs and [Allies] removes P.Resist & M.Resist Debuffs exc. Assist Skills.", "mp": 44 },
+    { "name": "Sugar Surge", "description": "[Foe] Super Light M.Attack w/temp Mag. Boost & Ultra Unguard Rate", "mp": 45 }
+  ],
+  "passiveSkills": [
+    { "name": "Light Manifestation", "description": "Dark Resist+35%. When countering and attacking, regular M.Attack a Foe with Light Element." },
+    { "name": "Forestall", "description": "Mag. & Agi.+40%" },
+    { "name": "Protection", "description": "P.Resist & M.Resist+20%" },
+    { "name": "Solid", "description": "Guard+30%" },
+    { "name": "Fantasma Killer", "description": "Ability Pt.+50% toward Ghost", "nemesis": "Ghost" }
+  ],
+  "thumbnail": "wiene-sweetheart.dragon-thumb.png",
+  "image": "wiene-sweetheart.dragon-full.png"
+}
