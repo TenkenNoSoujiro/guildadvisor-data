@@ -1,0 +1,41 @@
+{ "id": "anya.fromel-sweet.tooth.tabby",
+  "banner": "Xenos's Valentine",
+  "title": "Sweet Tooth Tabby",
+  "name": "Anya Fromel",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2680,
+  "mp": 284,
+  "str": 337,
+  "end": 339,
+  "dex": 752,
+  "agi": 912,
+  "mag": 1617,
+  "ascension": {
+    "hp": 3805,
+    "mp": 364,
+    "str": 388,
+    "end": 500,
+    "dex": 831,
+    "agi": 991,
+    "mag": 1952
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Je Veux du Chocolat", "description": "[Foes] Ultra Thunder M.Attack w/temp Mag. Boost & Ultra Penetration Rate and M.Resist and End.-50%/2 turns" },
+    { "name": "Heart Shocker", "description": "[Foes] Fast M.Resist & End.-35% & [Self] Penetration Rate+50%/2 turns and +2 Actions (Lo Thunder M.Attack Foes)", "mp": 44 },
+    { "name": "Four Pronged Spear", "description": "[Foes] Slow Super Thunder M.Attack w/temp Mag. Boost & Hi Penetration Rate and [Self] Mag.+50%/2 turns", "mp": 47 },
+    { "name": "Forked Lightning", "description": "[Foe] Hi Thunder M.Attack w/temp Mag. Boost & Ultra Penetration Rate", "mp": 31 }
+  ],
+  "passiveSkills": [
+    { "name": "Thunder Manifestation", "description": "Water Resist+35%. When countering and attacking, regular M.Attack a Foe with Thunder Element." },
+    { "name": "Opposition", "description": "Ultra Penetration Rate on Counter" },
+    { "name": "Piercing Strike", "description": "Dmg.+15% Upon Penetration" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+30%" },
+    { "name": "Fantasma Killer", "description": "Ability Pt.+50% toward Ghost", "nemesis": "Ghost" }
+  ],
+  "thumbnail": "anya.fromel-sweet.tooth.tabby-thumb.png",
+  "image": "anya.fromel-sweet.tooth.tabby-full.png"
+}
