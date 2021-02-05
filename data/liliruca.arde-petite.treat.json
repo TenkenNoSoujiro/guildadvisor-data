@@ -1,0 +1,41 @@
+{ "id": "liliruca.arde-petite.treat",
+  "banner": "Xenos's Valentine",
+  "title": "Petite Treat",
+  "name": "Liliruca Arde",
+  "kind": "adventurer",
+  "type": "p.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2620,
+  "mp": 219,
+  "str": 1716,
+  "end": 382,
+  "dex": 752,
+  "agi": 934,
+  "mag": 328,
+  "ascension": {
+    "hp": 3795,
+    "mp": 289,
+    "str": 2066,
+    "end": 562,
+    "dex": 827,
+    "agi": 1017,
+    "mag": 378
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Bitter Volley", "description": "[Foe] Ultra Light P.Attack w/temp Str. Boost and [Self] Increase S.A Gauge Charge gain by 100%/5 turns" },
+    { "name": "Pink Sweets", "description": "[Foe] Light Resist & Guard Rate-40%/4 turns and [Self] +3 Actions (Lo Light P.Attack Foe)", "mp": 25 },
+    { "name": "Chocolate Strike", "description": "[Foe] Mid Light P.Attack w/temp Str. Boost and [Self] Str. & Light Attack Dmg.+60%/2 turns", "mp": 37 },
+    { "name": "Sweet Splitter", "description": "[Foe] Super Light P.Attack Dmg.+30% per each [Self] Str. & Light Attack Dmg. Buff Skill and Status Buff+2 turns", "mp": 38 }
+  ],
+  "passiveSkills": [
+    { "name": "Light Manifestation", "description": "Dark Resist+35%. When countering and attacking, regular P.Attack a Foe with Light Element" },
+    { "name": "Counter-attack", "description": "Counter Damage+50%" },
+    { "name": "Spirit Healing", "description": "10% MP Regen/turn" },
+    { "name": "Fighting Spirit", "description": "Str. & Agi. & Dex.+30%" },
+    { "name": "Fantasma Killer", "description": "Ability Pt.+50% toward Ghost", "nemesis": "Ghost" }
+  ],
+  "thumbnail": "liliruca.arde-petite.treat-thumb.png",
+  "image": "liliruca.arde-petite.treat-full.png"
+}
