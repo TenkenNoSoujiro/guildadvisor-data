@@ -1,0 +1,24 @@
+{ "id": "fear-crimson.sweetie",
+  "banner": "Xenos's Valentine",
+  "title": "Crimson Sweetie",
+  "name": "Fear",
+  "kind": "assist",
+  "limited": false,
+  "rarity": 4,
+  "hp": 868,
+  "mp": 199,
+  "str": 299,
+  "end": 244,
+  "dex": 388,
+  "agi": 597,
+  "mag": 372,
+  "skill": {
+    "name": "Express Gift",
+    "descriptions": [
+      "[Foes] Thunder Resist-15% and [Allies] Dmg. received (Attack Type: All and Single Targets)-10%",
+      "[Foes] Thunder Resist-20% and [Allies] Dmg. received (Attack Type: All and Single Targets)-15%"
+    ]
+  },
+  "thumbnail": "fear-crimson.sweetie-thumb.png",
+  "image": "fear-crimson.sweetie-full.png"
+}
