@@ -1,0 +1,41 @@
+{ "id": "chloe.lolo-candied.kitty",
+  "banner": "Xenos's Valentine",
+  "title": "Candied Kitty",
+  "name": "Chloe Lolo",
+  "kind": "adventurer",
+  "type": "m.attack",
+  "limited": false,
+  "rarity": 4,
+  "hp": 2568,
+  "mp": 312,
+  "str": 339,
+  "end": 341,
+  "dex": 754,
+  "agi": 887,
+  "mag": 1635,
+  "ascension": {
+    "hp": 3693,
+    "mp": 392,
+    "str": 390,
+    "end": 502,
+    "dex": 833,
+    "agi": 966,
+    "mag": 1970
+  },
+  "combatSkills": [
+    { "specialArts": true,
+      "name": "Caught in the Act", "description": "[Foes] Ultra Thunder M.Attack w/temp Mag. Boost & Ultra Critical Rate and [Allies] Critical Rate & Counter Rate+60%/2 turns" },
+    { "name": "Feline Reflexes", "description": "[Foes] Slow Removes Str., Agi., & M.Resist Buffs exc. Assist Skills and [Self] +3 Actions (Lo Thunder M.Attack Foes)", "mp": 26 },
+    { "name": "Double Stab", "description": "[Foes] Fast Hi Thunder M.Attack w/Ultra Critical Rate and Dex. & Thunder Resist-35% & [Self] Thunder Attack Dmg.+90%/2 turns", "mp": 51 },
+    { "name": "Carving", "description": "[Foe] Hi Thunder M.Attack Dmg.+40% per each Target's Dex. Reduction Skill & Ultra Critical Rate", "mp": 34 }
+  ],
+  "passiveSkills": [
+    { "name": "Thunder Manifestation", "description": "Water Resist+35%. When countering and attacking, regular M.Attack a Foe with Thunder Element." },
+    { "name": "Flashback", "description": "Ultra Critical Rate on Counter" },
+    { "name": "Strike", "description": "Critical Damage+15%" },
+    { "name": "Tattletale", "description": "Mag. & Agi. & Dex.+30%" },
+    { "name": "Fantasma Killer", "description": "Ability Pt.+50% toward Ghost", "nemesis": "Ghost" }
+  ],
+  "thumbnail": "chloe.lolo-candied.kitty-thumb.png",
+  "image": "chloe.lolo-candied.kitty-full.png"
+}
