@@ -19,7 +19,7 @@
     "@types/prompts": "^1.2.0",
     "@types/request": "^2.48.2",
     "@types/yargs": "^13.0.2",
-    "ajv": "^6.6.2",
+    "ajv": "^6.12.3",
     "handlebars": "^4.3.0",
     "jsdom": "^15.1.1",
     "progress": "^2.0.3",
